@@ -1,0 +1,14 @@
+﻿l_braz_por:
+CONSTRUCTION_MAPMODE_CONVERT_PROVINCE_TOOLTIP:0 "Clique em um ícone de Indústria Civil ou Indústria Militar para iniciar a conversão."
+CONSTRUCTION_CONVERT_IC_TOOLTIP:0 "§YConverter§!\nConverter Indústria Civil em Indústria Militar e vice-versa"
+CONSTRUCTION_FACTORIES_AMOUNT:0 "Quantidade de Indústrias"
+CONSTRUCTION_FACTORIES_DESC:0 "O número de Indústrias usadas para cada construção específica"
+CONSTRUCTION_FACTORIES_CONSUMER_GOODS:0 "Custo de Impostos: $VALUE|R$"
+MIN_REPAIR_SPEED_DESC:0 "Os edifícios serão reparados lentamente mesmo sem nenhuma Indústria Civil atribuída. Atribua Indústrias a eles para melhorar a velocidade de reparo."
+RESOURCE_TRADE_LINE:0 "$PARTNER|Y$: $FACTORIES|R$ Indústria Civil por $NUM|G$ $RESOURCE|Y$"
+RESOURCE_TRADE_LINE_PLURAL:0 "$PARTNER|Y$: $FACTORIES|R$ Indústria Civil por $NUM|G$ $RESOURCE|Y$"
+CONSTRUCTION_FACTORIES_TRADE_DESC:0 "Podemos negociar o uso de nossas Indústrias Civis com outros países em troca de Recursos Estratégicos. O comércio ultramarino requer Navios de Convoio."
+MILITARY_FACTORIES_STATUS:0 "Indústria Militar em uso: §Y$USED$§!/§Y$TOTAL$§!" # mudado de fábricas para indústria para corresponder a MD
+NAVAL_FACTORIES_STATUS:0 "Estaleiros Navais em uso: §Y$USED$§!/§Y$TOTAL$§!" # mudado de docas para estaleiros para corresponder a MD
+CIVILIAN_FACTORIES_STATUS:0 "Indústria Civil em uso: §Y$USED$§!/§Y$TOTAL$§!" # mudado de fábricas para indústria para corresponder a MD
+INDUSTRIAL_CAPACITY_DESC: "As fábricas formam a base da Capacidade Industrial do país. A §HIndústria Militar§! produz equipamentos para o exército e a força aérea, enquanto os §HEstaleiros Navais§! produzem e reparam navios para a marinha. A §HIndústria Civil§! constrói e repara edifícios e infraestruturas, além de facilitar o comércio.\n\nO total de §H$offices$§! está disponível na tela de Visualização Econômica.\n"

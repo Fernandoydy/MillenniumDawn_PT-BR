@@ -1,0 +1,91 @@
+﻿l_braz_por:
+ ### Traduzido e Revisado
+ #0
+industrial_complex: "Indústria Civil"
+industrial_complex_plural: "Indústrias Civis"
+industrial_complex_desc: "Este edifício fornece ao estado indústria para a produção de bens civis ou construção de novos edifícios. Pode ser convertido em indústria militar se necessário.\n\nFornece ao estado:\nNúmero Base de Trabalhadores Necessários: §Y360 mil§!\nSaída Base de PIB por §YIndústria Civil§!: $§Y20 bilhões§!\nConsumo de Energia Base: §R-0.4§! GW"
+#1
+arms_factory: "Indústria Militar"
+arms_factory_plural: "Indústrias Militares"
+arms_factory_desc: "Este edifício fornece ao estado indústria para a produção de novos equipamentos militares. Pode ser convertido em indústria civil se necessário.\n\nFornece ao estado:\nNúmero Base de Trabalhadores Necessários: §Y25 mil§!\nSaída Base de PIB por §YIndústria Militar§!: $§Y1 bilhão§!\nConsumo de Energia Base: §R-0.4§! GW" #\n\nCombustível por dia (K): §R-240.00§!
+#2
+infrastructure: "Infraestrutura"
+infrastructure_plural: "Infraestrutura"
+infrastructure_desc: "Este edifício fornece ao estado melhorias na infraestrutura. Aumenta o poder de suprimento em regiões estratégicas e a velocidade das suas divisões, além de aumentar a extração de recursos naturais."
+#3
+internet_station: "Infraestrutura de Rede"
+internet_station_plural: "Infraestrutura de Rede"
+internet_station_desc: "Infraestrutura de Rede são estruturas altas usadas nos campos de telecomunicações e radiocomunicações para transmitir sinais em grandes distâncias ou através de cabos de fibra óptica subterrâneos e sistemas de computação em nuvem. \n\nCada nível de §YInfraestrutura de Rede§! melhora a velocidade de crescimento da produtividade local em §G+5.00%§!."
+#4
+dockyard: "Estaleiro Naval"
+dockyard_plural: "Estaleiros Navais"
+dockyard_desc: "Este edifício fornece ao estado indústria para a construção de novos navios.\n\nFornece ao estado:\nNúmero Base de Trabalhadores Necessários: §Y25 mil§!\nSaída Base de PIB por §YEstaleiro Naval§!: $§Y1 bilhão§!\nConsumo de Energia Base: §R-0.4§! GW"
+#5
+air_base: "Base Aérea"
+air_base_plural: "Bases Aéreas"
+air_base_desc: "Este edifício fornece ao estado implantação para suas forças aéreas."
+#6
+radar_station: "Estação de Radar"
+radar_station_plural: "Estações de Radar"
+radar_station_desc: "Estações de Radar permitem que você obtenha informações sobre tropas inimigas em estados próximos. Consiste em vários radares e sensores, além de ativos de inteligência e capacidade para analisar a situação em evolução.\nUm nível mais alto aumentará seu alcance efetivo.\nSeus radares também fornecem ao estado uma melhor detecção das forças aéreas inimigas, dando às suas aeronaves uma melhor chance de enfrentá-las.\nAlém disso, os radares aumentam a detecção de frotas inimigas no mar."
+RADAR_ONMAP_TOOLTIP: "§HEstação de radar§! nível: $LVL|G$/$TOT|H$\nPertence a: $WHO|H$"
+RADAR_ONMAP_DAMAGED_TOOLTIP: "§HEstação de radar§! nível: $LVL|R$/$TOT|H$\nPertence a: $WHO|H$"
+#7
+anti_air_building: "Sítio SAM"
+anti_air_building_plural: "Sítios SAM"
+anti_air_building_desc: "Os Sítios de Mísseis Terra-Ar (SAM) são complexos de mísseis antiaéreos de longo alcance. Devido ao alcance, os mísseis são mais pesados e pouco móveis. Eles lançam mísseis contra aeronaves inimigas que se aproximam e protegem contra bombardeios. Se os SAMs forem implantados para esse papel, eles fornecerão defesa antimísseis para o estado e os estados vizinhos dentro do alcance."
+#8
+missile_defense_station: "Base ABM"
+missile_defense_station_plural: "Bases ABM"
+missile_defense_station_desc: "As Bases ABM são instalações subterrâneas reforçadas usadas como bases de lançamento para mísseis balísticos anti-tanque. Elas fornecem defesa antimísseis balísticos para o estado e os estados vizinhos dentro do alcance."
+#9
+TEL_base: "Bateria TEL"
+TEL_base_plural: "Baterias TEL"
+TEL_base_desc: "As Baterias TEL (Transporter Erector Launcher) são locais para bases móveis de mísseis de cruzeiro e balísticos. Fornecem ao estado pontos de lançamento para §YMísseis Balísticos Intercontinentais§!, §YMísseis de Cruzeiro de Grande Alcance§! e §YMísseis Hipersônicos de Cruzeiro§!."
+#10
+missile_silo: "Silo de Mísseis Balísticos"
+missile_silo_plural: "Silos de Mísseis Balísticos"
+missile_silo_desc: "Os Silos de Mísseis Balísticos são instalações subterrâneas reforçadas usadas como bases de lançamento para mísseis balísticos baseados em terra. Fornecem ao estado pontos de lançamento para §YMísseis Intercontinentais Balísticos§! e §YMísseis de Alcance Intermediário Balísticos§!"
+#11
+nuclear_reactor: "Reator Nuclear"
+nuclear_reactor_plural: "Reatores Nucleares"
+nuclear_reactor_desc: "Este edifício converte energia nuclear em energia elétrica, consumindo urânio moderadamente enriquecido no processo.\n\nFornece ao estado:\nGanho de Energia Base: §G+2§! GW\n"
+#12
+synthetic_refinery: "Infraestrutura de Energia Renovável"
+synthetic_refinery_plural: "Infraestrutura de Energia Renovável"
+synthetic_refinery_desc: "A infraestrutura de energia renovável é uma categoria para todas as fontes de energia renovável. Estas incluem, mas não se limitam a; parques solares, turbinas eólicas, refinarias de biocombustíveis, plantas de carvão vegetal, usinas de energia a bioenergia e muito mais. Como tal, utiliza fontes renováveis e produz combustível a partir dessas fontes.\n\nFornece ao estado:\nGanho de Energia Base: §G+0.5§! GW\n"
+synthetic_refinery_amount: "$VALUE|Y0=$"
+synthetic_refinery_resource: "£resources_strip|$FRAME$"
+#13
+fuel_silo: "Reserva Estratégica de Combustível"
+fuel_silo_plural: "Reservas Estratégicas de Combustível"
+fuel_silo_desc: "Este edifício fornece à sua nação mais espaço para armazenar §HCombustível§!."
+#14
+offices: "Setor de Escritórios"
+offices_plural: "Setores de Escritórios"
+offices_desc: "O setor de escritórios representa todas as outras indústrias da economia além das indústrias de extração e pesadas. Isso inclui serviços financeiros, ao cliente, de tecnologia da informação, varejo e muito mais.\n\nFornece ao estado:\nNúmero Base de Trabalhadores Necessários: §Y630 mil§!\nSaída Base de PIB por §YSetor de Escritórios§!: $§Y50 bilhões§!\nConsumo de Energia Base: §R-0.2§! GW" #\n\nCombustível por dia (K): §R-240.00§!
+#15
+naval_base: "Base Naval"
+naval_base_plural: "Bases Navais"
+naval_base_desc: "Aumenta o alcance da sua frota e fornece serviços de reparo para ela. Permite o suprimento ultramarino e a exportação de recursos. Níveis mais altos aumentam o fluxo de suprimento."
+#16
+bunker: "Fortaleza Terrestre"
+bunker_plural: "Fortalezas Terrestres"
+bunker_desc: "Este edifício inflige uma penalidade de ataque de $VALUE|+%0$ para cada nível de fortaleza no atacante em combate. Atacar por várias direções reduz o efeito das fortalezas."
+#17
+coastal_bunker: "Fortaleza Costeira"
+coastal_bunker_plural: "Fortalezas Costeiras"
+coastal_bunker_desc: "Este edifício inflige uma penalidade de ataque de $VALUE|+%0$ para cada nível de fortaleza no atacante em combate de invasão naval."
+#18
+supply_node: "Ponto de Abastecimento"
+supply_node_desc: "Um Ponto de Abastecimento é um ponto ao longo de uma ferrovia, fora das cidades existentes, onde o suprimento pode ser retirado."
+#19
+rail_way: "Ferrovias"
+rail_way_plural: "Ferrovias"
+rail_way_desc: "As ferrovias são usadas para conectar os Pontos de Abastecimento para permitir o fornecimento a longa distância a partir da sua capital."
+#20
+fossil_powerplant: "Usina de Energia de Combustíveis Fósseis"
+fossil_powerplant_plural: "Usinas de Energia de Combustíveis Fósseis"
+fossil_powerplant_desc: "A Usina de Energia de Combustíveis Fósseis é uma categoria para todas as fontes de energia termoelétrica baseadas em combustíveis fósseis. Estas incluem, mas não se limitam a; carvão, gás natural e petróleo. §YUsinas de Energia de Combustíveis Fósseis§! ficarão ociosas se a geração de energia for maior do que o consumo.\n\nFornece ao estado:\nGanho de Energia Base: §G+1§! GW\n"
+fossil_powerplant_amount: "$VALUE|Y0=$"
+fossil_powerplant_resource: "£resources_strip|$FRAME$"
