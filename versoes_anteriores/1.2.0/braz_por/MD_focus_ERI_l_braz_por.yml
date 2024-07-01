@@ -1,0 +1,35 @@
+﻿l_braz_por:
+ ERI_eritrea_puppet: "Árvore de Foco da Eritreia"
+# ÁRVORE DE FOCO DE MARIONETE ETÍOPE #
+ ERI_eritrea_puppet_federation: "A Segunda Federação"
+ ERI_eritrea_puppet_federation_desc: "Pela segunda vez em nossa história, estamos sujeitos à Etiópia. Da primeira vez não deu certo, mas talvez desta vez dê certo?"
+ ERI_eritrea_puppet_federation_assembly: "Assembléia Representativa da Eritreia"
+ ERI_eritrea_puppet_federation_assembly_desc: "WIP"
+ ERI_eritrea_puppet_federation_constitution: "Escreva uma Constituição"
+ ERI_eritrea_puppet_federation_constitution_desc: "WIP"
+ ERI_eritrea_puppet_federation_appoint_chief_executive: "Nomeie o Chefe do Executivo"
+ ERI_eritrea_puppet_federation_appoint_chief_executive_desc: "É hora de votar em nosso representante oficial para substituir o atual Governo de Transição. Embora estivéssemos novamente em uma federação com a Etiópia, precisamos de um homem forte no topo para lutar por nossos direitos."
+ appoint_chief_executive_tt: "§YA novo Chefe do Executivo será nomeado.§"
+ ERI_eritrea_puppet_federation_christian: "Chefe Executivo Ahmed Nasser"
+ ahmed_nasser_cf: "Ahmed Nasser é o novo Chefe do Executivo"
+ ERI_eritrea_puppet_federation_muslim: "Chefe Executivo Hussein Kelifay"
+ hussein_kelifay_cf: "Hussein Kelifay é o novo Chefe do Executivo"
+
+ # EVENTOS #
+ eritrea.1.t: "Nomeie um Chefe do Executivo"
+ eritrea.1.d: "Frente de Salvação Nacional da Eritreia (ENSF), Frente de Libertação da Eritreia (ELF)"
+ eritrea.1.a: "Ahmed Nasser, líder da ENSF"
+ eritrea.1.b: "Hussein Kelifay, líder da ELF"
+ eritrea.2.t: "Abre hoje a primeira escola de língua amárica"
+ eritrea.2.d: "A Etiópia financiou uma série de novas escolas destinadas a ensinar amárico às massas. Parece que todas as pessoas entre 18 e 60 anos serão forçadas a fazer pelo menos o curso básico para aprender algumas frases básicas. Para os alunos da escola, uma nova disciplina será introduzida a partir da segunda série."
+ eritrea.2.a: "Talvez não queiramos entendê-los..."
+ eritrea.3.t: "Formação da EPUP!"
+ eritrea.3.d: "O governo etíope forneceu fundos para a formação de um novo partido! O Partido da Unificação dos Povos Eritreus é um partido pró federalização, com o objetivo de pressionar por reformas para a aprovação do Ato de Federação entre a Eritreia e a Etiópia."
+ eritrea.3.a: "Não estamos totalmente convencidos..."
+
+
+# IDEIAS #
+ERI_ethiopian_lawbooks: "Sistema jurídico reescrito"
+ERI_ethiopian_lawbooks_desc: "A Etiópia deu à Eritreia uma série de novos livros jurídicos e diretrizes para reconstruir o sistema jurídico da Eritreia desde o início, o que resultou em um sistema jurídico da Eritreia muito mais eficiente do que nunca."
+ERI_amharic_constitution: "Constituição Federal Etíope-Eritreia"
+ERI_amharic_constitution_desc: "Com uma nova constituição em vigor, a Etiópia consolidou seu controle sobre a Eritreia com o custo de arcar com pelo menos uma parte da responsabilidade fiscal pelos assuntos internos da Eritreia."

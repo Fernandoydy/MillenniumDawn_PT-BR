@@ -1,0 +1,132 @@
+﻿l_braz_por:
+ terrain_chicago_illinois: "Chicago, Estados Unidos"
+ terrain_berlin: "Berlim, Alemanha"
+ terrain_aleppo_citadel_syria: "Aleppo, Síria"
+ terrain_jerusalem: "Jerusalém, contestada"
+ terrain_mecca: "Meca, Arábia Saudita"
+ terrain_paris: "Paris, França"
+ terrain_rio_de_janiero: "Rio de Janeiro, Brasil"
+ terrain_lisbon: "Lisboa, Portugal"
+ terrain_london: "Londres, Inglaterra"
+ terrain_moscow: "Moscou, Rússia"
+ terrain_hong_kong: "Hong Kong"
+ terrain_singapore: "Cingapura"
+ terrain_shanghai: "Xangai, China"
+ terrain_fuzhou: "Fuzhou, China"
+ terrain_beijing: "Pequim, China"
+ terrain_athens: "Atenas, Grécia"
+ terrain_istanbul: "Istambul, Turquia"
+ #Argentina
+ terrain_buenos_aires: "Buenos Aires, Argentina"
+ terrain_cordoba: "Córdoba, Argentina"
+ #Bélgica
+ terrain_brussels: "Bruxelas, Bélgica"
+ #Belize
+ terrain_belmopan: "Belmopan, Belize"
+ #Bolívia
+ terrain_la_paz: "La Paz, Bolívia"
+ #Bulgária
+ terrain_plovdiv: "Plovdiv, Bulgária"
+ terrain_sofia: "Sófia, Bulgária"
+ #Brasil
+ terrain_brasilia: "Brasília, Brasil"
+ terrain_fortaleza: "Fortaleza, Brasil"
+ terrain_manaus: "Manaus, Brasil"
+ terrain_porto_algre: "Porto Algre, Brasil"
+ terrain_recife: "Recife, Brasil"
+ terrain_salvador: "Salvador, Brasil"
+ terrain_sao_jose_dos_campos: "São José dos Campos, Brasil"
+ terrain_sao_paulo: "São Paulo, Brasil"
+ #Canadá
+ #Itália/Vaticano
+ terrain_florence: "Florença, Itália"
+ terrain_venice: "Veneza, Itália"
+ terrain_milan: "Milão, Itália"
+ terrain_genoa: "Gênova, Itália"
+ terrain_rome: "Roma, Itália"
+ terrain_naples: "Nápoles, Itália"
+ terrain_vatican: "Cidade do Vaticano"
+ terrain_cagilari: "Cagliari, Itália"
+ terrain_palermo: "Palermo, Itália"
+
+ #Ucrânia
+ terrain_kiev: "Kyiv, Ucrânia"
+ terrain_chernivtsi: "Chernivtsi, Ucrânia"
+ terrain_odessa: "Odessa, Ucrânia"
+ terrain_ivanofrankvisk: "Ivano-Frankvisk, Ucrânia"
+ 
+ #Polônia
+ terrain_warsaw: "Varsóvia, Polônia"
+ terrain_gdansk: "Gdansk, Polônia"
+ terrain_bialystok: "Bialystok, Polônia"
+ terrain_bydgoszcz: "Bydgoszcz, Polônia"
+ terrain_czestochowa: "Czestochowa, Polônia"
+ terrain_katowice: "Katowice, Polônia"
+ terrain_krakow: "Cracóvia, Polônia"
+ terrain_lodz: "Lodz, Polônia"
+ terrain_lublin: "Lublin, Polônia"
+ terrain_poznan: "Poznan, Polônia"
+ terrain_szczecin: "Szczecin, Polônia"
+ terrain_wroclaw: "Wroclaw, Polônia"
+ terrain_slupsk: "Slupsk, Polônia"
+ terrain_elblag: "Elblag, Polônia"
+ terrain_olsztyn: "Olsztyn, Polônia"
+ terrain_suwalki: "Suwalki, Polônia"
+ terrain_torun: "Torun, Polônia"
+ terrain_plock: "Plock, Polônia"
+ terrain_wloclawek: "Wloclawek, Polônia"
+ terrain_gorzow: "Gorzów, Polônia"
+ terrain_siedlce: "Siedlce, Polônia"
+
+ #Romania
+ terrain_bucharest: "Bucareste, Romênia"
+ terrain_constanta: "Constanta, Romênia"
+ terrain_timisoara: "Timisoara, Romênia"
+ terrain_oradea: "Oradea, Romênia"
+ terrain_iasi: "Iasi, Romênia"
+ terrain_arad: "Arad, Romênia"
+ terrain_baia_mare: "Baia Mare, Romênia"
+ terrain_sibiu: "Sibiu, Romênia"
+ terrain_cluj_napoca: "Cluj-Napoca, Romênia"
+ terrain_craiova: "Craiova, Romênia"
+ terrain_galati: "Galati, Romênia"
+ terrain_bacau: "Bacau, Romênia"
+ terrain_brasov: "Brasov, Romênia"
+ terrain_buzau: "Buzau, Romênia"
+ terrain_targu_mures: "Targu Mures, Romênia"
+ terrain_braila: "Braila, Romênia"
+ terrain_botosani: "Botosani, Romênia"
+ terrain_satu_mare: "Satu Mare, Romênia"
+ terrain_ploiesti: "Ploiesti, Romênia"
+ terrain_pitesti: "Pitesti, Romênia"
+
+ #transnistria
+ terrain_tiraspol: "Tiraspol, Transnístria"
+
+ #moldova
+ terrain_komrat: "Komrat, Moldávia"
+ terrain_kishinev: "Chisinau, Moldávia"
+ terrain_cahul: "Cahul, Moldávia"
+ terrain_balti: "Balti, Moldávia"
+
+ #Lituânia
+ terrain_vilnius: "Vilnius, Lituânia"
+ terrain_kaunas: "Kaunas, Lituânia"
+
+ #Hungria
+ terrain_budapest: "Budapeste, Hungria"
+ terrain_szeged: "Szeged, Hungria"
+ terrain_debrecen: "Debrecen, Hungria"
+
+ #República Checa
+ terrain_prague: "Praga, República Tcheca"
+ terrain_ostrava: "Ostrava, República Tcheca"
+ terrain_brno: "Brno, República Tcheca"
+
+ #Eslováquia
+ terrain_bratislava: "Bratislava, Eslováquia"
+ terrain_kosice: "Kosice, Eslováquia"
+
+ #Iraque
+ terrain_kerbala: "Karbala, Iraque"
+ terrain_fallujah: "Fallujah, Iraque"

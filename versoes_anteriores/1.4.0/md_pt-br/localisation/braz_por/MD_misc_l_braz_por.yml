@@ -1,0 +1,16 @@
+﻿l_braz_por:
+ Houthi.threat: "Guerra Civil do Iêmen"
+ ISIS.threat: "Jihad no Iraque e no Levante"
+ Libyan_Civil_War.threat: "Guerra Civil da Líbia"
+ Syrian_Civil_War.threat: "Guerra Civil da Síria"
+ threat_SOV_second_chechen_war: "Segunda Guerra Chechena"
+ #Music Station
+ MD_Soundtrack_TITLE: "MD Soundtrack"
+
+ # Scripted GUI Button Clicks
+ l_click: "£left_mouse_texticon §YClique E.§!"
+ shift_l_click: "£shift_texticon + £left_mouse_texticon §YShift + Clique E.§!"
+ ctrl_l_click: "£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§!"
+ r_click: "£right_mouse_texticon §YClique D.§!"
+ ctrl_r_click: "£ctrl_texticon + £right_mouse_texticon §YCtrl + Clique D.§!"
+ shift_r_click: "£shift_texticon + £right_mouse_texticon §YShift + Clique D.§!"

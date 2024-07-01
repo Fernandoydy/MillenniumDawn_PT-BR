@@ -1,0 +1,35 @@
+﻿l_braz_por:
+ERI_eritrea_puppet: "Árvore de Foco da Eritreia"
+# ÁRVORE DE FOCO DE MARIONETE ETÍOPE #
+ERI_eritrea_puppet_federation: "A Segunda Federação"
+ERI_eritrea_puppet_federation_desc: "Pela segunda vez em nossa história, estamos sob o domínio da Etiópia. Da primeira vez, não funcionou, mas talvez desta vez funcione?"
+ERI_eritrea_puppet_federation_assembly: "Assembleia de Representantes Eritreus"
+ERI_eritrea_puppet_federation_assembly_desc: "A Assembleia de Representantes Eritreus é o órgão legislativo da Eritreia, onde os representantes eleitos pelo povo se reúnem para tomar decisões importantes em nome da nação."
+ERI_eritrea_puppet_federation_constitution: "Escrever uma nova Constituição"
+ERI_eritrea_puppet_federation_constitution_desc: "A escrita de uma nova Constituição é um marco crucial na evolução política da Eritreia. A nova Constituição será um documento que define os direitos e responsabilidades dos cidadãos, estabelece a estrutura do governo e promove os ideais de justiça e igualdade. A elaboração desta Constituição moldará a trajetória da Eritreia, definindo os alicerces da sua nação para as gerações futuras."
+ERI_eritrea_puppet_federation_appoint_chief_executive: "Nomear o Executivo-Chefe"
+ERI_eritrea_puppet_federation_appoint_chief_executive_desc: "É hora de votar em nosso representante oficial para substituir o atual Governo de Transição. Embora estejamos em uma federação com a Etiópia novamente, precisamos de uma liderança forte para lutar por nossos direitos."
+appoint_chief_executive_tt: "§Um novo Executivo-Chefe será nomeado.§"
+ERI_eritrea_puppet_federation_christian: "Executivo-Chefe Ahmed Nasser"
+ahmed_nasser_cf: "Ahmed Nasser é o novo Executivo-Chefe"
+ERI_eritrea_puppet_federation_muslim: "Executivo-Chefe Hussein Kelifay"
+hussein_kelifay_cf: "Hussein Kelifay é o novo Executivo-Chefe"
+
+ # EVENTOS #
+eritrea.1.t: "Nomear um Executivo-Chefe"
+eritrea.1.d: "Frente de Salvação Nacional Eritreia (ENSF), Frente de Libertação Eritreia (ELF)"
+eritrea.1.a: "Ahmed Nasser, líder da ENSF"
+eritrea.1.b: "Hussein Kelifay, líder da ELF"
+eritrea.2.t: "Hoje abre a primeira escola de língua amárica"
+eritrea.2.d: "A Etiópia financiou uma série de novas escolas destinadas a ensinar o amárico às massas. Parece que todas as pessoas entre 18 e 60 anos serão forçadas a fazer pelo menos o curso de nível básico para aprender algumas frases básicas. Para os alunos, uma nova disciplina será introduzida a partir do segundo ano em diante."
+eritrea.2.a: "Talvez não queiramos entendê-los..."
+eritrea.3.t: "Formação do EPUP!"
+eritrea.3.d: "O governo etíope forneceu financiamento para a formação de um novo partido! O Partido de Unificação do Povo Eritreu é um partido pró-federalização, com o objetivo de pressionar por reformas para aprovar o Ato de Federação entre a Eritreia e a Etiópia."
+eritrea.3.a: "Não estamos totalmente convencidos..."
+
+
+# IDEIAS #
+ERI_ethiopian_lawbooks: "Sistema Legal Reescrito"
+ERI_ethiopian_lawbooks_desc: "A Etiópia forneceu à Eritreia uma série de novos livros legais e diretrizes para reconstruir o sistema legal eritreu do zero, resultando em um sistema legal eritreu muito mais eficiente do que nunca."
+ERI_amharic_constitution: "Constituição Federal Etíope-Eritreia"
+ERI_amharic_constitution_desc: "Com uma nova constituição em vigor, a Etiópia solidificou seu controle sobre a Eritreia a um custo para si mesma, suportando pelo menos parte da responsabilidade fiscal pelos assuntos domésticos da Eritreia."

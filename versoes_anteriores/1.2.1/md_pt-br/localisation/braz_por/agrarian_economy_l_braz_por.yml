@@ -1,0 +1,377 @@
+﻿l_braz_por:
+ # IDEIAS
+ agrarian_economy: "Economia de base agrária"
+ agrarian_economy_desc: "[FROM.GetName] é uma nação extremamente pobre, com uma economia baseada predominantemente nos ganhos agrícolas. Enquanto o país se moderniza para o novo milênio, as pessoas trabalharão nos campos ajudando a economia.\n\n§Y $agrarian_economy$§! está ganhando §Y[?ROOT.GetName]§! §Y$$§![?additional_income_agrarian_economy|+3] §YBillion§! ser considerado industrializado e perder o bônus da agricultura!§!"
+ agri_farmer_opinion_TT: "§Y$agricultores$§! a opinião é aumentada em §G10§! até que esta ideia não seja mais válida"
+ AGRI_standard_drought_ongoing: "Seca localizada em andamento"
+ AGRI_standard_drought_ongoing_desc: "[ROOT.GetName] está atualmente sofrendo uma seca localizada, resultado da falta de água que atinge áreas específicas do país, é provável que passe sem piorar para [ROOT.GetName] ou seus vizinhos."
+ AGRI_harsh_drought_ongoing: "Seca regional em curso"
+ AGRI_harsh_drought_ongoing_desc: "[ROOT.GetName] está atualmente sofrendo uma seca regional, resultado da falta de água que atinge regiões inteiras do país, é provável que os vizinhos de [ROOT.GetName] também sofram devido a esta seca."
+ AGRI_extreme_drought_ongoing: "Seca generalizada em curso"
+ AGRI_extreme_drought_ongoing_desc: "[ROOT.GetName] está atualmente sofrendo uma seca generalizada no país, resultado da falta de água que atinge vastas áreas de terra dentro do país, é quase certo que [ROOT.GetName] sofrerá com suas garras por um longo tempo, com uma alta probabilidade de os vizinhos de [ROOT.GetName] experimentarem efeitos cascata devido a isso."
+
+ # DICA DE RENDA ADICIONAL
+ agrarian_economy_additional_income_TT: "$$[?additional_income_agrarian_economy|+3] de §Y$agrarian_economy$§!\n"
+
+ # TIPOS DE CULTIVO #
+ basic_crops: "Culturas básicas"
+ cash_crops: "Colheitas de dinheiro"
+
+ # LOCALIZAÇÃO DE EFEITOS COM ROTEIRO
+ agri_allocation_change: "§Y[ROOT.selected_crop_type]§! Mudanças de alocação de campo em [?allocation_change|%+2] (alocação atual: [selected_crop_cur_use])\n"
+ agri_price_change: "§Y[selected_crop_type]§! Alterações de preço em §Y$$§![?price_change|+2] (Preço atual: §Y$$§![selected_crop_cur_price])\n"
+ AGRI_protections_effect: "Altera §YProteções contra seca§! por [?AGRI_protections_change|+0] (Proteções atuais: [?ROOT.AGRI_protection|Y0])"
+
+ # DECISÕES
+ agrarian_economy_category: "Sistema Agrícola"
+ agrarian_economy_category_desc: "[ROOT.GetNameWithFlag] atualmente tem uma grande quantidade da população que está trabalhando nos campos, a quantidade de trabalhadores que estão felizes em trabalhar na vasta extensão de terra arável é ditada por nossa §YLiteracy Rate§!, a quanto maior a taxa, menos trabalhadores temos para o setor agrícola.\n\nNo entanto, ter uma §YTaxa de alfabetização§! menor afetará negativamente nossa §YVelocidade de pesquisa§!.\n"
+
+ # MODIFICADORES DE OPINIÃO
+ stole_our_water: "Roubou água"
+ sent_us_food_aid_regular: "Enviou-nos ajuda"
+ sent_us_food_aid_large: "Enviou-nos ajuda"
+ sent_us_food_aid_massive: "Enviou-nos ajuda"
+ refused_aid_regular: "Recusou-se a enviar ajuda"
+ refused_aid_large: "Recusou-se a enviar ajuda"
+ refused_aid_massive: "Recusou-se a enviar ajuda"
+ diplomatic_facade: "Tentou passar por cima de nós"
+
+ # MATERIAL DA GUI
+ # TÍTULO PRINCIPAL #
+ AGRI_main_title: "Economia Agrícola de [ROOT.GetNameWithFlag]"
+ # BOTÃO ATUALIZAR #
+ AGRI_refresh: "Atualizar"
+ AGRI_refresh_TT: "Clicar neste botão atualizará suas estatísticas agrícolas e atualizará esta janela."
+ # MUDANÇAS BANCADAS #
+ AGRI_banked_changes_title_text: "§YAlterações no banco:§!"
+ # FAÇA MUDANÇAS DE BANCO #
+ AGRI_banked_change_button_text: "Fazer alterações"
+ AGRI_banked_change_TT: "§HPré-requisitos:§!\n[!AGRI_banked_change_click_enabled]\nClicar neste botão §Gerará§! as alterações depositadas na §YAlocação de campo§!."
+ AGRI_banked_change_TT_delayed: "Isto mudará:\n§Culturas básicas§! §YAlocação de campo§! por [?ROOT.AGRI_banked_changes_basic|%+2]\n§Culturas monetárias§! §YAlocação de campo§! por [?ROOT.AGRI_banked_changes_cash|% +2]\nIsso custará [?ROOT.AGRI_pp_cost|+0] §YPoder Político§!."
+ # REDEFINIR MUDANÇAS DE BANCO #
+ AGRI_reset_banked_change_button_text: "Redefinir alterações"
+ AGRI_reset_banked_change_TT: "Clicar neste botão irá §Rredefinir§! suas alterações depositadas para §YField Allocation§!."
+ AGRI_reset_banked_change_TT_delayed: ""
+ # LISTA DE MUDANÇAS BANCADAS
+ AGRI_basic_crop_changes_loc: "§Cultura básica§!\n§YAlocação de campo§!\naumenta em [?ROOT.AGRI_banked_changes_basic|%+2]"
+ AGRI_cash_crop_changes_loc: "§CCash Crop§!\n§YField Alocação§!\naumenta em [?ROOT.AGRI_banked_changes_cash|%+2]"
+ AGRI_no_changes_loc: "§CSem colheita§!\n§YAlocação de campo§!\naumenta."
+ # BOTÕES DE ALOCAÇÃO #
+ ALLOCATE_FIELDS_BASIC: "§CClique§! §HPré-requisitos:§!\n[!basic_crop_allocation_button_click_enabled]\n§Cclique§! para alterar a alocação do campo:\n§YCulturas básicas§! Alterações na alocação do campo até §G1.00%§!\n§ CCtrl+Clique§! para alterar a alocação do campo:\n§YCulturas básicas§! Alterações na alocação do campo em §G5.00%§!\n§CShift+Clique§! para alterar a alocação do campo:\n§YCulturas básicas§! Alocação do campo Alterações em §G10.00%§!\n"
+ ALLOCATE_FIELDS_BASIC_DELAYED: "§0Clique com o botão direito§! §HPré-requisitos:§!\n[!basic_crop_allocation_button_right_click_enabled]\n§0Clique com o botão direito§! n§0Ctrl+Clique com o botão direito§! para alterar a alocação do campo:\n§YCulturas básicas§! Alterações na alocação do campo em §R-5,00%§!\n§0Shift+Clique com o botão direito§! para alterar a alocação do campo:\n§YCulturas básicas §! Alterações de alocação de campo em §R-10,00%§!\n"
+ ALLOCATE_FIELDS_CASH: "§CClique§! §HPré-requisitos:§!\n[!cash_crop_allocation_button_click_enabled]\n§Cclique§! para alterar a alocação do campo:\n§YCash Crops§! Alterações na alocação do campo em §G1,00%§!\n§ CCtrl+Clique§! para alterar a alocação do campo:\n§YCruturas comerciais§! A alocação do campo muda em §G5.00%§!\n§CShift+Clique§! para alterar a alocação do campo:\n§YCulturas comerciais§! Alocação do campo Alterações em §G10.00%§!\n"
+ ALLOCATE_FIELDS_CASH_DELAYED: "§0Clique com o botão direito§! §HPré-requisitos:§!\n[!cash_crop_allocation_button_right_click_enabled]\n§0Clique com o botão direito§! n§0Ctrl+Clique com o botão direito§! para alterar a alocação do campo:\n§YCash Cash§! Alterações na alocação do campo em §R-5,00%§!\n§0Shift+Right Click§! para alterar a alocação do campo:\n§YCash Crops §! Alterações de alocação de campo em §R-10,00%§!\n"
+ # ALOCAÇÃO/PREÇOS DE MUDANÇA DE DRIFT
+ AGRI_fields_changing_text: "[AGRI_fields_change_scripted]"
+ AGRI_fields_changing_text_tooltip: "[AGRI_fields_change_scripted_tooltip]"
+ basic_allocation_drift_active: "§Culturas básicas§! §Atualmente estão sendo alocadas mais terras!§!"
+ basic_allocation_drift_active_tooltip: "Alocando [?ROOT.AGRI_monthly_changes_basic|%G2] mais terra para §Culturas básicas§! por §Ano§!\nDias restantes: [?agriculture_allocation_drift_basic:days_left|A0]"
+ cash_allocation_drift_active: "§CCash Crops§! §G estão recebendo mais terras!§!"
+ cash_allocation_drift_active_tooltip: "Alocando [?ROOT.AGRI_monthly_changes_cash|%G2] mais terra para §CCash Crops§! por §Ano§!\nDias restantes: [?agriculture_allocation_drift_cash:days_left|Y0]"
+ basic_price_drift_active: "§Culturas básicas§! §Estão sendo aumentadas de preço!§!"
+ basic_price_drift_active_tooltip: "Reajustando o valor de mercado de §Culturas básicas§! em [?ROOT.AGRI_monthly_changes_basic_price|%G2] por §Ano§!\nDias restantes: [?agriculture_price_drift_basic:days_left|A0]"
+ cash_price_drift_active: "§CCash Crops§! §G estão sendo aumentados de preço!§!"
+ cash_price_drift_active_tooltip: "Reajustando o valor de mercado de §CCash Crops§! em [?ROOT.AGRI_monthly_changes_cash_price|%G2] por §Ymonth§!\nDias restantes: [?agriculture_price_drift_cash:days_left|Y0]"
+ AGRI_cannot_change_allocation: "§Rnão pode mudar§! §YAlocação de campo§! §Rdevido a vários fatores!§!"
+ AGRI_cannot_change_allocation_tooltip: "Devido a um evento de seca ou algumas outras restrições, [ROOT.GetName] não pode fazer nenhuma modificação nas estatísticas de §YField Allocation§!\nDays Remaining: [?AGRI_can_NOT_change_allocation:days_left|Y0]"
+ # TÍTULOS
+ AGRI_crop_type_title: "§YTipo de cultura:§!"
+ AGRI_crop_stats_title: "§YAlocação do campo:§!\n§YCrop Price:§!"
+ # CULTURAS BÁSICAS
+ AGRI_basic_title: "§Culturas Básicas§!"
+ AGRI_basic_stats: "[?ROOT.agri_crop_allocation^0|%Y2]\n§Y$$§![?ROOT.agri_crop_price^0|G2]"
+ # COLHEITAS EM DINHEIRO
+ AGRI_cash_title: "§CCsafras de dinheiro§!"
+ AGRI_cash_stats: "[?agri_crop_allocation^1|%Y2]\n§Y$$§![?ROOT.agri_crop_price^1|G2]"
+ # VALORES DA COLHEITA
+ AGRI_harvest_title: "§YColheita Anual:§!\n§YColheita Semanal:§!"
+ AGRI_harvest_stats: "§Y$$§![?ROOT.annual_harvest_display|G] §YMilhões§!\n§Y$$§![?ROOT.weekly_harvest_display|G0] §YMilhares§!"
+ # DICAS DE ACIONAMENTO
+ AGRI_changes_underway_TT: "Mudanças no §HASetor Agrícola§! §Gare§! em andamento"
+ AGRI_changes_not_underway_TT: "Mudanças no §HASetor agrícola§! §Raras não§! em andamento"
+ AGRI_can_make_changes_TT: "Restrições no §HASetor agrícola§! §Não estão§! em vigor"
+ AGRI_basic_crops_not_full_allocation_TT: "§YAlocação de Campo§! para §YCulturas Básicas§! são §Rnão§! em §Y100%§! já"
+ AGRI_cash_crops_not_full_allocation_TT: "§YField Allocation§! para §YCash Cash§! são §Rnão§! em §Y100%§! já"
+ AGRI_has_basic_banked_changes_TT: "§0Clique com o botão direito§! só é ativado quando §YAlterações de colheita básica§! estão acima de §Y0%§! (Atualmente: [?ROOT.AGRI_banked_changes_basic|+%])"
+ AGRI_has_cash_banked_changes_TT: "§0Right Click§! só é ativado quando §YCash Crop Banked Changes§! estão acima de §Y0%§! (Atualmente: [?AGRI_banked_changes_cash|+%])"
+ AGRI_experiencing_drought_TT: "Está passando por uma §YDrought§!"
+ AGRI_not_experiencing_drought: "§Rnot§! está passando por uma §YDrought§!"
+
+ # EVENTOS
+ AGRI.1.t: "Seca potencial chegando..."
+ AGRI.1.d: "Nossos principais cientistas e especialistas do Ministério da Agricultura estão preocupados com a possibilidade de uma seca ocorrer em breve, nenhuma chuva parece estar prevista também... esperamos que estejamos preparados para todas as possibilidades."
+ AGRI.1.A: "Dedos cruzados..."
+
+ AGRI.2.t0: "Os cientistas estavam errados!"
+ AGRI.2.d0: "Felizmente, neste caso, os cientistas e especialistas estavam errados, evitamos uma seca desta vez, mas da próxima vez podemos não ter tanta sorte..."
+ AGRI.2.A: "Devemos nos preparar para uma colheita ruim"
+ AGRI.2.B: "Uma colheita ruim? Que tal uma colheita terrível?"
+ AGRI.2.C: "Não precisa! Estivemos bem desta vez e estaremos na próxima também!"
+
+ AGRI.2.t1: "Os cientistas estavam certos! Mais ou menos"
+ AGRI.2.d1: "Os cientistas e especialistas estavam apenas parcialmente corretos, embora tenha ocorrido uma seca, parece estar localizada em apenas uma ou duas regiões em [ROOT.GetName]. Isso não deve ser muito grave para lidar com , embora possa se espalhar para qualquer região vizinha, caso não resolvamos o problema."
+ AGRI.2.D: "Isso não parece tão ruim, deixe seguir seu curso."
+ AGRI.2.E: "Podemos poupar algum dinheiro para ajudar a resolver a situação."
+ AGRI.2.F: "Isso precisa de ação imediata!"
+ AGRI.2.G: "Isso pode ser um exagero, mas preferimos estar seguros."
+
+ AGRI.2.t2: "Os cientistas estavam certos!"
+ AGRI.2.d2: "A seca atingiu o seu pior hoje, com dezenas de mortos já e muitos mais esperados para sucumbir ao desastre nas próximas semanas, precisamos tomar medidas imediatas para que esta situação terrível não piore muito"
+ AGRI.2.H: "Não temos muita escolha a não ser deixar que siga seu curso."
+ AGRI.2.I: "Isso não vai resolver tudo, mas é melhor que nada."
+ AGRI.2.J: "Espero que isso nos ajude até as próximas chuvas."
+ AGRI.2.K: "Graças a Deus por este estoque, use o quanto for necessário!"
+
+ AGRI.2.t3: "Uma seca catastrófica!"
+ AGRI.2.d3: "Este é um desastre absoluto... centenas de mortos devido às grandes secas que agora estão aparentemente disseminadas em [ROOT.GetName], com a expectativa de que isso provavelmente se espalhe para as nações vizinhas, precisamos tomar conta da situação, se pudermos..."
+ AGRI.2.L: "Não podemos parar, Deus nos perdoe..."
+ AGRI.2.M: "Se ao menos tivéssemos mais para parar este desastre!"
+ AGRI.2.N: "Isso não é suficiente, mas deve ajudar com o pior."
+ AGRI.2.O: "Nosso estoque é farto, e isso vai ser suficiente, embora caro..."
+
+ # EVENTOS VIZINHOS
+ AGRI_neighbour.1.t: "Seca localizada está afetando [FROM.GetName]!"
+ AGRI_neighbour.1.d: "Um de nossos vizinhos, [FROM.GetName], está passando por uma seca, felizmente parece ser um pouco localizada e precisaria de muito pouca ajuda para detê-la, no entanto, poderíamos enviar alguma ajuda para ganhar o favor de nosso próximo”.
+ AGRI_neighbour.1.A: "Fornecer ajuda para [FROM.GetName]"
+ AGRI_neighbour.1.B: "Podemos lucrar com isso!"
+ AGRI_neighbour.1.C: "Como estão nossos estoques?"
+ AGRI_neighbour.1.D: "Ajuda? Eles podem se ajudar!"
+
+ AGRI_neighbour.10.t: "Nosso vizinho [FROM.GetName] nos envia alguma ajuda!"
+ AGRI_neighbour.10.d: "[FROM.GetName] parece saber o que é ser um bom vizinho e nos enviou um pouco de ajuda para conter a maré da seca."
+ AGRI_neighbour.10.A: "Maravilhoso!"
+
+ AGRI_neighbour.100.t: "Nosso vizinho [FROM.GetName] se recusa a enviar ajuda!"
+ AGRI_neighbour.100.d: "[FROM.GetName] está nos mostrando que, em caso de apuros, eles não podem ser confiáveis, embora esta seca seja uma que certamente podemos lidar sozinhos, teria sido bom ter alguma ajuda."
+ AGRI_neighbour.100.A: "Bem, isso não é tão ruim de lidar."
+
+ AGRI_neighbour.2.t: "Seca em grande escala está afetando [FROM.GetName]!"
+ AGRI_neighbour.2.d: "Um de nossos vizinhos, [FROM.GetName], está passando por uma seca, originalmente os especialistas previram que permaneceria localizada, mas eles estavam errados. Parece que as coisas podem ser piores do que o previsto, [FROM .GetName] se beneficiaria muito com nossa ajuda e pode até abrir suas portas para nós no futuro."
+ AGRI_neighbour.2.A: "Fornecer ajuda para [FROM.GetName]"
+ AGRI_neighbour.2.B: "Podemos lucrar com isso!"
+ AGRI_neighbour.2.C: "Como estão nossos estoques?"
+ AGRI_neighbour.2.D: "Parece um problema de habilidade."
+
+ AGRI_neighbour.20.t: "Nosso vizinho [FROM.GetName] nos envia alguma ajuda!"
+ AGRI_neighbour.20.d: "[FROM.GetName] parece saber o que é ser um bom vizinho e nos enviou um pouco de ajuda para conter a maré da seca."
+ AGRI_neighbour.20.A: "Maravilhoso!"
+
+ AGRI_neighbour.200.t: "Nosso vizinho [FROM.GetName] se recusa a enviar ajuda!"
+ AGRI_neighbour.200.d: "[FROM.GetName] está nos mostrando que, em um piscar de olhos, eles não podem ser confiáveis, aparentemente fomos deixados para secar por [FROM.GetName]"
+ AGRI_neighbour.200.A: "Bastardos."
+
+ AGRI_neighbour.3.t: "Seca maciça está afetando [FROM.GetName]!"
+ AGRI_neighbour.3.d: "Um de nossos vizinhos, [FROM.GetName], está passando por uma seca, os especialistas acreditavam que isso era fácil de lidar, mas eles estavam errados. A terra em [FROM.GetName] parece que pode permanecer completamente seco e estéril no futuro previsível, se quisermos ajudar nosso próximo, precisa ser imediato e substancial, não podemos permitir que a natureza vença desta vez."
+ AGRI_neighbour.3.A: "Fornecer ajuda para [FROM.GetName]"
+ AGRI_neighbour.3.B: "Podemos lucrar com isso!"
+ AGRI_neighbour.3.C: "Como estão nossos estoques?"
+ AGRI_neighbour.3.D: "Não estamos em casa agora!"
+
+ AGRI_neighbour.30.t: "Nosso vizinho [FROM.GetName] nos envia alguma ajuda!"
+ AGRI_neighbour.30.d: "[FROM.GetName] parece saber o que é ser um bom vizinho e nos enviou uma quantidade substancial de ajuda para conter a maré da seca."
+ AGRI_neighbour.30.A: "Graças a Deus!"
+
+ AGRI_neighbour.300.t: "Nosso vizinho [FROM.GetName] se recusa a enviar ajuda!"
+ AGRI_neighbour.300.d: "[FROM.GetName] está nos mostrando que, em um piscar de olhos, eles não são confiáveis, Deus, e [FROM.GetName] nos abandonaram."
+ AGRI_neighbour.300.A: "Onde estão os sinalizadores [FROM.GetAdj]? Eles precisam ser queimados!"
+
+ # EVENTOS DE INFLUÊNCIA
+ AGRI_influencer.1.t: "Seca localizada está afetando [FROM.GetName]!"
+ AGRI_influencer.1.d: "[FROM.GetName] está passando por uma seca, felizmente parece ser um pouco localizada e exigiria muito pouca ajuda para detê-la, no entanto, poderíamos enviar alguma ajuda para obter o favor de a nação."
+ AGRI_influencer.1.A: "Fornecer ajuda para [FROM.GetName]"
+ AGRI_influencer.1.B: "Parece um problema deles."
+
+ AGRI_influencer.10.t: "[FROM.GetName] nos envia alguma ajuda!"
+ AGRI_influencer.10.d: "[FROM.GetName] está indo além do que um parceiro diplomático deveria e nos enviou um pouco de ajuda para conter a maré da seca."
+ AGRI_influencer.10.A: "Maravilhoso!"
+
+ AGRI_influencer.100.t: "[FROM.GetName] se recusa a enviar ajuda!"
+ AGRI_influencer.100.d: "[FROM.GetName] está nos mostrando que, em caso de apuros, não podemos confiar neles, embora esta seca seja algo com que podemos lidar sozinhos, teria sido bom ter alguma ajuda."
+ AGRI_influencer.100.A: "Bem, isso não é tão ruim de se lidar."
+
+ AGRI_influencer.2.t: "Seca em grande escala está afetando [FROM.GetName]!"
+ AGRI_influencer.2.d: "[FROM.GetName] está passando por uma grande seca, originalmente os especialistas previram que permaneceria localizada, mas eles estavam errados. Parece que as coisas podem ser piores do que o previsto, [FROM.GetName] seria se beneficiarão muito de nossa ajuda e podem até abrir suas portas para nós no futuro."
+ AGRI_influencer.2.A: "Fornecer ajuda para [FROM.GetName]"
+ AGRI_influencer.2.B: "Nós realmente não nos beneficiamos em ajudar."
+
+ AGRI_influencer.20.t: "[FROM.GetName] nos envia alguma ajuda!"
+ AGRI_influencer.20.d: "[FROM.GetName] está indo além do que um parceiro diplomático deveria e nos enviou ajuda para conter a maré da seca."
+ AGRI_influencer.20.A: "Maravilhoso!"
+
+ AGRI_influencer.200.t: "[FROM.GetName] se recusa a enviar ajuda!"
+ AGRI_influencer.200.d: "[FROM.GetName] está nos mostrando que, em um piscar de olhos, eles não podem ser confiáveis, aparentemente fomos deixados para secar por [FROM.GetName]"
+ AGRI_influencer.200.A: "Bastardos."
+
+ AGRI_influencer.3.t: "Seca em grande escala está afetando [FROM.GetName]!"
+ AGRI_influencer.3.d: "[FROM.GetName] está passando por uma grande seca, originalmente os especialistas previram que permaneceria localizada, mas eles estavam errados. A terra em [FROM.GetName] parece que pode permanecer completamente seca e estéril no futuro previsível, se quisermos ajudá-los, nossa resposta precisa ser imediata e substancial, não podemos permitir que a natureza vença desta vez."
+ AGRI_influencer.3.A: "Fornecer ajuda para [FROM.GetName]"
+ AGRI_influencer.3.B: "E como exatamente isso nos ajuda?"
+
+ AGRI_influencer.30.t: "[FROM.GetName] nos envia alguma ajuda!"
+ AGRI_influencer.30.d: "[FROM.GetName] está indo além do que um parceiro diplomático deveria e nos enviou uma quantidade substancial de ajuda para conter as marés da seca.."
+ AGRI_influencer.30.A: "Graças aos céus!"
+
+ AGRI_influencer.300.t: "[FROM.GetName] se recusa a enviar ajuda!"
+ AGRI_influencer.300.d: "[FROM.GetName] está nos mostrando que, em um piscar de olhos, eles não são confiáveis, Deus, e [FROM.GetName] nos abandonaram."
+ AGRI_influencer.300.A: "Onde estão os sinalizadores [FROM.GetAdj]? Eles precisam ser queimados!"
+
+ # EVENTOS ALEATÓRIOS
+ AGRI_random.1.t: "Agricultores reclamam de falta de equipamento!"
+ AGRI_random.1.d: "Graças às atuais sanções econômicas em [THIS.GetName], os fazendeiros estão protestando contra a falta de equipamentos novos ou, em alguns casos, funcionais.\nTemos 3 opções: negociar com personagens obscuros no preto mercado, tente localizar alguém disposto a negociar conosco ou apenas se contentar com o que já temos.\n\nO que devemos fazer [ISSO.GetLeader]?"
+ AGRI_random.1.A: "Personagens obscuros? Eles são apenas homens de negócios!"
+ AGRI_random.1.B: "Vamos tentar encontrar alguém para negociar"
+ AGRI_random.1.C: "Bem, você tem bois, não tem?"
+ AGRI_random_black_market_TT: "§Y[THIS.GetNameWithFlag] Ministro da Agricultura entrará em contato com alguns contatos do mercado negro para fazer um acordo.§!"
+ AGRI_random_embargo_trading_TT: "§Y[THIS.GetNameWithFlag] Ministro da Agricultura entrará em contato com alguns contatos em outros países para tentar fazer um acordo.§!"
+
+ AGRI_random.10.t1: "Só não pergunte de onde veio"
+ AGRI_random.10.d1: "Os fazendeiros não estão satisfeitos com o equipamento que adquirimos, eles dizem que nossa explicação sobre o equipamento caindo da traseira de um caminhão não é boa o suficiente. Contanto que eles não estejam tão insatisfeitos quanto eles teria sido se não os tivéssemos adquirido em primeiro lugar, é um sucesso para nós."
+ AGRI_random.10.A: "Não vamos fazer disso um hábito..."
+
+ AGRI_random.10.t2: "Tiroteios com os contrabandistas!"
+ AGRI_random.10.d2: "Teremos a cabeça do nosso Ministro da Agricultura por isso! Tentar fazer acordos com os contrabandistas resultou em eles não apenas pegando o dinheiro, mas também tentando segurar o equipamento, tantos de nossos soldados baleados a sangue frio, isso é inaceitável!"
+ AGRI_random.10.B: "Aqueles desgraçados"
+
+ AGRI_random.10.t3: "Eles pegaram o dinheiro e fugiram..."
+ AGRI_random.10.d3: "Bem, o pagamento do nosso Ministro da Agricultura está reduzido para a próxima década ou mais, o tolo fez um acordo com contrabandistas que disseram ao grupo comercial para esperar pelo equipamento, bem... você pode adivinhar o que aconteceu. 16 horas eles esperaram o retorno dos contrabandistas, coisa terrível."
+ AGRI_random.10.C: "Bolas."
+
+ AGRI_random.100.t1: "Eles não são bonitos, mas funcionam"
+ AGRI_random.100.d1: "Os fazendeiros estão muito satisfeitos com o que conseguimos obter, pode não ser o kit mais bonito ou mais novo, mas funciona, e isso é tudo o que poderíamos pedir dada a nossa situação atual."
+ AGRI_random.100.A: "Evitamos o desastre aqui"
+
+ AGRI_random.100.t2: "Outro Embargo?!"
+ AGRI_random.100.d2: "Quem quer que tenhamos comandado as negociações no Ministério do Comércio deveria ser fuzilado. Não temos ideia de como eles erraram tanto, mas temos outro embargo enviado a nós, inacreditável. Não apenas isso, mas os fazendeiros estão furioso conosco!"
+ AGRI_random.100.B: "Nossa..."
+
+ AGRI_random.100.t3: "Quase nada funciona"
+ AGRI_random.100.d3: "\"Como Novo\" que merda! Quase todos os equipamentos que conseguimos adquirir estão completamente quebrados, apreendidos ou simplesmente não mostram sinais de vida, os fazendeiros estão muito chateados conosco.. ."
+ AGRI_random.100.C: "Guardamos o recibo?"
+
+ AGRI_random.2.t: "Os campos parecem bem secos..."
+ AGRI_random.2.d: "Durante esta época do ano, nossos campos geralmente são muito mais tolerantes do que são, nosso Ministro da Agricultura está preocupado que isso possa estar levando a uma seca mais grave, em vez de apenas \"um pouco demais sol\".\n\nSe o dinheiro estiver apertado, podemos sempre tentar desviar um pouco do abastecimento de água dos nossos vizinhos..."
+ AGRI_random.2.A: "Ehh, devemos resolver isso nós mesmos..."
+ AGRI_random.2.B: "Bem, não é como se eles fossem perder isso"
+ AGRI_random.2.C: "Se você está tão preocupado com isso, reze por chuva!"
+ AGRI_random_water_diversion_TT: "§YPodemos tentar§! §Rroubar§! §Yum pouco da água dos nossos vizinhos§! §Cdesviando§! §Isto!§!"
+
+ AGRI_random.20.t1: "Crise evitada!"
+ AGRI_random.20.t2: "Sentindo-se um pouco ressecado"
+ AGRI_random.20.t3: "Nada mudou!"
+ AGRI_random.20.d1: "Parece que a ação rápida do governo resolveu o possível problema da seca, sem inimigos e até mesmo com um aumento potencial nos preços esperados da safra."
+ AGRI_random.20.d2: "Embora pareça que conseguimos conter a maré da terra seca, algumas terras periféricas ainda parecem um pouco secas e podemos ver uma colheita menor desse tipo de cultura em particular. Não importa, o maioria das colheitas foram salvas."
+ AGRI_random.20.d3: "Apesar dos nossos melhores esforços, parece que os campos simplesmente não vão aguentar e parecem mais secos do que nunca, isso pode acabar se transformando em uma seca em grande escala, devemos estar preparados para o pior."
+ AGRI_random.20.A: "Fico feliz em saber disso!"
+ AGRI_random.20.B: "Espero que tenham sido só os legumes."
+ AGRI_random.20.C: "Segure suas bundas!"
+
+ AGRI_random.200.t1: "Eles nem perceberam!"
+ AGRI_random.200.t2: "[FROM.GetName] nos pegou em flagrante"
+ AGRI_random.200.t3: "Nós tomamos muita água!"
+ AGRI_random.200.t4: "Os campos de [FROM.GetName] parecem estar secos"
+ AGRI_random.200.t5: "Fazendas de [FROM.GetName] deixadas estéreis"
+ AGRI_random.200.d1: "Com algum dinheiro nos lugares certos, conseguimos roubar um pouco da água do nosso vizinho sem o seu conhecimento, esperamos que as pessoas que pagamos fiquem quietas. Nossos próprios problemas foram resolvidos, por enquanto."
+ AGRI_random.200.d2: "Tendo pago quem pensávamos ser as pessoas certas, nossa equipe de aquisições foi bloqueada e carregada com as linhas de água, mas infelizmente foi detida pelas autoridades [FROM.GetAdj]. Eles parecem estar bastante chateados com o nosso governo ações."
+ AGRI_random.200.d3: "Parece que nosso vizinho [FROM.GetName] tinha menos água do que pensávamos inicialmente e agora está sofrendo as consequências de nossas ações! Pode ser óbvio para aqueles que roubaram a água, felizmente parece apenas ser uma seca localizada."
+ AGRI_random.200.d4: "Parece que nosso vizinho [FROM.GetName] tinha menos água do que pensávamos originalmente e agora está sofrendo as consequências de nossas ações! Provavelmente é óbvio para eles que roubaram a água, infelizmente, a seca pode acabar vindo em nossa direção, afinal."
+ AGRI_random.200.d5: "Parece que nosso vizinho [FROM.GetName] tinha menos água do que pensávamos originalmente e agora está sofrendo as consequências de nossas ações! É quase certo que seja óbvio para eles quem roubou a água, e nosso O ministro da Agricultura está prevendo secas extremas com uma alta probabilidade de que essas secas atravessem nossas próprias fronteiras”.
+ AGRI_random.200.A: "Isso vai ensiná-los a beber água!"
+ AGRI_random.200.B: "Ah merda..."
+ AGRI_random.200.C: "Tente suavizar com eles."
+ AGRI_random.200.D: "Ops."
+ AGRI_random.200.E: "Prepare-se para o pior."
+ AGRI_random.200.F: "Espera... isso pode nos afetar!"
+ AGRI_random.200.G: "Se pode nos afetar, precisamos nos preparar!"
+ AGRI_random.200.H: "Oh Deus... o que nós fizemos?"
+
+ AGRI_random.2000.t: "[FROM.GetName] Roubou Nossa Água!"
+ AGRI_random.2000.d1: "Pensamos que algo estava acontecendo quando os suprimentos e estoques de água ficaram curtos. Com uma investigação minuciosa, parece que [FROM.GetName] foi o culpado!"
+ AGRI_random.2000.d2: "Pensamos que algo estava acontecendo quando os suprimentos e estoques de água ficaram curtos. Com uma investigação minuciosa, parece que [FROM.GetName] foi o culpado! Podemos mostrar a eles que estamos falando sério ao embargar eles..."
+ AGRI_random.2000.A: "Corte-os completamente!"
+ AGRI_random.2000.B: "Aqueles desgraçados!"
+
+ AGRI_random.3.t: "Dois fazendeiros procuram ajuda com uma disputa de terras"
+ AGRI_random.3.d: "Dois fazendeiros vieram aos principais escritórios do ministério da agricultura buscando alguma forma de interferência governamental para resolver a disputa de terras, enquanto o fazendeiro um afirma que sua terra foi invadida pelo gado do fazendeiro dois, o fazendeiro dois afirma que o o desenho formal de mapas nunca foi realizado, e os limites do campo do fazendeiro na verdade invadem a propriedade do fazendeiro dois!\n\nUma provação confusa, podemos ficar do lado de qualquer um, seja qual for o contador de histórias mais atraente."
+ AGRI_random.3.A: "Mantenha esse gado do seu lado!"
+ AGRI_random_3_F1_TT: "§YVai ficar do lado de§! §3Fazendeiro §! §Yna disputa de terras§!"
+ AGRI_random.3.B: "Você não pode esperar que o gado conheça fronteiras!"
+ AGRI_random_3_F2_TT: "§YVai ficar do lado de§! §3Fazendeiro Dois§! §Yna disputa de terras§!"
+ AGRI_random.3.C: "Lembre-me, por que eu deveria me importar de novo?"
+ AGRI_random_3_NO_TT: "§YVai ficar do lado de§! §Rninguém§! §Yna disputa de terras, deixando-os resolver sozinhos§!"
+
+ AGRI_random.30.t1: "Os pecuaristas estão chateados!"
+ AGRI_random.30.d1: "Um grande grupo de criadores de gado vê a intervenção do governo ao lado dos agricultores como um ultrajante excesso de poder e está ativamente fazendo campanha por um partido político rival!\n\nOs agricultores, no entanto, são comemorando a decisão e estamos em êxtase com esta vitória pelos direitos de propriedade!"
+ AGRI_random.30.A: "Devia ter cuidado melhor do seu gado!"
+
+ AGRI_random.30.t2: "Os agricultores estão chateados!"
+ AGRI_random.30.d2: "Os fazendeiros estão aparentemente eufóricos com a decisão do governo, com o direito de pastagem garantido, eles prometeram apoiar o governo nas próximas eleições.\n\nOs agricultores estão, no entanto, ameaçando se unir uns aos outros e recusar para aceitar a decisão!"
+ AGRI_random.30.B: "Provavelmente deveríamos solidificar as leis de propriedade..."
+
+ AGRI_random.30.t3: "Eles organizaram entre si!"
+ AGRI_random.30.d3: "Sem interferência do governo para nenhum dos lados, um acordo de cavalheiros foi encontrado entre os fazendeiros e os agricultores aráveis, resolvendo assim esta disputa de terra em particular.\n\nEmbora mais possam surgir no futuro, parece que todos estão em pelo menos um pouco satisfeito com este resultado."
+ AGRI_random.30.C: "Uma solução perfeita."
+
+ AGRI_random.30.t4: "Tiroteios na Fazenda!"
+ AGRI_random.30.d4: "Sem interferência ou supervisão do governo, as conversas entre os dois grupos, uma briga estourou, resultando em tiros de ambos os lados. Muitos fazendeiros e fazendeiros mortos ou feridos, os do setor agrícola estão exigindo respostas, e as pessoas estão se mobilizando para a mudança."
+ AGRI_random.30.D: "Bem, merda..."
+
+ AGRI_random.4.t: "Uma colheita abundante!"
+ AGRI_random.4.d: "Nossos agricultores estão relatando colheitas maiores e estão perguntando ao Ministério da Agricultura o que fazer com o excesso de produção. Podemos vendê-lo ou aumentar o tamanho de nossos estoques de \"dias menos chuvosos\"."
+ AGRI_random.4.A: "Renda extra é sempre bom."
+ AGRI_random.4.B: "Temos um silo para tudo isso?"
+
+ AGRI_random.5.t: "Culturas morrendo nos campos!"
+ AGRI_random.5.d: "Algo matou uma quantidade decente de nossas colheitas, deixando a colheita podre, espera-se que isso reduza significativamente nossa produção agrícola, a menos que façamos algo drástico para neutralizar o dano."
+ AGRI_random.5.A: "Teremos que sorrir e aguentar."
+ AGRI_random.5.B: "O estoque manterá o setor saudável!"
+
+ AGRI_random.6.t: "Espécies invasoras invadem os campos!"
+ AGRI_random.6.d: "Uma espécie invasora de gafanhotos foi vista no horizonte [ROOT.GetLeader]! Espera-se que nosso uso de pesticidas seja suficiente para impedi-los de destruir muito de nossa colheita, mas nunca podemos ser tão certo, devemos nos preparar para o pior!"
+ AGRI_random.6.A: "Quão ruim é o dano?"
+
+ AGRI_random.60.t1: "Culturas básicas precisam de mais terra!"
+ AGRI_random.60.t2: "Os campos de cultivo comercial precisam de mais terra!"
+ AGRI_random.60.d1: "Isto é um desastre... os gafanhotos aparentemente destruíram incontáveis ​​toneladas de nossa colheita básica projetada, devemos esperar que nosso setor agrícola sofra um golpe bastante substancial."
+ AGRI_random.60.d2: "Felizmente, os gafanhotos aparentemente decidiram escolher nossos campos tratados com pesticidas e sofreram as consequências. Embora nossa colheita básica projetada seja agora menor, devemos esperar que nosso setor agrícola sofra apenas um leve impacto para sua lucratividade".
+ AGRI_random.60.d3: "Isto é um desastre... os gafanhotos aparentemente destruíram incontáveis ​​toneladas de nossa colheita comercial projetada, devemos esperar que nosso setor agrícola sofra um golpe bastante substancial."
+ AGRI_random.60.d4: "Felizmente, os gafanhotos aparentemente decidiram escolher nossos campos tratados com pesticidas e sofreram as consequências. Embora nossa colheita de colheita comercial projetada seja agora menor, devemos esperar que nosso setor agrícola sofra apenas um leve impacto para sua lucratividade".
+ AGRI_random.60.A: "Droga."
+ AGRI_random.60.B: "Droga."
+ AGRI_random.60.C: "Droga."
+ AGRI_random.60.D: "Droga."
+
+ AGRI_random.7.t: "Incêndios!"
+ AGRI_random.7.d: "Parece que os incêndios florestais estão ocorrendo perto dos campos das fazendas mais produtivas de nosso país. Nosso Ministro da Agricultura espera que eles sejam atingidos severamente na propagação iminente."
+ AGRI_random.7.A: "Aguardaremos o relatório de danos..."
+
+ AGRI_random.70.t1: "Campos básicos atingidos por chamas!"
+ AGRI_random.70.t2: "Campos de colheita de dinheiro atingidos por chamas!"
+ AGRI_random.70.d1: "Apesar dos melhores esforços de nossos bombeiros, parece que teremos uma colheita difícil. Muitos agricultores perderam tudo, mas o pior de tudo é que nossa participação no mercado de culturas básicas será severamente manchada por isso desastre, com o mercado tendo uma queda inesperada."
+ AGRI_random.70.d2: "Apesar dos melhores esforços de nossos bombeiros, parece que teremos uma colheita difícil. Muitos agricultores perderam tudo, mas o pior de tudo é que nossa participação no mercado de culturas comerciais será severamente manchada por isso desastre, com o mercado tendo uma queda inesperada."
+ AGRI_random.70.A: "Todo esse trabalho virou fumaça."
+ AGRI_random.70.B: "Todo esse trabalho virou fumaça."
+
+ AGRI_random.8.t: "Chuvas fortes ameaçam inundações"
+ AGRI_random.8.d: "Embora a estação chuvosa esteja chegando, parece cada vez mais provável que estejamos passando por uma estação chuvosa mais severa do que o normal, já que os rios parecem estar inchados além do normal para esta época do ano, meteorologistas estão esperando que os bancos quebrem."
+ AGRI_random.8.A: "Vamos nos preparar para o pior."
+
+ AGRI_random.80.t1: "Campos básicos inundados!"
+ AGRI_random.80.t2: "Campos de colheita de dinheiro inundados"
+ AGRI_random.80.d1: "Havia simplesmente muita água para conter com nossas barricadas montadas pelo júri e paredes contra inundações construídas às pressas. Os campos de cultivo básicos estão encharcados, muitos agricultores perderam tudo, com o setor agrícola esperando ser atingido devido a esta."
+ AGRI_random.80.d2: "Havia simplesmente muita água para conter com nossas barricadas montadas pelo júri e paredes contra inundações construídas às pressas. Os campos de cultivo comercial estão encharcados, muitos agricultores perderam tudo, com o setor agrícola esperando ser atingido devido a esta."
+ AGRI_random.80.A: "Talvez tenha chovido demais."
+ AGRI_random.80.B: "Talvez tenha chovido demais."
+
+ AGRI_random.9.t: "Rebanho em disparada!"
+ AGRI_random.9.d: "Um bando de animais de rebanho está levantando poeira à distância, e parece que eles podem estar fazendo um desvio pelas fazendas!"
+ AGRI_random.9.A: "Vamos ver onde eles vão parar."
+
+ AGRI_random.90.t1: "Rebanho pisoteando colheitas básicas"
+ AGRI_random.90.t2: "Rebanho atropelando colheitas de dinheiro"
+ AGRI_random.90.t3: "Rebanho em disparada evita os campos"
+ AGRI_random.90.d1: "Deixando de lado nossos melhores esforços, o rebanho parece ter pisoteado os campos onde nossas culturas básicas são cultivadas. Precisamos alocar mais terra para as culturas básicas de nossas culturas comerciais, não seremos capazes de alterar as alocações até que as medidas de emergência sejam concluídas."
+ AGRI_random.90.d2: "Deixando de lado nossos melhores esforços, o rebanho parece ter pisoteado os campos onde nossas culturas comerciais são cultivadas. Precisamos alocar mais terra para as culturas comerciais de nossas culturas básicas, não seremos capazes de alterar as alocações até que as medidas de emergência sejam concluídas."
+ AGRI_random.90.d3: "O rebanho em disparada se dissipou antes de chegar aos campos, mas alguns retardatários ainda conseguiram chegar às áreas rurais, embora se apegando às estradas. Isso causou alguma confusão no trânsito, mas chegar atrasado ao trabalho é uma desgraça vista melhor do que perder almoços nos próximos meses."
+ AGRI_random.90.A: "Medidas de emergência precisam ser tomadas!"
+ AGRI_random.90.B: "Medidas de emergência precisam ser tomadas!"
+ AGRI_random.90.C: "Graças a Deus."

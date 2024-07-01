@@ -1,0 +1,12 @@
+﻿l_braz_por:
+ CONSTRUCTION_MAPMODE_CONVERT_PROVINCE_TOOLTIP:0 "Clique em um ícone da Indústria Civil ou Indústria Militar para iniciar a conversão."
+ CONSTRUCTION_CONVERT_IC_TOOLTIP:0 "§YConvert§!\nConverter a Indústria Civil em Indústria Militar e vice-versa"
+ CONSTRUCTION_FACTORIES_AMOUNT:0 "Quantidade de Indústrias"
+ CONSTRUCTION_FACTORIES_DESC:0 "O número de indústrias usadas para cada construção específica"
+ CONSTRUCTION_FACTORIES_CONSUMER_GOODS:0 "Custo Fiscal: $VALUE|R$"
+ MIN_REPAIR_SPEED_DESC:0 "Os edifícios serão reparados lentamente mesmo sem ter industrias civis atribuídas. Atribua indústrias a elas para melhorar a velocidade de reparo."
+ RESOURCE_TRADE_LINE:0 "$PARTNER|Y$: $FACTORIES|R$ Indústria Civil por $NUM|G$ $RESOURCE|Y$"
+ RESOURCE_TRADE_LINE_PLURAL:0 "$PARTNER|Y$: $FACTORIES|R$ Indústrias Civis por $NUM|G$ $RESOURCE|Y$"
+ CONSTRUCTION_FACTORIES_TRADE_DESC:0 "Podemos negociar o uso de nossas indústrias civis com outros países em troca de recursos estratégicos. O comércio exterior requer navios de comboio."
+
+ INDUSTRIAL_CAPACITY_DESC: "As fábricas formam a base da economia do país §HCapacidade Industrial§!. §HFábricas Militares§! produzir equipamentos para o exército e a força aérea, enquanto §HEstaleiros Navais§! produz e repara navios para a marinha. §HFábricas Civis§! constroem e reparam edifícios e infra-estruturas, e facilitam o comércio.\n\nO total de §H$offices$§! está disponível no painel de Economia.\n"

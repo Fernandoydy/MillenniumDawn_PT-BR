@@ -1,0 +1,33 @@
+﻿l_braz_por:
+### Traduzido e Revisado
+#Focuses
+
+#Events
+egypt.100.t: "Obstrução no Canal de Suez"
+egypt.100.d: "O grande navio porta-contêineres conhecido como Ever Given encalhou no Canal de Suez! O navio de 400 metros de comprimento foi atingido por ventos fortes pela manhã, resultando no infeliz acidente. A obstrução ocorreu na parte do canal onde há apenas uma faixa para que os navios possam passar. Sendo uma das rotas comerciais mais movimentadas do mundo, um bloqueio prolongado afetará gravemente o comércio entre a Europa e a Ásia."
+egypt.100.a: "Faça o que for necessário."
+egypt.100.b: "Nós confiamos nas Autoridades do Suez."
+egypt.100.c: "Impor a maior cautela."
+
+egypt.101.t: "O Suez está Bloqueado"
+egypt.101.d: "Mais cedo, pela manhã, o enorme navio porta-contêineres carregado com 20.000 contêineres, chamado Ever Given, foi atingido por uma forte tempestade de areia que desviou o enorme navio para as margens do Canal de Suez. Isso causou um bloqueio total com navios dos dois lados se acumulando perto de ambas as entradas. As Autoridades do Canal de Suez responsáveis pela manutenção da passagem mobilizaram todos os rebocadores disponíveis e planejam começar a escavação imediatamente.\n\nO governo de [EGY.GetLeader] anunciou que fará o que for necessário para desobstruir o canal."
+egypt.101.da: "Mais cedo, pela manhã, o enorme navio porta-contêineres carregado com 20.000 contêineres, chamado Ever Given, foi atingido por uma forte tempestade de areia que desviou o enorme navio para as margens do Canal de Suez. Isso causou um bloqueio total com navios dos dois lados se acumulando perto de ambas as entradas. As Autoridades do Canal de Suez responsáveis pela manutenção da passagem mobilizaram todos os rebocadores disponíveis e planejam começar a escavação imediatamente.\n\nO governo de [EGY.GetLeader] anunciou que seguirá os protocolos habituais para essas situações infelizes."
+egypt.101.db: "Mais cedo, pela manhã, o enorme navio porta-contêineres carregado com 20.000 contêineres, chamado Ever Given, foi atingido por uma forte tempestade de areia que desviou o enorme navio para as margens do Canal de Suez. Isso causou um bloqueio total com navios dos dois lados se acumulando perto de ambas as entradas. As Autoridades do Canal de Suez responsáveis pela manutenção da passagem mobilizaram todos os rebocadores disponíveis e planejam começar a escavação imediatamente.\n\nO governo de [EGY.GetLeader] anunciou que agirá com grande cautela, para surpresa do mundo."
+egypt.101.a: "Bem, a rota do Cabo antiga ainda está disponível."
+
+egypt.102.t: "Ever Given Começa a se Mover"
+egypt.102.d: "Relatos de que os rebocadores que trabalharam incansavelmente para fazer o navio porta-contêineres Ever Given se moverem tiveram um grande avanço. Muito em breve poderemos declarar que a passagem está segura e os negócios podem voltar ao normal."
+egypt.102.a: "Finalmente."
+
+egypt.103.t: "O Canal de Suez Está Desobstruído!"
+egypt.103.d: "O enorme navio porta-contêineres que tem sido destaque nas notícias recentemente finalmente está se movendo! Os navios podem viajar novamente pelo canal. O destino do navio ainda não foi determinado, mas o fato de que tudo parece estar funcionando novamente faz com que pareça que não é tão importante.\n\nAs autoridades do Canal de Suez já lançaram uma investigação completa para obter um melhor entendimento dos eventos que levaram ao acidente. Inúmeras ações judiciais já estão em andamento e esta história pode se estender por anos.\n\nO governo egípcio celebra isso como mais um triunfo."
+egypt.103.a: "Boas notícias, finalmente."
+
+#Ideias
+suez_canal_blocked: "Canal de Suez Bloqueado"
+suez_blocked_aftermath: "Consequências do Bloqueio do Suez"
+
+#Tooltips
+EGY_whatever_it_takes_tt: "Espere que o canal esteja funcional dentro de uma semana."
+EGY_trust_authorities_tt: "Espere que o canal esteja funcional em torno de 1-2 semanas."
+EGY_act_with_cautious_tt: "Espere que o canal esteja funcional em torno de 2-5 semanas."

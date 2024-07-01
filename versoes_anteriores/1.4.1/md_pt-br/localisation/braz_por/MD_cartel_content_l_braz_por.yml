@@ -1,0 +1,393 @@
+﻿l_braz_por:
+ # dicas
+ strength_of_cartels: "§YForça dos Cartéis§!"
+ political_influence_of_cartels: "§YInfluência política dos cartéis§!"
+ modify_cartel_strength_effect_tt: "$strength_of_cartels$ muda em [?cart_strength_change|-0] (Força atual: §Y[?strength_of_cartels|0Y]§!)\n"
+ modify_cartel_political_influence_effect_tt: "$political_influence_of_cartels$ muda em [?cart_influence_change|-0] (Influência política atual: §Y[?cartel_political_influence|0Y]§!)\n"
+ while_cartel_money_laundering_active_tt: "Enquanto a decisão §Y$target_cartel_money_laundering_decision$§! estiver ativa:\nA taxa de sucesso dessas decisões é afetada pela $political_influence_of_cartels$. Se eles tiverem alta influência política, essas investigações têm maior probabilidade de falhar.\n\n"
+ while_cartel_drug_attacking_active_tt: "Enquanto a decisão §Y$target_cartel_drug_running_decision$§! estiver ativa:\nA taxa de sucesso dessas decisões é afetada pela $strength_of_cartels$. Se eles tiverem grande influência política, essas investigações podem falhar.\n\n"
+ investigating_decisions_police_tt: "Enquanto a decisão §Y$police_investments_decision$§! está ativa:\n§YTodas as decisões do cartel§! têm §Y15%§! mais chances de sucesso.\n"
+ investigating_decisions_military_tt: "Enquanto a decisão §Y$utilize_the_military_decisions$§! está ativa:\n§YTodas as decisões do cartel§! têm §Y25%§! mais chances de sucesso.\n"
+ investigate_good_results_tt: "§YNossa investigação foi§! §Gbem-sucedida§!. Se formos bem-sucedidos em nossa investigação, pode ocorrer o seguinte:\n\n"
+ investigate_bad_results_tt: "§YNossa investigação foi§! §Rfalha§!. Se falharmos em nossa investigação, pode ocorrer o seguinte:\n\n"
+ political_influence_over_80_tt: "$political_influence_of_cartels$ está acima de §Y80%§! (Influência política atual: §Y[?cartel_political_influence|0Y]§!)\n"
+ strength_over_80_tt: "$strength_of_cartels$ está acima de §Y80%§! (Força atual: §Y[?strength_of_cartels|0Y]§!)\n"
+ political_influence_under_80_tt: "$political_influence_of_cartels$ é menor que §Y80%§! (Influência política atual: §Y[?cartel_political_influence|0Y]§!)\n"
+ strength_under_80_tt: "$strength_of_cartels$ é menor que §Y80%§! (Força atual: §Y[?strength_of_cartels|0Y]§!)\n"
+ CARTEL_deal_with_the_devil_flag: "§YDeal with the Devil§! (Days Left: [?CARTEL_deal_with_the_devil_flag:days_left|Y0])"
+ CAR_additional_income_drug_trade_tt: "§YDrug Income§!: $$[?CARTEL_drug_trade_money|G3]"
+ CARTEL_narco_wars_triggered: "As Narco Guerras Ocorreram"
+
+ cartels_equipment_theft_small_tt: "Há uma chance de perdermos uma pequena quantidade de equipamento."
+ cartels_equipment_theft_large_tt: "Há uma chance de perdermos uma grande quantidade de equipamentos."
+
+ # modificador de opinião
+ random_celebrity_death_opinion: "Celebridade morta por criminosos"
+ random_oligarchy_opinion: "Ativos apreendidos do oligarca"
+ random_denied_our_demands: "Negou nossas demandas de controle de fronteira"
+ seized_a_contraband_ship: "Navio de carga apreendido"
+ seized_a_contraband_container: "Contêiner apreendido com contrabando"
+
+ # Ideias
+ cartel_penalties: "Cartéis"
+ cartel_penalties_desc: "A violência das drogas e as atividades de gangues são responsáveis por grande parte das atividades criminosas desta nação. Essas poderosas organizações criminosas operam em todo o país e muitos moradores temem que a situação só piore. No entanto, dependendo do nosso governo, podemos ser capazes para transformar esse obstáculo em uma ferramenta."
+ has_cartels_tt: "Tem ideia §Y$cartel_penalties$§!\n"
+ defeated_the_cartels: "Fim dos cartéis"
+ hard_drug_trade_restrictions: "Cooperação de cartel estritamente regulamentada"
+ light_drug_trade_restrictions: "Cooperação de cartel pouco regulamentada"
+ narco_state_bonuses: "Narco Estado"
+ narco_state_bonuses_desc: "Os anos de luta diminuíram lentamente à medida que os cartéis assumiram o controle do estado."
+ CARTEL_defeated_the_cartels: "Defeated Our Cartels"
+
+
+ crime_syndicate_1: "Sindicato do Crime"
+ mafia_state: "Estado da Máfia"
+ narcos_state: "Estado de Narcos"
+ narcos_state_desc: "Após muitos anos de luta, os Narcos agora controlam o próprio aparato do estado."
+
+ # Decisões Genéricas
+ cartels_decision_category: "Crime"
+ cartels_decision_category_desc: "Organizações criminosas estão desenfreadas em nossa nação. Máfia, cartéis de drogas e gangues fazem jogadas regulares de poder e influência com pouca consideração por quem é ferido ou morto no processo. Deixado sem controle e sem gerenciamento, nosso estado pode evoluir para o tipo de estados anarcocriminosos que só vemos em American Noirs ou De Vaqueros.\n\nA influência política dos cartéis representa sua capacidade de usar nossa corrupção como uma arma contra nós. Quanto maior a influência política deles, menos provável é que seremos capazes de realizar investigações.\nA força dos cartéis representa sua capacidade de exercer violência contra nós e nosso povo. Quanto maior a força deles, menos provável é que seremos capazes de realizar ataques.\nSe a força ou influência se tornarem muito altas, os cartéis podem tentar assumir o controle de nossa nação.\n\n$political_influence_of_cartels$: [?ROOT.cartel_political_influence]\n$strength_of_cartels$: [?ROOT.strength_of_cartels]\n"
+ narcos_crisis: "Crise de Narcos"
+ narcos_crisis_desc: "A capacidade do nosso governo de fazer cumprir as leis e monopolizar a força foi comprometida pelo aumento da corrupção e da atividade criminosa. É provável que em breve enfrentemos um golpe de elementos militares alinhados aos cartéis ou uma revolta em massa dos cartéis eles mesmos."
+ mafia_crisis: "Crise da Máfia"
+ mafia_crisis_desc: "A capacidade de nosso governo de fazer cumprir as leis e monopolizar a força foi comprometida pelo aumento da corrupção e da atividade criminosa. É provável que em breve enfrentemos um golpe de elementos militares alinhados à máfia ou uma revolta em massa da máfia eles mesmos."
+ mexican_cartel_war: "Guerra do Cartel do México"
+ mexican_cartel_war_desc: "A capacidade de nosso governo de fazer cumprir as leis e monopolizar a força foi comprometida pelo aumento da corrupção e da atividade criminosa. Nossas próprias forças armadas e a infraestrutura política foram completamente comprometidas e não há mais como saber em quem confiar. O caos em breve chegar a um pico de febre e, em seguida, estaremos no meio de uma nova guerra civil."
+
+ anti_cartel_propaganda_decision: "Propganada Anti-Cartel"
+ anti_cartel_propaganda_decision_desc: "Sempre houve um mito crescente em torno dos cartéis, de que eles são como os bandidos do passado cor-de-rosa. Trapaceiros adoráveis que podem fazer coisas ruins, mas que só as fazem para o bem de seu povo. Como todos os mitos, é uma invenção. Qualquer pessoa que vive sob a influência dos cartéis sabe que é falsa. Ao expor os horrores infligidos por eles aos seus próprios, em uma campanha de mídia nacional, podemos trabalhar para dissipar esse mito de uma vez por todas ."
+ police_investments_decision: "Investidura Policial"
+ police_investments_decision_desc: "Apesar do que dizem sobre organizações criminosas como os cartéis, eles são bem organizados, bem financiados e bem armados. Eles não são como um rebanho de ovelhas que pode ser dissipado com alguns tiros de advertência. Contra isso organizado inimigo, nossa polícia é a primeira linha de defesa e uma linha de defesa muitas vezes mal preparada para a violência que pode e foi decretada contra eles. Embora haja desvantagens em militarizar nossa polícia, é apenas por meio de um melhor equipamento , táticas e mão de obra que eles podem se tornar o baluarte que precisamos que eles sejam. E para tudo isso, eles precisam de mais dinheiro."
+ utilize_the_military_decisions: "Utilize as Forças Armadas"
+ utilize_the_military_decisions_desc: "Mesmo que nossa polícia fique tão bem armada quanto suas contrapartes militares, sua força de trabalho e estrutura organizacional sempre serão limitadas pelos recursos e burocracia locais. ativo com uma estrutura de comando mais abrangente e um grupo de mão-de-obra muito mais amplo, evitando a burocracia local e a corrupção local existente. No entanto, o envio de militares não é popular entre os cidadãos dos quais eles podem se esquivar dos direitos, os departamentos de polícia que podem sobrecarregar e os burocratas cuja preciosa infraestrutura eles podem danificar. Essencialmente, o que ganhamos em poder de fogo, perdemos em boa vontade pública."
+
+ target_cartel_money_laundering_decision: "Alvo de operações de lavagem de dinheiro"
+ target_cartel_money_laundering_decision_desc: "A fim de tornar seu dinheiro ilícito utilizável para comprar ativos legítimos, os cartéis se envolvem na prática de lavagem de dinheiro, onde o dinheiro é colocado no sistema financeiro, distanciado da fonte por meio de seu deslocamento e, em seguida, integrado ao ativos legais da lavagem que podem ser usados para adquirir produtos legalmente ou para comprar a parte de políticos e outros funcionários do governo.Para conter a onda de corrupção e paralisar sua infraestrutura legal, podemos atacar a segunda e a terceira etapas do processo de lavagem de dinheiro. Isso envolve investigar e fechar os bancos e empresas que aceitam o dinheiro e o embaralham. No entanto, qualquer falha aqui pode se acumular contra nós, pois os cartéis têm maior probabilidade de se tornarem hostis quando atacamos seu fluxo de caixa.
+ investigate_the_casinos: "Investigue os cassinos"
+ investigate_the_casinos_desc: "Já operando como negócios semi-legais que muitas vezes tentam contornar as leis e regulamentos, os cassinos costumam ser a primeira parada para o dinheiro que entra no sistema financeiro devido ao fato de que o influxo de dinheiro nos cassinos raramente é questionado e pode ser feito parecer anônimo ou inócuo. Podemos começar determinando os cassinos que são frequentados por membros conhecidos do cartel e investigando seu fluxo de caixa em busca de dinheiro sujo. Uma vez que o dinheiro sujo é encontrado e uma conexão estabelecida entre eles e os cartéis, podemos fechar os negócios, apreendendo seus ativos no processo."
+ investigates_the_banks: "Investigue os Bancos"
+ investigates_the_banks_desc: "Embora na maioria das vezes legítimos, os bancos são uma parada necessária para qualquer operação de lavagem de dinheiro. Ao investigar os principais funcionários do banco e manipuladores de dinheiro, enquanto examinamos os registros financeiros, podemos detectar transações antes que ocorram ou sejam finalizadas. Ao licitar nosso Ao fazer isso, podemos direcionar as maiores transações quando o dinheiro estiver se aproximando de seu destino final. Isso resulta em mais dor para essas entidades, ao mesmo tempo em que remove o máximo possível de dinheiro de seu ecossistema. No entanto, é difícil manter o monitoramento, pois as empresas e as táticas se adaptar à nossa interferência. Isso, e fechar os bancos é uma impossibilidade política."
+ investigate_shell_companies: "Investigar Empresas Shell"
+ investigate_shell_companies_desc: "Muitas vezes, as etapas intermediárias e finais em um esquema de lavagem de dinheiro, as empresas de fachada detêm ativos legais e dinheiro em nome de organizações criminosas, enquanto ocasionalmente embaralham esses ativos para um destino final. Eles são mais difíceis de atingir porque provam uma conexão entre eles e uma organização criminosa é mais difícil, mas podem ter um impacto dramático nas operações de uma organização. Essas apreensões raramente se manifestam em dinheiro, pois as transferências geralmente são feitas em quantidades menores, mas a taxas consistentes. Em vez disso, elas aparecem como ativos físicos, como propriedades, veículos , ou mesmo armas compradas legalmente."
+
+ target_cartel_drug_running_decision: "Operações de tráfico de drogas alvo"
+ target_cartel_drug_running_decision_desc: "A maior fonte ilegal de receita para os cartéis são suas operações de tráfico de drogas. Enquanto alguns cartéis cultivam as próprias drogas, muitos ganham dinheiro empurrando as drogas refinadas ou não refinadas ao longo da cadeia de suprimentos. Ao direcionar e monitorar diretamente as rotas ao longo das quais essas drogas viajam, podemos determinar os pontos de partida, pontos finais e pontos intermediários. Isso abre a rota para invadirmos depósitos de equipamentos, refinarias, fazendas, casas de drogas e bases de operações. Como alternativa , podemos atacar as drogas enquanto estão em trânsito. Contra operações maiores, isso geralmente é ineficaz, mas pode prejudicar significativamente grupos menores que têm menos recursos para recuperar as perdas."
+ raid_drug_convoys_decision: "Atacar comboios de drogas"
+ raid_drug_convoys_decision_desc: "Invadindo comboios de drogas enquanto estão em trânsito, podemos remover rapidamente as drogas da rede com pouco custo para nós mesmos. No entanto, cartéis maiores normalmente não serão afetados por esses tipos de ataques e se adaptarão rapidamente aos nossos sistemas de monitoramento. Por cartéis menores, esse tipo de ataque pode prejudicá-los, pois eles perdem o fluxo de caixa essencial e se voltam uns contra os outros no rescaldo."
+ raid_cartel_hideouts_decision: "Esconderijos do cartel de ataques"
+ raid_cartel_hideouts_decision_desc: "Ao invadir pontos fortes do cartel e depósitos de suprimentos, podemos prejudicar sua capacidade de transportar drogas, organizar e resistir a incursões em seu território. Isso geralmente se manifesta na apreensão de veículos e armas que poderiam ter sido usados contra nós ou seus inimigos. Isso pode ter o benefício adicional, ou desvantagem, de cartéis se envolverem em guerras contra seus rivais enfraquecidos."
+ raid_distribution_centres_decision: "Centros de Distribuição Raid"
+ raid_distribution_centres_decision_desc: "Invadindo centros de distribuição de cartéis, como drogarias como estoques, podemos remover uma grande quantidade de drogas do mercado. Isso também tem o benefício adicional de dificultar a futura distribuição de drogas através da apreensão de grandes somas de dinheiro sujo e as prisões de traficantes de drogas. No entanto, esse tipo de invasão tem uma alta probabilidade de retaliação, pois não inibe a capacidade do cartel de decretar violência."
+ raid_refinement_centres_decision: "Centros de Refinamento de Raid"
+ raid_refinement_centres_decision_desc: "Ao invadir laboratórios de drogas, plantações ou casas de cultivo, podemos inibir a capacidade do cartel de criar novas drogas para distribuição, ao mesmo tempo em que as atrasa imensamente. Esse revés normalmente é suficiente para prejudicar sua produção por meses, enquanto tentam recuperar as perdas. Ao mesmo tempo, é improvável que incorra em um ataque retaliatório, já que a maior parte dos recursos do cartel é canalizada para proteger seu território”.
+
+ target_local_cartel_leaders_decision: "Visar líderes dos cartéis locais"
+ target_local_cartel_leaders_decision_desc: "Como qualquer organização, os cartéis requerem uma estrutura de liderança para manter suas operações. Ao prender ou garantir o desaparecimento de líderes de cartéis locais, podemos danificar seriamente essa estrutura de liderança. Isso significa menos recrutas, menos operações e brigas internas por quem deveria ocupar os cargos vagos. Essas prisões e mortes têm o benefício adicional de tornar as notícias excepcionalmente populares quando um desses vilões finalmente consegue o que merece.
+ # target_local_political_leaders_decision: "Alvo de líderes políticos locais"
+ # target_local_political_leaders_decision_desc: "Como qualquer organização criminosa, os cartéis exigem um nível de corrupção para lubrificar as engrenagens de suas operações. Remover esses indivíduos corruptos do poder é um passo essencial para fortalecer nosso policiamento e expulsar os cartéis de seu próprio território. No entanto, os ataques contra políticos, mesmo os locais, pode ser mal interpretado por nossa oposição como um ataque contra o próprio tecido da democracia em nossa nação. Especialmente, se acontecer, que os políticos que demitimos eram inocentes desde o início."
+ # target_local_military_leaders_decision: "Target Local Military Leaders"
+ # target_local_military_leaders_decision_desc: "À medida que a influência política dos cartéis cresce, eles cada vez mais encontram seu caminho para posições onde podem nomear ou subornar líderes militares para o seu lado. Esse tipo de podridão é invasivo e doloroso de extirpar, mas se não for feito regularmente, poderia muito bem matar nossa nação como a conhecemos. No entanto, no processo de realização de nossas investigações, certamente haverá bons oficiais que sofrerão.
+
+ # Decisões direcionadas mexicanas
+ MEX_baja_california_sinaloa_cartel: "Reduzir a influência do Cartel de Sinaloa"
+ MEX_baja_california_sinaloa_cartel_desc: "O Cartel de Sinaloa está ficando muito forte, precisamos conter sua influência na Baja California"
+ MEX_baja_california_tierra_cartel: "Reduzir a influência de Tierra Caliente"
+ MEX_baja_california_tierra_cartel_desc: "O Tierra Caliente está ficando muito forte, precisamos conter sua influência na Baja California"
+ MEX_sonora_sinaloa_cartel: "Reduzir a influência do Cartel de Sinaloa"
+ MEX_sonora_sinaloa_cartel_desc: "O Cartel de Sinaloa está ficando muito forte, precisamos conter sua influência em Sonora"
+ MEX_chihuahua_sinola_cartel: "Reduzir a influência do Cartel de Sinaloa"
+ MEX_chihuahua_sinola_cartel_desc: "O Cartel de Sinaloa está ficando muito forte, precisamos conter sua influência em Chihuahua"
+ MEX_sinola_durango_sinola_cartel: "Reduzir a influência do Cartel de Sinaloa"
+ MEX_sinola_durango_sinola_cartel_desc: "O Cartel de Sinaloa está ficando muito forte, precisamos conter sua influência em Sinola Durango"
+ MEX_coahuila_tamaulpas_cartel: "Reduzir a influência de Tamaulpas"
+ MEX_coahuila_tamaulpas_cartel_desc: "Os Tamaulpas estão ficando muito fortes, precisamos conter sua influência em Coahuila"
+ MEX_guanajuato_tamaulpas_cartel: "Reduzir a influência de Tamaulpas"
+ MEX_guanajuato_tamaulpas_cartel_desc: "Os Tamaulpas estão ficando muito fortes, precisamos conter sua influência em Guanajuato"
+ MEX_nuevo_leon_tamaulpas_cartel: "Reduzir a influência de Tamaulpas"
+ MEX_nuevo_leon_tamaulpas_cartel_desc: "Os Tamaulpas estão ficando muito fortes, precisamos conter sua influência em Nuevo Leon"
+ MEX_jalisco_tierra_cartel: "Reduzir a influência do Tierra Caliente"
+ MEX_jalisco_tierra_cartel_desc: "O Tierra Caliente está ficando muito forte, precisamos conter sua influência em Jalisco"
+ MEX_guerrero_oaxaco_tierra_cartel: "Reduzir a influência de Tierra Caliente"
+ MEX_guerrero_oaxaco_tierra_cartel_desc: "O Tierra Caliente está ficando muito forte, precisamos conter sua influência em Guerrero Oaxco"
+ MEX_mexico_tierra_cartel: "Reduzir a influência de Tierra Caliente"
+ MEX_mexico_tierra_cartel_desc: "O Tierra Caliente está ficando muito forte, precisamos conter sua influência na Cidade do México"
+ MEX_mexico_tamaulpas_cartel: "Reduzir a influência de Tamaulpas"
+ MEX_mexico_tamaulpas_cartel_desc: "Os Tamaulpas estão ficando muito fortes, precisamos conter sua influência na Cidade do México"
+ MEX_mexico_sinaloa_cartel: "Reduzir a influência do Cartel de Sinaloa"
+ MEX_mexico_sinaloa_cartel_desc: "O Cartel de Sinaloa está ficando muito forte, precisamos conter sua influência na Cidade do México"
+ MEX_veracruz_tierra_cartel: "Reduzir a influência do Tierra Caliente"
+ MEX_veracruz_tierra_cartel_desc: "O Tierra Caliente está ficando muito forte, precisamos conter sua influência em Veracruz"
+ MEX_veracruz_tamaulpas_cartel: "Reduzir a influência de Tamaulpas"
+ MEX_veracruz_tamaulpas_cartel_desc: "Os Tamaulpas estão ficando muito fortes, precisamos conter sua influência em Veracruz"
+ MEX_chiapas_tamaulpas_cartel: "Reduzir a influência de Tamaulpas"
+ MEX_chiapas_tamaulpas_cartel_desc: "Os Tamaulpas estão ficando muito fortes, precisamos conter sua influência em Chiapas"
+ MEX_yucatan_tamaulpas_cartel: "Reduzir a influência de Tamaulpas"
+ MEX_yucatan_tamaulpas_cartel_desc: "Os Tamaulpas estão ficando muito fortes, precisamos conter sua influência em Yucatán"
+ MEX_already_attacking_cartels_flag: "Já reduzindo a influência do cartel"
+ flag_mexico_cartel_war: "Guerra do Cartel do México"
+ reduce_cartel_influece_sinola_TT: "A influência do Cartel Sinola é reduzida no estado"
+ reduce_cartel_influece_tierra_TT: "A influência do Tierra Caliente é reduzida no estado"
+ reduce_cartel_influece_tamaulpas_TT: "A influência dos Tamaulpas é reduzida no estado"
+
+ ## Eventos do Cartel
+ # Eventos de Cartel
+ cartel_event.1.t: "Fim dos cartéis"
+ cartel_event.1.d: "A influência dos principais cartéis em nossa nação diminuiu o suficiente para que possamos considerar seriamente começar a retomar o controle de nosso campo. Tudo o que resta a ser feito é dar a ordem de sair."
+ cartel_event.1.a: "Los Narcos pagarão por seus crimes!"
+
+ cartel_event.3.t: "Destino do México"
+ cartel_event.3.d: "Nossos esforços para acabar com os cartéis não passaram despercebidos e eles pegaram em armas contra o governo mexicano. A Guerra às Drogas no México entrou em sua fase final."
+ cartel_event.3.a: "Junte-se ao Cartel Sinola."
+ cartel_event.3.b: "Junte-se ao Tierra Caliente."
+ cartel_event.3.c: "Junte-se ao Cartel Tamaulpas."
+ cartel_event.3.e: "Viva o México para sempre!"
+
+ cartel_event.10.t: "Fim da Guerra às Drogas"
+ cartel_event.10.d: "Depois de meses de luta nas ruas de nossas principais cidades, selvas, planícies e desertos, conseguimos eliminar todas as principais fortalezas do cartel e encaminhar, deter ou matar todos os líderes importantes do cartel. O fim se aproxima para os Narcos e logo o México voltará a respirar livremente."
+ cartel_event.10.a: "O pesadelo está chegando ao fim."
+
+ cartel_event.12.t: "Os cartéis lutam"
+ cartel_event.12.d: "Os cartéis se recusam a ficar de braços cruzados enquanto interrompemos suas operações e atacamos seus membros. Em resposta, eles lançaram uma série de bombardeios e ataques retaliatórios contra nossas forças locais."
+ cartel_event.12.a: "Maldito Narcos!"
+
+ # Eventos Genéricos de Cartel
+ cartel_event.15.t: "Fuzis e munições desaparecidos"
+ cartel_event.15.d: "Em uma auditoria recente das bases militares de nosso país como parte de uma medida para reduzir o movimento de equipamentos no mercado negro, um déficit considerável de armas pequenas e munições foi descoberto. Embora permaneça a chance de que seja é um erro numérico, é mais provável que o equipamento tenha sido cercado ou esteja em processo de cercamento. Felizmente, o problema está isolado em uma única base militar onde podemos derrubar toda a nossa força."
+ cartel_event.15.a: "Reduzir as atividades na base."
+ cartel_event.15.b: "Já estamos esticados demais."
+
+ cartel_event.16.t: "Veículos utilitários desaparecidos"
+ cartel_event.16.d: "Em uma auditoria recente das bases militares de nosso país como parte de uma medida para reduzir o movimento de equipamentos no mercado negro, um déficit considerável de caminhões e suas peças de reposição foi descoberto. Embora permaneça a chance de que Se for um erro numérico, é mais provável que o equipamento tenha sido cercado ou esteja em processo de cercamento. Felizmente, o problema está isolado em uma única base militar onde podemos derrubar toda a nossa força."
+ cartel_event.16.a: "Reduzir as atividades na base."
+ cartel_event.16.b: "Já estamos esticados demais."
+
+ cartel_event.17.t: "Helicópteros desaparecidos"
+ cartel_event.17.d: "Em uma auditoria recente das bases militares de nosso país como parte de uma medida para reduzir o movimento de equipamentos no mercado negro, um déficit considerável de helicópteros e suas peças de reposição foi descoberto. Se for um erro numérico, é mais provável que o equipamento tenha sido cercado ou esteja em processo de cercamento. Felizmente, o problema está isolado em uma única base militar onde podemos derrubar toda a nossa força."
+ cartel_event.17.a: "Reduza as atividades na base."
+ cartel_event.17.b: "Já estamos esticados demais."
+
+ cartel_event.18.t: "Tanques apreendidos no porto"
+ cartel_event.18.d: "Em um de nossos principais portos, nossa autoridade portuária descobriu um carregamento de T-55s soviéticos antiquados, mas totalmente armados e em operação, juntamente com peças sobressalentes e munição. Embora não possamos determinar seu destino ou ponto de origem, podemos presumir que a falta de qualquer documentação indica que ambos são ilícitos. Felizmente para nós, seu destino final está inteiramente em nossas mãos."
+ cartel_event.18.a: "Venda-os para sucata."
+ cartel_event.18.b: "Pressione-os para o serviço."
+ cartel_event.18.c: "Passe-os para nossos amigos."
+
+ cartel_event.19.t: "Despejo de corpos chega ao noticiário nacional"
+ cartel_event.19.d: "A infeliz descoberta de um grande depósito de corpos em uma de nossas principais cidades foi captada pelo ciclo de notícias, aparecendo em todas as telas e em todos os rádios. Nossa janela de oportunidade para retomar o controle do o fluxo de informações está desaparecendo. Se não fizermos nada, o medo se apoderará mais profundamente de nosso povo e eles serão facilmente atropelados pelos monstros que fizeram isso."
+ cartel_event.19.a: "Retome o controle da narrativa."
+ cartel_event.19.b: "Já estamos esticados demais."
+
+ cartel_event.20.t: "Celebridade estrangeira assassinada"
+ cartel_event.20.d: "Na última semana, uma celebridade do país de [?var:foreign_celeb_country.GetName] foi assassinada por um homem local. Uma investigação superficial sobre o assassino revelou laços com uma das maiores organizações criminosas de nosso país . Já estamos enfrentando pressão externa para assumir a responsabilidade pelo assassinato de alguma maneira. Algumas propostas foram apresentadas, mas a menos intrusiva foi endossar uma das instituições de caridade da celebridade."
+ cartel_event.20.a: "Apoiar a caridade."
+ cartel_event.20.b: "Eles não deveriam ter se associado a criminosos."
+
+ cartel_event.21.t: "Cartéis importam animais exóticos"
+ cartel_event.21.d: "Um fascínio por animais exóticos se espalhou entre os membros do mais alto escalão dos cartéis de nossa nação. Normalmente obtidos ilegalmente, esses animais são usados como sinais de poder e de cargo, enquanto ocasionalmente estão ligados a assassinatos horríveis. Ao apertar nossos controle sobre o influxo de animais, poderíamos expor o ridículo daqueles envolvidos, forçando um aumento artificial no preço. Embora um tigre possa ser intimidador, gastar dez milhões de dólares nele é um sinal óbvio de opulência.
+ cartel_event.21.a: "Acabe com a troca."
+ cartel_event.21.b: "Ignore a troca."
+
+ cartel_event.22.t: "Confrontos de gangues locais"
+ cartel_event.22.d: "Uma guerra de gangues estourou nas ruas de uma de nossas maiores cidades, prejudicando a economia local, ceifando vidas e deixando os moradores com medo de deixar suas casas. Enquanto nossos analistas preveem que a violência não durará muito , é improvável que o público se sinta confortável com a ideia de simplesmente esperar assassinatos arbitrários. Uma intervenção de nossas forças policiais poderia encerrar a crise mais cedo, mas resultaria em grandes despesas e possível perda de vidas.
+ cartel_event.22.a: "Envie a polícia."
+ cartel_event.22.b: "Já estamos esticados demais."
+
+ cartel_event.23.t: "EUA exigem extradição"
+ cartel_event.23.d: "Os Estados Unidos da América exigiram a extradição de um traficante que recentemente conseguimos colocar atrás das grades. Mantendo seu lado bom com as perspectivas de assistência futura contra outros traficantes, seria vantajoso para nós aceitar. No entanto, a intromissão americana em nosso sistema legal está fadada a reduzir nossa própria autoconfiança."
+ cartel_event.23.a: "Eles podem ficar com ele."
+ cartel_event.23.b: "Podemos lidar com nossos próprios criminosos."
+
+ cartel_event.24.t: "Informant Lands Movie Deal"
+ cartel_event.24.d: "Um de nossos informantes, ex-membro das maiores organizações criminosas de nosso país, foi abordado por um produtor de cinema que ouviu falar de sua vida através do boca a boca e quer transformar as histórias em um filme. Nosso informante está entusiasmado em aceitar, mas isso pode colocar sua vida em risco. Podemos optar por apoiar o acordo e permitir a produção do filme ou acabar com qualquer esperança em um futuro próximo."
+ cartel_event.24.a: "Permitir o negócio do filme."
+ cartel_event.24.b: "É muito perigoso."
+
+ cartel_event.25.t: "Informante publica memórias"
+ cartel_event.25.d: "Parece que o contato recente que nosso informante teve com um produtor de cinema o encorajou a divulgar sua história. Nas últimas semanas, ele trabalhou com vários escritores e funcionários do governo para produzir um conjunto de memórias que pode ser publicado anonimamente. De acordo com todos os envolvidos, as memórias são realmente muito emocionantes e mostram a realidade real e horrível da vida nos cartéis.
+ cartel_event.25.a: "Eu me pergunto se ele se tornará um best-seller."
+
+ cartel_event.26.t: "Informante assassinado no set"
+ cartel_event.26.d: "O corpo de nosso informante foi descoberto após uma visita para supervisionar uma cena importante. Com base no estado do corpo, concluiu-se que o assassinato foi cometido em retaliação por membros do cartel. Temendo legitimamente por suas vidas, a equipe de produção por trás do filme decidiu estremecer a produção."
+ cartel_event.26.a: "Que pena."
+
+ cartel_event.27.t: "Filme incentiva atividades criminosas"
+ cartel_event.27.d: "No que parece ter sido o resultado de fios cruzados, o novo filme sobre a vida de nosso informante é visto mais como um filme de De Vaqueros do que como uma tragédia criminal. Isso levou a um aumento no recrutamento entre muitos das organizações criminosas de nossa nação como jovens esperam imitar as caricaturas do filme."
+ cartel_event.27.a: "Infeliz."
+
+ cartel_event.28.t: "Filme desencoraja atividades criminosas"
+ cartel_event.28.d: "O filme que nosso informante ajudou na produção alcançou aclamação da crítica na primeira semana de seu lançamento. Além do mais, a representação realista dos horrores dos cartéis encorajou mais reações contra eles. É parece que nossos jovens agora preferem crescer para lutar contra os cartéis do que crescer para se juntar a eles."
+ cartel_event.28.a: "Excelente."
+
+ cartel_event.29.t: "Cartéis executam passagem de fronteira"
+ cartel_event.29.d: "Um cartel em uma de nossas nações vizinhas executou uma travessia de fronteira em grande escala que nenhuma de nossas agências de controle de fronteira se moveu para combater, colocando o ônus no outro. Isso levou a um movimento dentro de nossa política aparato para exigir o endurecimento das fronteiras de nosso vizinho, pois não há como isso ter sido tudo culpa nossa."
+ cartel_event.29.a: "Exigir controle de fronteira mais rigoroso do vizinho."
+ cartel_event.29.b: "Fazer exigências pode prejudicar nossas relações."
+
+ cartel_event.30.t: "Vizinhos exigem controle de fronteira"
+ cartel_event.30.d: "Depois de um recente cartel cruzando a fronteira de nosso país para a nação de [FROM.GetName], nosso vizinho exigiu que aumentássemos nossa segurança na fronteira. Até agora, isso levou a muitos argumentos dentro de nosso escritório diplomático ."
+ cartel_event.30.a: "Tudo bem, vamos aumentar nossa segurança."
+ cartel_event.30.b: "Por que eles não aumentam a segurança nas fronteiras?"
+
+ cartel_event.31.t: "O vizinho cede às demandas"
+ cartel_event.31.d: "Nosso vizinho, [FROM.GetName], concordou com nossas exigências de controle de fronteira mais rígido. Sem dúvida, nossa base de votos ficará muito satisfeita com esta vitória."
+ cartel_event.31.a: "Excelente."
+
+ cartel_event.32.t: "Vizinho ignora nossas demandas"
+ cartel_event.32.d: "Nosso vizinho, [FROM.GetName], ignorou nossas exigências de controle de fronteira mais rígido. Já estamos sendo criticados pelas notícias sobre nosso fracasso político."
+ cartel_event.32.a: "Infeliz."
+
+ cartel_event.33.t: "Transferências suspeitas vinculadas ao Oligarca"
+ cartel_event.33.d: "Durante uma de nossas investigações recentes, descobrimos transferências de dinheiro suspeitas, embora não ilegais, do fundo de um certo oligarca dentro de nossa nação. Seria fácil lubrificar as engrenagens políticas para implicá-los em nossa investigação recente. No entanto, tal exagero sem dúvida enfureceria os oligarcas estrangeiros e domésticos."
+ cartel_event.33.a: "Apreender seus bens."
+ cartel_event.33.b: "Deixe-os em paz."
+
+ cartel_event.34.t: "Tanque do cartel descoberto"
+ cartel_event.34.d: "Durante uma incursão recente e malsucedida contra um alvo do cartel, um tanque foi visto sendo usado pelos cartéis. Parecendo ser um T-34 soviético altamente modificado, o tanque era até capaz de disparar seu canhão principal. "
+ cartel_event.34.a: "Devemos fazer algo sobre isso."
+
+ cartel_event.35.t: "Tanque do cartel destruído"
+ cartel_event.35.d: "Durante uma recente incursão bem-sucedida contra um alvo do cartel, nossos agentes conseguiram localizar e destruir o T-34 que foi visto durante uma de nossas falhas recentes. A vitória, especialmente porque foi realizada sem anti- armas de tanques, tornou-se altamente divulgado nas notícias."
+ cartel_event.35.a: "Graças a Deus e aos nossos bravos homens."
+
+ cartel_event.36.t: "Tanque do cartel usado em ataque"
+ cartel_event.36.d: "Após uma de nossas incursões recentes, os cartéis fizeram um ataque de retaliação contra uma de nossas delegacias de polícia. Eles destruíram o prédio, usando um T-34 recentemente avistado para derrubar a cerca e atirar indiscriminadamente para dentro do prédio. Isso levou a um número significativo de vítimas, enquanto o incidente chegou ao noticiário nacional."
+ cartel_event.36.a: "Devemos fazer algo sobre isso."
+
+ cartel_event.37.t: "Empresa Shell de Transporte"
+ cartel_event.37.d: "Ao avaliar o patrimônio de uma das empresas que apreendemos recentemente, percebeu-se que uma delas havia sido registrada com um grande número de caminhões militares 6x6. Após uma breve busca, os veículos foram localizados em um depósito propriedade da empresa. Os veículos agora são comumente usados em fazendas e em uma variedade de outras indústrias, mas também ainda são usados ​​em algumas funções herdadas dentro de nossas forças armadas."
+ cartel_event.37.a: "Pressione-os para o serviço militar."
+ cartel_event.37.b: "Revenda os caminhões para empresas civis."
+
+ cartel_event.38.t: "Senhor do crime preso acidentalmente"
+ cartel_event.38.d: "Uma série recente de detenções do que se acreditava serem apenas membros de baixo escalão do cartel acaba por ter pego um grande chefe do crime por acidente. Embora ele inicialmente tenha escondido sua identidade, ele foi reconhecido por um policial que estava familiarizado com o homem. Ele agora está exigindo sua libertação e se oferecendo para pagar uma fiança substancial."
+ cartel_event.38.a: "Ah, sim, tudo parte do plano."
+ cartel_event.38.b: "Desculpe por isso, senhor."
+
+ cartel_event.39.t: "Autoridades tropeçam em plantação de drogas"
+ cartel_event.39.d: "Durante uma patrulha de rotina no interior de nosso país, uma força policial local tropeçou no que eles acreditam ser uma plantação de drogas. Seguindo o protocolo, eles enviaram a notícia pela cadeia e agora aguardam reforços ou conselhos sobre o que fazer."
+ cartel_event.39.a: "Queime os campos e destrua o equipamento."
+ cartel_event.39.b: "Apreenda qualquer evidência ou equipamento."
+ cartel_event.39.c: "Deixe a plantação em paz."
+
+ cartel_event.40.t: "Dica anônima"
+ cartel_event.40.d: "Recebemos uma denúncia anônima sobre um posto avançado de cartel vulnerável. Se agirmos rapidamente, podemos invadir a posição. No entanto, isso pode ser uma pegadinha ou uma manobra dos cartéis para nos tirar de posição e nos emboscar."
+ cartel_event.40.a: "Aja de acordo com a dica, qualquer oportunidade é real!"
+ cartel_event.40.b: "Ignore a dica, provavelmente é uma pegadinha."
+
+ cartel_event.41.t: "Empresas locais cooperam com cartéis"
+ cartel_event.41.d: "Várias empresas em uma de nossas cidades periféricas foram expostas como trabalhando com os cartéis, às vezes até abertamente. Permitir que isso continue envia uma mensagem clara ao nosso povo de que não estamos dispostos ou incapazes de governar. Mas para os cartéis, envia uma mensagem de que respeitamos sua autoridade para fazê-lo."
+ cartel_event.41.a: "Repreender os proprietários por suas ações."
+ cartel_event.41.b: "Fechar os olhos para a atividade."
+
+ cartel_event.42.t: "Conglomerados industriais que abrigam contrabando"
+ cartel_event.42.d: "Recentemente, recebemos uma denúncia de que muitas de nossas maiores empresas têm permitido que os cartéis usem seus armazéns para armazenar contrabando. Embora isso possa ser um sinal de corrupção flagrante, existe uma chance de que tenha sido o resultado de chantagem. Em ambos os casos, algum tipo de resposta nossa é necessária. Caso contrário, o basculante provavelmente irá para o noticiário."
+ cartel_event.42.a: "Apreende os armazéns e multa os conglomerados!"
+ cartel_event.42.b: "Agarre o contrabando e dê um tapa na cara dos negócios."
+ cartel_event.42.c: "São os armazéns deles, mas agora todo mundo sabe."
+
+ cartel_event.43.t: "Funcionários corruptos"
+ cartel_event.43.d: "Recebemos recentemente uma denúncia anônima que levou a uma breve investigação sobre os investimentos de campanha de um político local. A investigação revelou que a maior parte dos fundos de campanha veio de indivíduos e empresas ligadas a atividades de cartel. Muitos sinais na investigação também apontam para uma intrincada teia de nomeados, investidores e aliados políticos."
+ cartel_event.43.a: "Retire o máximo possível do cargo, não podemos tolerar isso."
+ cartel_event.43.b: "Investimentos de campanha de cidadãos privados não são da nossa conta."
+
+ cartel_event.44.t: "Autoridade portuária encontra contrabando"
+ cartel_event.44.d: "Em um de nossos principais portos, nossa autoridade portuária descobriu um contêiner cheio de contrabando durante uma busca de rotina. De acordo com o protocolo, eles apreenderam temporariamente o navio enquanto tomavam as decisões sobre o que fazer com cabe a nós."
+ cartel_event.44.a: "Apreender o navio por cooperar com o tráfico de drogas."
+ cartel_event.44.b: "Aproveite o contêiner, é a única coisa ilegal aqui."
+ cartel_event.44.c: "Deixa pra lá, negócio é negócio."
+
+ cartel_event.45.t: "Banqueiros fechando os olhos"
+ cartel_event.45.d: "Recebemos uma denúncia anônima de que vários banqueiros de alto escalão estão fechando os olhos para a atividade do cartel e, às vezes, até mesmo participando dela. Se não fizermos algo com essa informação, é provável que o basculante vaze para o noticiário.
+ cartel_event.45.a: "Prenda os banqueiros em questão e inicie uma investigação."
+ cartel_event.45.b: "Está fora de nossas mãos..."
+
+ cartel_event.46.t: "Atraindo os subornos do cartel"
+ cartel_event.46.d: "Vários membros do nosso establishment político foram recentemente abordados com uma proposta intrigante. Tratamos os cartéis como qualquer outro grupo de interesse, dando-lhes espaço para operar como quiserem, e eles financiam várias eleições importantes que estão por vir. Os mais maleáveis ideologicamente de nossos membros estão nos procurando em busca de orientação."
+ cartel_event.46.a: "Claro! Estamos felizes em trabalhar com um grupo de interesse tão importante."
+ cartel_event.46.b: "Ultrajante! Eles não representam os melhores interesses do povo."
+
+ cartel_event.47.t: "Acordos com os demônios"
+ cartel_event.47.d: "Vários membros de alto escalão de nosso establishment político foram recentemente convidados para uma reunião com os chefes de um dos maiores cartéis de nossa nação. Durante a reunião, os chefes do cartel deixaram suas intenções claras. Eles não precisam ser nossos inimigos, na verdade, poderíamos ser aliados políticos. Eles já ofereceram uma fatia substancial do bolo pela nossa cooperação e prometem mais por vir à medida que nossa parceria continua."
+ cartel_event.47.a: "Os impostos são uma parte importante da capacidade de funcionamento de um estado."
+ cartel_event.47.b: "Não podemos deixar esses demônios colocarem o pé na porta."
+
+ cartel_event.48.t: "Regular o tráfico de drogas"
+ cartel_event.48.d: "Uma oferta foi apresentada recentemente por vários cartéis maiores para cooperar na redução do crime não cartel que começou a reduzir suas margens de lucro. Em troca, eles se ofereceram para cooperar em tornar seus negócios afiliados relatar lucros mais precisos. E para tornar seu comércio mais humano, o que quer que isso signifique.
+ cartel_event.48.a: "Negociar cooperação estatal-cartel estritamente regulamentada."
+ cartel_event.48.b: "Negociar cooperação estado-cartel vagamente regulamentada."
+ cartel_event.48.c: "Não negociamos com criminosos."
+
+ cartel_event.49.t: "Jovens perdendo a fé"
+ cartel_event.49.d: "Um dos subconjuntos mais maleáveis da nossa população são os nossos jovens, e o estado da nossa nação com os cartéis começou a colocá-los contra o nosso estabelecimento político. Embora as pesquisas indiquem que muitos planejam sair assim que forem capazes Ao fazer isso, aqueles que planejam ficar parecem ter a intenção de votar contra nós nas próximas eleições. Tentamos um programa de extensão para tentar canalizar os mais enérgicos entre eles para consertar seu país de origem conosco.
+ cartel_event.49.a: "Estender nossa mão com um programa de extensão."
+ cartel_event.49.b: "Deixe-os chafurdar em sua própria autopiedade, não precisamos deles."
+
+ cartel_event.53.t: "Ataque de retaliação do cartel"
+ cartel_event.53.d: "Após uma de nossas incursões recentes, os cartéis fizeram um ataque de retaliação contra uma de nossas delegacias de polícia. Eles conseguiram romper o perímetro e expulsar nossos oficiais da cidade, deixando um rastro de destruição em seu rastro. Isso levou a várias vítimas, enquanto o incidente chegou ao noticiário nacional."
+ cartel_event.53.a: "Infeliz."
+
+ cartel_event.54.t: "Ataque de retaliação do cartel fracassado"
+ cartel_event.54.d: "Após uma de nossas incursões recentes, os cartéis fizeram um ataque de retaliação contra uma de nossas delegacias de polícia. Nossos policiais resistiram bravamente, sofrendo apenas algumas baixas. Depois de algumas horas, eles receberam reforços e conseguiu dispersar os cartéis. O incidente se tornou um ponto de encontro contra os cartéis no noticiário nacional."
+ cartel_event.54.a: "Excelente."
+
+ cartel_event.55.t: "Cartéis derrubam helicóptero"
+ cartel_event.55.d: "Durante uma operação recente, um de nossos helicópteros da polícia foi abatido pelos cartéis. Uma revisão do incidente revelou que uma bala perdida atingiu o pescoço do piloto, levando ao acidente catastrófico enquanto o co -piloto não conseguiu recuperar o controle a tempo. Perder um equipamento tão importante, sem falar na tripulação, é uma pena."
+ cartel_event.55.a: "Infelizmente."
+
+ cartel_event.56.t: "Sobrevivente da Execução do Cartel"
+ cartel_event.56.d: "Encontrado por um bom samaritano e levado às pressas para o hospital, um homem de uma das regiões infestadas de cartel dentro de nossa nação está agora deitado no que em breve poderá ser seu leito de morte. No entanto, somos apresentados com a oportunidade de ajudá-lo. Ele precisa ser transferido para um hospital com melhores instalações, algo que um de nossos helicópteros militares próximos poderia realizar."
+ cartel_event.56.a: "Ele se tornará nosso novo El Fusilado!"
+ cartel_event.56.b: "É uma pena que nossos médicos não tenham conseguido salvá-lo..."
+
+ #cartel_event.num.t: ""
+ #cartel_event.num.d: ""
+ #cartel_event.num.a: ""
+ #cartel_event.num.b: ""
+
+ # Eventos de Decisão de Cartel
+ cartel_event.50.t1: "Investigações de cassino bem-sucedidas"
+ cartel_event.50.d1: "Depois de semanas de planejamento e monitoramento, nossas forças policiais entraram em um dos cassinos de nosso país, apreendendo milhões de dólares em dinheiro sujo, coletando importantes evidências físicas e prendendo os principais participantes do esquema de lavagem de dinheiro do cartel. Usando Com base nas evidências coletadas, congelamos todos os ativos legítimos vinculados ao cassino e seus operadores. Com esse golpe, eliminamos uma parte importante da infraestrutura e prejudicamos sua capacidade de acumular fundos utilizáveis."
+ cartel_event.50.t2: "Investigações bancárias bem-sucedidas"
+ cartel_event.50.d2: "Depois de semanas de espera e monitoramento de transferências de dinheiro, hoje congelamos os ativos de meia dúzia de empresas e indivíduos que estavam ligados a uma operação de lavagem de dinheiro do cartel. Mandados de prisão foram emitidos e várias investigações menores foram foram lançados em transferências suspeitas entre algumas das empresas e políticos e burocratas de baixo escalão. Embora os cartéis inevitavelmente se recuperem, a perda de tanto de uma vez será um duro golpe para sua infraestrutura."
+ cartel_event.50.t3: "Investigações bem-sucedidas da Shell Company"
+ cartel_event.50.d3: "Após semanas de investigação, fechamos várias empresas suspeitas, apreendendo seus ativos no processo. Embora muito pouco dinheiro tenha sido arrecadado, apreendemos um grande número de propriedades, veículos civis e outros bens . Isso deve servir como um duro golpe, não apenas para sua operação de lavagem de dinheiro, mas para sua capacidade de manter todas as suas operações."
+ cartel_event.50.t4: "Falha nas investigações do cassino"
+ cartel_event.50.d4: "Apesar de nossos melhores esforços, nossos analistas não conseguiram estabelecer uma conexão entre os cartéis e o cassino sobre o qual nossa investigação caiu. O que é pior, as pessoas começaram a fazer perguntas sobre onde o dinheiro usado em a investigação está em andamento, levando a ataques políticos bem-sucedidos contra nossos candidatos pela oposição. Para adicionar mais insulto à injúria, os cartéis continuam suas operações sem impedimentos.
+ cartel_event.50.t5: "Falha nas investigações bancárias"
+ cartel_event.50.d5: "Apesar das semanas que nossos agentes passaram debruçados sobre computadores e monitorando transferências bancárias, não encontramos nenhuma oportunidade clara de desferir um golpe contra os cartéis. O que é pior, as pessoas começaram a fazer perguntas sobre onde o dinheiro usado na investigação está indo, levando a ataques políticos bem-sucedidos contra nossos candidatos pela oposição. Para adicionar mais insulto à injúria, os cartéis continuam suas operações sem impedimentos.
+ cartel_event.50.t6: "Falha nas investigações da Shell Company"
+ cartel_event.50.d6: "Apesar do tempo e dinheiro canalizados para nossas investigações, tudo o que descobrimos são fundos de garantia de divórcio e esquemas de proteção de responsabilidade. O que é pior, no processo, conseguimos pisar no calo de apenas pessoas suficientes para expor nossa investigação no noticiário nacional. Tal embaraço provavelmente prejudicou nossas futuras perspectivas eleitorais. Para adicionar mais insulto à lesão, os cartéis continuam suas operações sem impedimentos."
+ cartel_event.50.a: "A Investigação Concluída"
+
+ cartel_event.51.t1: "Incursão de comboio de drogas bem-sucedida"
+ cartel_event.51.d1: "Em um ataque recente ao longo de uma conhecida rota de drogas, conseguimos apreender centenas de quilos de drogas, prender vários membros de baixo escalão do cartel e apreender vários veículos civis com poucas baixas. Isso deve ser o suficiente para parar o comércio por um curto período de tempo, mas essas perdas podem ser facilmente absorvidas por qualquer cartel suficientemente grande."
+ cartel_event.51.t2: "Incursão bem-sucedida no esconderijo do cartel"
+ cartel_event.51.d2: "Em um ataque recente a uma conhecida fortaleza do cartel, conseguimos matar ou prender dezenas de membros do cartel enquanto apreendíamos ou destruíamos várias peças de equipamento militar utilizável e armas improvisadas. Esse golpe pode ter um efeito indireto enquanto outras organizações buscam tirar vantagem da fraqueza momentânea."
+ cartel_event.51.t3: "Incursão bem-sucedida aos centros de distribuição"
+ cartel_event.51.d3: "Em uma greve recente em um conhecido centro de distribuição, conseguimos apreender centenas de milhares de dólares em dinheiro sujo e drogas. Também começamos a prender vários traficantes ligados ao local, dificultando seriamente sua capacidade de colocar drogas no mercado e gerar lucro. Apesar de nosso sucesso, devemos ter cuidado com a possibilidade de um ataque de represália."
+ cartel_event.51.t4: "Incursão bem-sucedida aos centros de refinamento"
+ cartel_event.51.d4: "Em uma greve recente em um conhecido centro de refinamento, conseguimos destruir centenas de milhares de dólares em equipamentos e drogas. Também conseguimos prender muitas das pessoas envolvidas no refinamento, o que colocá-los em desvantagem ao produzir mais drogas no futuro. Apesar do nosso sucesso, devemos ter cuidado com a possibilidade de um ataque de represália."
+ cartel_event.51.t5: "Falha na invasão de comboio de drogas"
+ cartel_event.51.d5: "Em uma recente tentativa de ataque ao longo de uma conhecida rota de drogas, nossas forças foram sobrecarregadas e forçadas a recuar, deixando várias vítimas para trás. Informações sobre o evento já vazaram para o público, reduzindo a confiança em nosso governo . Devemos ter cuidado com a possibilidade de um ataque de represália."
+ cartel_event.51.t6: "Falha na invasão do esconderijo do cartel"
+ cartel_event.51.d6: "Em uma recente tentativa de ataque a um reduto conhecido do cartel, nossas forças foram sobrecarregadas e forçadas a recuar, deixando várias vítimas para trás. Informações sobre o evento já vazaram para o público, reduzindo a confiança em nosso governo . Devemos ter cuidado com a possibilidade de um ataque de represália."
+ cartel_event.51.t7: "Falha na invasão dos centros de distribuição"
+ cartel_event.51.d7: "Em uma recente tentativa de ataque a um conhecido centro de distribuição do cartel, nossas forças foram sobrecarregadas e forçadas a recuar, deixando várias vítimas para trás. Informações sobre o evento já vazaram para o público, reduzindo a confiança em nosso governo. Qualquer pessoa relacionada ao local já se dispersou. Devemos ter cuidado com a possibilidade de um ataque de represália."
+ cartel_event.51.t8: "Falha na invasão dos centros de refinamento"
+ cartel_event.51.d8: "Em uma recente tentativa de ataque a um conhecido centro de refinamento de cartel, nossas forças foram sobrecarregadas e forçadas a recuar, deixando várias baixas para trás. Informações sobre o evento já vazaram para o público, reduzindo a confiança em nosso governo. Devemos ter cuidado com a possibilidade de um ataque de represália."
+ cartel_event.51.a: "O Raid Concluído"
+
+ cartel_event.52.t: "O Fim dos Cartéis"
+ cartel_event.52.d: "Após décadas de luta e sacrifício de muitos, extirpamos qualquer remanescente dos cartéis de nosso país. No entanto, ainda não estamos a salvo de sua influência. Outros países em nossa região ainda estão sofrendo o reinado desses monstros e agora temos ampla experiência em caçar monstros."
+ cartel_event.52.a: "Esta é uma nova era para [ROOT.GetName]."
+
+ cartel_event.100.t: "[FROM.GetName] derrotou seus cartéis"
+ cartel_event.100.d: "As notícias chegaram de [FROM.GetName] porque eles conseguiram vencer seus cartéis. A estabilidade e a paz retornaram à região "
+ cartel_event.100.a: "Um novo mercado?"
+ cartel_event.100.b: "Estabilidade em [FROM.GetName]"
+
+ cartel_event.101.t: "As [FROM.GetAdjective] Narco Wars"
+ cartel_event.101.d: "WIP"
+ cartel_event.101.a: "WIP"
+ cartel_event.101.b: "WIP"

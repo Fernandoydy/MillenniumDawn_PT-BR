@@ -1,0 +1,25 @@
+﻿l_braz_por:
+ #Níveis de autonomia
+ autonomy_associated_state: "Estado associado"
+ autonomy_satellite_state: "Satélite"
+ autonomy_puppet_state: "Fantoche"
+ autonomy_autonomous_state: "Região Autônoma"
+ autonomy_terrorist_branch: "Filial"
+ autonomy_terrorist_wilayah: "Wilayah"
+ autonomy_terrorist_mintaqah: "Mintaqah"
+ autonomy_annex: "Anexado"
+ autonomy_free: "Livre"
+ autonomy_special_administrative_region: "R.A.S."
+ autonomy_union_state: "Estado da União"
+ 
+ subject_hates: "Opinião do Sobeano: Ódio"
+ subject_hates_desc: "[Root.GetNameDef] tem um ódio profundo contra seu senhor. É provável que eles comecem uma revolta violenta em breve, a menos que a situação seja consertada."
+ subject_negative: "Opinião do Soberano: Não gostou"
+ subject_negative_desc: "[Root.GetNameDef] não gosta de seu suserano. A relação negativa significa que eles trabalharão mais para uma maior autonomia."
+ subject_neutral: "Opinião do Soberano: Neutro"
+ subject_neutral_desc: "[Root.GetNameDef] tem uma atitude neutra em relação ao seu suserano. Isso pode mudar para positivo ou negativo, dependendo dos eventos globais e das ações de seu suserano."
+ subject_positive: "Opinião do Soberano: Positivo"
+ subject_positive_desc: "[Root.GetNameDef] tem uma atitude positiva em relação ao seu senhor. A relação positiva entre os dois países significa que as pessoas não estão tão ansiosas para almejar uma maior autonomia."
+ subject_loves: "Opinião do Soberano: Adorado"
+ subject_loves_desc: "[Root.GetNameDef] absolutamente ama seu suserano. Eles praticamente querem ficar com eles para sempre. Por enquanto."
+ 

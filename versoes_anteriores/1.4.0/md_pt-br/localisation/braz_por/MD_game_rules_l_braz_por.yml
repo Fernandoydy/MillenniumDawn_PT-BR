@@ -1,0 +1,495 @@
+﻿l_braz_por:
+ MD_AI_RULES: "Opções de IA"
+ MD_PEACE_DEALS: "Conferências de Paz"
+ MD_FOCUS_TREE_RULES: "Opções da árvore de foco"
+ MD_FORMABLE_RULES: "Flags & Formables"
+ MD_ORGANISATION_RULES: "Opções de organização"
+ MD_INFLUENCE_RULES: "Opções do sistema de influência"
+ MD_OPTIMISATION_RULES: "Otimização e desempenho"
+ MD_NUCLEAR_RULES: "Regras Nucleares"
+ MD_RULES: "Regras diversas do Millennium Dawn"
+ MD_CHEAT_RULES: "Opções de trapaça"
+ MD_RANDOM_RULES: "Regras do randomizador"
+
+ # REGRAS DE IA
+ RULE_HARD_AI_ECONOMIC: "IA econômica"
+ RULE_DISABLE_HARD_AI_ECONOMIC: "Restrição padrão"
+ RULE_DISABLE_HARD_AI_ECONOMIC_DESC: "Uma restrição padrão para AI, que não permite fortalecer sua economia. Para um jogo histórico"
+ RULE_ENABLE_HARD_AI_ECONOMIC: "Sem restrições"
+ RULE_ENABLE_HARD_AI_ECONOMIC_DESC: "Se você está entediado porque todo jogo de IA não sai da crise econômica - isso é para você. A IA não está mais limitada na tomada de decisões sobre sua economia. Esteja pronto para que muitos países se tornem mais ricos que o seu. Apenas para quem não tem medo de dificuldades. Olá do desenvolvedor Battle AI;)"
+
+ # Desativar guerras de dívida AI
+ RULE_DISABLE_AI_DEBT_WAR_TITLE: "Desativar guerras de dívidas para IA"
+ RULE_DISABLE_AI_DEBT_WAR: "Desativar"
+ RULE_DISABLE_AI_DEBT_WAR_DESC: "Isso desativa o recurso de guerra da dívida para a IA. A IA não terá mais a opção de invadir uma nação que inadimplente com sua dívida."
+ RULE_ENABLE_AI_DEBT_WAR: "Habilitar"
+ RULE_ENABLE_AI_DEBT_WAR_DESC: "Esta configuração tornará a IA mais propensa a declarar guerras de dívidas"
+
+ # REGRAS DO NEGÓCIO DE PAZ
+ RULE_ALLOW_CHAOTIC_PEACE_CONFERENCE: "Ativar acordos de paz caóticos"
+ RULE_OPTION_CHAOTIC_PC_NO: "Não"
+ RULE_OPTION_CHAOTIC_PC_NO_DESC: "Esta opção deve impedir que todos façam grilagem de terras em conferências de paz de IA.\nEla faz isso limitando quem pode reivindicar estados para majores e líderes de facções. (Isso afetará apenas a IA, não o jogador.)"
+ RULE_OPTION_CHAOTIC_PC_YES: "Sim"
+ RULE_OPTION_CHAOTIC_PC_YES_DESC: "Para aqueles que realmente gostam das malditas conferências de paz, por que limitar o mundo a 1 §YRússia§! quando 12 §YRússia§! "
+
+ RULE_ALLOW_PLAYER_LED_PEACE_CONFERENCE: "Ativar conferências de paz lideradas por jogadores"
+ RULE_OPTION_PLAYER_LED_PC_NO: "Não"
+ RULE_OPTION_PLAYER_LED_PC_NO_DESC: "Esta opção permitirá que a IA faça suas próprias escolhas, por mais burras que sejam."
+ RULE_OPTION_PLAYER_LED_PC_YES: "Sim"
+ RULE_OPTION_PLAYER_LED_PC_YES_DESC: "Para aqueles que não confiam na IA para colocar o pino redondo no buraco redondo, isso permitirá que apenas os jogadores façam reivindicações durante as conferências de paz."
+
+ # CONTEÚDO DO PAÍS
+ RULE_SALAFIST_BRANCH: "Ativar ramo salafista"
+ RULE_YES_SALAFIST_BRANCH_DESC: "Ativa o ramo salafista na árvore genérica para todas as nações, independentemente da religião inicial."
+ RULE_NO_SALAFIST_BRANCH_DESC: "Ativa o ramo salafista na árvore genérica para nações que seguem qualquer variação do Islã."
+
+ #Liechtenstein
+ LIC_AI_BEHAVIOR: "@LIC Liechtenstein"
+ RULE_LIC_HRE_Alaska: "A Ascensão de Liechtenstein"
+ RULE_LIC_HRE_Alaska_ALLOWED_DESC: "Permitir que Liechtenstein tente comprar o Alasca dos Estados Unidos e reivindique o Sacro Império Romano. (§R Jogar com focos históricos significa que os EUA quase sempre negarão o pedido.§!)"
+ RULE_LIC_HRE_Alaska_BLOCKED_DESC: "Não permita que Liechtenstein tente comprar o Alasca ou reivindicar o Sacro Império Romano."
+
+ #Rússia
+ RUS_AI_BEHAVIOR: "@SOV Federação Russa"
+ RULE_OPTION_PUTIN: "Rússia Unida"
+ RULE_OPTION_PUTIN_AI_DESC: "A Federação Russa buscará seguir a política externa do Rússia Unida e capacitá-los."
+ RULE_OPTION_PEACEFUL_REFORM: "Reforma da Rússia"
+ RULE_OPTION_PEACEFUL_REFORM_AI_DESC: "A Rússia buscará criar formas liberais e buscar maiores laços com o Ocidente."
+ RULE_OPTION_THE_RED_MENACE: "A Ameaça Vermelha"
+ RULE_OPTION_THE_RED_MENACE_AI_DESC: "A Rússia começará a se desviar para políticas marxistas e tentará restaurar a §YUnião Soviética§!\n"
+ RULE_OPTION_RISE_OF_RUSSIA: "A ascensão da Rússia"
+ RULE_OPTION_RISE_OF_RUSSIA_AI_DESC: "A Rússia começará a se desviar para políticas nacionalistas e buscará uma política externa agressiva com o objetivo de proclamar §YGrande Rússia§!.\n"
+
+ #Estados Unidos da América
+ USA_AI_BEHAVIOR: "@USA Estados Unidos da América"
+ RULE_OPTION_DEMOCRAT: "Inclinação democrata"
+ RULE_OPTION_DEMOCRAT_AI_DESC: "Os Estados Unidos procurarão eleger a liderança do Partido Democrata e manter a nação, em um sentido moderno, em direção a um consenso de centro-esquerda de governar a nação."
+ RULE_OPTION_REPUBLICAN: "Inclinação republicana"
+ RULE_OPTION_REPUBLICAN_AI_DESC: "Os Estados Unidos procurarão eleger a liderança do Partido Republicano e manter a nação, em um sentido moderno, em direção a um consenso de centro-direita de governar a nação."
+ RULE_OPTION_REFORMED_REPUBLIC: "República Reformada"
+ RULE_OPTION_REFORMED_REPUBLIC_AI_DESC: "A vontade do povo foi ouvida. A pressão política e o clamor público resultaram em importantes reformas políticas e econômicas para permitir uma melhor representação e visibilidade de terceiros. Agora cabe ao povo eleger um partido que os represente. "
+ RULE_OPTION_POST_UNITED: "Post United"
+ RULE_OPTION_POST_UNITED_AI_DESC: "PAX AMERICANA FOREVER!!!"
+
+ #Nigéria
+ NIG_AI_BEHAVIOR: "@NIG República Federal da Nigéria"
+ RULE_OPTION_RISE_OF_BOKO_HARAM: "Ascensão do Boko Haram"
+ RULE_OPTION_RISE_OF_BOKO_HARAM_AI_DESC: "Pressiona a Nigéria para permitir que o Boko Haram assuma o controle do país."
+ RULE_OPTION_PDP_EMPOWERED: "Partido Democrático do Povo"
+ RULE_OPTION_PDP_EMPOWERED_AI_DESC: "O Partido Democrático do Povo é um dos maiores partidos da Nigéria. Ele defende principalmente o fim cristão do Espectro Religioso e ideologias não alinhadas."
+ RULE_OPTION_ANPP_EMPOWERED: "Todo o partido do povo da Nigéria"
+ RULE_OPTION_ANPP_EMPOWERED_AI_DESC: "O Partido do Povo da Nigéria (ou Congresso Democrático Progressista em 2017) é o principal partido da oposição em 2000 na Nigéria. É importante notar que eles se assemelham muito à social-democracia na Europa e pressionam por grandes reformas no país da Nigéria."
+
+ #França
+ FRA_AI_BEHAVIOR_MD: "@FRA República Francesa"
+ RULE_OPTION_FRA_HISTORICAL: "Comportamento histórico da IA"
+ RULE_OPTION_FRA_HISTORICAL_DESC: "A França permanecerá ocidental e um dos líderes da UE. A França tentará levar a União Européia a uma maior centralização, mantendo também sua influência em suas antigas colônias."
+ RULE_OPTION_FRA_EQUALITE: "Igualdade"
+ RULE_OPTION_FRA_EQUALITY_DESC: "A França escolherá a igualdade e se desviará para o marxismo."
+ RULE_OPTION_FRA_FRATERNITE: "Irmandade"
+ RULE_OPTION_FRA_FRATERNITE_DESC: "A França escolherá Fraternité e pretende dominar a Europa."
+
+ #Itália
+ ITA_AI_BEHAVIOR_MD: "@ITA República Italiana"
+ RULE_OPTION_ITA_DEMOCRATICP: "Partido Democrático"
+ RULE_OPTION_ITA_DEMOCRATICP_DESC: ""
+ RULE_OPTION_ITA_FORZA: "Festa do Forza Italia"
+ RULE_OPTION_ITA_FORZA_DESC: ""
+ RULE_OPTION_ITA_SOCIALL: "Social Liberalismo"
+ RULE_OPTION_ITA_SOCIALL_DESC: ""
+ RULE_OPTION_ITA_RADICALP: "O Partido Radical"
+ RULE_OPTION_ITA_RADICALP_DESC: ""
+ RULE_OPTION_ITA_LEFTP: "Movimento Cinco Estrelas"
+ RULE_OPTION_ITA_LEFTP_DESC: ""
+ RULE_OPTION_ITA_RIGHTP: "Aliança Nacional"
+ RULE_OPTION_ITA_RIGHTP_DESC: ""
+ RULE_OPTION_ITA_LEU: "Livres e iguais"
+ RULE_OPTION_ITA_LEU_DESC: ""
+ RULE_OPTION_ITA_GREENS: "Federação dos Verdes"
+ RULE_OPTION_ITA_GREENS_DESC: ""
+ RULE_OPTION_ITA_EAST: "Partido Comunista Italiano"
+ RULE_OPTION_ITA_EAST_DESC: ""
+ RULE_OPTION_ITA_NONCOM: "Partido de Refundação Comunista"
+ RULE_OPTION_ITA_NONCOM_DESC: ""
+
+ #China
+ PRC_AI_BEHAVIOR: "@CHI República Popular da China"
+ RULE_OPTION_CHINESE_HEGEMONY: "Hegemonia Chinesa"
+ RULE_OPTION_CHINESE_HEGEMONY_AI_DESC: "A China perseguirá o domínio em sua esfera de influência e no mundo em geral, buscando usurpar a posição da América como a única hegemonia global. Ela se recusará a ceder à pressão externa para abandonar seus valores sociais e políticos únicos em favor daqueles que estão em conformidade com a ordem internacional liberal dominada pelo Ocidente. Embora a China raramente prossiga diretamente com a guerra e, em vez disso, busque ganhar influência por outros meios, ela não se esquivará da guerra se se sentir compelida a usar a força.
+ RULE_OPTION_A_LONG_PEACE: "Ascensão pacífica"
+ RULE_OPTION_A_LONG_PEACE_AI_DESC: "A China preferirá a diplomacia e a cooperação à confrontação, buscando desenvolver-se em constante conformidade com as regras existentes da ordem internacional, em vez de tentar derrubá-la. Também fará movimentos em direção à liberalização política e econômica."
+ RULE_OPTION_RED_DAWN: "Aurora Vermelha"
+ RULE_OPTION_RED_DAWN_AI_DESC: "A China buscará retornar às suas raízes maoístas, revertendo as reformas econômicas de Deng Xiaoping e fazendo escolhas de política externa com base na ideologia e não na estratégia. A guerra é inevitável, pois a China busca revolucionar a ordem internacional à sua própria imagem, uma imagem impulsionada pelo comunismo universalista ao invés de valores chineses específicos."
+
+ #Japão
+ JAP_AI_BEHAVIOR: "@JAP Japão"
+ RULE_OPTION_RED_STAR_OVER_TOKYO: "Estrela Vermelha sobre Tóquio"
+ RULE_OPTION_RED_STAR_OVER_TOKYO_AI_DESC: "No passado, a perspectiva de um Japão comunista não era uma possibilidade tão inimaginável. Nos anos seguintes, essa possibilidade parecia desaparecer com o Japão adotando um sistema econômico totalmente capitalista. Mas o crescimento milagroso que esse sistema uma vez rendeu agora estagnou . A desigualdade é galopante e o povo do Japão está começando a aceitar a possibilidade de que uma mudança no estado de coisas existente possa ser necessária..."
+ RULE_OPTION_RETURN_OF_THE_EMPIRE: "O Retorno do Império"
+ RULE_OPTION_RETURN_OF_THE_EMPIRE_AI_DESC: "Uma vez que o Japão foi uma grande nação. Ele voltou suas atenções para todo o continente asiático e chegou perto de alcançar seu merecido status. Agora o Japão é fraco e deve a vontade de potências estrangeiras. O Japão tentará restaurar voltar ao que era antes e restabelecer um império no leste da Ásia".
+
+ #Myanmar
+ BRM_AI_BEHAVIOR: "@BRM União de Mianmar"
+ RULE_OPTION_BEACON_OF_DEMOCRACY: "Farol da Democracia"
+ RULE_OPTION_BEACON_OF_DEMOCRACY_AI_DESC: "Myanmar buscará reformas sem compromisso, levando rapidamente o NLD ao poder. Em vez de fazer concessões ao Tatmadaw, Myanmar mobilizará vários apoiadores da liberalização política, incluindo grupos rebeldes étnicos, com o objetivo de acabar com a influência dos militares na política uma vez e para todos."
+ RULE_OPTION_AN_IRON_FIST: "Um Punho de Ferro"
+ RULE_OPTION_AN_IRON_FIST_AI_DESC: "Somente aplicável à data de início de 2000, esta regra do jogo obrigará Mianmar a permanecer uma ditadura e, em vez de responder positivamente à pressão por reformas como fez historicamente, reagir com repressão e totalitarismo. Além disso, para desviar a atenção de sua perda de legitimidade, o governo militar prosseguirá a guerra não apenas com os grupos rebeldes do país, mas também com seus vizinhos".
+
+ #Suécia
+ SWE_AI_BEHAVIOR: "@SWE Reino da Suécia"
+ RULE_OPTION_NORTHERN_AMBITION: "Ambição do Norte"
+ RULE_OPTION_NORTHERN_AMBITION_AI_DESC: "A extrema direita sueca verá uma onda de popularidade culminando em uma tentativa de estabelecer um Império Sueco no norte da Europa."
+
+ #Síria
+ SYR_AI_BEHAVIOR: "@SYR República Árabe Síria"
+ RULE_OPTION_SYR_HISTORICAL: "IA histórica"
+ RULE_OPTION_SYR_HISTORICAL_DESC: "Hafez al-Assad será sucedido por seu filho mais velho, Bashar al-Assad. Bashar manterá a Síria como um país alinhado à Rússia com um foco equilibrado de diplomacia, militar e economia."
+ RULE_OPTION_SYR_IRON_LADY: "Dama de Ferro da Síria"
+ RULE_OPTION_SYR_IRON_LADY_DESC: "Hafez al-Assad será sucedido por sua filha Bushra al-Assad. Bushra terá uma abordagem mais neutra entre as grandes potências com foco na diplomacia e economia."
+ RULE_OPTION_SYR_SYRIAN_SAVAGE: "Selvagem sírio"
+ RULE_OPTION_SYR_SYRIAN_SAVAGE_DESC: "Hafez al-Assad será sucedido pelo filho mais novo Maher al-Assad. Maher tentará formar a Grande Síria e criar um novo poder no Oriente Médio. Ele se concentrará na expansão militar e econômica."
+ RULE_OPTION_SYR_NEW_ASSAD: "Novo al-Assad"
+ RULE_OPTION_SYR_NEW_ASSAD_DESC: "Hafez al-Assad será sucedido por seu irmão Rifaat al-Assad após a Primavera de Damasco. Rifaat se concentrará em uma política pró-saudita com foco na diplomacia e economia."
+ RULE_OPTION_SYR_DAMASCUS_SPRING: "Primavera de Damasco"
+ RULE_OPTION_SYR_DAMASCUS_SPRING_DESC: "A Síria será ultrapassada pelo movimento da Primavera de Damasco e transformada em uma democracia."
+
+ #Bahrein
+ BHR_AI_BEHAVIOR: "@BHR Bahrein"
+ RULE_OPTION_DAY_OF_RAGE: "Dia da Fúria"
+ RULE_OPTION_DAY_OF_RAGE_AI_DESC: "O povo do Bahrein, no espírito dos protestos antigovernamentais dos anos 90, pressionará por uma maior liberalização política, culminando no estabelecimento de um estado xiita totalmente democrático. Esta nova república xiita se alinhará com o Irã. "
+
+ #Arábia Saudita
+ SAU_AI_BEHAVIOR: "@SAU Reino da Arábia Saudita"
+ RULE_OPTION_GLOBAL_JIHAD_GCC_FIRST: "Global Jihad - GCC First"
+ RULE_OPTION_GLOBAL_JIHAD_GCC_FIRST_AI_DESC: "A Arábia Saudita tentará reformar sua economia e unificar o GCC como um superestado. Então, a monarquia saudita será derrubada por um levante da Al-Qaeda, levando ao estabelecimento de um estado islâmico radical que busca espalhar sua ideologia fundamentalista por meios violentos".
+ RULE_OPTION_GLOBAL_JIHAD: "Jihad Global"
+ RULE_OPTION_GLOBAL_JIHAD_AI_DESC: "A monarquia saudita será derrubada por um levante da Al-Qaeda, levando ao estabelecimento de um estado islâmico radical que busca espalhar sua ideologia fundamentalista por meios violentos."
+ RULE_OPTION_ISLAMIC_AWAKENING: "Despertar Islâmico"
+ RULE_OPTION_ISLAMIC_AWAKENING_AI_DESC: "O Sahwa, ou Movimento do Despertar, influenciado pela Irmandade Muçulmana, pressionará com sucesso a monarquia saudita a dar lugar a uma democracia islâmica pluralista."
+ RULE_OPTION_RETURN_OF_THE_BAATH: "Retorno do Baath"
+ RULE_OPTION_RETURN_OF_THE_BAATH_AI_DESC: "A Arábia Saudita se liberalizará gradualmente, proporcionando uma oportunidade para a ideologia única do partido Baath de nacionalismo árabe socialista ganhar uma posição no país. A Arábia Baathista procurará então expulsar tropas estrangeiras do Oriente Médio, bem como expandir sua própria território."
+ RULE_OPTION_SHIA_REVIVAL: "Renascimento Shia"
+ RULE_OPTION_SHIA_REVIVAL_AI_DESC: "Os xiitas da Arábia Saudita aproveitarão a oportunidade apresentada pela liberalização política para assumir o controle da Arábia Saudita, alinhando o país com o Irã e a Rússia."
+
+ #REINO UNIDO
+ BRI_AI_BEHAVIOR: "@ENG Reino Unido"
+ RULE_OPTION_EUROPEAN_FUTURE: "Um futuro europeu"
+ RULE_OPTION_EUROPEAN_FUTURE_AI_DESC: "O Reino Unido não é mais o que já foi. A Grã-Bretanha não pode mais reivindicar ser uma superpotência global. Mas isso não significa que o povo britânico não deva mais desempenhar um papel no cenário mundial, com o projeto europeu fornecendo esperança para a preservação do lugar da Grã-Bretanha no mundo como parte de uma comunidade mais ampla de nações comprometidas com um conjunto compartilhado de ideais."
+ RULE_OPTION_RED_REPUBLIC: "A República Vermelha"
+ RULE_OPTION_RED_REPUBLIC_AI_DESC: "Durante toda a sua história, a Grã-Bretanha foi subjugada por monarcas, aristocratas e nobres. O sistema de classes britânico é um dos mais infames do mundo, com os trabalhadores pobres da Grã-Bretanha sofrendo enquanto os ricos ficam mais ricos. Uma revolução aconteceu há muito tempo em construção."
+ RULE_OPTION_RULE_BRITANNIA: "Regra Britannia"
+ RULE_OPTION_RULE_BRITANNIA_AI_DESC: "Antigamente, esta ilha cetroda era conhecida e temida em todo o mundo. O monarca britânico presidia o império sobre o qual o sol nunca se punha. Agora, porém, a posição internacional da Grã-Bretanha caiu em declínio. Um mero lacaio dos Estados Unidos, um sombra de seu antigo eu. Chegou a hora de o Império Britânico ser restaurado."
+
+ #Grécia
+ GRE_AI_BEHAVIOR: "@GRE Grécia"
+ RULE_HELLENIC_REPUBLIC: "Histórico"
+ RULE_HELLENIC_REPUBLIC_DESC: "A Grécia manterá a Democracia e tentará resolver a crise da dívida grega por meio de medidas de austeridade."
+ RULE_OPTION_KKE: "KKE"
+ RULE_OPTION_KKE_DESC: "Após o descontentamento com o governo crescer devido aos problemas causados pela crise da dívida, o povo fortalecerá o Partido Comunista da Grécia e tentará criar um estado comunista."
+ RULE_OPTION_GOLDEN_DAWN: "Amanhecer Dourado"
+ RULE_OPTION_GOLDEN_DAWN_DESC: "Após o descontentamento com o governo crescer devido aos problemas causados pela crise da dívida, o povo fortalecerá o partido Nacionalista Aurora Dourada e tentará criar um poderoso estado grego."
+
+ #Canadá
+ CAN_AI_BEHAVIOR: "@CAN Canadá"
+ RULE_NORTH_AMERICAN_STATUS_QUO: "Status Quo da América do Norte"
+ RULE_NORTH_AMERICAN_STATUS_QUO_DESC: "O Status Quo da América do Norte garantirá que o Canadá permaneça na OTAN e permaneça relativamente no lugar com a OTAN e os EUA."
+ RULE_NATIONALIST_CANADA: "Canadá Nacionalista"
+ RULE_NATIONALIST_CANADA_DESC: "O Canadá se tornará nacionalista e tentará dominar a América do Norte."
+ RULE_STAND_ALONE_CANADA: "Independente"
+ RULE_STAND_ALONE_CANADA_DESC: "Neutralidade armada é neutralidade."
+
+ #Botsuana
+ BOT_AI_BEHAVIOR: "@BOT_Botswana"
+ RULE_BOT_BDP_RULES: "BDP Fortaleza - Histórico"
+ RULE_BOT_BDP_RULES_DESC: "O BDP continuará se apegando a Botswana, mantendo-se não alinhado e fiel aos valores conservadores."
+ RULE_BOT_POLITICAL_RAINBOW: "Arco-íris político"
+ RULE_BOT_POLITICAL_RAINBOW_DESC: "As forças da oposição em Botswana tentarão quebrar o domínio do BDP em Botswana e criar uma democracia mais multipartidária."
+ RULE_BOT_KGOSIKGOLO: "O Príncipe"
+ RULE_BOT_KGOSIKGOLO_DESC: "Não há necessidade de se preocupar com a economia do país. Não há necessidade de se preocupar com a economia do país.
+
+ #Coréia do Norte
+ NKO_AI_BEHAVIOR: "@NKO Korea DPR"
+ RULE_NKO_NAM_RULES: "Kim Jong-nam"
+ RULE_NKO_NAM_RULES_DESC: "Kim Jong-nam controlará o poder e mudará a Coreia no caminho da \"Reforma e abertura\" para sempre."
+ RULE_NKO_UN_RULES: "Kim Jong Un"
+ RULE_NKO_UN_RULES_DESC: "Como sucessor escolhido por Kim Jong-il, Kim Jong-un continuará no caminho do Juche, antiamericanismo, autoconfiança e governo opressor."
+ RULE_NKO_JUNTA_RULES: "Golpe da Diretoria"
+ RULE_NKO_JUNTA_RULES_DESC: "O golpe de Junta para preservar a pureza do Juche, eles sempre abraçarão o Juche e manterão o poder em si para sempre."
+ RULE_NKO_Yo_jong: "Kim Yo-jong"
+ RULE_NKO_Yo_jong_ALLOWED_DESC: "Kim Yo-jong liderará a península da Coreia em um caminho brilhante."
+ RULE_NKO_Yo_jong_BLOCKED_DESC: "Não permita que Kim Yo-jong assuma o poder."
+
+ # Singapura
+ SIN_AI_BEHAVIOR: "@SIN Singapura"
+ SIN_GLOBAL_DIPLOMACY: "Diplomacia Global"
+ SIN_GLOBAL_DIPLOMACY_DESC: "O objetivo de Cingapura no mundo é estabelecer uma nova ordem de Diplomacia Global."
+ SIN_SINGAPORE_ALONE: "Singapura sozinho"
+ SIN_SINGAPORE_ALONE_DESC: "Histórico - Este é o caminho histórico de Cingapura.\n\nCingapura é melhor sozinha."
+ SIN_PRESSURE_SOUTH_ASIAN_SEAS: "Pressione os mares do sul da Ásia"
+ SIN_PRESSURE_SOUTH_ASIAN_SEAS_DESC: "Uma nova onda de força de Cingapura está abrindo caminho."
+
+ #Suíça
+ SWI_AI_BEHAVIOR: "@SWI Suíça"
+ SWI_MOUNTAIN_FORTRESS: "Fortaleza da Montanha"
+ SWI_MOUNTAIN_FORTRESS_DESC: "A Suíça transformará seu país em uma fortaleza."
+ SWI_NATO: "O caminho para a OTAN"
+ SWI_NATO_DESC: "A Suíça se aproximará da OTAN"
+ SWI_SWISS_PROTECTION_LEAGUE: "Liga de Proteção Suíça"
+ SWI_SWISS_PROTECTION_LEAGUE_DESC: "A Suíça trabalhará para uma nova facção com a Áustria e o Liechtenstein"
+
+ #Ucrânia
+ UKR_AI_BEHAVIOR: "@UKR Ucrânia"
+ UKR_PRO_RUSSIAN: "Governo Pró-Rússia"
+ UKR_PRO_RUSSIAN_DESC: "Kyiv seguirá um caminho pró-Rússia em toda a sua árvore."
+ UKR_SLAVA_UKRAINE: "Slava Ukraini"
+ UKR_SLAVA_UKRAINE_DESC: "Kyiv seguirá um caminho pró-ucraniano em toda a sua árvore."
+ UKR_NATIONAL_FRONT: "Frente Nacional"
+ UKR_NATIONAL_FRONT_DESC: "Kyiv seguirá um caminho nacionalista em toda a sua árvore."
+
+ #Espanha
+ SPR_AI_BEHAVIOR: "@SPR Espanha"
+ SPR_CONSERVATIVE_LEANINGS: "Inclinações conservadoras"
+ SPR_CONSERVATIVE_LEANINGS_DESC: "A Espanha se inclinará fortemente para o Partido Popular e outros partidos conservadores."
+ SPR_RENACIMIENTO_NACIONALISTA: "Renascença Nacionalista"
+ SPR_RENACIMIENTO_NACIONALISTA_DESC: "A Espanha se inclinará fortemente para partidos como Vox e Spain
+ SPR_NACION_UNIDAD_IMPERIO: "Nação da Unidade do Império"
+ SPR_NACION_UNIDAD_IMPERIO_DESC: "A Espanha se inclinará fortemente para La Falange."
+ SPR_SOCIALISM_RISING: "A ascensão do socialismo"
+ SPR_SOCIALISM_RISING_DESC: "O PSOE e os partidos social-democratas terão mais chances de serem eleitos e empurrados para o partido no poder."
+ SPR_COMMUNIST_REVISIONISM: "Revisionismo Comunista"
+ SPR_COMMUNIST_REVISIONISM_DESC: "A Espanha tentará empurrar para os partidos comunistas."
+ SPR_THE_OLD_WAYS: "Os velhos tempos"
+ SPR_THE_OLD_WAYS_DESC: "A Espanha tentará reviver o Império Espanhol."
+#Irã
+ PER_AI_BEHAVIOR: "@PER Irã"
+ PER_REVOLUTIONARY_PERSIA: "O retorno de Pahlavi"
+ PER_REVOLUTIONARY_PERSIA_DESC: "Pahlavi II retornará ao Irã e estabelecerá um estado secular."
+ PER_PAN_PERSIA: "A Federação Iraniana"
+ PER_PAN_PERSIA_DESC: "O pan-iranista deixará o poder no Irã e se esforçará para criar uma Federação iraniana!"
+ PER_FIRE_HAS_NO_FRIENDS_IRAN: "O MEK"
+ PER_FIRE_HAS_NO_FRIENDS_IRAN_DESC: "O MEK cessará o poder no Irã em uma tentativa de criar uma república popular."
+ #Geórgia
+ GEO_AI_BEHAVIOR: "@GEO General Georgian Behavior"
+ GEO_NATIONALIST_behavior: "@GEO comportamento do nacionalista"
+ GEO_help_CHE_behavior: "@GEO Ajuda para chechenos"
+ GEO_2008_war_behavior: "@GEO Comportamento na guerra de 2008"
+ GEO_2013_behavior: "@GEO Comportamento em 2013"
+
+ GEO_SAAKASHVILI: "Pró-ocidental (Mikheil Saakashvili)"
+ GEO_SAAKASHVILI_DESC: "Eduard Shevardnadze será reeleito, mas a Revolução Rosa acontecerá e Mikheil Saakashvili estará no poder."
+ GEO_PRO_WEST_SHEVA: "Pró-ocidental (Eduard Shevardnadze)"
+ GEO_PRO_WEST_SHEVA_DESC: "Eduard Shevardnadze será reeleito e seguirá o caminho pró-ocidental sem a Revolução das Rosas."
+ GEO_PRO_RUS: "Comportamento pró-russo"
+ GEO_PRO_RUS_DESC: "Eduard Shevardnadze seguirá o caminho pró-russo."
+ GEO_NATIONALIST: "Comportamento Nacionalista"
+ GEO_NATIONALIST_DESC: "A Geórgia seguirá o caminho nacionalista. Eles não vão dar a mínima para o Ocidente e o Oriente. Eles proclamarão a Grande Geórgia no final."
+ GEO_COMMUNISM: "Comportamento Comunista"
+ GEO_COMMUNISM_DESC: "A Geórgia seguirá o caminho comunista. Eles restaurarão a República Soviética e depende do Comportamento Comunista nas regras do jogo, eles aceitarão ZSFSR ou seguirão seu próprio caminho."
+
+ GEO_WILL_FOLLOW_OWN_WAY: "Próprio Caminho"
+ GEO_WILL_FOLLOW_OWN_WAY_DESC: "A Geórgia nacionalista seguirá seu próprio caminho e esmagará a Armênia e o Azerbaijão"
+ GEO_WILL_BE_PRO_ARMENIA: "Pró-armênio"
+ GEO_WILL_BE_PRO_ARMENIA_DESC: "A Geórgia nacionalista ajudará a Armênia a esmagar o Azerbaijão"
+ GEO_WILL_BE_PRO_AZERI: "Pró-Azerbaijão"
+ GEO_WILL_BE_PRO_AZERI_DESC: "A Geórgia nacionalista ajudará o Azerbaijão a esmagar a Armênia"
+
+ GEO_WILL_HELP: "Ajude @CHE chechenos"
+ GEO_WILL_HELP_DESC: "A Geórgia ajudará os chechenos na guerra com a Rússia. Eles podem ajudar a Geórgia no futuro."
+ GEO_WONT_HELP: "Não ajude @CHE chechenos"
+ GEO_WONT_HELP_DESC: "A Geórgia não ajudará os chechenos na guerra com a Rússia. Eles serão hostis à Geórgia."
+
+ GEO_ATTACK_RUS: "Preparando-se para a Guerra"
+ GEO_ATTACK_RUS_DESC: "A Geórgia estará preparada para a guerra de 2008 e tentará vencer a guerra."
+ GEO_WEAKBOY: "Compromisso com a Rússia"
+ GEO_WEAKBOY_DESC: "A Geórgia buscará um compromisso com a Rússia para evitar ações de batalha."
+
+ GEO_GEORGIAN_DREAMS: "Pró-ocidental (sonhos georgianos)"
+ GEO_GEORGIAN_DREAMS_DESC: "Em 2013, a Geórgia seguirá o Caminho Ocidental e o partido no poder será o Georgian Dreams. Cooperação com o Ocidente e o pragmatismo russo."
+ GEO_UNITED_NATIONAL_MOVEMENT: "Retórica pró-ocidental e anti-russa (Movimento Nacional Unido)"
+ GEO_UNITED_NATIONAL_MOVEMENT_DESC: "Em 2013, a Geórgia seguirá o Caminho Ocidental e o partido no poder será o Movimento Nacional Unido. No final, Mikheil Saakashvili será o presidente e a Geórgia seguirá a dura retórica anti-russa."
+ GEO_NATIONALIST_2013: "Nacionalismo (Emzar Kvitsiani)"
+ GEO_NATIONALIST_2013_DESC: "Em 2013, a Geórgia seguirá o Caminho Nacionalista. Aprofundar a cooperação com o Oriente. Retórica anti-LGBTQ."
+ GEO_UNITED_GEORGIA: "Perspectiva emergente (Geórgia unida)"
+ GEO_UNITED_GEORGIA_DESC: "Em 2013, a Geórgia seguirá o caminho dos emergentes. Aprofundar a cooperação com o Oriente. Política multivetorial."
+
+ #Belarus
+ BLR_ai_behavior: "@BLR General Belarusian Behavior"
+ BLR_post_luka_ai_behavior: "@BLR Comportamento Pós-Lukashenko"
+ BLR_union_state_ai_behavior: "@BLR Union State Behavior"
+
+ BLR_DEFAULT: "Alexander Lukashenko"
+ BLR_DEFAULT_DESC: "Caminho padrão. Lukashenko suprimirá a oposição, seguirá a Rússia e os ajudará, e também cooperará com o Oriente."
+ BLR_NATIONALIST: "Caminho Nacionalista"
+ BLR_NATIONALIST_DESC: "Belarus seguirá o caminho nacionalista, reduzirá a influência russa, reivindicará alguns territórios na Europa e acabará com o urso russo."
+ BLR_COMMUNISM: "Caminho Comunista"
+ BLR_COMMUNISM_DESC: "A Bielo-Rússia construirá o comunismo na Europa Oriental e, no final, a Bielorrússia se tornará a SSR do Leste Europeu"
+
+ BLR_POST_LUKA_DEFAULT: "Lukashenko vai ficar"
+ BLR_POST_LUKA_DEFAULT_DESC: "Lukashenko não terá piedade dos protestos e ajudará a Rússia na Operação Militar Especial (guerra com a Ucrânia)."
+ BLR_WESTERN_LUKA_LOL: "Lukashenko Ocidental"
+ BLR_WESTERN_LUKA_LOL_DESC: "Lukashenko mudará a retórica e depois dos protestos seguirá o caminho pró-ocidente. LOL."
+ BLR_MOMMY: "Svetlana Tikhanovskaya"
+ BLR_MOMMY_DESC: "Svetlana Tikhanovskaya estará no poder após os protestos e seguirá o caminho pró-ocidente."
+
+ BLR_WONT_FOLLOW_UNION_STATE: "Não siga Union State"
+ BLR_WONT_FOLLOW_UNION_STATE_DESC: "A Bielorrússia não formará o Estado da União e não se tornará uma marionete russa."
+ BLR_WILL_FOLLOW_UNION_STATE: "Estado da União do Formulário"
+ BLR_WILL_FOLLOW_UNION_STATE_DESC: "A Bielo-Rússia tentará formar o Estado da União. A princípio, eles se tornarão uma marionete russa, mas depois..."
+
+ # Bósnia
+ BOSNIAN_AI_BEHAVIOR: "@BOS Bósnia e Herzegovina"
+ RULE_OPTION_PRO_BOSNIAN_LEADERSHIP_PEACEFUL: "Bosniak lidera o caminho"
+ RULE_OPTION_PRO_BOSNIAN_LEADERSHIP_PEACEFUL_AI_DESC: "Os bósnios dominarão as eleições que levarão a um governo pró-bósnio. Isso iniciará a cooperação com as outras facções. com o objetivo de uma nação de paz. A Bósnia também iniciará a colaboração com as potências da OTAN "
+ RULE_OPTION_PRO_BOSNIAN_LEADERSHIP_COMMIE: "Fronteira dos Trabalhadores"
+ RULE_OPTION_PRO_BOSNIAN_LEADERSHIP_COMMIE_AI_DESC: "A Bósnia seguirá o caminho dos sindicatos e trabalhadores para derrubar o governo e instalar um governo comunista para o povo"
+ RULE_OPTION_PRO_BOSNIAN_LEADERSHIP_MUSLIM_NATION: "Revanchismo bósnio"
+ RULE_OPTION_PRO_BOSNIAN_LEADERSHIP_MUSLIM_NATION_AI_DESC: "Bonsia tentará seguir o verdadeiro caminho do Islã e restaurar a grandeza que já teve"
+ RULE_OPTION_PRO_LEADERSHIP_TO_SRPSKA: "Cooperação Sérvia"
+ RULE_OPTION_PRO_LEADERSHIP_TO_SRPSKA_AI_DESC: "Um governo pró Srpska será colocado no poder com foco no povo da Bósnia e facções rivais com grande quantidade de cooperação. A Bósnia começará a se inclinar para o guardião russo @SOV."
+ RULE_OPTION_PRO_LEADERSHIP_TO_SRPSKA_SRPSKA_FIRST: "Srpska primeiro"
+ RULE_OPTION_PRO_LEADERSHIP_TO_SRPSKA_SRPSKA_FIRST_AI_DESC: "Srpska tentará assumir o controle total da Bósnia em um esforço para se reunir com @SER Iugoslávia"
+ 
+ # BANDEIRAS E FORMÁVEIS
+ RULE_DISABLE_FORMABLE_NATIONS: "Desabilitar nações formáveis"
+ RULE_YES_FORMABLE_NATIONS_DESC: "Desativa as decisões das Nações Formáveis."
+ RULE_NO_FORMABLE_NATIONS_DESC: "Nações formáveis serão ativadas."
+
+ RULE_ALLOW_MULTIPLE_FORMABLES: "Permitir múltiplos do mesmo formable"
+ RULE_ALLOW_MULTIPLE_FORMABLES_BLOCKED_DESC: "Só permite que um formável específico seja formado por uma nação."
+ RULE_ALLOW_MULTIPLE_FORMABLES_ALLOWED_DESC: "Permite que o mesmo formável seja formado por qualquer nação que atenda aos critérios necessários (isso pode resultar em Uniões Árabes rivais, por exemplo). não é garantido."
+
+ RULE_ALLOW_EDGY_FLAGS: "Permitir bandeiras nervosos"
+ RULE_ALLOW_EDGY_FLAGS_BLOCKED_DESC: "Evita que algumas das opções de sinalizadores mais controversas apareçam."
+ RULE_ALLOW_EDGY_FLAGS_ALLOWED_DESC: "Permite opções de sinalizadores mais controversas que normalmente seriam censuradas."
+
+ # OPÇÕES DE ORGANIZAÇÃO
+ RULE_DISABLE_EU: "Desativar a UE"
+ RULE_YES_DISABLE_EU_DESC: "Todos os países serão removidos da União Europeia."
+ RULE_NO_DISABLE_EU_DESC: "A União Europeia existirá como está."
+
+ RULE_DISABLE_NATO: "Desabilitar a OTAN"
+ RULE_YES_DISABLE_NATO_DESC: "NATO será desabilitado ao carregar no jogo."
+ RULE_NO_DISABLE_NATO_DESC: "A OTAN continuará sendo uma facção."
+
+ # OPÇÕES DE INFLUÊNCIA
+ RULE_SPREAD_INFLUENCE_AMOUNT_GAIN: "Ganho de quantidade de influência de propagação"
+ RULE_SPREAD_INFLUENCE_AMOUNT_GAIN_DESC: "Alterar a influência obtida ao espalhar influência."
+ RULE_SPREAD_INFLUENCE_DEFAULT_GAIN_3: "3%"
+ RULE_SPREAD_INFLUENCE_DEFAULT_GAIN_3_DESC: "3% de influência ganha por ação de espalhar. Para se você quiser aumentar o ganho de influência."
+ RULE_SPREAD_INFLUENCE_GAIN_0_5: "0,5%"
+ RULE_SPREAD_INFLUENCE_GAIN_0_5_DESC: "0,5% de influência adquirida por ação de propagação. Para se você realmente deseja retardar o ganho de influência."
+ RULE_SPREAD_INFLUENCE_GAIN_2: "2%"
+ RULE_SPREAD_INFLUENCE_GAIN_2_DESC: "A influência padrão obtida por ação de espalhar influência."
+ RULE_SPREAD_INFLUENCE_GAIN_4: "4%"
+ RULE_SPREAD_INFLUENCE_GAIN_4_DESC: "4% de influência adquirida por ação de propagação. Para se você realmente deseja aumentar o ganho de influência."
+
+ RULE_SPREAD_INFLUENCE_AMOUNT_COOLDOWN: "Recarga de Influência Espalhada"
+ RULE_SPREAD_INFLUENCE_30_COOLDOWN: "30 dias"
+ RULE_SPREAD_INFLUENCE_30_COOLDOWN_DESC: "O tempo de espera padrão. Uma vez a cada 30 dias, você pode espalhar sua influência para outra nação."
+ RULE_SPREAD_INFLUENCE_14_COOLDOWN: "14 dias"
+ RULE_SPREAD_INFLUENCE_14_COOLDOWN_DESC: "Uma vez a cada 14 dias, você pode espalhar sua influência para outra nação."
+ RULE_SPREAD_INFLUENCE_0_COOLDOWN: "Sem Cooldown"
+ RULE_SPREAD_INFLUENCE_0_COOLDOWN_DESC: "Sem cooldown para espalhar influência, para quando você quiser despejar todo o seu §HPolítico§! para influenciar outras nações!"
+ RULE_SPREAD_INFLUENCE_60_COOLDOWN: "60 dias"
+ RULE_SPREAD_INFLUENCE_60_COOLDOWN_DESC: "Uma vez a cada 60 dias, você pode espalhar sua influência para outra nação."
+
+ RULE_INVEST_INFLUENCE_AMOUNT_GAIN: "Ganho de influência de investimento"
+ RULE_INVEST_DEFAULT_GAIN_1: "1%"
+ RULE_INVEST_DEFAULT_GAIN_1_DESC: "A opção padrão. 1% de influência ganha sempre que alguém aceita seus investimentos."
+ RULE_INVEST_DEFAULT_GAIN_0_5: "0,5%"
+ RULE_INVEST_DEFAULT_GAIN_0_5_DESC: "0,5% de influência ganha sempre que alguém aceita seus investimentos."
+ RULE_INVEST_DEFAULT_GAIN_2: "2%"
+ RULE_INVEST_DEFAULT_GAIN_2_DESC: "2% de influência ganha sempre que alguém aceita seus investimentos."
+
+ RULE_INFLUENCE_COOLDOWN: "Resfriamento do ganho de influência de investimento"
+ RULE_14_DAY_INFLUENCE: "Resfriamento de 14 dias"
+ RULE_14_DAY_INFLUENCE_DESC: "A opção padrão. O tempo de espera para influência adquirida com o investimento é de 14 dias ou 2 semanas. Isso se aplica à nação para todas as oportunidades de investimento possíveis. Embora você ainda possa investir, não ganhará nenhuma influência neste período."
+ RULE_0_DAY_INFLUENCE: "Sem Cooldown"
+ RULE_0_DAY_INFLUENCE_DESC: "Influência de MD da velha escola adquirida com limite de tempo de investimento. Você pode investir quantas vezes quiser enquanto ainda ganha influência, não recomendado para quem gosta de equilíbrio!"
+ RULE_30_DAY_INFLUENCE: "30 dias de espera"
+ RULE_30_DAY_INFLUENCE_DESC: "A opção multijogador sugerida. O tempo de recarga da influência adquirida com o investimento é de 30 dias ou aproximadamente 1 mês. Isso se aplica à nação para todas as oportunidades de investimento possíveis. Embora você ainda possa investir, não ganhará nenhuma influência neste período. "
+
+ # OTIMIZAÇÃO E DESEMPENHO
+ RULE_ENABLE_DIVISION_LIMITER: "Ativar limitador de divisão AI"
+ RULE_NO_ENABLE_DIVISION_LIMITER_DESC: "Disabled AI Division Limiter\n\nPor padrão, o AI não será limitado no número de unidades que pode produzir. Se você deseja limitar as divisões por motivos de desempenho, por favor, habilite-me!"
+ RULE_YES_ENABLE_DIVISION_LIMITER_DESC: "Limitador de divisão de IA habilitado\n\nQuando eu estiver habilitado, a IA terá menos probabilidade de produzir unidades, permitindo uma experiência mais simplificada para permitir que o jogador jogue com relativa paz!"
+ RULE_OPTION_POTATO_EDITION: "Edição Batata"
+ RULE_POTATO_EDITION_DIVISION_LIMITER_DESC: "Ativado Potato Edition AI Division Limiter\n\nLimite ainda mais a AI por motivos de desempenho.\n"
+
+ RULE_REMOVE_MICRO_STATES: "Remover microestados"
+ RULE_YES_RULE_REMOVE_MICRO_STATES_DESC: "A remoção de microestados deve ajudar no desempenho de máquinas de ponta.\nA maioria das nações caribenhas está anexada ao Reino Unido, Bahamas aos EUA, Trinidad à Venezeula e todos os outros microestados da Europa ao seu benfeitor mais próximo."
+ RULE_NO_RULE_REMOVE_MICRO_STATES_DESC: "A remoção de microestados deve ajudar no desempenho de máquinas de ponta.\n"
+
+ RULE_DISABLE_ALERT_AI: "Desativar alerta AI"
+ RULE_DISABLE_ALERT_AI_DESC: "Todas as potências nucleares, como Estados Unidos, Coreia do Norte, China e Rússia, colocarão as forças nucleares em alerta para combater armas nucleares se um jogador as detonar. Habilitar isso causará alguma desaceleração no desempenho, mas resultará em uma IA mais dinâmica."
+ RULE_DISABLE_ALERT_YES_AI_DESC: "Você pode destruir a IA e ela não fará nada de volta. É apenas para economizar desempenho para PCs de baixo custo"
+
+ # REGRAS NUCLEAR
+ FSTK_ALLOWED: "Primeiro ataque nuclear permitido"
+ RULE_YES_FSTK_ALLOWED_DESC: "O jogador pode escolher a doutrina nuclear §Y$nuclear_doctrine_6_loc_key$§!"
+ RULE_NO_FSTK_ALLOWED_DESC: "O jogador não pode escolher a doutrina nuclear §Y$nuclear_doctrine_6_loc_key$§!"
+
+ AI_FIRST_USE: "Primeiro uso de armas nucleares por IA"
+ RULE_YES_AI_FIRST_USE_DESC: "A IA pode usar §YArmas Nucleares§! primeiro."
+ RULE_NO_AI_FIRST_USE_DESC: "A IA não pode escolher uma doutrina nuclear que permita o primeiro uso de §YArmas Nucleares§!"
+
+ # REGRAS MD DIVERSAS
+ RULE_ALLOW_ENABLE_LEDGER: "Habilitar MD Ledger"
+ RULE_ALLOW_ENABLE_LEDGER_YES_DESC: "MD's Ledger está habilitado. (Algumas informações do La Resistance intel ledger podem ser redundantes. Desative esse recurso se quiser um jogo mais difícil.)"
+ RULE_ALLOW_ENABLE_LEDGER_NO_DESC: "Desativa o registro MD. Isso é melhor para usuários que preferem uma experiência mais autêntica e desejam utilizar La Resistance para obter informações críticas."
+ RULE_HISTORIC_NINE_ELEVEN: "Gatilho histórico do 11 de setembro"
+ RULE_HISTORIC_NINE_ELEVEN_NO: "O 11 de setembro não será acionado aleatoriamente. Em vez disso, será acionado em algum momento de 2001 ou depois."
+ RULE_HISTORIC_NINE_ELEVEN_YES: "O 11 de setembro será desencadeado em setembro de 2001."
+
+ # DECISÕES DE TRAPAÇA
+ RULE_ALLOW_CHEAT_DECISIONS: "Permitir decisões de trapaça"
+ RULE_YES_ALLOW_CHEAT_DECISIONS_DESC: "Decisões de fraude habilitadas"
+ RULE_NO_ALLOW_CHEAT_DECISIONS_DESC: "Decisões de trapaça desabilitadas"
+
+ RULE_ALLOW_TOGGLING_CHEAT_DECISIONS: "§Y(Multiplayer)§! Permitir alternância de decisões de trapaça globalmente"
+ RULE_YES_ALLOW_TOGGLING_CHEAT_DECISIONS_DESC: "§Y(Opcional)§!\n\nAlternância de Decisões de Trapaça Global Ativada\n§YNOTE:§! Qualquer nação no mundo pode alternar as Decisões de Trapaça, e os efeitos são §Yglobal§!. Um Evento aparecerá informando qual nação a alterna.\n§YVocê deve certificar-se de que tem permissão para usar a decisão em um jogo multijogador!§!\n\n§SINOTE:§!Você também precisa ativar a opção \"Permitir decisões de trapaça\" regra do jogo se você quiser usar cheats!"
+ RULE_NO_ALLOW_TOGGLING_CHEAT_DECISIONS_DESC: "§Y(Opcional)§!\n\nAlternância de Decisões de Trapaça Global Desativada\n§YNOTE:§! Qualquer nação no mundo pode alternar as Decisões de Trapaça, e os efeitos são §Yglobal§!. Um Evento aparecerá- informando qual nação a alterna.\n§YVocê deve certificar-se de que tem permissão para usar a decisão em um jogo multijogador!§!\n\n§SINOTE:§!Você também precisa ativar a opção \"Permitir decisões de trapaça\" regra do jogo se você quiser usar cheats!"
+
+ RULE_DISABLE_ANTI_BULLY: "Desativar o cansaço público da guerra"
+ RULE_YES_ANTI_BULLY_DESC: "Desativa o sistema de Cansaço da Guerra Pública, permitindo que você seja um belicista sem penalidades."
+ RULE_NO_ANTI_BULLY_DESC: "O sistema Public War Weiness será ativado."
+
+ # ALEATÓRIOS
+ RULE_RANDOM_IDEOLOGIES: "Aleatório Outlooks"
+ RULE_RANDOM_IDEOLOGIES_NO_DESC: "Todas as nações mantêm sua perspectiva histórica."
+ RULE_RANDOM_IDEOLOGIES_YES_DESC: "Todas as nações agora têm uma perspectiva aleatória."
+
+ RULE_RANDOM_RELIGION: "Religiões aleatórias"
+ RULE_RANDOM_RELIGION_NO_DESC: "Todas as nações mantêm suas religiões históricas."
+ RULE_RANDOM_RELIGION_YES_DESC: "TODAS as nações têm suas religiões aleatórias."
+
+ RULE_RANDOM_INTERNAL_FACTIONS: "Randomizar facções internas"
+ RULE_RANDOM_INTERNAL_FACTIONS_NO_DESC: "Todas as nações mantêm suas facções internas históricas."
+ RULE_RANDOM_INTERNAL_FACTIONS_YES_DESC: "Todas as nações têm facções internas aleatórias."
+
+ # POLÍTICA ESTRANGEIRA
+ RULE_ALLOW_RECALL_INTERVENTION_FORCES: "Permitir a chamada de forças de intervenção"
+ RULE_YES_ALLOW_INTERVENTION_FORCES: "§YNOTE: Isso não é equilibrado e é apenas uma medida temporária para fazer o que você quiser. Quaisquer problemas com voluntários e outros não são da nossa conta.§! Permite que você chame as Forças de Intervenção dos países.\n"
+ RULE_NO_ALLOW_INTERVENTION_FORCES: "§YDefault§!. Não permite que você chame forças de intervenção de conflitos estrangeiros."
+
+ RULE_OPTION_MD_DEFAULT: "Comportamento padrão da IA"
+ RULE_OPTION_MD_DEFAULT_AI_DESC: "A IA escolherá os focos aleatoriamente com uma leve ênfase nas escolhas históricas. O estado do mundo e o status do país afetarão ligeiramente as escolhas."
+ AI_CHAOS: "Comportamento caótico da IA"
+ AI_CHAOS_DESC: "A IA sempre escolherá um foco completamente aleatório de todos os focos disponíveis no momento. Todos os focos são iguais, confusão máxima garantida."
+ RULE_OPTION_RANDOM: "Comportamento aleatório da IA"
+ RULE_OPTION_RANDOM_DESC: "Um caminho não caótico será escolhido aleatoriamente para a IA seguir."
+
+ # Específico
+ RULE_ALLOW_RELEASE_NATIONS_CHINA_TIB_TOOLTIP: "§Y[ROOT.GetNameDefCap]§! não pode liberar este país a menos que primeiro complete o foco §Y$CHI_A_Tibetan_SAR$§!."
+ RULE_ALLOW_RELEASE_NATIONS_CHINA_ETK_TOOLTIP: "§Y[ROOT.GetNameDefCap]§! não pode liberar este país a menos que primeiro complete o foco §Y$CHI_devolve_power_to_the_new_frontier$§!"
+
+ # Otimizações MP
+ RULE_ALLOW_MP_OPTIMIZATIONS: "Permitir otimizações multijogador"
+ RULE_YES_ALLOW_MP_OPTIMIZATIONS_DESC: "Os jogadores poderão fundir países nas regiões para melhorar o desempenho."
+ RULE_NO_ALLOW_MP_OPTIMIZATIONS_DESC: "Os jogadores NÃO terão permissão para fundir países nas regiões para melhorar o desempenho."
+ RULE_DISABLE_GENERALS_KILLED: "Desativar generais sendo mortos aleatoriamente em batalhas"
+ RULE_ENABLE_GENERALS_KILLED_DESC: "Os generais terão chance de serem mortos, forçando os jogadores a prestar mais atenção em seus talentos."
+ RULE_DISABLE_GENERALS_KILLED_DESC: "Os generais NÃO terão chance de serem mortos - visando uma melhor experiência de MP."
+ RULE_ALLOW_MP_FREE_FACTORIES: "Permitir acesso a decisões de fábricas gratuitas"
+ RULE_NOT_ALLOW_MP_FREE_FACTORIES_DESC: "Os jogadores não terão acesso a essas decisões."
+ RULE_ALLOW_MP_FREE_FACTORIES_DESC: "Para um melhor balanceamento de MP, os jogadores terão acesso a decisões que lhes permitirão ajustar sua capacidade industrial."

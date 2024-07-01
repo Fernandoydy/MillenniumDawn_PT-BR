@@ -1,0 +1,801 @@
+﻿l_braz_por:
+ POL_polish_armed_forces: "Forças Armadas Polonesas"
+ POL_polish_armed_forces_desc: "As Forças Armadas da República da Polônia (polonês: Siły Zbrojne Rzeczypospolitej Polskiej, abreviado SZ RP; popularmente chamado de Wojsko Polskie na Polônia, abreviado WP—aproximadamente, o \"militar polonês\") são as forças armadas nacionais da República da Polônia. O nome é usado desde o início do século 19, mas também pode ser aplicado a períodos anteriores."
+
+ POL_network_centric_doctrine: "Doutrina Centrada em Rede"
+ POL_network_centric_doctrine_desc: "A guerra centrada em rede, também chamada de operações centradas em rede ou guerra centrada em rede, é uma doutrina militar ou teoria de guerra que busca traduzir uma vantagem de informação."
+
+ POL_decentralized_doctrine: "Doutrina Descentralizada"
+ POL_decentralized_doctrine_desc: "A guerra de quarta geração (4GW) é um conflito caracterizado por uma indefinição das linhas entre guerra e política, combatentes e civis."
+
+ POL_land_forces: "Forças Terrestres"
+ POL_land_forces_desc: "As Forças Terrestres (polonês: Wojska Lądowe) são um ramo militar das Forças Armadas Polonesas. Elas atualmente contêm cerca de 77.000 efetivos ativos e formam muitos componentes da União Européia e das implantações da OTAN em todo o mundo."
+
+ POL_modern_army: "Exército Moderno"
+ POL_modern_army_desc: "A guerra moderna é uma guerra que contrasta notavelmente com os conceitos, métodos e tecnologias militares anteriores, enfatizando como os combatentes devem se modernizar para preservar sua dignidade de batalha"
+
+ POL_establish_territorial_defence_force: "Estabelecer Força de Defesa Territorial"
+ POL_establish_territorial_defence_force_desc: "A força é composta por soldados profissionais e voluntários em tempo parcial, fazendo parte do sistema de defesa e dissuasão do país. Formada em 2016, atingiu 24.000 pessoas em julho de 2019 e está prevista para atingir um tamanho de 53.000 pessoas em 17 brigadas de infantaria leve até 2021."
+
+ POL_armor: "Atualização rígida do PT-91"
+ POL_armor_desc: "O PT-91 Twardy (Hard) é um tanque de batalha principal polonês. O desenvolvimento do T-72M1 entrou em serviço pela primeira vez em 1995.\nNo entanto, ele requer mais algumas atualizações para atender às necessidades modernas em um campo de batalha."
+
+ POL_mbts: "MBT's"
+ POL_mbts_desc: "O tanque de batalha principal (MBT), também conhecido como tanque de batalha ou tanque universal, é um tanque que cumpre o papel de manobra e fogo direto protegido por blindagem de muitos exércitos modernos."
+
+ POL_recon_tanks: "Tanques de reconhecimento"
+ POL_recon_tanks_desc: "Os batedores blindados são mais armados e blindados do que os veículos de reconhecimento comuns. Enquanto a missão de reconhecimento é coletar informações sobre o inimigo com o uso de veículos de reconhecimento, o reconhecimento blindado adiciona a capacidade de lutar por informações e ter um efeito sobre e para moldar o inimigo através do desempenho de tarefas blindadas tradicionais."
+
+ POL_expand_pgz: "Expandir PGZ"
+ POL_expand_pgz_desc: "A Polska Grupa Zbrojeniowa (PGZ SA) é uma holding estabelecida pelo governo polonês para unir as empresas estatais polonesas da indústria de defesa. A sede deste grupo é em Radom."
+
+ POL_motorized_army: "Exército motorizado"
+ POL_motorized_army_desc: "Em um conflito armado moderno, um exército que não é totalmente motorizado tem um valor de combate significativamente enfraquecido."
+
+ POL_ifvs: "BWP Borsuk"
+ POL_ifvs_desc: "Borsuk, um protótipo do veículo de combate de infantaria polonês desenvolvido e desenvolvido como parte do projeto do Novo Veículo de Combate de Infantaria Flutuante, cofinanciado em 2014 pelo Centro Nacional de Pesquisa e Desenvolvimento."
+
+ POL_apcs: "OMS Wolverine"
+ POL_apcs_desc: "O Wheeled Armored Personnel Carrier Wolverine é um veículo militar multifuncional 8 × 8 produzido pela Rosomak S.A. (anteriormente Wojskowe Zakłady Mechaniczne) em Siemianowice Śląskie, uma empresa polonesa do Grupo de Armamentos. O veículo é uma variante licenciada do Veículo Modular Blindado Patria ."
+
+ POL_hq: "Reforma da Sede"
+ POL_hq_desc: "Uma unidade de quartel-general é uma unidade militar especializada formada em torno do quartel-general de um oficial comandante e dos requisitos dessa posição. Como tal, uma unidade de quartel-general é sempre um componente de uma unidade maior."
+
+ POL_network_centric: "Doutrina Centrada em Rede"
+ POL_network_centric_desc: "A guerra centrada em rede, também chamada de operações centradas em rede ou guerra centrada em rede, é uma doutrina militar ou teoria de guerra que busca traduzir uma vantagem de informação, possibilitada em parte pela tecnologia da informação, em uma vantagem competitiva por meio da robusta rede de computadores de forças geograficamente dispersas bem informadas."
+
+ POL_decentralized: "Descentralizado"
+ POL_decentralized_desc: "Guerra de quarta geração (4GW) é um conflito caracterizado por uma indefinição das linhas entre guerra e política, combatentes e civis. O termo foi usado pela primeira vez em 1980 por uma equipe de analistas dos Estados Unidos, incluindo o paleoconservador William S. Lind, para descrever o retorno da guerra a uma forma descentralizada."
+
+ POL_zima_20: "Inverno-20"
+ POL_zima_20_desc: "Zima 20 (Winter 20) é um exercício de equipe para testar o desempenho do equipamento recém-adquirido. O curso dos exercícios era secreto."
+
+ POL_pantera_20: "Pantera 20"
+ POL_pantera_20_desc: "Durante as manobras do Pantera 20 (Panther 20), os petroleiros da 10ª Brigada de Cavalaria Blindada de Lubuskie melhoraram suas habilidades em Leopard 2A4s participando de vários exercícios relacionados, entre outros, a escaramuças com um inimigo real."
+
+ POL_quantity: "FB Beryl"
+ POL_quantity_desc: "O karabinek szturmowy wzór 1996 Beryl (Inglês: rifle de assalto modelo 1996 berílio) é um rifle de assalto polonês de 5,56 mm, projetado e produzido pela Fábrica de Armas Łucznik na cidade de Radom. O rifle deve substituir o 7,62 × 39 mm AKM e 5,45 × 39mm FB Tantal usado nas Forças Armadas polonesas."
+
+ POL_quality: "FB MSBS Grot"
+ POL_quality_desc: "O FB Radom MSBS Grot (polonês: Modular System Broni Strzeleckiej Grot, inglês: Modular Firearm System Arrowhead) é um fuzil de assalto modular desenvolvido e fabricado pela FB Łucznik Radom."
+
+ POL_home_defence: "Defesa da Casa"
+ POL_home_defence_desc: "Somente nossa independência deve nos preocupar, e não temos que nos envolver em conflitos de outros países."
+
+ POL_europe_guardian: "Guardião da Europa"
+ POL_europe_guardian_desc: "A Polónia é um país da linha da frente e sempre foi. Devemos proteger a Europa das agressões."
+
+ POL_worldwide: "Intervenções militares mundiais"
+ POL_worldwide_desc: "A única maneira de garantir a paz é fazê-lo em todo o mundo."
+
+ POL_neo_imperialism: "Neo-imperialismo"
+ POL_neo_imperialism_desc: "A Polónia merece mais. Vamos voltar ao que foi historicamente nosso!"
+
+ POL_support_equipment: "Armas de suporte"
+ POL_support_equipment_desc: "As armas de apoio de infantaria ou de batalhão são armas de artilharia projetadas e utilizadas para aumentar o poder de fogo das unidades de infantaria às quais são intrínsecas, oferecendo uma resposta tática imediata às necessidades do comandante da unidade."
+
+ POL_at_weapons: "Spike"
+ POL_at_weapons_desc: "Spike é um míssil guiado antitanque e míssil antipessoal israelense do tipo atire e esqueça com uma ogiva HEAT de carga em tandem, atualmente em sua quarta geração. Foi desenvolvido e projetado pela empresa israelense Rafael Advanced Defense Systems . Está disponível em variantes portáteis, lançadas por veículos e lançadas por helicópteros."
+
+ POL_aa_weapons: "PZPR Piorun"
+ POL_aa_weapons_desc: "O Piorun (que significa iluminação em polonês) é um sistema de defesa aérea portátil de produção polonesa, projetado para destruir aeronaves voando baixo, aviões, helicópteros e veículos aéreos sem tripulação. O conjunto é uma modernização profunda do PPZR Grom definido. Portanto, a segunda designação do míssil é GROM-M. O nome completo do grupo é Przenośny Przeciwlotniczy Zestaw Rakietowy Piorun."
+
+ POL_sp_artillery: "AHS Krab"
+ POL_sp_artillery_desc: "O AHS Krab (polonês para caranguejo) é um canhão-obus autopropulsado de 155 mm compatível com a OTAN projetado na Polônia por Centrum Produkcji Wojskowej Huta Stalowa Wola, combinando o chassi sul-coreano K9 Thunder com um britânico AS-90M Braveheart torreta com canhão de calibre 52 e sistema de controle de fogo de artilharia \"Topaz\" da WB Electronics."
+
+ POL_special_forces: "Forças Especiais"
+ POL_special_forces_desc: "Forças Especiais (literalmente Tropas Especiais, polonês: Wojska Specjalne) é o quarto ramo militar das Forças Armadas da República da Polônia e foi oficialmente formado no início de 1990 após a queda do comunismo em 1989, no qual as Forças Especiais Polonesas foram implantados pela primeira vez no conflito no Líbano."
+
+ POL_grom: "Jw GROM"
+ POL_grom_desc: "JW GROM (nome completo: Unidade Militar GROM nomeada em homenagem ao Silencioso Invisível do Exército Nacional) é uma das principais unidades de missões especiais da Polônia."
+
+ pol_night_vision: "Visão Noturna"
+ pol_night_vision_desc: "A visão noturna é a capacidade de ver em condições de pouca luz. Seja por meios biológicos ou tecnológicos, a visão noturna é possível pela combinação de duas abordagens: alcance espectral suficiente e alcance de intensidade aceitável."
+
+ POL_paratroopers: "Pára-quedistas"
+ POL_paratroopers_desc: "As forças aerotransportadas são unidades terrestres de combate transportadas por aeronaves e lançadas do ar em zonas de batalha, geralmente por pára-quedas. Soldados de infantaria servindo a uma força aerotransportada são conhecidos como infantaria aerotransportada ou pára-quedistas."
+
+ POL_electronic_warfare: "PIT RADWAR S.A."
+ POL_electronic_warfare_desc: "PIT-RADWAR S.A. - uma sociedade anônima cuja atividade é focada em radiolocalização, sistemas de reconhecimento rádio-eletrônicos, sistemas de defesa antiaérea e sistemas de suporte de comando e controle de fogo. PIT-RADWAR S.A. é o sucessor de várias décadas de experiência do Instituto Industrial de Telecomunicações, CNPEP RADWAR S.A., e PPPE DOLAM S.A. "
+
+ POL_military_exercise: "Manobras militares"
+ POL_military_exercise_desc: "Um exercício militar ou jogo de guerra é o emprego de recursos militares em treinamento para operações militares, explorando os efeitos da guerra ou testando estratégias sem combate real."
+
+ POL_steadfast_jazz: "Jazz Constante"
+ POL_steadfast_jazz_desc: "No outono de [?global.year], a NRF foi posta à prova em uma série de exercícios que culminaram no Steadfast Jazz no início de novembro."
+
+ POL_anaconda_16: "Anaconda 16"
+ POL_anaconda_16_desc: "Anakonda 16 é um exercício liderado pelos poloneses que ocorre nas regiões centrais da Polônia. O treinamento incluirá mais de 25.000 participantes de mais de 20 nações, apoiando medidas de segurança e dissuasão, demonstrando capacidades de defesa aliadas para implantar, aumentar e manter o poder de combate ."
+
+ POL_airforce: "Força Aérea"
+ POL_airforce_desc: "A Força Aérea Polonesa (Siły Powietrzne, literalmente Forças Aéreas) é o ramo militar de guerra aérea das Forças Armadas Polonesas. Até julho de 2004, era oficialmente conhecida como Wojska Lotnicze i Obrony Powietrznej (literalmente: Defesa Aérea e Aérea Forças)."
+
+ POL_battlefield: "Suporte ao campo de batalha"
+ POL_battlefield_desc: "Interdição aérea (IA), também conhecida como apoio aéreo profundo (DAS), é o uso de bombardeio tático preventivo e metralhamento por aeronaves de combate contra alvos inimigos que não são uma ameaça imediata para atrasar, interromper ou impedir o engajamento inimigo posterior de forças amigas."
+
+ POL_operational: "Integridade operacional"
+ POL_operational_desc: "Integridade Operacional é a doutrina da Força Aérea semelhante à da Rede Centrada."
+
+ POL_22_baza: "22ª Base de Aviação"
+ POL_22_baza_desc: "A 22ª Base Aérea (polonês: 22. Baza Lotnicza) é uma base da Força Aérea polonesa a leste de Malbork, Polônia, perto de Królewo Malborskie. Foi oficialmente constituída em 1º de janeiro de 2001, substituindo o extinto 41º Regimento de Aviação de Caça."
+
+ POL_uav: "UAV"
+ POL_uav_desc: "Um veículo aéreo não tripulado (UAV) (ou veículo aéreo não tripulado, comumente conhecido como drone) é uma aeronave sem um piloto humano a bordo. UAVs são componentes de um sistema de aeronave não tripulada (UAS), que inclui um UAV, um controlador terrestre e uma rede de comunicações entre os dois."
+
+ POL_cas: "CAS"
+ POL_cas_desc: "Suporte aéreo aproximado (CAS) - apoio direto de unidades terrestres por fogo aéreo em unidades inimigas de alcance compacto; pode ser realizado por helicópteros e aeronaves de ataque; requer coordenação precisa de fogo e localização de unidades aliadas no solo sobre apoio aéreo. "
+
+ POL_mielec: "PZL Mielec"
+ POL_mielec_desc: "Polskie Zakłady Lotnicze Sp. z o.o. (PZL Mielec) - a maior fábrica de aviação da Polônia, localizada em Mielec, na província de Podkarpackie. Fundada em 1938 como a fábrica WP-2 de Państwowe Zakłady Lotnicze. Após a Segunda Guerra Mundial, eles Tornou-se a maior fábrica de aviação polonesa, construindo aviões principalmente para exportação, e desde 1949 eles se chamavam WSK Mielec (Wytwórnia Hardware Komunikacyjny) e depois WSK PZL-Mielec"
+
+ POL_fighter: "MiG-29"
+ POL_fighter_desc: "O Mikoyan MiG-29 (russo: Микоян МиГ-29; nome do relatório da OTAN: Fulcrum) é um caça a jato bimotor projetado na União Soviética."
+
+ POL_bomber: "Sukhoi Su-22"
+ POL_bomber_desc: "O Sukhoi Su-17 é um caça-bombardeiro de asa variável desenvolvido para o exército soviético. Seu nome na OTAN é Fitter. Projetado a partir do Sukhoi Su-7, o Su-17 foi o primeiro avião de asa variável para entrar no serviço soviético."
+
+ POL_multirole: "F-16"
+ POL_multirole_desc: "O General Dynamics F-16 Fighting Falcon é um caça monomotor multimissão originalmente desenvolvido pela General Dynamics para a Força Aérea dos Estados Unidos (USAF). aeronaves multimissão."
+
+ POL_transporter: "C-130 Hércules"
+ POL_transporter_desc: "O Lockheed C-130 Hercules é um avião de transporte militar turboélice americano de quatro motores projetado e construído originalmente pela Lockheed (agora Lockheed Martin). "
+
+ POL_attack_heli: "Sikorsky UH-60 Black Hawk"
+ POL_attack_heli_desc: "O Sikorsky UH-60 Black Hawk é um helicóptero utilitário de quatro pás, bimotor e médio porte fabricado pela Sikorsky Aircraft. A Sikorsky apresentou o projeto S-70 para o Sistema de Aeronave de Transporte Tático (UTTAS) do Exército dos Estados Unidos. competição em 1972."
+
+ POL_transport_heli: "PZL W-3 Sokol"
+ POL_transport_heli_desc: "O PZL W-3 Sokół (Inglês: Falcon) é um helicóptero polivalente, bimotor, de tamanho médio, desenvolvido e fabricado pela empresa polonesa de helicópteros PZL-Świdnik (agora AgustaWestland Świdnik). Foi o primeiro helicóptero inteiramente projetado e produzido na Polônia."
+
+ POL_strategic_bomber: "PZL Łoś Mk 2"
+ POL_strategic_bomber_desc: "PZL Łoś foi um bombardeiro polonês durante a Segunda Guerra Mundial; o PZL Łoś Mk 2 é um moderno bombardeiro estratégico fabricado pela PZL Mielec."
+
+ POL_mar_patrol: "M28 Bryza 1R"
+ POL_mar_patrol_desc: "O PZL M28 Skytruck é um avião polonês STOL de carga e passageiros produzido pela PZL Mielec, desenvolvendo Antonov An-28s fabricados sob licença. Os primeiros aviões fabricados sob licença foram designados PZL An-28. "
+
+ POL_bap: "Policiamento Aéreo Báltico"
+ POL_bap_desc: "A missão de policiamento aéreo do Báltico é um alerta de reação rápida (QRA) de defesa aérea da OTAN para proteger o espaço aéreo sobre os três estados bálticos da Estônia, Letônia e Lituânia."
+
+ POL_modern_multirole: "F-35"
+ POL_modern_multirole_desc: "O Lockheed Martin F-35 Lightning II é uma família americana de aeronaves de combate monoposto, monomotor e multirole para todos os climas, destinadas a realizar missões de superioridade aérea e de ataque. Também é capaz de fornecer guerra eletrônica e capacidades de inteligência, vigilância e reconhecimento."
+
+ POL_quantity_small_arms: "Quantidade"
+ POL_quantity_small_arms_desc: "Quanto mais armas, mais forte o exército."
+
+ POL_baltic: "Policiamento Aéreo Báltico"
+ POL_baltic_desc: "A missão de policiamento aéreo do Báltico é um alerta de reação rápida (QRA) de defesa aérea da OTAN para proteger o espaço aéreo sobre os três estados bálticos da Estônia, Letônia e Lituânia."
+
+ POL_navy: "Navy"
+ POL_navy_desc: "A Marinha Polonesa (polonês: Marynarka Wojenna, Marinha de Guerra; frequentemente abreviada para Marynarka) é um ramo militar das Forças Armadas Polonesas responsável por operações navais."
+
+ POL_orp_pilsudski: "ORP Piłsudski"
+ POL_orp_pilsudski_desc: "ORP Piłsudski é um moderno cruzador polonês."
+
+ POL_submarine: "ORP Águia"
+ POL_submarine_desc: "ORP Orzeł (291) é um submarino polonês do 'Projeto 877E' (classe Kilo). Ele é o terceiro submarino polonês a levar o nome Orzeł."
+
+ POL_smw: "Navy Shipyard SA"
+ POL_smw_desc: "Estaleiro da Marinha Polonesa (polonês: Stocznia Marynarki Wojennej) é um estaleiro polonês localizado em Gdynia. Sua principal responsabilidade é a construção e reparo dos navios da Marinha Polonesa."
+
+ POL_capital_ship_construction: "Construção da Nave Capital"
+ POL_capital_ship_construction_desc: "Toda Marinha precisa de um navio capital forte e reconhecível."
+
+ POL_martime: "Grupo Marítimo Permanente da OTAN 1"
+ POL_martime_desc: "Standing NATO Maritime Group One (SNMG1) é uma das forças navais de reação imediata marítima da OTAN. O SNMG1 consiste de quatro a seis contratorpedeiros e fragatas. Seu papel é fornecer à OTAN uma capacidade de resposta operacional imediata."
+
+ POL_carrier: "ORP Jadwiga"
+ POL_carrier_desc: "ORP Jadwiga é o sonho dos comandantes da marinha polonesa em construir um porta-aviões que substituiria o ORP Piłsudski e se tornaria o novo navio capital polonês."
+
+ POL_destroyers: "ORP Relâmpago Mk 2"
+ POL_destroyers_desc: "Durante a 2ª Guerra Mundial, o ORP Błyskawica foi um contratorpedeiro polonês lutando ao lado de aliados, o Błyskawica moderno desempenhará um papel fundamental na marinha."
+
+ POL_martime_group: "Standing NATO Maritime Group 1"
+ POL_martime_group_desc: "Ao cooperar com as forças da OTAN podemos garantir a segurança das nossas águas"
+
+ POL_carrier_jets: "Nossos próprios jatos Carrier"
+ POL_carrier_jets_desc: "Precisamos desenvolver nossos próprios jatos porta-aviões para não depender de outros e garantir que atendam a todos os nossos critérios."
+
+ POL_buy_carrier_jets: "Comprar jatos Carrier"
+ POL_buy_carrier_jets_desc: "Desenvolver jatos do zero é uma tarefa impossível, melhor comprar aqueles que provaram ser dignos."
+
+ POL_stealth_ships: "Navios furtivos"
+ POL_stealth_ships_desc: "O foco na furtividade nos permitirá usar nossa pequena frota com o máximo de eficiência, para surpresa de nossos inimigos."
+
+ POL_attack_submarine: "Ataque Sumbarine"
+ POL_attack_submarine_desc: "O submarino deve ser usado para ataques furtivos e silenciosos, assediando nosso inimigo por baixo."
+ POL_missle_submarine: "Submarino de mísseis"
+ POL_missle_submarine_desc: "Usar submarinos como fonte de desferir golpes fatais é de longe a melhor maneira."
+#####
+#DKL
+#####
+ POL_revitalize_government: "Revitalizar o Governo"
+ POL_revitalize_government_desc: "A política polonesa ainda não está escrita. Pode ser uma boa ideia mudar nosso governo."
+
+ # POL_stay_on_track: "Mantenha-se na pista"
+ # POL_stay_on_track_desc: "Estamos indo no caminho certo. Vamos continuar assim."
+
+ POL_change_of_path: "Mudança de caminho"
+ POL_change_of_path_desc: "Se não fizermos nada, nosso país será lembrado como um estado de terceiro mundo sem chance de desenvolvimento."
+
+ POL_reinstate_crown: "Restabelecer a Coroa"
+ POL_reinstate_crown_desc: "A Polônia era forte quando era uma monarquia. Devemos voltar a este caminho e nomear um novo rei."
+
+ POL_red_dream: "O Sonho Vermelho"
+ POL_red_dream_desc: "Na época em que a Polônia era comunista, todo mundo tinha um emprego. Todo mundo tinha seu quarto. Ninguém (quase) era oprimido. O comunismo é o futuro. Fizemos a escolha errada ao nos tornarmos democráticos."
+
+ POL_falanga: "Falanga"
+ POL_falanga_desc: "Deus, Honra, Pátria ou Honra e Pátria (polonês: Bóg, Honra, Ojczyzna ou Honra I Ojczyzna) é um dos lemas não oficiais da Polônia. Falanga tornará esse lema real."
+
+#####
+# Parte comunista - ex Roseru, agora crocomoth
+#####
+ POL_red_front: "Frente vermelha"
+ POL_red_front_desc: "Todos os principais partidos comunistas precisam se unir para alcançar a vitória final. A formação da Frente Vermelha certamente trará alguma atenção e apoio."
+ POL_militias: "Conectar ao comando do Exército"
+ POL_militias_desc: "Alguns generais do exército são bastante leais aos ideais comunistas, podemos precisar do apoio deles para que ocorra uma transição pacífica de poder, mesmo sob ameaça militar."
+ POL_pressure_unions: "Uniões de pressão"
+ POL_pressure_unions_desc: "Podemos precisar explorar nossas conexões existentes com os sindicatos para garantir seu apoio, mesmo que eles não fiquem muito entusiasmados com isso."
+ POL_start_communist_strike: "Greve geral"
+ POL_start_communist_strike_desc: "Precisamos reunir os trabalhadores para a maior greve que esta nação já viu. Eles precisam ver com seus próprios olhos que não estão sozinhos e podem ser uma força para mudar tudo."
+ POL_new_communism: "Revanche comunista"
+ POL_new_communism_desc: "Séries de greves, manifestações e provocações políticas certamente desestabilizarão a sociedade, mas certamente permitirão restabelecer o regime socialista-comunista."
+ POL_settle_things_down: "Resolva as coisas"
+ POL_settle_things_down_desc: "Depois da agitação civil, há muito a se desdobrar, muito a consertar, muito a curar. Vamos nos concentrar nisso, essa é a nossa maior prioridade."
+ POL_ZKP: "ZKP"
+ POL_ZKP_desc: "ZKP - Zwiazek Komunistov Polskich é uma relíquia política - um espírito sucessor do partido comunista anterior a 1990. No entanto, mudou para um campo mais prático, embora continue com uma retórica semelhante."
+ POL_red_down_peaceful: "Ascensão pacífica dos Reds"
+ POL_red_down_peaceful_desc: "Conseguimos garantir nossa vitória com meios democráticos, agora podemos começar nossa transformação de um país."
+ POL_start_detransition: "Iniciar destransição"
+ POL_start_detransition_desc: "A transição para a economia de mercado foi de longe o maior erro, precisamos corrigi-lo retornando à boa e boa economia planejada."
+ POL_communist_mass_nationalisation: "Economia estatal massiva"
+ POL_communist_mass_nationalisation_desc: "Esforço maciço para nacionalizar fábricas e empresas é a única maneira de controlar a economia."
+ POL_communist_limited_nationalisation: "Economia de estado limitada"
+ POL_communist_limited_nationalisation_desc: "A nacionalização limitada e gradual é a melhor resposta, também é melhor deixar um setor considerável da economia em mãos privadas."
+ POL_comm_infrastructure_development: "Desenvolvimento de infraestrutura comunitária"
+ POL_comm_infrastructure_development_desc: "Precisamos melhorar a infraestrutura comunitária: tubulações, vias públicas, etc. Isso nos ajudará a administrar a economia no final."
+ POL_comm_naval_development: "Desenvolvimento naval"
+ POL_comm_naval_development_desc: "Nos faltam habilidades para usar o mar como nosso recurso, isso não pode ser permitido, precisamos expandir nessa área mesmo ao custo de alguns outros desenvolvimentos."
+ POL_civilian_production_focus: "Foco na produção civil"
+ POL_civilian_production_focus_desc: "Vamos focar na produção de meios de produção em nossos planos de expansão, esse é o único caminho."
+ POL_military_production_focus: "Foco na produção militar"
+ POL_military_production_focus_desc: "Embora os meios de produção sejam importantes, também precisamos ter certeza de que podemos nos defender."
+ POL_develop_oil: "Investigar campos de petróleo"
+ POL_develop_oil_desc: "Precisamos procurar novos depósitos de petróleo, essa é a nossa maneira de nos tornarmos autogerenciados em energia e não dependentes nem dos EUA nem da Rússia."
+ POL_develop_alternative_fuel: "Abordagem alternativa"
+ POL_develop_alternative_fuel_desc: "Por outro lado, o biocombustível e o combustível sintético são tecnologias promissoras que podem nos permitir empregar mais pessoas."
+ POL_centralized_rule: "Regra centralizada"
+ POL_centralized_rule_desc: "Precisamos concentrar o controle sobre os ativos governamentais."
+ POL_agile_rule: "Regra ágil"
+ POL_agile_rule_desc: "Precisamos delegar algum poder de volta no nível regional e até mesmo da comunidade/fábrica para manter a agilidade na produção."
+ POL_state_run_economy: "Economia estatal"
+ POL_state_run_economy_desc: "Dedicamos recursos suficientes para finalmente transformar nossa economia em estatal."
+ POL_comm_internal_affairs: "Assuntos internos"
+ POL_comm_internal_affairs_desc: "Assuntos internos são definitivamente os que precisam de prioridade, temos muito a fazer e alcançar."
+ POL_incerase_centralisation: "Aumentar a centralização"
+ POL_incerase_centralisation_desc: "Precisamos aumentar nossa capacidade administrativa para melhorar nossa gestão econômica e social."
+ POL_increase_healthcare: "Aumentar os gastos com saúde"
+ POL_increase_healthcare_desc: "A saúde não é nosso maior problema, mas pode ser um ativo valioso para manter nossa popularidade, precisamos continuar gastando expansão."
+ POL_increase_social_support: "Aumentar o suporte social"
+ POL_increase_social_support_desc: "Precisamos expandir os programas para apoiar nossos cidadãos em tempos de necessidade, esse também é um dos nossos slogans eleitorais, então não há muita escolha no final."
+ POL_increase_internal_security: "Prioridade de segurança interna"
+ POL_increase_internal_security_desc: "Motins, manifestações, crime - essas coisas não têm lugar em nosso país. A polícia e as forças especiais garantirão isso, uma vez que seu financiamento seja aumentado."
+ POL_combat_far_right_movement: "Combata os movimentos de extrema-direita"
+ POL_combat_far_right_movement_desc: "Neonazis e nacionalistas são uma praga para nossa sociedade. Precisamos agir sem piedade e puni-los por suas ações e intenções antigovernamentais."
+ POL_land_reform: "Reforma agrária"
+ POL_land_reform_desc: "Embora os agricultores sejam nossa espinha dorsal, eles simplesmente não são produtivos o suficiente. A coletivização é a única maneira de expandir nossa agricultura."
+ POL_comm_external_affairs: "Assuntos externos"
+ POL_comm_external_affairs_desc: "Também precisamos rever nossas políticas externas para garantir que sejam realmente nossas, e não sobras capitalistas."
+ POL_hold_communist_summit: "Realizar cúpula comunista"
+ POL_hold_communist_summit_desc: "Precisamos convidar nossos amigos de todo o mundo para se maravilhar com as possibilidades que se abrem diante de nós com os recentes desenvolvimentos políticos."
+ POL_connect_to_neighbours: "Conectar aos vizinhos"
+ POL_connect_to_neighbours_desc: "Embora nenhum de nossos vizinhos siga nosso caminho, ainda podemos cooperar e manter relações decentes."
+ POL_push_on_clergy: "Empurre o clero"
+ POL_push_on_clergy_desc: "A religião é um ópio para a mente, precisamos limitar a influência do clero para manter nosso governo."
+ POL_comm_leave_eu: "Sair da UE"
+ POL_comm_leave_eu_desc: "Não devemos fazer parte da aliança capitalista, isso só nos prejudica a longo prazo."
+ POL_comm_leave_nato: "Sair da OTAN"
+ POL_comm_leave_nato_desc: "A OTAN não serve às nossas intenções enquanto suga recursos e dinheiro. Não devemos fazer parte deste circo."
+ POL_reduce_extensive_military_funding: "Reduzir o financiamento militar extensivo"
+ POL_reduce_extensive_military_funding_desc: "As Forças Armadas são nosso orgulho, mas estão desperdiçando dinheiro sem nenhum mérito. Devemos rever como o dinheiro é gasto."
+ POL_armia_ludowa: "Armia Ludowa"
+ POL_armia_ludowa_desc: "Precisamos reformar nosso exército, ele deve representar nossos ideais e ser a continuação de nosso partido e estado."
+ POL_prepare_for_worst: "Prepare-se para o pior"
+ POL_prepare_for_worst_desc: "Desde que saímos da OTAN, estávamos preocupados com a situação diplomática recente. Agora que o mundo está esquentando, precisamos nos preparar para o pior."
+ POL_PPS: "PPS"
+ POL_PPS_desc: "PPS - Polska Partia Socjalistyczna é uma ampla aliança de esquerda que pode ser descrita como de extrema-esquerda. Suas políticas e intenções um tanto vagas, só podemos especular o que farão quando realmente chegarem ao poder."
+ POL_anarchy_peaceful: "O socialismo radical"
+ POL_anarchy_peaceful_desc: "Conseguimos alcançar a vitória por meios não planejados inicialmente. Precisamos começar a seguir em frente agora."
+ POL_external_relations_revision: "Revisão das relações externas"
+ POL_external_relations_revision_desc: "As relações externas são uma grande parte da nossa ideia nacional. Espalhar a revolução é o nosso objetivo em primeiro lugar."
+ POL_influence_neighbours: "Influenciar vizinhos"
+ POL_influence_neighbours_desc: "Precisamos mexer os pauzinhos existentes para mostrar ao povo que a revolução pode vencer e trazê-los para o nosso lado."
+ POL_close_the_market: "Fechar o mercado"
+ POL_close_the_market_desc: "Atualmente o mercado está orientado para porcos capitalistas globalistas. Precisamos fechar nossa economia para tirar o máximo proveito de nossos recursos."
+ POL_leave_capitalist_deals: "Sair dos negócios capitalistas"
+ POL_leave_capitalist_deals_desc: "Temos uma vasta gama de negócios e acordos, mas quase nenhum deles realmente ajuda nosso país. Simplesmente não temos motivos para continuá-los."
+ POL_social_matters: "Assuntos sociais"
+ POL_social_matters_desc: "Social está no nome do nosso partido, da nossa ideologia, com certeza devo fazer o meu melhor para servir o nosso povo."
+ POL_rework_unions: "Retrabalhar os sindicatos"
+ POL_rework_unions_desc: "Precisamos reformular as leis existentes em relação aos sindicatos. Nosso novo país precisa de sindicatos reformados e trabalhadores."
+ POL_leftist_propaganda: "Instituto de propaganda de esquerda"
+ POL_leftist_propaganda_desc: "Precisamos nos defender da perigosa mídia ocidental. Precisamos nos concentrar em combater essa influência."
+ POL_women_power: "O poder das mulheres"
+ POL_women_power_desc: "Precisamos ajudar as mulheres a reivindicar empregos em fábricas e escritórios, o que ajudará nossa economia e garantirá a igualdade de gênero."
+ POL_women_in_the_army: "Papel das mulheres no exército"
+ POL_women_in_the_army_desc: "É hora de decidir, com todas as nossas mudanças recentes, qual o papel das mulheres no campo de batalha."
+ POL_decrease_centralization: "Diminuir a centralização"
+ POL_decrease_centralization_desc: "Precisamos localizar nossa abordagem para realmente atender às necessidades dos cidadãos onde quer que vivam."
+ POL_anarchy_healthcare: "Saúde Social"
+ POL_anarchy_healthcare_desc: "Os programas sociais destinados a manter a saúde e o bem-estar de nossos camaradas são o centro de nossos programas."
+ POL_reorganize_construction: "Reorganizar uniões de construção"
+ POL_reorganize_construction_desc: "Nossa construção dependerá e contará com os sindicatos da construção civil - entidade estatal dos trabalhadores que organizará e regulamentará todos os canteiros de obras do país."
+ POL_develop_central_areas: "Construção de áreas centrais"
+ POL_develop_central_areas_desc: "Precisamos focar nossos esforços onde prevalece a infra-estrutura já existente, que nos permite garantir a máxima eficiência."
+ POL_anarchist_development: "Desenvolvimento distribuído"
+ POL_anarchist_development_desc: "Vamos nos concentrar na construção em áreas onde surgem as possibilidades locais."
+ POL_develop_airports: "Desenvolver aeroportos"
+ POL_develop_airports_desc: "Nossa infraestrutura aérea é extremamente subdesenvolvida. Ela precisa ser consertada e rápida."
+ POL_develop_ports: "Desenvolver portas"
+ POL_develop_ports_desc: "Ainda não temos portas em algumas áreas onde todos os dados indicam que são necessárias. Isso deve ser trabalhado."
+ POL_quality_control: "Controle de qualidade"
+ POL_quality_control_desc: "Nossas fábricas precisam produzir apenas produtos de alta qualidade. Novos comitês na maioria das principais fábricas devem ajudar com isso."
+ POL_speed_development: "Aumentar a velocidade de desenvolvimento"
+ POL_speed_development_desc: "Vamos nos concentrar em aumentar a velocidade do desenvolvimento da área. Isso é mais importante do que impor regras e verificações imediatamente."
+ POL_oligarchic_control: "Controle oligárquico"
+ POL_oligarchic_control_desc: "Alguns membros do nosso partido têm... conexões com a indústria que podem ser exploradas para um bem maior."
+ POL_fight_oligarchs: "Subverter o controle do partido"
+ POL_fight_oligarchs_desc: "Algumas partes do nosso partido decidiram que o capitalismo de estado é o caminho a seguir. Mas não é. Hora de um abate."
+ POL_broaden_university_education: "Ampliar a educação universitária"
+ POL_broaden_university_education_desc: "A educação universitária deve se tornar mais acessível e mais... universal, para dizer o mínimo, para que nosso país progrida."
+ POL_increase_research_funding: "Aumentar o financiamento da pesquisa"
+ POL_increase_research_funding_desc: "Fornecer bolsas de pesquisa sempre foi algo que nosso partido faz com frequência. Mas uma ênfase ainda maior deve ser colocada nisso."
+ POL_farmer_league: "Liga dos fazendeiros"
+ POL_farmer_league_desc: "A unificação dos agricultores - a liga dos agricultores certamente ajudará nossos cidadãos a enriquecer e alimentar nosso país."
+
+ ###
+ # Democrático - crocomoth
+ ###
+ POL_stay_on_track: "Mantenha-se na pista"
+ POL_stay_on_track_desc: "A democracia é o caminho a seguir para a nossa nação. Devemos permanecer fiéis ao sistema que nos trouxe a liberdade."
+
+ POL_reassure_elections: "Reassegure eleições justas"
+ POL_reassure_elections_desc: "Devemos assegurar ao nosso povo que as eleições na Polónia são, e sempre serão - justas, transparentes e equitativas."
+
+ POL_poland_our_home: "Polônia, nossa casa!"
+ POL_poland_our_home_desc: "Antes do fim da campanha eleitoral, vamos aumentar nossos esforços para garantir a maioria dos votos."
+
+ POL_continue_transition: "Continuar a transição capitalista"
+ POL_continue_transition_desc: "A indústria comunista não é eficiente - devemos continuar nosso caminho para a privatização e o mercado livre."
+
+ POL_finish_social_program: "Concluir programa social"
+ POL_finish_social_program_desc: "Os últimos esforços coletivos antes das eleições para levar comida e abrigo para aqueles que precisam muito."
+
+ POL_socialists_win: "Os socialistas vencem"
+ POL_socialists_win_desc: ""
+
+ POL_conservatives_win: "Os conservadores vencem"
+ POL_conservatives_win_desc: ""
+
+ POL_united_we_stand: "Unidos nós resistimos"
+ POL_united_we_stand_desc: "A Polónia deve estar unida. Estamos todos no mesmo barco. Precisamos de nos concentrar em esforços colectivos nas nossas políticas partidárias pós-eleitorais."
+
+ POL_security_summit: "Cúpula de segurança de Varsóvia"
+ POL_security_summit_desc: "A cúpula de segurança com especialistas de todo o mundo é um grande projeto para proteger nossa jovem democracia."
+
+ POL_focus_on_social_projects: "Foco em projetos sociais"
+ POL_focus_on_social_projects_desc: "Os projetos sociais são o foco principal de nossos esforços."
+
+ POL_speed_up_privatization: "Acelerar a privatização"
+ POL_speed_up_privatization_desc: "Acelerar a privatização ajudará nossa economia a longo prazo."
+
+ POL_support_traditional_industry: "Apoiar a indústria tradicional"
+ POL_support_traditional_industry_desc: "A mineração de carvão e a siderurgia são artesanatos tradicionais da Polônia. Apoiaremos as indústrias em dificuldades para que sobrevivam aos tempos difíceis."
+
+ POL_innovative_approach: "Adote uma abordagem inovadora"
+ POL_innovative_approach_desc: "Vamos analisar o que será eficiente no futuro, em vez de nos concentrarmos no passado."
+
+ POL_secure_unions_support: "Suporte a sindicatos seguros"
+ POL_secure_unions_support_desc: "Os sindicatos são parte integrante da cultura dos trabalhadores, devemos garantir o seu apoio no futuro para proporcionar um desenvolvimento mais estável a longo prazo."
+
+ POL_support_war_on_terror: "Apoie a guerra contra o terror"
+ POL_support_war_on_terror_desc: "Vamos apoiar nossos aliados nestes tempos sombrios, custe o que custar."
+
+ POL_polish_volunteer_corps: "Voluntários poloneses"
+ POL_polish_volunteer_corps_desc: "Oficiais poloneses e corpos de voluntários podem ser destacados para apoiar as operações aliadas no campo."
+
+ POL_study_allied_reports: "Estude relatórios aliados"
+ POL_study_allied_reports_desc: "Vamos analisar relatórios de combate aliados para garantir que nossa doutrina não seja obsoleta."
+
+ POL_continue_eu_intergration: "Continuar a integração na UE"
+ POL_continue_eu_intergration_desc: "A integração na UE é a nossa única opção para garantir um crescimento e desenvolvimento estáveis para a Polónia"
+
+ POL_eu_funding: "Financiamento seguro da UE"
+ POL_eu_funding_desc: "O financiamento da UE ajudará a reconstruir o nosso país e alimentará a nossa economia."
+
+ POL_connections_to_eu_members: "Melhorar as conexões com os membros da UE"
+ POL_connections_to_eu_members_desc: "Melhores conexões significam mais oportunidades, isso deve ser uma prioridade."
+
+ POL_focus_on_political_connections: "Foco em conexões políticas"
+ POL_focus_on_political_connections_desc: "Acordos políticos são mais importantes, eles garantem nosso papel na UE e no mundo como um todo."
+
+ POL_focus_on_economic_deals: "Foco em negócios econômicos"
+ POL_focus_on_economic_deals_desc: "Acordos econômicos são muito mais importantes para nós agora, eles devem ser nossa principal prioridade."
+
+ POL_new_ideals: "Novos ideais"
+ POL_new_ideals_desc: "Novos ideais para nossa sociedade refletirão os valores que mais valorizamos. Campanhas educativas serão direcionadas a isso."
+
+ POL_reassure_elections_result: "Reafirmar o resultado das eleições"
+ POL_reassure_elections_result_desc: "Embora o resultado das eleições possa parecer fraudado, devemos garantir que seja realmente o único resultado possível."
+
+ POL_christian_values: "valores cristãos"
+ POL_christian_values_desc: "O cristianismo é um elemento central de nossa sociedade. O governo e suas políticas também devem refletir isso."
+
+ POL_attack_communism: "Comunismo de ataque"
+ POL_attack_communism_desc: "O comunismo há muito prevaleceu sobre nossa gloriosa terra, seu legado deve ser pintado em infâmia."
+
+ POL_reuse_central_planning: "Reutilizar planejamento central para setores com falha"
+ POL_reuse_central_planning_desc: "O planejamento central sob o regime comunista conseguiu alcançar resultados surpreendentes em alguns campos. Vamos reutilizá-lo para estabilizar nossa economia."
+
+ POL_more_liberal_taxes: "Propor mais impostos liberais"
+ POL_more_liberal_taxes_desc: "quanto mais livres os mercados, mais livres as pessoas - um bom slogan para nossas visões sobre economia."
+
+ POL_social_development_priority: "Proiroty de desenvolvimento social"
+ POL_social_development_priority_desc: "Não devemos esquecer a natureza desigual da sociedade humana e fornecer apoio para aqueles que precisam."
+
+ POL_fight_corruption: "Combater a corrupção"
+ POL_fight_corruption_desc: "A corrupção atormentou esta nação por anos, é hora de fazer as coisas direito e bani-la dessas terras."
+
+ POL_focus_on_internal_matters: "Foco em assuntos internos"
+ POL_focus_on_internal_matters_desc: "O mundo está uma bagunça sangrenta, focar em assuntos internos é a única escolha."
+
+ POL_local_security_priority: "Priorizar a segurança interna"
+ POL_local_security_priority_desc: "A segurança interna é a chave para a estabilidade."
+
+ POL_peace_and_stability: "Paz e estabilidade"
+ POL_peace_and_stability_desc: "Garantir que o comportamento legal seja uma norma aplicada é o primeiro passo a ser alcançado."
+
+ POL_shifting_politics: "Protegendo o cenário político"
+ POL_shifting_politics_desc: "O cenário político está sempre mudando e é imprevisível. O que o futuro nos trará? Temos que garantir que pelo menos a Polônia permaneça uma democracia."
+
+ POL_platforma_obivatelska: "Plataforma Obywatelska"
+ POL_platforma_obivatelska_desc: ""
+
+ POL_railways_for_poland: "Ferrovias para a Polônia"
+ POL_railways_for_poland_desc: "A infraestrutura é a chave para o desenvolvimento de um país."
+
+ POL_bio_fuel: "Biocombustível"
+ POL_bio_fuel_desc: "Fontes alternativas de combustível podem nos ajudar a reduzir a dependência de nossos potenciais inimigos"
+
+ POL_centralized_development: "Desenvolver regiões industriais"
+ POL_centralized_development_desc: "Devemos nos concentrar no uso da infraestrutura existente para desenvolver ainda mais nossa base industrial."
+
+ POL_new_market_for_farms: "Novo mercado para agricultores"
+ POL_new_market_for_farms_desc: "Os agricultores podem ter sofrido algumas perdas nos últimos anos, mas a UE abre um novo mercado para eles. Pequenos programas podem ajudar a levar seus produtos a lugares nunca antes alcançados."
+
+ POL_it_giant: "Gigante de TI"
+ POL_it_giant_desc: "A indústria de TI é uma área-chave em nossa era de tecnologia em constante expansão. A Polônia se tornará um participante importante no campo."
+
+ POL_truly_eu_state: "Estado verdadeiramente europeu"
+ POL_truly_eu_state_desc: "A reforma de todo o nosso país deve ser formalizada, precisamos não apenas nos parecer, mas ser verdadeiramente um estado da UE."
+
+ POL_improve_civil_administration: "Melhorar a administração civil"
+ POL_improve_civil_administration_desc: "A administração civil é ineficiente e subeficaz, precisamos de uma reforma."
+
+ POL_construction_tax_cuts: "Redução de impostos na construção"
+ POL_construction_tax_cuts_desc: "Os cortes nos impostos de construção ajudarão as empresas privadas a competir e desenvolver nosso país de uma forma que não pode ser alcançada pelo planejamento direto."
+
+ POL_international_law_support: "Direito Internacional"
+ POL_international_law_support_desc: "Colocar a lei internacional acima das leis locais pode parecer imprudente, mas é um passo para o futuro."
+
+ POL_separate_church: "Igreja separada do Estado"
+ POL_separate_church_desc: "A Igreja tem um lugar importante no coração do nosso povo, no entanto a Polónia tem de ser um estado secular, é o nosso único caminho para o progresso."
+
+ POL_soften_the_cons: "Suavizar os conservadores"
+ POL_soften_the_cons_desc: "Algumas críticas aos conservadores, seguidas de uma abordagem mais amigável, podem aproximar parte de seu eleitorado de nós."
+
+ POL_promote_eu_values: "Promover os valores da UE"
+ POL_promote_eu_values_desc: "Os valores baseados na liberdade e na igualdade são os valores dos pólos, com certeza, mas precisamos chegar a alguns delirantes e perdidos."
+
+ POL_no_more_expeditions: "Sem mais expedições"
+ POL_no_more_expeditions_desc: "As forças armadas polonesas são destinadas a defender a Polônia, não os interesses dos EUA ou de outros estados. Nenhum pólo deve morrer por outro país."
+
+ POL_fix_brain_drain: "Reverter fuga de cérebros"
+ POL_fix_brain_drain_desc: "A fuga de cérebros é um grande problema há anos, precisamos nos concentrar em trazer especialistas para a Polônia, mesmo que não possamos garantir que os nativos fiquem."
+
+ POL_look_into_history: "Olhe para a história"
+ POL_look_into_history_desc: "A história da Polônia está repleta de guerras, devastação, imperialismo e regimes extremos. Devemos condenar esses assuntos e expressá-los em nossos programas educacionais."
+
+ POL_focus_on_housing: "Foco no problema habitacional"
+ POL_focus_on_housing_desc: "A habitação ainda é um problema, mesmo depois de todas as medidas tomadas. Um programa que se concentre diretamente na habitação pode ser mais eficaz e ajudar a garantir a estabilidade de todo o país."
+
+ POL_pravda_i_spravedlivost: "Lei e Justiça"
+ POL_pravda_i_spravedlivost_desc: ""
+
+ POL_promote_industrial_quality: "Promover a qualidade industrial"
+ POL_promote_industrial_quality_desc: "A propaganda geralmente não é eficaz, mas motivar os trabalhadores a fazer seu trabalho corretamente pode se tornar parte da cultura e dos valores nacionais."
+
+ POL_fight_regional_inequality: "Combater a desigualdade regional"
+ POL_fight_regional_inequality_desc: "A Polônia está histórica e industrialmente dividida. Vamos nos concentrar em regiões subdesenvolvidas para evitar mais conflitos entre as regiões."
+
+ POL_eastern_infrastructure: "Infraestrutura leste"
+ POL_eastern_infrastructure_desc: "As partes orientais da Polónia são bastante pobres em termos de rede rodoviária, reduzindo o desenvolvimento possível e o tráfego comercial. Certamente, uma situação que requer atenção"
+
+ POL_support_for_farms: "Apoiar os agricultores"
+ POL_support_for_farms_desc: "Os agricultores sofreram muito com o socialismo, precisamos apoiar nossos principais eleitores."
+
+ POL_mod_and_trad: "Modernização e tradição"
+ POL_mod_and_trad_desc: "A modernização é a única forma de um país existir, a única forma possível de se preservar, mas as tradições são o que faz um país ser ele mesmo. Esse é um assunto delicado sobre o qual vale a pena falar e divulgar."
+
+ POL_continue_anti_corrpution: "Continuar programas anticorrupção"
+ POL_continue_anti_corrpution_desc: "A corrupção tem atormentado nosso país por muito tempo, temos que detê-la imediatamente."
+
+ POL_empower_the_law: "Fortalecer a lei"
+ POL_empower_the_law_desc: "A lei precisa reinar suprema. No entanto, atualmente os feeds de notícias estão cheios de relatórios de crimes e escândalos de corrupção. Financiamento é algo necessário, com certeza."
+
+ POL_guarantee_family_support: "Garantir apoio familiar"
+ POL_guarantee_family_support_desc: "O apoio familiar tem faltado nos últimos anos. Agora que estamos no poder, podemos finalmente dar aos poloneses o apoio que eles merecem."
+
+ POL_christian_priority: "Tradições cristãs"
+ POL_christian_priority_desc: "O Cristianismo é a principal religião na Polônia, assemelha-se a todos os valores dos pólos. É lógico que o estado e a igreja devem trabalhar juntos."
+
+ POL_religious_tolerance: "Tolerância religiosa"
+ POL_religious_tolerance_desc: "No entanto, não devemos esquecer que as religiões pacíficas precisam ser toleradas e bem-vindas, a hospitalidade é, afinal, uma virtude."
+
+ POL_honor_lost_army: "Honra os soldados do exército perdido"
+ POL_honor_lost_army_desc: "O exército perdido - bravos filhos da Polônia lutando contra a ocupação soviética foram perdidos no tempo, removidos da história. Vamos restaurar as memórias daqueles que morreram pela Polônia."
+
+ POL_condemn_communists: "Condenar a ocupação comunista"
+ POL_condemn_communists_desc: "Os soviéticos ocuparam nossa terra por décadas. Repressões, prisões, políticas sociais questionáveis. Tudo isso é seu legado e pelo que serão lembrados."
+
+ POL_ban_communist_symbols: "Proibir símbolos comunistas"
+ POL_ban_communist_symbols_desc: "Símbolos comunistas não devem ser tolerados em uma terra que sofreu tanto sob o regime comunista."
+
+ POL_revisit_education_programs: "Revisitar programas de educação"
+ POL_revisit_education_programs_desc: "Nossos programas de educação devem ser revisitados para refletir nossa visão e garantir que nenhum regime totalitário jamais governará a Polônia."
+
+ POL_question_of_socialism: "Questão do socialismo"
+ POL_question_of_socialism_desc: "O socialismo por muito tempo atormentou nossa sociedade, com raízes profundas no comunismo violento e bárbaro. Devemos permitir que ele transite para um movimento democrático decadente que não pode se defender ou ser feito para sempre?"
+
+ POL_proclaim_forth_rp: "Proclame a 4ª Rech Pospolita"
+ POL_proclaim_forth_rp_desc: "Nossos sucessos recentes na economia e na esfera política podem nos permitir ao mesmo tempo consolidar o poder e proclamar que realmente alcançamos algo notável. Por muito tempo estivemos nas sombras, mas agora alcançamos um novo patamar. Formalmente proclamar esta era como outro Rech Pospolita marcará este período na história e salvará nosso legado."
+
+ POL_speak_against_russia: "Falar contra a Rússia"
+ POL_speak_against_russia_desc: "A Rússia é uma ameaça ao mundo civilizado. Precisamos colocar ênfase em sua política questionável e combater sua influência na Europa Oriental."
+
+ POL_rely_on_europe: "Confie na Europa"
+ POL_rely_on_europe_desc: "Em nossa luta, temos que contar com nossos aliados, nossos companheiros países da UE nos ajudarão."
+
+ POL_rhienmetal_plant: "Planta Rheinmetall"
+ POL_rhienmetal_plant_desc: "Rheinmetall é um fabricante militar famoso. Mão de obra mais barata e acordos lucrativos podem ajudar a Alemanha a perceber que eles podem nos ajudar a nos defender e ganhar dinheiro com isso."
+
+ POL_buy_old_leopards: "Compre Leopardos antigos"
+ POL_buy_old_leopards_desc: "Nossos tanques são em sua maioria veículos obsoletos da era soviética. Podemos comprar Leopards mais antigos para melhorar o potencial de combate de nossas tropas."
+
+ POL_joint_ifv_production: "Produção conjunta de IFV"
+ POL_joint_ifv_production_desc: "Os IFVs são a espinha dorsal do exército moderno. Plantas domésticas com especialistas externos podem nos ajudar a produzir veículos suficientes para abastecer nosso exército."
+
+ POL_friends_from_afar: "Amigos de longe"
+ POL_friends_from_afar_desc: "Na hora da necessidade, podemos precisar olhar além da Europa. Maior risco - maior lucro afinal?"
+
+ POL_american_bases: "Fornecimento para bases americanas"
+ POL_american_bases_desc: "A abertura de bases americanas em solo polonês garantiu nossa segurança, mas podemos lucrar fornecendo suprimentos locais aos ttoops."
+
+ POL_aircraft_purchases: "Compras de aeronaves"
+ POL_aircraft_purchases_desc: "Nossa frota aérea já teve dias melhores. Talvez precisemos comprar aeronaves melhores para competir na guerra moderna."
+
+ POL_artillery_and_aa_support: "Artilharia e apoio americanos"
+ POL_artillery_and_aa_support_desc: "Os EUA são famosos por seu uso de artilharia pesada e eficiente. Podemos aprender uma lição com nossos novos aliados."
+
+ POL_anti_russian_front: "Medidas militares anti-russas"
+ POL_anti_russian_front_desc: "Precisamos consolidar nossos recursos para agir contra a Rússia."
+
+ POL_reapproach_russia: "Reaproximar-se da Rússia"
+ POL_reapproach_russia_desc: "A Rússia está se transformando em um estado democrático e aberto. Precisamos mostrar a eles que não somos rusófobos, mas apenas nos preocupamos com nossos interesses. Devemos apoiar a Rússia em seus primórdios democráticos."
+
+ POL_rewire_old_plants: "Religar velhas plantas militares"
+ POL_rewire_old_plants_desc: "Com a ajuda do nosso velho-novo amigo, podemos facilmente religar e lançar antigas fábricas de munições e continuar nosso trabalho em projetos ex-soviéticos."
+
+ POL_refit_old_tanks: "Reajustar tanques antigos"
+ POL_refit_old_tanks_desc: "Temos centenas de veículos soviéticos antigos. Com nossas fábricas reformadas com equipamentos mais modernos e compatíveis, podemos reformar nosso T-72 soviético para um padrão mais moderno."
+
+ POL_update_mig_fleet: "Atualizar frota MiG"
+ POL_update_mig_fleet_desc: "MiG é um famoso fabricante aéreo russo. Podemos muito bem comprar novas aeronaves deles. Deve ser mais fácil de adaptar a variantes mais modernas de aviões já conhecidos."
+
+ POL_military_exp_sharing: "Compartilhamento de experiência militar"
+ POL_military_exp_sharing_desc: "Nossos novos aliados viram sombat nos últimos anos, certamente podemos compartilhar nossas experiências para nos adaptarmos ao combate moderno."
+
+ POL_joint_military_assets: "Recursos militares conjuntos"
+ POL_joint_military_assets_desc: "Recursos militares conjuntos podem ajudar nossos países a atingir todo o seu potencial militar."
+
+ POL_Warsaw_march: "Marcha de Varsóvia"
+ POL_Warsaw_march_desc: "Mudanças recentes no cenário político e na abordagem democrática permitiram que os nacionalistas realizassem uma série de grandes manifestações e está previsto para culminar na chamada marcha de Varsóvia, a maior manifestação nacionalista na Europa vista nas últimas décadas."
+
+ POL_unite_nationalist_movements: "Unir os movimentos nacionalistas"
+ POL_unite_nationalist_movements_desc: "Muitos movimentos nacionalistas são dispersos e localizados, se quisermos manter qualquer poder, precisamos nos unir em ideais comuns e resolver nossas diferenças assim que a vitória for alcançada."
+
+ POL_manifest_nacii: "Manifesto da Nação"
+ POL_manifest_nacii_desc: "O manifesto narodu é uma série de demandas e questões combinadas após ampla discussão entre movimentos nacionalistas preparados para agradar a política dominante com sua retórica hipócrita."
+
+ POL_connect_to_conservative_politicians: "Alcance os conservadores"
+ POL_connect_to_conservative_politicians_desc: "Diferentes políticos conservadores podem nos ajudar a justificar e legitimar nossas reivindicações, em troca continuaremos nossa cooperação assim que o estado estiver garantido."
+
+ POL_reorganize_nationalists_squads: "Reorganizar esquadrões nacionalistas"
+ POL_reorganize_nationalists_squads_desc: "Muitos movimentos têm seus próprios esquadrões em caso de turbulência política, temos que uni-los, treiná-los e reorganizá-los, quando chegar o dia eles podem ser úteis."
+
+ POL_escalate_political_violence: "Aumentar a violência política"
+ POL_escalate_political_violence_desc: "Temos que combater a influência de liberais degenerados e comunistas desumanos, e se o dever chamar, até responder com violência."
+
+ POL_increase_media_exposure: "Aumentar a exposição na mídia"
+ POL_increase_media_exposure_desc: "Ainda não temos meios de chegar ao povo, nosso melhor aliado, precisamos gastar dinheiro na cobertura da mídia de nossas nobres intenções."
+
+ POL_gather_guns: "Reunir armas"
+ POL_gather_guns_desc: "Nossos esquadrões, assim como nosso futuro exército, precisam de mais armas para defender nosso estado. Talvez precisemos comprar algumas."
+
+ POL_train_nationalist_troops: "Treinar esquadrões nacionalistas"
+ POL_train_nationalist_troops_desc: "Com as tropas reorganizadas, agora podemos nos concentrar em seu treinamento. O dia está chegando."
+
+ POL_localize_programs: "Localizar programas"
+ POL_localize_programs_desc: "Para conquistar os corações e as mentes das pessoas comuns, precisamos especificar o que exatamente seria feito quando assumissemos o controle do país, com toda a atenção aos detalhes e às questões locais."
+
+ POL_discreditate_opponents: "Desacreditar oponentes"
+ POL_discreditate_opponents_desc: "Alguns truques sujos e alguns relatórios leais da mídia e carreiras de alguns políticos podem acabar em um piscar de olhos. Acontece que exatamente essas pessoas estão em nosso caminho..."
+
+ POL_day_of_Phalanga: "Dia de Phalanga"
+ POL_day_of_Phalanga_desc: "Chegou o dia, podemos finalmente tomar o poder. Vamos fazer o que devemos."
+
+ POL_rise_of_nation: "Ascensão da nação"
+ POL_rise_of_nation_desc: "Conseguimos alcançar a vitória por meios muito mais convencionais do que o esperado. Vamos começar então."
+
+ POL_new_foreighn_ministry: "Novo Ministério das Relações Exteriores"
+ POL_new_foreighn_ministry_desc: "O Ministério das Relações Exteriores é de longe o que precisa de uma reinicialização total, é melhor começar do zero."
+
+ POL_nationalist_leave_eu: "Sair da UE"
+ POL_nationalist_leave_eu_desc: "A União Europeia é uma prisão para nossa nação, estamos melhores sem os globalistas nos dizendo o que fazer."
+
+ POL_nationalist_leave_nato: "Sair da OTAN"
+ POL_nationalist_leave_nato_desc: "A OTAN também não serve ao nosso país, mas sim às potências globais. Boa viagem."
+
+ POL_local_cooperation: "Cooperação local"
+ POL_local_cooperation_desc: "Nossa nação deve se concentrar na construção de uma nova aliança no centro-leste da Europa para garantir o estilo de vida europeu como um todo."
+
+ POL_reach_out_to_russia: "Chegar à Rússia"
+ POL_reach_out_to_russia_desc: "Talvez precisemos entrar em contato com nosso improvável aliado... a Rússia. Há uma esperança de que essas relações sejam... frutíferas."
+
+ POL_reach_to_chechz: "Chegar à Chechz"
+ POL_reach_to_chechz_desc: "Os movimentos nacionalistas tchecos foram nossos aliados por muito tempo, agora podemos apoiá-los."
+
+ POL_fund_friendly_movements: "Movimentos amigos do fundo"
+ POL_fund_friendly_movements_desc: "Precisamos apoiar nossos aliados em nossos vizinhos, para que possam repetir nosso sucesso."
+
+ POL_russian_right_wing: "Direita russa"
+ POL_russian_right_wing_desc: "Jogar com o imperialista é perigoso, mas podemos precisar de qualquer aliado que conseguirmos."
+
+ POL_new_allience: "Nova Aliança"
+ POL_new_allience_desc: "Precisamos formalizar e forjar nossa aliança para resistir à pressão das potências globalistas."
+
+ POL_ally_infrastructure: "Aliar infraestrutura"
+ POL_ally_infrastructure_desc: "Trabalharemos juntos para melhorar a infraestrutura em nossos estados. Isso beneficiará a todos nós."
+
+ POL_ally_industry: "Indústria aliada"
+ POL_ally_industry_desc: "Identificamos algumas possibilidades de investimentos adicionais em nossos aliados. Isso pode nos fortalecer ainda mais."
+
+ POL_ally_research: "Pesquisa de aliados"
+ POL_ally_research_desc: "Precisamos unir nossos esforços nas áreas científicas, isso com certeza irá acelerar um processo."
+
+ POL_economical_comitee: "Comitê Econômico"
+ POL_economical_comitee_desc: "Precisamos rever nossa situação e tomar medidas para regular a economia para garantir que funcione para servir à nação, não aos globalistas."
+
+ POL_mass_nationalization: "Nacionalização em massa"
+ POL_mass_nationalization_desc: "Precisamos nacionalizar todas as grandes corporações e fábricas para garantir que trabalhem para servir o estado."
+
+ POL_limited_nationalization: "Nacionalização limitada"
+ POL_limited_nationalization_desc: "Algumas empresas e fábricas importantes precisam ser nacionalizadas, embora outras precisem apenas ser regulamentadas. Menos controle, mas mais agilidade."
+
+ POL_centralized_infrastructure_development: "Desenvolvimento de infraestrutura centralizada"
+ POL_centralized_infrastructure_development_desc: "Precisamos planejar o desenvolvimento da infraestrutura de maneira altamente centralizada, afinal, isso afeta toda a nação."
+
+ POL_local_infrastructure_development: "Desenvolvimento de infraestrutura local"
+ POL_local_infrastructure_development_desc: "Não devemos repetir os erros dos globalistas e devemos continuar nosso trabalho de maneira localizada, devagar e sempre vence a corrida."
+
+ POL_full_social_support: "Suporte social completo"
+ POL_full_social_support_desc: "Nossa nação merece um apoio social total em todos os termos. Esta é nossa prioridade máxima e sempre foi."
+
+ POL_limited_social_support: "Suporte social limitado"
+ POL_limited_social_support_desc: "Devemos começar lentamente a implementar nossos programas de apoio nacional, mas não nos estender demais para um desenvolvimento estável em todas as direções."
+
+ POL_further_industrial_expansion: "Mais expansão industrial"
+ POL_further_industrial_expansion_desc: "Precisamos continuar a expandir nossas fábricas nacionais para fornecer à nossa nação bens e empregos."
+
+ POL_military_expansion: "Expansão militar"
+ POL_military_expansion_desc: "O exército é o núcleo de nossa nação, mas nos faltam fábricas de munições. É hora de começar a resolver esse buraco flagrante."
+
+ POL_develop_bio_fuel: "Desenvolver biocombustível"
+ POL_develop_bio_fuel_desc: "Não dependeremos de potências globalistas, portanto, exploraremos bioalternativas ao tão necessário combustível."
+
+ POL_develop_metals: "Desenvolver a indústria metalúrgica"
+ POL_develop_metals_desc: "A indústria metalúrgica é uma tradição para algumas áreas do nosso país. Não devemos abandoná-la, ao contrário, podemos realmente achar a expansão de minas muito útil."
+
+ POL_social_comitee: "Comitê social"
+ POL_social_comitee_desc: "A vida social de alguns indivíduos deve ser regulamentada, precisamos salvar nossa nação da agenda degenerativa do Ocidente."
+
+ POL_set_state_religion: "Religião do estado"
+ POL_set_state_religion_desc: "O Cristianismo é um pilar da nossa sociedade. Só é certo se o definirmos como religião do estado."
+
+ POL_ban_abortions: "Proibir abortos"
+ POL_ban_abortions_desc: "Abortos são crimes contra a humanidade, crimes contra nossa nação. Eles deveriam ser proibidos."
+
+ POL_promote_egalatarianism: "Promover o agalatarianismo"
+ POL_promote_egalatarianism_desc: "Se você é membro da nossa sociedade, você deve saber o que é compartilhar para o bem maior."
+
+ POL_create_inner_network: "Criar rede interna"
+ POL_create_inner_network_desc: "Uma rede de agentes e informantes garantirá nosso equilíbrio e ajudará a estabilizar a sociedade."
+
+ POL_mandatory_patriotic_education: "Educação patriótica obrigatória"
+ POL_mandatory_patriotic_education_desc: "A educação patriótica deve fazer parte da educação escolar. Devemos ensinar aos jovens nossa gloriosa história."
+
+ POL_paramilitary_organization: "Organizações paramilitares"
+ POL_paramilitary_organization_desc: "O exército é o nosso pilar, mas precisamos garantir que grandes massas estejam prontas para morrer por seu país. Várias organizações paramilitares servirão a esse objetivo."
+
+ POL_local_hitleryugent: "Organizações juvenis"
+ POL_local_hitleryugent_desc: "Organizações juvenis um tanto paramilitares e 100% patrióticas garantirão o futuro de nossa nação."
+
+ POL_propaganda_ministry: "Ministério de propaganda"
+ POL_propaganda_ministry_desc: "Divulgaremos informações verdadeiras sobre nossas ações de combate à propaganda liberal e comunista. Uma instituição especial deve se concentrar nisso."
+
+# EVENTOS #
+ poland.5.t: "Exercício Anaconda 16"
+ poland.5.d: "Depois de dez dias de intenso treinamento em toda a Polônia, o Anakonda 16 chegou ao fim. O exercício multinacional liderado pelos poloneses envolvendo 31.000 soldados de 24 aliados e parceiros da OTAN terminou em uma demonstração em grande escala para ilustres visitantes, convidados e mídia. Tropas da Polônia, Reino Unido e Estados Unidos fizeram uma demonstração de força e capacidade militar de 45 minutos, desde fogo de artilharia, manobras táticas e uma demonstração impressionante de poder aéreo e ação."
+ poland.5.a: "OTAN bem feito"
+ poland.6.t: "Escândalo de corrupção"
+ poland.6.d: "Nos últimos anos, nosso partido foi um centro de escândalos de corrupção. E os mais recentes parecem oprimir até mesmo o camponês mais ignorante. Não está claro se um partido pode ser sustentado como está. Talvez nós devemos cortar nossas perdas?"
+ poland.6.a: "Não pode durar mais, devemos buscar maneiras de reconstruir nosso partido."
+ poland.6.b: "Parece que não temos poder para fazer nada a respeito."
+ poland.7.t: "Escândalo de corrupção"
+ poland.7.d: "Os jornais amarelos estão espalhando mentiras sobre nosso partido e nossos objetivos. Esquemas imaginários de corrupção são mostrados ao público. Nossa imagem pública sofre muito, mas não há nenhuma evidência concreta de qualquer tipo. Devemos ignorar o reivindicações?"
+ poland.7.a: "É chantagem, com certeza."
+ poland.7.b: "Precisamos fazer algumas declarações públicas..."
+ poland.8.t: "Questão do Partido Social"
+ poland.8.d: "Por muito tempo, os socialistas promoveram ideais comunistas estilizados como equidade social para o nosso povo. Seu passado é canibal. E podemos ter certeza de que não haverá futuro para eles, mas eles são um ameaça ou uma relíquia de um passado?"
+ poland.8.a: "Deixe-os estar, os comunistas já se foram."
+ poland.8.b: "Esmague-os."
+ poland.9.t: "Vazamento inesperado"
+ poland.9.d: "Recentemente, os jornais detectaram um vazamento de informações que liga muitos funcionários do partido à supressão do partido comunista à liberdade de expressão e ao movimento civil durante a queda do pacto de Varsóvia. Isso pode ser mortal para nossa campanha eleitoral."
+ poland.9.a: "Temos evidências suficientes para refutar as alegações."
+ poland.9.b: "Como esperado dos socialistas."
+ poland.10.t: "Protestos LGBT"
+ poland.10.d: "Nas últimas semanas após as eleições, protestos maciços de lgbt surgiram em todo o país. Enquanto muitos de nossos eleitores apoiaram nossa retórica anti-LGBT, nem todos parecem estar tão contentes com nossas intenções. A maioria dos jovens parece para ser cegado e mal orientado por alguma propaganda estrangeira. Vamos agora fazer uma escolha sobre o que fazer com a situação atual."
+ poland.10.a: "Esmagar os protestos"
+ poland.10.b: "É melhor deixar como está"
+ poland.11.t: "Mudança no cenário político"
+ poland.11.d: "Recentemente, uma ampla coalizão de partidos conhecida como AWS se dividiu em partes menores, resultando em uma mudança drástica no cenário político. No início deste ano, a UW também teve dificuldades para se manter intacta. Agora, novos sindicatos, conhecidos como PiS e PO parecem estar destinados a dominar a política na Polônia nos próximos anos."
+ poland.11.a: "Este é realmente um mundo turbulento."
+ poland.12.t: "Questão de controle"
+ poland.12.d: "Após o gigantesco comício político, uma frágil aliança entre o ZKP e o PPS estourou, com o apoio da multidão de um dos partidos, agora está claro quem liderará e se tornará o partido governante."
+ poland.12.a: "ZKP consegue dominar."
+ poland.12.b: "PPS garante a vitória."
+ poland.13.t: "Mulheres no exército"
+ poland.13.d: "Nos últimos meses após o corte do orçamento militar, as conversas sobre o papel das mulheres no exército estão em pleno andamento. É hora de fazermos uma declaração oficial sobre isso."
+ poland.13.a: "O exército não é um bom lugar para uma mulher."
+ poland.13.b: "Qualquer mulher tem o direito de defender seu país."
+ poland.13.c: "Na verdade, as mulheres devem fazer a sua parte."
+ poland.14.t: "A frente vermelha"
+ poland.14.d: "A frente vermelha é liderada por uma aliança instável de dois partidos.\nO primeiro é o ZKP - mistura de comunistas da velha guarda com oligarcas um tanto pró-russos, eles gostariam de ver 'erros do passado corrigidos' e restabelecer a economia do estado (ou pelo menos parcialmente controlada pelo estado), mantendo as políticas sociais conservadoras.\nO segundo partido é o PPS - partido de esquerda radical com ideias e ideais econômicos semelhantes, mas mais inclinado para o socialismo do que para o comunismo/capitalismo de estado. os programas são um tanto conservadores, mas são menos restritivos em comparação com o ZKP.\n Pelo menos é o que se sabe das autoridades..."
+ poland.14.a: "Um novo poder emerge."
+ poland.15.t: "Relatório anual das fábricas estatais"
+ poland.15.d: "Reunimos os últimos relatórios das fábricas e agora é hora de um novo ano de produção. As fábricas estão prontas para serem designadas para novas tarefas."
+ poland.15.a: "Precisamos reatribuir as fábricas para cumprir a cota anual."
+ poland_influence.1.t: "Influência nacionalista polonesa."
+ poland_influence.1.d: "Recentemente, o Estado polonês tem financiado movimentos de extrema-direita em nosso país. Vamos reagir a isso de maneira adequada."
+ poland_influence.1.a: "Isto é apenas uma vantagem nossa."
+ poland_influence.1.b: "Vamos tentar combater essa influência."
+
+ ## notícias POL
+ poland_news.2.t: "Desastre aéreo de Smolensk"
+ poland_news.2.d: "Hoje, uma aeronave Tupolev Tu-154 operando o vôo 101 da Força Aérea Polonesa caiu perto da cidade russa de Smolensk, matando todas as 96 pessoas a bordo. Entre as vítimas estava o presidente da Polônia, [ROOT.GetLeader ] e sua esposa, o ex-presidente da Polônia no exílio, Ryszard Kaczorowski, o chefe do Estado-Maior polonês e outros altos oficiais militares poloneses, o presidente do Banco Nacional da Polônia, funcionários do governo polonês, 18 membros do Parlamento polonês, membros seniores do clero polonês e parentes das vítimas do massacre de Katyn. O grupo estava chegando de Varsóvia para participar de um evento comemorativo do 70º aniversário do massacre, ocorrido não muito longe de Smolensk."
+ poland_news.2.a: "Uma grande perda para a Polónia."
+ poland_news.2.b: "Como isso pôde acontecer?!"
+ poland_news.2.c: "Uma tragédia para [ROOT.GetName] também."
+ poland_news.3.t: "Incidente aéreo de Smolensk"
+ poland_news.3.d: "Hoje, uma aeronave Tupolev Tu-154 operando o Voo 101 da Força Aérea Polonesa, teve um pouso forçado na cidade russa de Smolensk, quase evitando um possível desastre. O avião tinha 96 pessoas a bordo. Entre os passageiros estavam o presidente da Polônia, [ROOT.GetLeader] e sua esposa, o ex-presidente da Polônia no exílio, Ryszard Kaczorowski, o chefe do Estado-Maior polonês e outros altos oficiais militares poloneses, o presidente do Banco Nacional da Polônia, funcionários do governo polonês , 18 membros do Parlamento polonês, altos membros do clero polonês e parentes das vítimas do massacre de Katyn. O grupo chegava de Varsóvia para participar de um evento comemorativo do 70º aniversário do massacre, ocorrido não muito longe de Smolensk. Poucos os passageiros tiveram que ser levados para um hospital e o evento foi adiado."
+ poland_news.3.a: "Por pouco."
+ poland_news.3.b: "Poderia ter sido o pior desastre da história moderna da Polônia."
+ poland_news.3.c: "Quase nos metemos em outro escândalo internacional."

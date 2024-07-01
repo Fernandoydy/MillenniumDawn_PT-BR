@@ -1,0 +1,421 @@
+﻿l_braz_por:
+ SER_political_development: "Desenvolvimento Político"
+ SER_political_development_desc: "WIP desc"
+
+ SER_bulldozer_revolution: "Revolução da escavadeira"
+ SER_bulldozer_revolution_desc: "WIP desc"
+
+ SER_forgive_milosevic: "Perdoe Milosevic"
+ SER_forgive_milosevic_desc: "WIP desc"
+
+ SER_focus_on_liberty: "Foco na liberdade"
+ SER_focus_on_liberty_desc: "WIP desc"
+
+ SER_arrest_slodoban_milosevic: "Prender Slodoban Milosevic"
+ SER_arrest_slodoban_milosevic_desc: "WIP desc"
+
+ SER_end_journalist_assassination: "Fim do Assassinato de Jornalista"
+ SER_end_journalist_assassination_desc: "WIP desc"
+
+ SER_put_an_end_to_nationalist_newspaper: "Acabe com os jornais nacionalistas"
+ SER_put_an_end_to_nationalist_newspaper_desc: "WIP desc"
+
+ SER_fight_the_corruption: "Lute contra a corrupção"
+ SER_fight_the_corruption_desc: "WIP desc"
+
+ SER_recognize_kosovo: "Reconhecer Kosovo"
+ SER_recognize_kosovo_desc: "WIP desc"
+
+ SER_give_more_autonomy_to_kosovo: "Dar mais autonomia ao Kosovo"
+ SER_give_more_autonomy_to_kosovo_desc: "WIP desc"
+
+ SER_apply_for_nato: "Inscrever-se na OTAN"
+ SER_apply_for_nato_desc: "WIP desc"
+
+ SER_nato_military_advisors: "Conselheiros Militares da OTAN"
+ SER_nato_military_advisors_desc: "WIP desc"
+
+ SER_apply_for_eu: "Apply For Eu"
+ SER_apply_for_eu_desc: "WIP desc"
+
+ SER_the_european_integration: "A integração europeia"
+ SER_the_european_integration_desc: "WIP desc"
+
+ SER_the_euro: "O Euro"
+ SER_the_euro_desc: "WIP desc"
+
+ SER_the_budapest_belgrad_sofia_line: "A Linha Budapeste Belgrado Sofia"
+ SER_the_budapest_belgrad_sofia_line_desc: "WIP desc"
+
+ SER_seek_foreign_industrial_investments: "Procure Investimentos Industriais Estrangeiros"
+ SER_seek_foreign_industrial_investments_desc: "WIP desc"
+
+ SER_fiat_investments: "Investimentos Fiat"
+ SER_fiat_investments_desc: "WIP desc"
+
+ SER_volkswagen_investments: "Investimentos Volkswagen"
+ SER_volkswagen_investments_desc: "WIP desc"
+
+ SER_improve_the_welfare_system: "Melhorar o sistema de bem-estar"
+ SER_improve_the_welfare_system_desc: "WIP desc"
+
+ SER_university_of_belgrad: "Universidade de Belgrado"
+ SER_university_of_belgrad_desc: "WIP desc"
+
+ SER_balkan_cooperation_pact: "Pacto de cooperação dos Balcãs"
+ SER_balkan_cooperation_pact_desc: "WIP desc"
+
+ SER_give_autonomy_to_montenegro: "Dê autonomia a Montenegro"
+ SER_give_autonomy_to_montenegro_desc: "WIP desc"
+
+ SER_balkan_cooperation_invite_bosnia: "A cooperação dos Bálcãs convida a Bósnia"
+ SER_balkan_cooperation_invite_bosnia_desc: "WIP desc"
+
+ SER_balkan_cooperation_invite_macedonia: "A cooperação dos Bálcãs convida a Macedônia"
+ SER_balkan_cooperation_invite_macedonia_desc: "WIP desc"
+
+ SER_balkan_trade_treaty: "Tratado comercial dos Balcãs"
+ SER_balkan_trade_treaty_desc: "WIP desc"
+
+ SER_befriend_neighbours: "Fazer amizade com os vizinhos"
+ SER_befriend_neighbours_desc: "WIP desc"
+
+ SER_develop_national_car_industry: "Desenvolver a Indústria Automóvel Nacional"
+ SER_develop_national_car_industry_desc: "WIP desc"
+
+ SER_zastava_automobili: "Zastava Automobili"
+ SER_zastava_automobili_desc: "WIP desc"
+
+ SER_balkan_cooperation_invite_croatia: "A cooperação dos Bálcãs convida a Croácia"
+ SER_balkan_cooperation_invite_croatia_desc: "WIP desc"
+
+ SER_balkan_cooperation_invite_albania: "A cooperação dos Bálcãs convida a Albânia"
+ SER_balkan_cooperation_invite_albania_desc: "WIP desc"
+
+ SER_balkan_cooperation_invite_bulgaria: "A cooperação dos Bálcãs convida a Bulgária"
+ SER_balkan_cooperation_invite_bulgaria_desc: "WIP desc"
+
+ SER_the_eastern_path: "O caminho oriental"
+ SER_the_eastern_path_desc: "WIP desc"
+
+ SER_free_trade_with_russia: "Livre comércio com a Rússia"
+ SER_free_trade_with_russia_desc: "WIP desc"
+
+ SER_befriend_vladimir: "Fazer amizade com Vladimir"
+ SER_befriend_vladimir_desc: "WIP desc"
+
+ SER_rehold_elections: "Reter eleições"
+ SER_rehold_elections_desc: "WIP desc"
+
+ SER_befrind_bricks: "Befrind Bricks"
+ SER_befrind_bricks_desc: "WIP desc"
+
+ SER_china_investments: "Investimentos na China"
+ SER_china_investments_desc: "WIP desc"
+
+ SER_apply_for_csto: "Aplicar para Csto"
+ SER_apply_for_csto_desc: "WIP desc"
+
+ SER_joint_military_exercises: "Exercícios militares conjuntos"
+ SER_joint_military_exercises_desc: "WIP desc"
+
+ SER_industrial_cooperation_with_the_east: "Cooperação industrial com o Oriente"
+ SER_industrial_cooperation_with_the_east_desc: "WIP desc"
+
+ SER_pipeline_from_the_east: "Pipeline do leste"
+ SER_pipeline_from_the_east_desc: "WIP desc"
+
+ SER_technological_alliance_with_russia: "Aliança tecnológica com a Rússia"
+ SER_technological_alliance_with_russia_desc: "WIP desc"
+
+ SER_refuse_kosovo_independance: "Recusar a independência do Kosovo"
+ SER_refuse_kosovo_independance_desc: "WIP desc"
+
+ SER_befriend_montenegro: "Faça amizade com Montenegro"
+ SER_befriend_montenegro_desc: "WIP desc"
+
+ SER_invite_montenegro_to_csto: "Convidar Montenegro para Csto"
+ SER_invite_montenegro_to_csto_desc: "WIP desc"
+
+ SER_the_conscription_reform: "A reforma do recrutamento"
+ SER_the_conscription_reform_desc: "WIP desc"
+
+ SER_arrest_the_leader_of_opposition: "Prender o líder da oposição"
+ SER_arrest_the_leader_of_opposition_desc: "WIP desc"
+
+ SER_promote_the_nationalism: "Promova o Nacionalismo"
+ SER_promote_the_nationalism_desc: "WIP desc"
+
+ SER_put_an_end_to_liberty_of_speech: "Coloque um fim na liberdade de expressão"
+ SER_put_an_end_to_liberty_of_speech_desc: "WIP desc"
+
+ SER_limit_the_freedom_of_religion: "Limitar a liberdade de religião"
+ SER_limit_the_freedom_of_religion_desc: "WIP desc"
+
+ SER_claim_the_old_yugoslavian_borders: "Reivindicar as antigas fronteiras iugoslavas"
+ SER_claim_the_old_yugoslavian_borders_desc: "WIP desc"
+
+ SER_secure_the_access_to_the_see: "Garantir o acesso à Sé"
+ SER_secure_the_access_to_the_see_desc: "WIP desc"
+
+ SER_ultimatum_to_bosnia: "Ultimate To Bosnia"
+ SER_ultimatum_to_bosnia_desc: "WIP desc"
+
+ SER_form_greater_yugoslavia: "Forma da Grande Iugoslávia"
+ SER_form_greater_yugoslavia_desc: "WIP desc"
+
+ SER_protect_serbian_minorities_in_kosovo: "Proteja as minorias sérvias no Kosovo"
+ SER_protect_serbian_minorities_in_kosovo_desc: "WIP desc"
+
+ SER_strengthen_the_slavic_identity: "Fortalecer a identidade eslava"
+ SER_strengthen_the_slavic_identity_desc: "WIP desc"
+
+ SER_nationalism_befriend_russia: "Nacionalismo faz amizade com a Rússia"
+ SER_nationalism_befriend_russia_desc: "WIP desc"
+
+ SER_improve_the_research_budget: "Melhorar o orçamento de pesquisa"
+ SER_improve_the_research_budget_desc: "WIP desc"
+
+ SER_zastava_arms: "Armas Zastava"
+ SER_zastava_arms_desc: "WIP desc"
+
+ SER_krusik_valjevo: "Krusik Valjevo"
+ SER_krusik_valjevo_desc: "WIP desc"
+
+ SER_srbijagas: "Srbijagas"
+ SER_srbijagas_desc: "WIP desc"
+
+ SER_nicolas_tesla_powerplant: "Nicolas Tesla Powerplant"
+ SER_nicolas_tesla_powerplant_desc: "WIP desc"
+
+ SER_expend_the_industrial_zones: "Expender as Zonas Industriais"
+ SER_expend_the_industrial_zones_desc: "WIP desc"
+
+ SER_the_serbian_youth: "A juventude sérvia"
+ SER_the_serbian_youth_desc: "WIP desc"
+
+ SER_the_serbian_orthodox_church: "A Igreja Ortodoxa Sérvia"
+ SER_the_serbian_orthodox_church_desc: "WIP desc"
+
+ SER_threaten_croatia: "Ameaçar a Croácia"
+ SER_threaten_croatia_desc: "WIP desc"
+
+ SER_invade_slovenia: "Invadir a Eslovênia"
+ SER_invade_slovenia_desc: "WIP desc"
+
+ SER_retake_nothern_macedonia: "Retomar a Macedônia do Norte"
+ SER_retake_nothern_macedonia_desc: "WIP desc"
+
+ SER_claim_greek_macedonia: "Reivindicar Macedônia Grega"
+ SER_claim_greek_macedonia_desc: "WIP desc"
+
+ SER_claim_bulgaria: "Reivindicar Bulgária"
+ SER_claim_bulgaria_desc: "WIP desc"
+
+ SER_ultimatum_to_bulgaria: "Ultimate To Bulgaria"
+ SER_ultimatum_to_bulgaria_desc: "WIP desc"
+
+ SER_influence_bulgaria: "Influenciar a Bulgária"
+ SER_influence_bulgaria_desc: "WIP desc"
+
+ SER_stage_a_coup_in_bulgaria: "Efetuar um golpe na Bulgária"
+ SER_stage_a_coup_in_bulgaria_desc: "WIP desc"
+
+ SER_ultimatum_to_greece: "Ultimatum para a Grécia"
+ SER_ultimatum_to_greece_desc: "WIP desc"
+
+ SER_secure_the_bosphore: "Proteja o Bósforo"
+ SER_secure_the_bosphore_desc: "WIP desc"
+
+ SER_nostalgia_of_the_past: "Nostalgia do passado"
+ SER_nostalgia_of_the_past_desc: "WIP desc"
+
+ SER_refuse_to_give_milosevic_to_the_un: "Recusar-se a entregar Milosevic à ONU"
+ SER_refuse_to_give_milosevic_to_the_un_desc: "WIP desc"
+
+ SER_enhance_multi_ethnic_feeling: "Melhorar o sentimento multiétnico"
+ SER_enhance_multi_ethnic_feeling_desc: "WIP desc"
+
+ SER_influence_the_neighbours: "Influenciar os vizinhos"
+ SER_influence_the_neighbours_desc: "WIP desc"
+
+ SER_enhance_panslavic_feeling: "Melhorar o sentimento panslavo"
+ SER_enhance_panslavic_feeling_desc: "WIP desc"
+
+ SER_finance_communist_group_in_the_balkans: "Grupo Comunista Financeiro nos Bálcãs"
+ SER_finance_communist_group_in_the_balkans_desc: "WIP desc"
+
+ SER_the_kosovo_negociations: "As negociações do Kosovo"
+ SER_the_kosovo_negociations_desc: "WIP desc"
+
+ SER_the_montenegro_negociations: "As negociações de Montenegro"
+ SER_the_montenegro_negociations_desc: "WIP desc"
+
+ SER_ask_bosnia_to_join_the_union: "Peça à Bósnia para aderir à União"
+ SER_ask_bosnia_to_join_the_union_desc: "WIP desc"
+
+ SER_ask_croatia_to_join_the_union: "Peça à Croácia para aderir à União"
+ SER_ask_croatia_to_join_the_union_desc: "WIP desc"
+
+ SER_form_the_socialist_union_of_yugoslavia: "Forme a União Socialista da Iugoslávia"
+ SER_form_the_socialist_union_of_yugoslavia_desc: "WIP desc"
+
+ SER_invite_slovenia: "Convidar a Eslovênia"
+ SER_invite_slovenia_desc: "WIP desc"
+
+ SER_infleunce_bulgaria_communism: "Infleunce Blugaria"
+ SER_infleunce_blgaria_desc: "WIP desc"
+
+ SER_rally_bulgaria: "Rally Blugária"
+ SER_rally_bulgaria_desc: "WIP desc"
+
+ SER_infleunce_albania: "Infleunce Albânia"
+ SER_infleunce_albania_desc: "WIP desc"
+
+ SER_rally_albania: "Rally da Albânia"
+ SER_rally_albania_desc: "WIP desc"
+
+ SER_integrated_rail_network: "Rede Ferroviária Integrada"
+ SER_integrated_rail_network_desc: "WIP desc"
+
+ SER_the_balkanic_academy: "A Academia Balcânica"
+ SER_the_balkanic_academy_desc: "WIP desc"
+
+ SER_stage_a_coup_in_slovenia: "Efetuar um golpe na Eslovênia"
+ SER_stage_a_coup_in_slovenia_desc: "WIP desc"
+
+ SER_invite_slovenia_in_the_union: "Convidar a Eslovênia na União"
+ SER_invite_slovenia_in_the_union_desc: "WIP desc"
+
+ SER_open_relations_with_abroad_communist_country: "Relações abertas com países comunistas no exterior"
+ SER_open_relations_with_abroad_communist_country_desc: "WIP desc"
+
+ SER_centralize_the_rail_network_in_serbia: "Centralize a rede ferroviária na Sérvia"
+ SER_centralize_the_rail_network_in_serbia_desc: "WIP desc"
+
+ SER_nationalize_the_automobile_industry: "Nacionalizar a indústria automobilística"
+ SER_nationalize_the_automobile_industry_desc: "WIP desc"
+
+ SER_developp_krusik_valjevo: "Developp Krusik Valjevo"
+ SER_developp_krusik_valjevo_desc: "WIP desc"
+
+ SER_liberate_the_bosnian_people: "Liberte o povo bósnio"
+ SER_liberate_the_bosnian_people_desc: "WIP desc"
+
+ SER_stage_a_coup_in_croatia: "Efetuar um golpe na Croácia"
+ SER_stage_a_coup_in_croatia_desc: "WIP desc"
+
+ SER_align_croatia_by_force: "Alinhar a Croácia pela Força"
+ SER_align_croatia_by_force_desc: "WIP desc"
+
+ SER_form_the_socialist_federal_republic_of_yugoslavia: "Formar a República Federal Socialista da Iugoslávia"
+ SER_form_the_socialist_federal_republic_of_yugoslavia_desc: "WIP desc"
+
+ SER_stage_a_coup_in_slovenia2: "Dê um golpe na Eslovênia"
+ SER_stage_a_coup_in_slovenia2_desc: "WIP desc"
+
+ SER_align_slovenia_by_force: "Alinhar a Eslovênia pela força"
+ SER_align_slovenia_by_force_desc: "WIP desc"
+
+ SER_liberate_the_macedonian_people: "Liberte o povo macedônio"
+ SER_liberate_the_macedonian_people_desc: "WIP desc"
+
+ SER_the_international_revolution: "A Revolução Internacional"
+ SER_the_international_revolution_desc: "WIP desc"
+
+ SER_planified_economy: "Economia Planificada"
+ SER_planified_economy_desc: "WIP desc"
+
+ SER_proletarian_youth: "Juventude Proletária"
+ SER_proletarian_youth_desc: "WIP desc"
+
+ SER_rebuild_the_country: "Reconstruir o país"
+ SER_rebuild_the_country_desc: "WIP desc"
+
+ SER_improve_serbian_railway: "Melhorar a Ferrovia Sérvia"
+ SER_improve_serbian_railway_desc: "WIP desc"
+
+ SER_modernization_of_the_iron_gate_dam: "Modernização da represa Iron Gate"
+ SER_modernization_of_the_iron_gate_dam_desc: "WIP desc"
+
+ SER_developp_the_coal_industry: "Desenvolver a indústria do carvão"
+ SER_developp_the_coal_industry_desc: "WIP desc"
+
+ SER_developp_the_mining_capacity: "Desenvolver a capacidade de mineração"
+ SER_developp_the_mining_capacity_desc: "WIP desc"
+
+ SER_ikarbus_beograd: "Ikarbus Belgrado"
+ SER_ikarbus_beograd_desc: "WIP desc"
+
+ SER_army_effort: "Esforço do Exército"
+ SER_army_effort_desc: "WIP desc"
+
+ SER_equipment_effort: "Esforço do equipamento"
+ SER_equipment_effort_desc: "WIP desc"
+
+ SER_motorization_effort: "Esforço de motorização"
+ SER_motorization_effort_desc: "WIP desc"
+
+ SER_doctrine_effort: "Esforço de Doutrina"
+ SER_doctrine_effort_desc: "WIP desc"
+
+ SER_equipment_effort_2: "Esforço do equipamento 2"
+ SER_equipment_effort_2_desc: "WIP desc"
+
+ SER_mechanization_effort: "Esforço de mecanização"
+ SER_mechanization_effort_desc: "WIP desc"
+
+ SER_doctrine_effort_2: "Esforço de Doutrina 2"
+ SER_doctrine_effort_2_desc: "WIP desc"
+
+ SER_equipment_effort_3: "Esforço do equipamento 3"
+ SER_equipment_effort_3_desc: "WIP desc"
+
+ SER_armor_effort: "Esforço de armadura"
+ SER_armor_effort_desc: "WIP desc"
+
+ SER_special_forces: "Forças Especiais"
+ SER_special_forces_desc: "WIP desc"
+
+ SER_aviation_effort: "Esforço de aviação"
+ SER_aviation_effort_desc: "WIP desc"
+
+ SER_fighter_focus: "Foco no lutador"
+ SER_fighter_focus_desc: "WIP desc"
+
+ SER_bomber_focus: "Foco de bombardeiro"
+ SER_bomber_focus_desc: "WIP desc"
+
+ SER_aviation_effort_2: "Esforço de aviação 2"
+ SER_aviation_effort_2_desc: "WIP desc"
+
+ SER_CAS_effort: "CAS Effort"
+ SER_CAS_effort_desc: "WIP desc"
+
+ SER_rocket_effort: "Esforço de Foguete"
+ SER_rocket_effort_desc: "WIP desc"
+
+ SER_NAV_effort: "Esforço NAV"
+ SER_NAV_effort_desc: "WIP desc"
+
+ SER_naval_effort: "Esforço Naval"
+ SER_naval_effort_desc: "WIP desc"
+
+ SER_flexible_navy: "Marinha flexível"
+ SER_flexible_navy_desc: "WIP desc"
+
+ SER_large_navy: "Grande Marinha"
+ SER_large_navy_desc: "WIP desc"
+
+ SER_submarine_effort: "Esforço Submarino"
+ SER_submarine_effort_desc: "WIP desc"
+
+ SER_cruiser_effort: "Esforço do cruzador"
+ SER_cruiser_effort_desc: "WIP desc"
+
+ SER_destroyer_effort: "Esforço do Destruidor"
+ SER_destroyer_effort_desc: "WIP desc"
+
+ SER_capital_ships_effort: "Esforço da Capital Ships"
+ SER_capital_ships_effort_desc: "WIP desc"
+

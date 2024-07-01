@@ -1,0 +1,254 @@
+﻿l_braz_por:
+
+ ### Sistema Eleitoral Genérico ###
+ #Precisa de retrabalho
+ MD4_election_campaign.0.t: "Campanha eleitoral aquece à medida que a corrida entra nas duas últimas semanas"
+ MD4_election_campaign.0.d: "Desde a última eleição em [Root.GetLastElection], [Root.GetLeader] tem dirigido constantemente [Root.GetName]. Com os votos finais a serem lançados em duas semanas, essa direção será desafiada por rivais poderosos.\n\nA maior parte dos gastos com publicidade da campanha já ocorreu e as pesquisas estão começando a colher os efeitos."
+ MD4_election_campaign.0.a: "Vamos!"
+
+ MD4_election_campaign.1.t: "Debate sobre política externa: [Root.GetLeader] enfrenta decisões difíceis sobre quem atacar"
+ MD4_election_campaign.1.d: "À medida que a votação final se aproxima, temos que decidir com quem contrastar nossa política externa. À medida que o mundo se torna um lugar cada vez mais tumultuado, essa questão se tornou particularmente importante para os eleitores.\n\nAlguns difíceis - atingir anúncios negativos certamente fará a popularidade de nosso oponente cair, mas há uma pequena chance de que eles possam contra-atacar com sucesso se tiverem alguma sujeira séria sobre nós ou se nossos ataques forem baseados em pesquisas muito ruins.\n\nA eficácia do ataque é determinado pelo valor do financiamento de campanha que recebemos."
+ MD4_election_campaign.1.a: "Atacar os lunáticos [Root.GetFascistParty]"
+ MD4_election_campaign.1.b: "Atacar os idiotas nacionalistas"
+ MD4_election_campaign.1.c: "Atacar os tolos [Root.GetNeutralParty]"
+ MD4_election_campaign.1.e: "Atacar os imbecis [Root.GetCommunistParty]"
+ MD4_election_campaign.1.f: "Atacar os idiotas [Root.GetDemocraticParty]"
+ MD4_election_campaign.1.g: "Abstenha-se de atacar qualquer pessoa"
+ MD_election_campaign_no_tt: "Sem efeito"
+
+ MD4_election_campaign.3.t: "[Root.GetFascistParty] recupera - fortalecido contra ataques"
+ MD4_election_campaign.3.d: "Apesar de nossos ataques ferozes contra eles, o controverso [Root.GetFascistParty] conseguiu reter todos os seus principais seguidores. Eles usaram o aumento da atenção de nossos anúncios negativos a seu favor, obtendo acesso sem precedentes a todas as principais notícias meios de comunicação para promover sua ideologia."
+ MD4_election_campaign.3.a: "Droga!"
+
+ MD4_election_campaign.4.t: "Ataques negativos contra os nacionalistas saem pela culatra"
+ MD4_election_campaign.4.d: "Apesar de nossos ataques ferozes contra eles, os nacionalistas controversos conseguiram reter a maioria de seus principais seguidores. Eles marcaram pontos importantes em todo o país, alegando que o sistema está falido e corrupto, que a grande mídia é manipulando a sociedade, e que as políticas de [Root.GetLeader] estão disponíveis para o maior lance por meio de contribuições de campanha."
+ MD4_election_campaign.4.a: "Droga!"
+
+ MD4_election_campaign.5.t: "Ataques negativos contra [Root.GetNeutralParty] falham em causar impacto"
+ MD4_election_campaign.5.d: "Apesar de nossos melhores esforços, a opinião pública mudou contra nossa campanha publicitária negativa visando o [Root.GetNeutralParty]. Provavelmente existem várias causas, mas um fator pode ser a percepção de que um ataque de um político da estatura de [Root.GetLeader] é um exemplo de \"punching down\" e que o aumento da cobertura da mídia de nosso oponente permitiu que eles alcançassem mais eleitores."
+ MD4_election_campaign.5.a: "Droga!"
+
+ MD4_election_campaign.6.t: "Ataques negativos contra [Root.GetCommunistParty] caem em saco roto"
+ MD4_election_campaign.6.d: "Apesar de nossos melhores esforços, a opinião pública mudou contra nossa campanha publicitária negativa visando o [Root.GetCommunistParty]. Provavelmente existem várias causas, mas um fator pode ser a percepção de que um ataque de um político da estatura de [Root.GetLeader] é um exemplo de \"punching down\" e que o aumento da cobertura da mídia de nosso oponente permitiu que eles alcançassem mais eleitores."
+ MD4_election_campaign.6.a: "Droga!"
+
+ MD4_election_campaign.7.t: "Ataques negativos contra [Root.GetDemocraticParty] saem pela culatra"
+ MD4_election_campaign.7.d: "Apesar de nossos melhores esforços, a maré da opinião pública mudou contra nossa campanha publicitária negativa visando o [Root.GetDemocraticParty]. Embora culpemos publicamente a interferência estrangeira, a portas fechadas a verdadeira suspeita é que nossos ataques foram tão exagerados que apenas algumas pessoas acreditaram neles em primeiro lugar."
+ MD4_election_campaign.7.a: "Droga!"
+
+ MD4_election_campaign.8.t: "Convidar um orador controverso para a campanha?"
+ MD4_election_campaign.8.d: "Normalmente, isso nunca seria sugerido em voz alta - muito menos considerado seriamente. Mas devido ao baixo índice de aprovação de [Root.GetLeader], pode ser um risco que vale a pena correr; O orador é um membro marginal do nosso partido, conhecido por fazer uma série de declarações polêmicas no passado e falar em momentos inoportunos. No entanto, eles são muito populares entre estudantes e jovens - um grupo-chave que precisamos convencer a votar a nosso favor."
+ MD4_election_campaign.8.a: "Convide-os e espere pelo melhor"
+ MD4_election_campaign.8.b: "Não arrisque"
+
+ MD4_election_campaign.9.t: "Grande participação no rali revigora o entusiasmo por [Root.GetLeader]"
+ MD4_election_campaign.9.d: "O comício foi um grande sucesso, atraindo a maior participação de público de toda a temporada de campanha. O polêmico orador não apenas elogiou [Root.GetLeader] e pregou a unidade do partido; foi feito de tal forma maneira entusiástica e convincente de que ninguém suspeitou que na verdade foi a equipe de [Root.GetLeader] que escreveu os comentários na íntegra."
+ MD4_election_campaign.9.a: "Um impulso muito necessário para a campanha"
+
+ MD4_election_campaign.10.t: "Desastre para a campanha de [Root.GetLeader]"
+ MD4_election_campaign.10.d: "Com a maior audiência da temporada de campanha, o palco estava montado para [Root.GetLeader] brilhar. Infelizmente, o controverso co-palestrante que foi convidado para criar entusiasmo, começou a rasgar o discurso que havíamos preparado e, em vez disso, lançamos um longo discurso sobre os \"fracassos de todas as administrações, incluindo esta\" e depois apelamos aos jovens para \"votar com o coração ou ficar em casa\" \n\nDesnecessário para dizer, esta frase de efeito foi posteriormente espalhada pela mídia - com nossos oponentes assistindo alegremente."
+ MD4_election_campaign.10.a: "Que fracasso!"
+
+ election_coalition_won.0.t: "[Root.GetAdjective] Eleições: Coalizão Governamental ganha maioria!"
+ election_coalition_won.0.d: "Os atuais partidos governantes alcançaram a maioria no novo parlamento e podem estender seu mandato para governar juntos."
+ election_coalition_won.0.a: "Continuar com o atual governo"
+ election_coalition_won.0.b: "Fazer mudanças na formação de um novo governo"
+
+ election_single_party.0.t: "[Root.GetAdjective] Eleições: [Root.GetRulingParty] ganha a maioria!"
+ election_single_party.0.d: "[Root.GetRulingParty] conquistou sozinho a maioria dos assentos parlamentares. Que grande vitória!"
+ election_single_party.0.a: "Que grande dia para a democracia!"
+
+ election_single_party.1.t: "[Root.GetAdjective] Eleições: [Root.GetLeader] derrotado!"
+ election_single_party.1.d: "Com [show_biggest_party_elect] conquistando sozinho a maioria dos assentos parlamentares, o futuro político de [Root.GetLeader] está essencialmente acabado, com membros de [Root.GetRulingParty] pedindo renúncia.\n\n[ show_biggest_party_elect] assumirá imediatamente como o novo governo de [Root.GetName]."
+ election_single_party.1.a: "Conceda a derrota e parabenize o vencedor."
+
+ MD4_election.0.t: "escondido"
+ MD4_election.0.d: ""
+ MD4_election.0.a: "escondido"
+
+ #ganhando sozinho
+ MD4_election.1.t: "[Root.GetRulingParty] Reeleito!"
+ MD4_election.1.d: "Com todos os votos contados, os eleitores de [Root.GetAdjective] decidiram dar outro mandato a [Root.GetLeader]. Com altos índices de aprovação de empregos, [Root.GetLeader] venceu sem precisar fazer acordos com outros partidos para garantir o seu apoio."
+ MD4_election.1.d_term_ended: "Com todos os votos contados, os eleitores de [Root.GetAdjective] decidiram dar outro mandato ao partido de [Root.GetLeader]. No entanto, como [Root.GetLeader] chegou ao fim de sua termo final, eles darão lugar a um novo líder."
+ MD4_election.1.a: "É verdade o que dizem - [Root.GetLeader] realmente é o melhor!"
+
+ MD4_election.2.t: "Coalizão de [Root.GetLeader] reeleita!"
+ MD4_election.2.d: "Com todos os votos contados, os eleitores [Root.GetAdjective] decidiram dar outro mandato a [Root.GetLeader] e [Root.GetRulingParty]. Os atuais partidos no poder garantiram a maioria no novo parlamento e podem estender seu mandato para governar juntos. [Root.GetLeader] continua a desfrutar de seu apoio como líder de [Root.GetNameWithFlag]."
+ MD4_election.2.d_term_ended: "Com todos os votos contados, os eleitores de [Root.GetAdjective] decidiram dar outro mandato a [Root.GetRulingParty]. Os atuais partidos no poder garantiram a maioria no novo parlamento e podem estender seu mandato para governar juntos. Como [Root.GetLeader] chegou ao fim de seu mandato final, um novo líder assumirá a tarefa de governar [Root.GetNameWithFlag]."
+ MD4_election.2.a: "É verdade o que dizem - [Root.GetLeader] realmente é o melhor!"
+ MD4_election.2.b: "Fazer mudanças na formação de um novo governo"
+
+ MD4_election.3.t: "Derrota eleitoral para [Root.GetLeader]!"
+ MD4_election.3.d: "Com todos os votos contados, [Root.GetLeader] parece incapaz de garantir o apoio dos eleitores de [Root.GetAdjective] para outro mandato. Em vez disso, era hora de [show_biggest_party_elect] brilhar. Com ([show_biggest_elect_percentage]) eles sozinhos reuniram apoio suficiente para governar sozinhos.\n\n O controle de [Root.GetName] passará para [show_biggest_party_elect]."
+ MD4_election.3.a: "Conceder a derrota e parabenizar o vencedor"
+
+ MD4_election.4.t: "Eleições: resultado inconclusivo para [Root.GetLeader]!"
+ MD4_election.4.d: "Com todos os votos contados, [Root.GetLeader] não tem atualmente a maioria no novo parlamento para formar um novo governo. Outros partidos devem ser convencidos a aderir e, se isso for impossível, o controle deve ser dado a uma das outras partes para deixá-los tentar formar um governo."
+ MD4_election.4.a: "As negociações começam..."
+
+ MD4_election.5.t: "Eleições: derrota embaraçosa para [Root.GetLeader]!"
+ MD4_election.5.d: "Com todos os votos contados, [Root.GetLeader] não conseguiu nem mesmo obter o limite mínimo [Root.GetRulingParty] para entrar no parlamento. É claro que outra pessoa terá que formar um governo para liderar [Root .GetName] adiante, mas quem?"
+ MD4_election.5.a: "[show_biggest_party_elect] ([show_biggest_elect_percentage]) tentará"
+ MD4_election.5.b: "[show_second_biggest_party_elect] ([show_second_biggest_elect_percentage]) tentará"
+
+ News_MD4_election.0.t: "[From.GetAdjective] Eleição: [From.GetRulingParty] Reeleito!"
+ News_MD4_election.0.d: "[From.GetLeader] do [From.GetRulingParty] ([From.GetRulingIdeology]) derrotou sozinho todos os adversários e continuará outro mandato como líder [From.GetAdjective]."
+ News_MD4_election.0.d_first_term: "[From.GetLeader] do [From.GetRulingParty] ([From.GetRulingIdeology]) derrotou sozinho todos os adversários e substituirá seu antecessor em seu primeiro mandato como [From.GetAdjective] líder."
+ News_MD4_election.0.a: "Ok"
+
+ News_MD4_election.1.t: "[From.GetAdjective] Eleição: [From.GetLeader] forma novo governo!"
+ News_MD4_election.1.d: "\n\n[From.GetLeader] do [From.GetRulingParty] ([From.GetRulingIdeology]) emergiu vitorioso nas eleições e com o apoio de outros partidos no governo agora tem a tarefa de liderar [ From.GetName] em diante."
+ News_MD4_election.1.a: "Ok"
+
+ News_MD4_election.2.t: "[From.GetAdjective] Eleição: [From.GetLeader] ganha muito na reviravolta!"
+ News_MD4_election.2.d: "[From.GetLeader] do [From.GetRulingParty] ([From.GetRulingIdeology]) conseguiu o aparentemente impossível - derrotar o governo em exercício sozinho. Formando um governo majoritário sozinho, [From.GetLeader] emergiu vitorioso na eleição e agora tem a tarefa de liderar [From.GetName] adiante."
+ News_MD4_election.2.a: "Ok"
+
+ News_MD4_election.3.t: "Eleições controversas [From.GetAdjective]: [From.GetLeader] reeleito!"
+ News_MD4_election.3.d: "[From.GetLeader] ([From.GetRulingIdeology]) venceu a eleição depois que uma recontagem foi realizada - a oposição não foi autorizada a verificar os resultados de forma independente e alegar que a eleição foi fraudada e tendenciosa em favor de [ From.GetLeader]. A primeira e original contagem - agora anulada - mostrou a oposição à frente por uma margem estreita."
+ News_MD4_election.3.a: "Ok"
+
+ #provavelmente não utilizado
+ #News_MD4_election.4.t: "[From.GetAdjective] Eleição: escândalo quando [From.GetLeader] suspende as eleições!"
+ #News_MD4_election.4.d: "No momento em que a oposição buscava vencer a eleição, [From.GetLeader] ([From.GetRulingIdeology]) suspendeu a contagem final dos votos e declarou que \"a oposição havia conspirado com estrangeiros hostis operativos para roubar a eleição do povo [From.GetAdjective]" a tensão está aumentando em [From.GetName], já que [From.GetLeader] provavelmente liderará a nação por outro mandato sem um mandato democrático."
+ #News_MD4_election.4.a: "Ok"
+
+ coalition_complete.0.t: "Governo formado!"
+ coalition_complete.0.d: "Desde as eleições realizadas em [Root.GetLastElection], [Root.GetLeader] de [Root.GetRulingParty] tem habilmente negociado um novo governo de maioria. Hoje, [GetDateText], após um período de intensa mídia especulações, sua composição foi finalmente anunciada em uma coletiva de imprensa. Isso representa um marco importante para [Root.GetName] no início de uma nova era política."
+ coalition_complete.0.a: "Boas notícias!"
+
+ coalition_pass.0.t: "[Root.GetRulingParty] Desistir de formar governo?"
+ coalition_pass.0.d: "Os conselheiros políticos de [Root.GetLeader] estão correndo de um lado para o outro como galinhas sem cabeça - tentando desesperadamente encontrar uma solução para a crise do fracasso de [Root.GetRulingParty] em formar um governo, sabendo muito bem que a maioria deles ficará desempregada se [Root.GetLeader] for expulso do cargo.\n\nEnquanto isso, na sede da [show_biggest_party_elect], a empolgação aumenta quando eles finalmente veem um caminho claro para seguir sobre o governo de [Root.GetName]."
+ coalition_pass.0.a: "Desista: deixe [show_biggest_party_elect] ([show_biggest_elect_percentage]) tentar"
+ coalition_pass.0.b: "Notícias falsas! Encontraremos os aliados necessários."
+
+ coalition_pass.1.t: "[Root.GetRulingParty] Desistir de formar governo?"
+ coalition_pass.1.d: "Os conselheiros políticos de [Root.GetLeader] estão correndo de um lado para o outro como galinhas sem cabeça - tentando desesperadamente encontrar uma solução para a crise do fracasso de [Root.GetRulingParty] em formar um governo, sabendo muito bem que a maioria deles ficará desempregada se [Root.GetLeader] for expulso do cargo.\n\nEnquanto isso, na sede da [show_second_biggest_party_elect], a empolgação está aumentando quando eles finalmente veem um caminho claro para seguir sobre o governo de [Root.GetName]."
+ coalition_pass.1.a: "Desista: deixe [show_second_biggest_party_elect] ([show_second_biggest_elect_percentage]) tentar"
+ coalition_pass.1.b: "Notícias falsas! Encontraremos os aliados necessários."
+
+ coalition_pass_dismantle_tt: "Remover partido governante: §H[Root.GetRulingParty]§!\n§HGovernment Coalition§! será desmantelado\n\n"
+ coalition_pass_refund_tt: "Poder político: §G+75%§! do valor gasto na Coalizão\n"
+ coalition_pass_pol_change_0_tt: "A política vai mudar:\n§H[show_biggest_party_elect]§! torna-se o Partido Governante\n\n"
+ coalition_pass_pol_change_1_tt: "A política vai mudar:\n§H[show_second_biggest_party_elect]§! torna-se o Partido Governante\n\n"
+
+ coalition.0.t: "Negociações com [Western_Autocracy_L] ([?party_pop_elect_array^0|%0])"
+ coalition.0.d: "Nós vemos que [Root.GetLeader] está balançando o estilo autoritário! É claro que gostaríamos de nos juntar ao governo. Isto é, se você estiver pronto para pagar o preço político."
+ coalition.0.a: "Bem-vindo à equipe!"
+ coalition.0.b: "Pensando bem, não vamos incluí-los."
+
+ coalition.1.t: "Negociações com [conservadorismo_L] ([?party_pop_elect_array^1|%0])"
+ coalition.1.d: "Respeitado [Root.GetLeader]. Poderíamos imaginar um futuro onde, possivelmente, compartilharíamos um certo nível de cooperação na condução do governo. Enquanto nós, respeitosamente, acreditamos que você deve adotar todas as nossas políticas , reconhecemos que, com os resultados eleitorais não totalmente a nosso favor, devemos negociar o melhor acordo possível para os nossos eleitores.As nossas exigências são simples - compromisso com a defesa dos valores tradicionais, pragmatismo, respeito pela autoridade e valores religiosos, de instituições sociais tradicionais.\n\nSe você aceitar nossa cooperação, esperamos sinceramente que não manche o bom nome do [conservadorismo_L] com políticas tolas e imprudentes e o chamado pensamento moderno. Para minimizar esse risco, por favor consulte o documento anexo que lista os departamentos que pretendemos gerir na sua totalidade."
+ coalition.1.a: "Bem-vindo à equipe!"
+ coalition.1.b: "Pensando bem, vocês, conservadores, são chatos demais para nós."
+
+ coalition.2.t: "Negociações com [liberalismo_L] ([?party_pop_elect_array^2|%0])"
+ coalition.2.d: "Caro [Root.GetLeader]. Você nos lisonjeia com seu interesse declarado nos grandes princípios do liberalismo e da liberdade. A liberdade é, afinal, a base sobre a qual qualquer governo honesto é construído. Claro, nós gostaria de participar do governo para promover o liberalismo - porque ambos entendemos que a liberdade individual e o governo limitado são a melhor maneira de os humanos formarem uma sociedade livre.\n\nPara garantir que sua forma de liberalismo seja tão irrestrita quanto a nossa, no entanto, você precisará concordar com nossas demandas completamente razoáveis ​​e inquestionavelmente mutuamente benéficas antes que possamos nos comprometer com um acordo final."
+ coalition.2.a: "Bem-vindo à equipe!"
+ coalition.2.b: "Devemos gentilmente recusar."
+
+ coalition.3.t: "Negociações com [socialism_L] ([?party_pop_elect_array^3|%0])"
+ coalition.3.d: "Caro [Root.GetLeader]. Embora estejamos relutantes em entrar em qualquer governo como parceiros minoritários, os sindicatos não conseguiram nos levar à linha de chegada nas eleições - desta vez. Portanto, há uma possibilidade poderíamos considerar a ideia de aderir - se você prometer promover os princípios vitais do progressismo e dos valores social-democratas. Como dizemos em [socialismo_L], os valores social-democratas são para todos e insistimos que isso vale para o seu governo.\n \nA propósito, os impostos não são um pouco baixos? Você tem certeza de que temos recursos suficientes para os aumentos no bem-estar social, educação e saúde que planejamos?"
+ coalition.3.a: "Bem-vindo à equipe!"
+ coalition.3.b: "Devemos gentilmente recusar."
+
+ coalition.4.t: "Negociações com [Communist-State_L] ([?party_pop_elect_array^4|%0])"
+ coalition.4.d: "Camarada [Root.GetLeader]! Enquanto procuramos derrubar seu governo imperialista-burguês, mudar a sociedade através da luta armada revolucionária, estabelecer a ditadura democrática do proletariado e eliminar os traidores de classe, percebemos que pode haver haver certas vantagens táticas políticas de curto prazo para formar uma coalizão neste momento.\n\nNossas demandas são simples - implementação total do materialismo dialético marxista, 1000% de melhoria nas condições socioeconômicas do proletariado oprimido e livre entrada no vamos construir a nova Disneylândia!\n\n...Ficaremos satisfeitos com essas concessões menores que você mencionou."
+ coalition.4.a: "Bem-vindo à equipe!"
+ coalition.4.b: "Melhor morto do que vermelho!"
+
+ coalition.5.t: "Negociações com [anarchist_communism_L] ([?party_pop_elect_array^5|%0])"
+ coalition.5.d: "Camarada [Root.GetLeader]. Achamos que moveríamos seu governo na direção certa - a de esquerda. Alguns nos chamam de \"radicais de esquerda\", mas os verdadeiros radicais são os conservadores retrógrados forças antiprogressistas que colocam todo o poder nas mãos do 1% mais rico. Nós apenas lutamos por coisas de bom senso com as quais todos os 99% podem concordar - como justiça social, feminismo, acabar com os aproveitadores do bem-estar, desmantelar o capitalismo, internacionalismo e o fim do domínio imperialista ocidental e sua exploração do Sul Global."
+ coalition.5.a: "Juntos somos mais fortes!"
+ coalition.5.b: "Estamos tendo dúvidas."
+
+ coalition.6.t: "Negociações com [Conservative_L] ([?party_pop_elect_array^6|%0])"
+ coalition.6.d: ""
+ coalition.6.a: "Bem-vindo à equipe!"
+ coalition.6.b: "Devemos gentilmente recusar."
+
+ coalition.7.t: "Negociações com [Autocracy_L] ([?party_pop_elect_array^7|%0])"
+ coalition.7.d: "Caro [Root.GetLeader]. Embora apreciemos o festival míope, obstinado e fragmentado da ignorância do eleitor, reclamações, brigas, desperdício, compromisso e hesitação que você chama de campanha eleitoral, reconhecemos o real poder que você agora acumulou. Junte-se a nós e podemos nos livrar das algemas da restrição legislativa e executiva e demonstrar nossa força, disciplina, autoridade e unidade compartilhadas."
+ coalition.7.a: "Bem-vindo à equipe!"
+ coalition.7.b: "Devemos gentilmente recusar."
+
+ coalition.8.t: "Negociações com [Mod_Vilayat_e_Faqih_L] ([?party_pop_elect_array^8|%0])"
+ coalition.8.d: "Respeitado [Root.GetLeader]. Nós, os xiitas de Ali ibn Abi Talib, estamos prontos para dar as mãos e nos juntar a vocês para resistir bravamente aos sionistas e seus descendentes infernais Takfiri. Juntos iremos, com inspiração do sagrado mártires, expulsem os inimigos do Verdadeiro Islã da face da terra. Nós, as espadas de Allah, certamente olharemos para Sayyid Khamenei e Sayyid Hassan Nasrallah em busca de orientação, mas não tema, pois somos verdadeiros patriotas [Root.GetAdjective] que sangraremos por preservar nosso solo sagrado, se necessário. Mencionamos que nos consideramos moderados?
+ coalition.8.a: "Morte aos sionistas!"
+ coalition.8.b: "Prefiro ser torturado."
+
+ coalition.9.t: "Negociações com [Vilayat_e_Faqih_L] ([?party_pop_elect_array^9|%0])"
+ coalition.9.d: "Respeitado [Root.GetLeader]. Nós, os xiitas de Ali ibn Abi Talib, estamos prontos para dar as mãos e nos juntar a vocês para resistir bravamente aos sionistas e sua prole infernal Takfiri. Juntos, iremos, com inspiração no santos mártires, expulsem os inimigos do Verdadeiro Islã da face da terra. Nós, as espadas de Allah, certamente olharemos para Sayyid Khamenei e Sayyid Hassan Nasrallah em busca de orientação, mas não tema, pois somos verdadeiros patriotas [Root.GetAdjective] que sangrarão por preservar nosso solo sagrado, se necessário."
+ coalition.9.a: "Morte aos sionistas!"
+ coalition.9.b: "Prefiro ser torturado."
+
+ coalition.10.t: "Negociações com [Kingdom_L] ([?party_pop_elect_array^10|%0])"
+ coalition.10.d: ""
+ coalition.10.a: "Bem-vindo à equipe!"
+ coalition.10.b: "Devemos gentilmente recusar."
+
+ coalition.11.t: "Negociações com [Caliphate_L] ([?party_pop_elect_array^11|%0])"
+ coalition.11.d: "[Root.GetLeader], embora tenhamos chamado você de \"cachorro infiel imundo\" muitas vezes, não quisemos dizer nada de ruim sobre isso.\n\nEnquanto inshallah, você com certeza vai para o inferno por não ingressar no Verdadeiro Califado, nós, os justos e corajosos Mujahid, certamente podemos ajudar a guiá-lo corretamente, pois somente nós conhecemos a verdadeira vontade de Allah, conforme revelada a nós pelo Profeta Muhammad (ṣallĝ llahu ʿalayhi wa-sallam) . É claro que somos muito, muito pacíficos e comprometidos com os princípios democráticos. Não temos nenhuma exigência. Estamos aqui apenas para ajudar. Podemos, inshallah, por exemplo, ajudar a assumir o fardo pesado de administrar as forças armadas , a polícia e os tribunais de seus ombros."
+ coalition.11.a: "Parece uma excelente ideia"
+ coalition.11.b: "risos"
+
+ coalition.12.t: "Negociações com [Neutral_Muslim_Brotherhood_L] ([?party_pop_elect_array^12|%0])"
+ coalition.12.d: ""
+ coalition.12.a: "Bem-vindo à equipe!"
+ coalition.12.b: "Devemos gentilmente recusar"
+
+ coalition.13.t: "Negociações com [Neutral_Autocracy_L] ([?party_pop_elect_array^13|%0])"
+ coalition.13.d: ""
+ coalition.13.a: "Bem-vindo à equipe!"
+ coalition.13.b: "Devemos gentilmente recusar"
+
+ coalition.14.t: "Negociações com [Neutral_conservatism_L] ([?party_pop_elect_array^14|%0])"
+ coalition.14.d: ""
+ coalition.14.a: "Bem-vindo à equipe!"
+ coalition.14.b: "Devemos gentilmente recusar"
+
+ coalition.15.t: "Negociações com [oligarquismo_L] ([?party_pop_elect_array^15|%0])"
+ coalition.15.d: "Caro [Root.GetLeader]. Na esteira de mais uma eleição titânica, as massas sujas estão prestes a estourar as costuras desta tenda de circo inchada que você chama de governo. Somos mais eficazes se o poder cabe a apenas um pequeno número de pessoas; Os ricos, os nobres, os poderosos. Pequeno é o novo grande. Não é o tamanho do barco que conta, mas o movimento no oceano. Dito isso, agora vamos precisamos de um barco maior. Somente combinando nossos partidos para formar um governo de coalizão hoje podemos garantir um barco menor para amanhã. Com sua cooperação, nossa classe dominante navegará rumo ao pôr do sol."
+ coalition.15.a: "Bem-vindo a bordo!"
+ coalition.15.b: "Devemos gentilmente recusar. Espero que você afunde!"
+
+ coalition.16.t: "Negociações com [Neutral_Libertarian_L] ([?party_pop_elect_array^16|%0])"
+ coalition.16.d: "Caro [Root.GetLeader]. Sempre foi dito dentro da liderança de [Neutral_Libertarian_L] que apenas manter o partido unido é como \" pastorear gatos\". Portanto, você deve acreditar em nós quando dizemos que entrar uma coalizão com vocês, estatistas, só pode acontecer se vocês estiverem preparados para fazer algumas concessões sérias. Como eliminar impostos e abolir as forças armadas. Claro, nunca abriremos mão de uma polegada da liberdade individual e da liberdade econômica e social. No espírito de compromisso , podemos estar preparados para atrasar um pouco a implementação completa do Bitcoin como nossa nova moeda oficial, mas ainda não perguntamos a todos os nossos membros sobre isso.\n\n[Root.GetLeader]: \"E se permitirmos a todos vocês fumar maconha sem ser preso?\"\n\n- \"Claro! Isso vai funcionar\"."
+ coalition.16.a: "Bem-vindo à equipe!"
+ coalition.16.b: "Piada! Na verdade, nunca íamos incluir vocês, malucos."
+
+ coalition.17.t: "Negociações com [Neutral_green_L] ([?party_pop_elect_array^17|%0])"
+ coalition.17.d: "[Root.GetLeader]... Isso é uma limusine?! Isso é TÃO irresponsável. Se todo mundo estivesse dirigindo um bebedor de combustível e voando para todos os lugares no exterior para reuniões - precisaríamos dos recursos de cem Terras! Isso não pode continuar, o tempo está passando rápido. O aquecimento global causado pelo homem não é ficção científica, é fato científico. Só porque as temperaturas não podem aumentar de ano para ano em HoI4, não significa que não devemos tomar a ameaça a sério! Exigimos um plano sério para reduzir nossa pegada de carbono rapidamente se quisermos fazer parte de sua coalizão governamental."
+ coalition.17.a: "Bem-vindo ao nosso governo amigo do meio ambiente"
+ coalition.17.b: "Meh"
+
+ coalition.18.t: "Negociações com [neutral_Social_L] ([?party_pop_elect_array^18|%0])"
+ coalition.18.d: "Caro [Root.GetLeader]. Nós realmente achamos que levaríamos seu governo adiante em direção a uma maior igualdade e valores progressistas universais. Se nos juntarmos, exigimos que o bem-estar e a saúde sejam fortalecidos significativamente e os impostos sobre os ricos sejam aumentou maciçamente. Consideramos sagrados os princípios essenciais da democracia. Isso também se aplica à economia, que deveria estar, pelo menos, sob rígidas regulamentações do governo socialista para garantir bons salários, melhores condições de trabalho e menos lucros para os capitalistas. Realmente, nós seria tão bom em governar que seria melhor se a maioria fosse controlada pelo estado."
+ coalition.18.a: "Juntos somos mais fortes"
+ coalition.18.b: "NÃO vai acontecer!"
+
+ coalition.19.t: "Negociações com [Neutral_Communism_L] ([?party_pop_elect_array^19|%0])"
+ coalition.19.d: "Camarada [Root.GetLeader]! Enquanto procuramos derrubar seu governo imperialista-burguês, mudar a sociedade através da luta armada revolucionária, estabelecer a ditadura democrática do proletariado e eliminar os traidores de classe, percebemos que pode haver haver certas vantagens táticas políticas de curto prazo para formar uma coalizão neste momento.\n\nNossas demandas são simples - implementação total do materialismo dialético marxista, 1000% de melhoria nas condições socioeconômicas do proletariado oprimido e entrada gratuita na nova Disneylândia vamos construir!\n\n...Na verdade, vamos nos contentar com essas concessões menores que você mencionou."
+ coalition.19.a: "Avante juntos, camaradas!"
+ coalition.19.b: "Não vamos."
+
+ coalition.20.t: "Negociações com [Nat_Populism_L] ([?party_pop_elect_array^20|%0])"
+ coalition.20.d: "Respeitado [Root.GetLeader]. Você é realmente sábio em falar conosco, todos sabem que somos a verdadeira voz do bom senso e da razão. No entanto, ao cumprir o papel de [Nat_Populism_L] como um farol de bom senso, devemos insistir que você adote algumas políticas adequadas. O estabelecimento político de [Root.GetName] por muito tempo saqueou a nação, entregando nossas riquezas e dignidade a empresas multinacionais que importam mão de obra barata por meio do sistema de imigração falido! Além de tomar nossos empregos, os imigrantes também estão explorando nossos benefícios de desemprego e sistema de bem-estar. Além disso, precisamos investir em nossa infra-estrutura decadente e reduzir os impostos! Nosso exército está com falta de pessoal e mal equipado - deve ser expandido com urgência. Mencionamos a polícia? Eles claramente não têm recursos para lidar com todos os criminosos que nossos governos anteriores importaram. Enquanto isso, nossos idosos não estão sendo tratados adequadamente - uma vergonha! Então, temos um acordo?"
+ coalition.20.a: "Bem-vindo a bordo!"
+ coalition.20.b: "Poupe-me"
+
+ coalition.21.t: "Negociações com [Nat_Fascism_L] ([?party_pop_elect_array^21|%0])"
+ coalition.21.d: "Salve [Root.GetLeader]!\n\nAO TODO, NÓS, PATRIOTAS, ESTAMOS MARCHANDO CONTRA OS TRAIDORES DE NOSSA CIVILIZAÇÃO. VOCÊ PODE PARTICIPAR DESTA GLORIOSA MARCHA PELA PUREZA OU ENTREGAR NOSSO GRANDE PAÍS AOS PONTEIROS ESTRANGEIROS! NÓS DEVEMOS EXPUTAR! CADA UM! (exceto aqueles que são membros pagantes do [Nat_Fascism_L], ou são nossas noivas por correspondência)\n\n Exigimos um governo PURO NACIONALISTA para liderar a RESTAURAÇÃO NACIONAL! Temos apenas uma escolha - caos ou ordem e liberdade. ORDEM TOTAL. E LIBERDADE TOTAL de parasitas estrangeiros."
+ coalition.21.a: "Sim! Vamos nos unir."
+ coalition.21.b: "Governo? Todos vocês pertencem a uma instituição diferente..."
+
+ coalition.22.t: "Negociações com [Nat_Autocracy_L] ([?party_pop_elect_array^22|%0])"
+ coalition.22.d: "Caro [Root.GetLeader]. Chega um momento de perigo nacional, quando o estabelecimento militar deve intensificar seu papel, para preencher vácuos de poder perigosos, salvaguardar a soberania nacional e nossa independência e valores patrióticos. Em nossa opinião, desta vez para o regime militar - é sempre. No entanto, percebemos que fazê-lo agora pode trazer certos efeitos indesejáveis em nossas relações externas. Seria... menos complicado - se você fizesse discretamente o que dizemos.\n\nContanto que você conheça o seu lugar, certamente seríamos um aliado político muito poderoso para você."
+ coalition.22.a: "A política é muito importante para ser deixada para os políticos"
+ coalition.22.b: "A política é importante demais para ser deixada para os generais"
+
+ coalition.23.t: "Negociações com [Monarchist_L] ([?party_pop_elect_array^23|%0])"
+ coalition.23.d: "Respeitado [Root.GetLeader]. Nós monarquistas zombamos da noção de que você, um plebeu, poderia fornecer a [Root.GetName] a estabilidade necessária e outras vantagens esplêndidas que somente um monarca absoluto pode conceder. Todos sabemos que o verdadeiro poder executivo supremo só pode ser devidamente exercido pela realeza em toda a sua santidade. Seria verdadeiramente uma força unificadora e um poderoso símbolo da nossa grandeza, enquanto marchamos para a plena restauração nacional. Claramente, monarquias absolutas, abençoadas por direito divino, supere todas as outras formas de governo em todas as métricas.\n\nTudo bem, então obviamente não vamos coroar você, então podemos manter o antiquado e anacrônico governo republicano por algum tempo, enquanto nós monarquistas na coalizão buscamos o melhor candidato ao trono."
+ coalition.23.a: "Sim, claro, tanto faz"
+ coalition.23.b: "Vocês claramente não estão aptos para governar..."
+

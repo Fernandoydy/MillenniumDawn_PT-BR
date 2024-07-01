@@ -1,0 +1,85 @@
+﻿l_braz_por:
+ ### Traduzido e Revisado
+ #0
+industrial_complex: "Indústria Civil"
+industrial_complex_plural: "Indústrias Civis"
+industrial_complex_desc: "Este prédio fornece ao estado indústria para a produção de bens civis ou construção de novos prédios. Pode ser convertido em indústria militar, se necessário." #\n\n Combustível por dia (K): §R-240.00§!
+#1
+arms_factory: "Indústria Militar"
+arms_factory_plural: "Indústrias Militares"
+arms_factory_desc: "Este prédio fornece ao estado indústria para a produção de novos equipamentos militares. Pode ser convertido em indústria civil, se necessário." #\n\n Combustível por dia (K): §R-240.00§!
+#2
+infrastructure: "Infraestrutura"
+infrastructure_plural: "Infraestruturas"
+infrastructure_desc: "Este prédio fornece ao estado melhorias na infraestrutura. Aumenta o poder de suprimento em regiões estratégicas e a velocidade das suas divisões, além de aumentar a extração de recursos naturais."
+#3
+internet_station: "Infraestrutura de Rede"
+internet_station_plural: "Infraestruturas de Rede"
+internet_station_desc: "Infraestruturas de Rede são estruturas altas usadas nos campos de telecomunicação e radiocomunicação para enviar transmissões por grandes distâncias ou por cabos de fibra ótica subterrâneos e sistemas de computação em nuvem. \n\nCada nível de §YInfraestrutura de Rede§! melhora a velocidade de construção local em §G+5.00%§!."
+#4
+dockyard: "Estaleiro Naval"
+dockyard_plural: "Estaleiros Navais"
+dockyard_desc: "Este prédio fornece ao estado indústria para a construção de novos navios." #\n\n Combustível por dia (K): §R-240.00§!
+ #5
+air_base: "Base Aérea"
+air_base_plural: "Bases Aéreas"
+air_base_desc: "Este prédio fornece ao estado o posicionamento para suas forças aéreas."
+#6
+radar_station: "Estação de Radar"
+radar_station_plural: "Estações de Radar"
+radar_station_desc: "Estações de Radar permitem que você obtenha informações sobre as tropas inimigas em estados próximos. Consiste em vários radares e sensores, além de ativos de inteligência e capacidade de analisar a situação em evolução.\nUm nível mais alto aumentará o alcance efetivo.\nSeus radares também proporcionam ao estado uma melhor detecção das forças aéreas inimigas, aumentando as chances de seus aviões de se envolverem com eles.\nAlém disso, os radares aumentam a detecção das frotas inimigas no mar."
+RADAR_ONMAP_TOOLTIP: "Nível da §HEstação de Radar§!: $LVL|G$/$TOT|H$\nPertence a: $WHO|H$"
+RADAR_ONMAP_DAMAGED_TOOLTIP: "Nível da §HEstação de Radar§!: $LVL|R$/$TOT|H$\nPertence a: $WHO|H$"
+#7
+anti_air_building: "Complexo SAM"
+anti_air_building_plural: "Complexos SAM"
+anti_air_building_desc: "Os Complexos de Mísseis Terra-Ar (SAM) são conjuntos de mísseis antiaéreos de longo alcance. Devido ao alcance, os mísseis são mais pesados e pouco móveis. Eles disparam mísseis contra aeronaves inimigas entrantes e protegem contra bombardeios. Se os SAMs são implantados nesse papel, eles fornecem defesa de mísseis para o estado e os estados vizinhos em alcance."
+#8
+missile_defense_station: "Base ABM"
+missile_defense_station_plural: "Bases ABM"
+missile_defense_station_desc: "As Bases ABM são instalações subterrâneas fortificadas usadas como bases de lançamento de mísseis balísticos anti-navio. Elas fornecem defesa de mísseis balísticos para o estado e os estados vizinhos em alcance."
+ #9
+
+TEL_base: "Bateria TEL"
+TEL_base_plural: "Baterias TEL"
+TEL_base_desc: "As Baterias TEL (transportador lançador eretor) são locais para bases móveis de mísseis de cruzeiro e balísticos. Elas fornecem ao estado pontos de lançamento para §YIRBM§!, §YGLCM§! e §YHSCM§!."
+#10
+missile_silo: "Silos de Mísseis Balísticos"
+missile_silo_plural: "Silos de Mísseis Balísticos"
+missile_silo_desc: "Os Silos de Mísseis Balísticos são instalações subterrâneas fortificadas usadas como bases de lançamento de mísseis balísticos terrestres. Eles fornecem ao estado pontos de lançamento para §YICBM§! e §YIRBM§!"
+#11
+nuclear_reactor: "Reator Nuclear"
+nuclear_reactor_plural: "Reatores Nucleares"
+nuclear_reactor_desc: "Este prédio fornece ao estado a produção de Urânio enriquecido para uso em armas nucleares e/ou energia nuclear."
+#12
+synthetic_refinery: "Refinaria Sintética"
+synthetic_refinery_plural: "Refinarias Sintéticas"
+synthetic_refinery_desc: "Este prédio consome carvão ou resíduos orgânicos e os converte em combustível.\n\nFornece ao estado:"
+synthetic_refinery_amount: "$VALUE|Y0=$"
+synthetic_refinery_resource: "£resources_strip|$FRAME$"
+#13
+fuel_silo: "Reserva Estratégica de Combustível"
+fuel_silo_plural: "Reservas Estratégicas de Combustível"
+fuel_silo_desc: "Este prédio fornece à sua nação mais espaço para estocagem de §HCombustível§!."
+#14
+offices: "Setor de Escritórios"
+offices_plural: "Setores de Escritórios"
+offices_desc: "Os setores de escritórios representam todas as outras indústrias da economia além das indústrias extrativas e pesadas. Isso inclui serviços financeiros, atendimento ao cliente, tecnologia da informação, varejo e muito mais." #\n\nCombustível por dia (K): §R-240.00§!
+#15
+naval_base: "Base Naval"
+naval_base_plural: "Bases Navais"
+naval_base_desc: "Aumenta o alcance de sua frota e fornece serviços de reparo para ela. Permite o fornecimento além-mar e a exportação de recursos. Níveis mais altos aumentam o fluxo de suprimentos."
+#16
+bunker: "Fortaleza Terrestre"
+bunker_plural: "Fortalezas Terrestres"
+bunker_desc: "Este prédio impõe uma penalidade de ataque de $VALUE|+%0$ para cada nível da fortaleza ao atacante em combate. Atacar de múltiplas direções reduzirá o efeito das fortalezas."
+#17
+coastal_bunker: "Fortaleza Costeira"
+coastal_bunker_plural: "Fortalezas Costeiras"
+coastal_bunker_desc: "Este prédio impõe uma penalidade de ataque de $VALUE|+%0$ para cada nível da fortaleza ao atacante em combate de invasão naval."
+#18
+supply_node: "Centro de Suprimentos"
+supply_node_desc: "Um Centro de Suprimentos é um ponto ao longo de uma ferrovia, fora das cidades existentes, onde o suprimento pode ser obtido."
+#19
+rail_way: "Ferrovias"
+rail_way_desc: "As Ferrovias são usadas para conectar os Hubs de Suprimentos, permitindo o abastecimento de suprimentos longe da sua capital."

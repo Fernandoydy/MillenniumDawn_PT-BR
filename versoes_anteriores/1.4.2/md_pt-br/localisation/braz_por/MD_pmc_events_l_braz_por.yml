@@ -1,0 +1,5 @@
+﻿l_braz_por:
+### Traduzido e Revisado
+pmc_events.1.t: "[From.GetNameDef] convoca seus mercenários de volta"
+pmc_events.1.d: "Algumas de nossas unidades mercenárias são recolhidas de volta para [From.GetNameDef] devido às ordens de seu soberano, eles fornecerão compensação por essa rescisão de contrato inoportuna, mas é só isso."
+pmc_events.1.a: "Infeliz."

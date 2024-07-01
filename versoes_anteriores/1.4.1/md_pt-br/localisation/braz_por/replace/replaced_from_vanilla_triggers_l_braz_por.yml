@@ -1,0 +1,12 @@
+﻿l_braz_por:
+ TRIGGER_HAS_VOLUNTEERS_MORE_THAN:0 "Tem $VALUE|H$ forças de intervenção ou mais de $COUNTRY2|H$"
+ TRIGGER_HAS_VOLUNTEERS_LESS_THAN:0 "Tem menos de $VALUE|H$ forças de intervenção de $COUNTRY2|H$"
+ TRIGGER_HAS_NOT_MILITARY_ACCESS_TO:0 "Não possui bases militares em $PAÍS|H$"
+ TRIGGER_HAS_MILITARY_ACCESS_TO:0 "Tem bases militares em $PAÍS|H$"
+ TRIGGER_GIVES_NOT_MILITARY_ACCESS_TO:0 "Não hospeda bases militares para $COUNTRY|H$"
+ TRIGGER_GIVES_MILITARY_ACCESS_TO:0 "Hospeda bases militares por $COUNTRY|H$"
+ TRIGGER_IS_IRONMAN:0 "O jogo não está no modo Homem de Ferro."
+ TRIGGER_IS_NOT_IRONMAN:0 "O jogo está no modo Homem de Ferro."
+ #CORREÇÃO DE ERRO DE TRADUÇÃO DO PRÓPRIO HOI4 (jogo base)
+ #TRIGGER_HAS_ARMY_MANPOWER_AT_LEAST:0 "Al menos mano de obra de $AMOUNT|*2H$ en el campo"          LINHA ORIGINAL
+ TRIGGER_HAS_ARMY_MANPOWER_AT_LEAST:0 "Pelo menos mão de obra de $AMOUNT|*2H$ no campo"

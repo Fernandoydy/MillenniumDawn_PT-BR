@@ -1,0 +1,21 @@
+﻿l_braz_por:
+category_all_recon: "Reconhecimento Total"
+category_militia: "Milícia"
+category_non_militia: "Não Milícia"
+category_apc: "Infantaria Mecanizada"
+category_IFV: "Infantaria Blindada"
+category_all_airborne: "Todas as Tropas Aerotransportadas"
+category_all_amphibous: "Todos os Fuzileiros Navais"
+
+category_inf_airborne: "Infantaria Leve de Paraquedistas"
+category_mot_airborne: "Paraquedistas Motorizados"
+category_arm_airborne: "Paraquedistas Mecanizados e Blindados"
+
+category_inf_amphib: "Infantaria Leve de Fuzileiros Navais"
+category_mot_amphib: "Fuzileiros Navais Motorizados"
+category_arm_amphib: "Fuzileiros Navais Mecanizados e Blindados"
+
+category_air_aslt: "Assalto Aéreo e Helicópteros de Ataque"
+category_inf_aslt: "Infantaria Leve de Assalto Aéreo"
+category_arm_aslt: "Assalto Aéreo Mecanizado e Blindado"
+category_atk_helo: "Unidades de Helicópteros de Ataque"

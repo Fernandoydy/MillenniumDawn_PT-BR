@@ -1,0 +1,8 @@
+﻿l_braz_por:
+ TRADE_ALL_FACTORY_OUT_TITLE:0 "Todas as indústrias para comércio"
+ TRADE_ALL_FACTORY_OUT_DESC:0 "Tem certeza de que deseja que todas as suas indústrias produzam bens comerciais?\n\nVocê não poderá construir nenhum edifício!"
+ TRADEOFFER_FACTORIES_DESC_LABEL:0 "Valor da compra: $VALUE|Y$\nPara indústrias civis: $CIC|Y$"
+ LACK_OF_CIVIL_FACTORIES:0 "Por falta de indústrias civis."
+ TRADE_CAN_TRADE_TOOLTIP:0 "Temos um total de $TOT|H$ Indústrias Civis. $VAL|H$ são necessários para financiar nosso Orçamento do Governo, deixando-nos com $TRADE|H$ disponíveis para comércio.\n\nObserve que você não pode negociar indústrias recebidas de exportações comerciais e que o comércio de indústrias impedirá que sejam usadas para construções."
+ TRADE_WARNING:0 "Este acordo usará indústrias que estão construindo prédios."
+ TRADE_CIV_FACTORIES:0 "Indústrias Civis"

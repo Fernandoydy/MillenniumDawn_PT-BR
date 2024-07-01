@@ -1,0 +1,28 @@
+﻿l_braz_por:
+ research_slots_decisions: "Espaços de Pesquisas"
+ research_slots_decisions_desc: "A capacidade de pesquisa de nosso país é determinada por dois fatores: tamanho total da indústria (PIB) e nível de desenvolvimento (PIB/c).        \n\nEspaços de pesquisa por tamanho da indústria: [?research_slots_from_gdp|C.0] (PIB exigido: $$[?GLOBAL.gdp_slot^research_slots_from_gdp|Y0] b)\nEspaços de pesquisa por nível de desenvolvimento: [?research_slots_from_gdp_c|C.0] (PIB/c exigido: $$[?GLOBAL.gdp_c_slot^research_slots_from_gdp_c|Y0] k)         [research_slots_status]    \n\nNossos gastos com educação são aumentados em [?research_slot_modifier|.0%] devido a nossa quantidade de espaços de pesquisa. O aumento dos gastos com educação dos espaços de pesquisa é (0.04 * x) - 0.02 onde x são os seus espaços de pesquisa."
+ gdp_gain_slot: "Expandir Laboratórios"
+ #gdp_gain_slot: "Next slot from GDP at: $$[?GLOBAL.gdp_slot^next_slot_from_gdp|Y0] b"
+ gdp_gain_slot.tt: "PIB ($$[?gdp_total_display|Y] b) > $$[?GLOBAL.gdp_slot^next_slot_from_gdp|Y0] b"
+ gdp_c_gain_slot: "Atualizar equipamentos de laboratório"
+ #gdp_c_gain_slot: "Next slot from GDP/c at: $$[?GLOBAL.gdp_c_slot^next_slot_from_gdp_c|Y0] k"
+ gdp_c_gain_slot.tt: "PIB/c ($$[?gdp_per_capita|Y] k) > $$[?GLOBAL.gdp_c_slot^next_slot_from_gdp_c|Y0] k"
+ calculate_new_education_spending_tt: "Depois que ganharmos um novo espaço de pesquisa, nosso novo aumento de gastos com educação será: [?research_slot_tot|%0R].\n"
+
+ gdp_remove_slot: "Fechar Laboratórios"
+ gdp_remove_slot.tt: ""
+ gdp_c_remove_slot: "Reduzir Equipamentos de Laboratórios"
+ gdp_c_remove_slot.tt: ""
+
+ gdp_lose_slot: "Laboratórios com falta de pessoal"
+ #gdp_lose_slot: "GDP slot lost below: $$[?GLOBAL.gdp_slot^research_slots_from_gdp|Y0] b"
+ gdp_lose_slot.tt: "PIB ($$[?gdp_total_display|Y] b) > $$[?GLOBAL.gdp_slot^research_slots_from_gdp|Y0] b"
+ gdp_c_lose_slot: "Escassez de Equipamentos de Laboratório"
+ #gdp_c_lose_slot: "GDP/c slot lost below: $$[?GLOBAL.gdp_c_slot^research_slots_from_gdp_c|Y0] k"
+ gdp_c_lose_slot.tt: "PIB/c ($$[?gdp_per_capita|Y] k) > $$[?GLOBAL.gdp_c_slot^research_slots_from_gdp_c|Y0] k"
+
+ research_slots_status: "\n\n§YTamanho da Indústria                                Nível de Desenvolvimento§!\nPIB $$[?GLOBAL.gdp_slot^1]b           [gdp_slot_1_status]   PIB/c $$[?GLOBAL.gdp_c_slot^1]k   [gdp_c_slot_1_status]\nPIB $$[?GLOBAL.gdp_slot^2]b    [gdp_slot_2_status]   PIB/c $$[?GLOBAL.gdp_c_slot^2]k [gdp_c_slot_2_status]\nPIB $$[?GLOBAL.gdp_slot^3]b    [gdp_slot_3_status]   PIB/c $$[?GLOBAL.gdp_c_slot^3]k [gdp_c_slot_3_status]\nPIB $$[?GLOBAL.gdp_slot^4]b    [gdp_slot_4_status]   PIB/c $$[?GLOBAL.gdp_c_slot^4]k [gdp_c_slot_4_status]\nPIB $$[?GLOBAL.gdp_slot^5]b  [gdp_slot_5_status]\nPIB $$[?GLOBAL.gdp_slot^6]b  [gdp_slot_6_status]\nPIB $$[?GLOBAL.gdp_slot^7]b  [gdp_slot_7_status]\nPIB $$[?GLOBAL.gdp_slot^8]b  [gdp_slot_8_status]"
+ research_slot_locked: "§RBLOQUEADO§!          "
+ research_slot_available: "§YDISPONÍVEL   §!"
+ research_slot_in_progress: "§CEM PROGRESSO§!"
+ research_slot_unlocked: "§GDESBLOQUEADO§!    "

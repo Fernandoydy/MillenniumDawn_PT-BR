@@ -1,0 +1,130 @@
+﻿l_braz_por:
+ ivory_coast_md.1.t: "Promessa de Eleições"
+ ivory_coast_md.1.d: "No dia 24 de dezembro de 1999, o ex-presidente Henri Konan Bédié foi deposto em um golpe militar. Desde então, a Costa do Marfim tem sido dirigida pelo Comitê Nacional de Salvação Pública, uma junta militar. Muitos marfinenses saudaram o golpe, dizendo que eles esperavam que o exército melhorasse as precárias circunstâncias econômicas e políticas da Costa do Marfim, mas agora há pressão para um retorno ao governo civil. A questão é se devemos permitir que trabalhadores migrantes, que constituem a maior parte da população do norte, se candidatem às eleições"
+ ivory_coast_md.1.o1: "Permitir apenas cidadãos naturais."
+ ivory_coast_md.1.o2: "Permitir todos os candidatos migrantes."
+ ivory_coast_md.1.o3: "Continue a Junta."
+
+ ivory_coast_md.2.t: "A escalada da violência"
+ ivory_coast_md.2.d: "Após as eleições houve um conflito significativo entre os trabalhadores migrantes e os locais. O subsídio de candidatos migrantes pode ter ajudado, mas o país ainda é governado por um governo distintamente do sul."
+ ivory_coast_md.2.o1: "Só podemos esperar para ver."
+
+ ivory_coast_md.3.t: "Protestos no Norte"
+ ivory_coast_md.3.d: "Após as eleições houve uma série de protestos crescentes em todo o norte do país. Os trabalhadores migrantes estão reclamando de sua falta de representação."
+ ivory_coast_md.3.o1: "Separe os protestos com força."
+ ivory_coast_md.3.o2: "Talvez seja melhor se concedermos."
+
+ ivory_coast_md.4.t: "Protestos em grande escala"
+ ivory_coast_md.4.d: "Houve protestos em grande escala liderados pela Frente Popular Marfinense e Movimento Patriótico no sul e norte do país, respectivamente. Eles estão pedindo o fim de nossa ditadura militar e um retorno ao governo civil, embora ninguém parece concordar sobre quem deve governar o país."
+ ivory_coast_md.4.o1: "Isso é inaceitável, mande os militares!"
+ ivory_coast_md.4.o2: "Conceder o poder à Frente Popular Marfinense."
+
+ ivory_coast_md.5.t: "Rebelião no Norte"
+ ivory_coast_md.5.d: "Os protestos aumentaram com elementos militares desertando e declarando um governo rival. Suas forças controlam a maior parte do norte. Até agora eles não fizeram nenhuma tentativa de invadir o sul."
+ ivory_coast_md.5.o1: "Morte aos rebeldes!"
+ ivory_coast_md.5.o2: "Agora não é hora de guerra."
+ ivory_coast_md.5.o3: "Morte ao FPI (jogue como rebeldes)!"
+
+ ivory_coast_md.6.t: "Rebelião no Norte"
+ ivory_coast_md.6.d: "Os protestos aumentaram com elementos dos militares desertando e declarando um governo rival. Nosso país mergulhou em uma guerra civil."
+ ivory_coast_md.6.o1: "Bem, isso iria acontecer mais cedo ou mais tarde."
+
+ ivory_coast_md.7.t: "Uma Nova Guerra Civil"
+ ivory_coast_md.7.d: "Os protestos aumentaram com elementos dos militares desertando e declarando 2 governos rivais. Nosso país mergulhou em uma guerra civil."
+ ivory_coast_md.7.o1: "Bem, não poderia ficar pior."
+
+ ivory_coast_md.8.t: "Governo reprime protestos"
+ ivory_coast_md.8.d: "Os protestos foram reprimidos à força pelos militares e pela polícia. Enquanto mantivermos o poder, a situação ainda é extremamente volátil."
+ ivory_coast_md.8.o1: "Eh, provavelmente está bom ..."
+
+ ivory_coast_md.9.t: "A violência diminui"
+ ivory_coast_md.9.d: "Os protestos generalizados e a violência praticamente terminaram. As coisas estão voltando a uma aparência de normalidade."
+ ivory_coast_md.9.o1: "Parece que nos desviamos de uma bala horrível, por enquanto."
+
+ ivory_coast_md.10.t: "Fim da Guerra Civil [CDI.GetAdjective]"
+ ivory_coast_md.10.d: "Grande parte da luta entre as facções em guerra em [CDI.GetNameDef] finalmente depuseram as armas hoje, quando a luta chega ao fim. A guerra civil finalmente acabou, pois uma pequena aparência de paz está começando para desacelerar."
+ ivory_coast_md.10.o1: "A guerra acabou."
+
+ ivory_coast_md.100.t: "Caos na Costa do Marfim"
+ ivory_coast_md.100.d: "Protestos exigindo reformas democráticas na Costa do Marfim foram reprimidos à força pela polícia e pelos militares. A situação continua tensa. A Costa do Marfim pode em breve cair em uma guerra civil se algo não for feito."
+ ivory_coast_md.100.o1: "Espero que a situação melhore."
+ ivory_coast_md.100.o2: "Espero que a situação melhore."
+
+ ivory_coast_md.101.t: "Guerra Civil da Costa do Marfim"
+ ivory_coast_md.101.d: "Alimentada por tensões raciais entre nativos da Costa do Marfim e imigrantes, que recebem pouca representação política, uma coalizão que se autodenomina Novas Forças se levantou contra o governo."
+ ivory_coast_md.101.o1: "Morte aos rebeldes!"
+ ivory_coast_md.101.o2: "Morte ao FPI!"
+ ivory_coast_md.101.o3: "Intervir em apoio ao FNCI (nacionalista)."
+ ivory_coast_md.101.o4: "Pensamentos e orações."
+ ivory_coast_md.101.o5: "Um desenvolvimento preocupante."
+
+ ivory_coast_md.102.t: "Revolta na Costa do Marfim"
+ ivory_coast_md.102.d: "Alimentada por tensões raciais entre nativos da Costa do Marfim e imigrantes, que recebem pouca representação política, uma coalizão que se autodenomina Novas Forças surgiu e assumiu o controle de grande parte do norte do país. O governo do sul ainda não respondeu. Não está claro o que acontecerá a seguir."
+ ivory_coast_md.102.o1: "Bem, poderia ser pior..."
+ ivory_coast_md.102.o2: "Finalmente a liberdade!"
+ ivory_coast_md.102.o3: "Apoie a FNCI (nacionalista)."
+ ivory_coast_md.102.o4: "Pensamentos e orações."
+
+ ivory_coast_md.103.t: "Guerra Civil da Costa do Marfim"
+ ivory_coast_md.103.d: "A Frente Popular Marfinense tentou um golpe contra a Junta Militar reinante na capital Yamoussoukro. A Junta, no entanto, conseguiu escapar da cidade deixando os rebeldes no controle de grande parte do leste do país. O que é pior, uma coalizão que se autodenomina Novas Forças, liderada pelo Movimento Patriótico, levantou-se no norte também se reivindicando como o governo legítimo."
+ ivory_coast_md.103.o1: "Morte aos rebeldes!"
+ ivory_coast_md.103.o2: "Abaixo a Junta!"
+ ivory_coast_md.103.o3: "Apoie a Junta."
+ ivory_coast_md.103.o4: "Apoie a FNCI (populistas nacionais)."
+ ivory_coast_md.103.o5: "Pensamentos e orações."
+
+ ivory_coast_md.104.t: "Fim da Guerra Civil [CDI.GetAdjective]"
+ ivory_coast_md.104.d: "A guerra civil em [CDI.GetNameDef] terminou hoje quando as facções em guerra começaram a se estabelecer."
+ ivory_coast_md.104.o1: "Os rebeldes foram derrotados."
+ ivory_coast_md.104.o2: "O governo é bem-sucedido."
+ ivory_coast_md.104.o3: "Finalmente a paz!"
+
+ # Senegal
+ senegal_md.1.t: "As eleições de 2000 [SEN.GetAdjective]"
+ senegal_md.1.d: "O [neutral_Social_L] governou o Senegal desde a independência em 1960 até agora. No entanto, pesquisas recentes mostraram que provavelmente perderemos a eleição presidencial de 2000 para a coalizão de oposição liderada por Abdoulaye Wade. A coalizão consiste dos partidos [liberalism_L], [Western_Autocracy_L], [conservatism_L] e [socialism_L] se uniram para derrotar o [neutral_Social_L]. ?party_pop_array^18|Y2%]) está colocando a oposição firmemente na liderança. Como devemos proceder rumo a essas eleições?\n"
+ senegal_md.1.o1: "Que as eleições prossigam normalmente."
+ senegal_md.1.o2: "Talvez devêssemos 'influenciar' as eleições."
+ senegal_md.1.o3: "Talvez essa coisa de votar não seja tão boa."
+
+ senegal_md.2.t: "Equipamento Eleitoral"
+ senegal_md.2.d: "Nossa intromissão nas eleições passou despercebida por nossa população e observadores internacionais. Enquanto alguns na oposição contestaram o resultado, essas teorias não ganharam muita força entre o povo."
+ senegal_md.2.o1: "Haha, aguenta!"
+
+ senegal_md.3.t: "Protestos"
+ senegal_md.3.d: "Houve protestos generalizados condenando a bagunça que tem sido nossas eleições."
+ senegal_md.3.o1: "Suprima-os."
+ senegal_md.3.o2: "Tudo bem, faça as eleições novamente."
+
+ senegal_md.4.t: "Governo reprime protestos"
+ senegal_md.4.d: "Os protestos foram amplamente reprimidos. No entanto, isso não significa que chegamos ao fim de nossa instabilidade... É perfeitamente possível que a situação continue hostil e ainda podemos ver o colapso de nosso detém o poder".
+ senegal_md.4.o1: "Eh provavelmente está bom ..."
+
+ senegal_md.5.t: "As eleições permitidas"
+ senegal_md.5.d: "As eleições foram realizadas pela segunda vez. A posse deliberada do poder diminuiu lentamente à medida que voltamos à democracia. A coalizão governista obteve [?government_coalition_strength|2Y%] em comparação com a oposição em [?opposition_strength|Y2%]. Um dia maravilhoso para a democracia por completo."
+ senegal_md.5.o1: "Sim, democracia funcional."
+
+ senegal_md.6.t: "[SEN.GetAdjective] Guerra Civil"
+ senegal_md.6.d: "Os protestos aumentaram com elementos militares desertando e declarando um governo rival no Nordeste. Os separatistas em Casamance aproveitaram nosso momento de fraqueza para declarar sua independência. Nosso país mergulhou na guerra civil. "
+ senegal_md.6.o1: "Bem, isso é uma bagunça."
+
+ # Casamança Eventos
+ senegal_md.7.t: "TEMP"
+ senegal_md.7.d: "DESC"
+ senegal_md.7.o1: "A"
+ senegal_md.7.o2: "B"
+
+ # Fim da Guerra Civil Senegalesa
+ senegal_md.11.t: "Fim da Guerra Civil [SEN.GetAdjective]"
+ senegal_md.11.d: "As facções em guerra em [SEN.GetName] finalmente depuseram as armas hoje, quando a luta chega ao fim."
+ senegal_md.11.o1: "Estamos unidos!"
+
+ senegal_md.100.t: "[SEN.GetAdjective] Guerra Civil"
+ senegal_md.100.d: "O conflito eclodiu hoje no Senegal. O governo desmoronou devido às recentes eleições no país. [CSM.GetNameDef] separou-se do estado do Senegal e está lutando ativamente por sua independência enquanto o país está mergulhou ainda mais na turbulência."
+ senegal_md.100.o1: "A rebelião será esmagada!"
+ senegal_md.100.o2: "Um novo Senegal no horizonte!"
+ senegal_md.100.o3: "Um desenvolvimento preocupante."
+
+ senegal_md.101.t: "Fim da Guerra Civil [SEN.GetAdjective]"
+ senegal_md.101.d: "As facções em guerra em [SEN.GetName] finalmente depuseram as armas hoje, quando a luta chega ao fim."
+ senegal_md.101.o1: "Estamos unidos!"
+ senegal_md.101.o2: "Finalmente a paz!"

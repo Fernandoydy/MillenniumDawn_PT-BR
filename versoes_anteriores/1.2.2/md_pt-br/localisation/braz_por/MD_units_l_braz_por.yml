@@ -1,0 +1,114 @@
+﻿l_braz_por:
+ fighter: "Caça de Superioridade Aérea"
+ Strike_fighter: "Caça de Ataque"
+ L_Strike_fighter: "Caça de Ataque Leve"
+ CV_L_Strike_fighter: "Caça de Ataque Embarcado"
+ multi_role_fighter: "Caça Multifuncional"
+ cv_multi_role: "Caça Multifuncional Embarcado"
+ cas: "Apoio Aéreo Aproximado"
+ nav_plane_equipment: "Avião de Patrulha Marítima"
+ strat_bomber: "Bombardeiro Estratégico"
+ transport_plane: "Avião de transporte"
+ attack_helicopter: "Helicóptero de ataque"
+ Air_UAV: "Veículo Aéreo de Combate Não Tripulado"
+ transport_helicopter: "Helicóptero de transporte"
+ guided_missile: "Míssil antiaéreo"
+ guided_missile_equipment_1: "THAAD"
+ guided_missile_equipment_2: "THAAD"
+ guided_missile_equipment_3: "THAAD"
+ guided_missile_equipment_4: "THAAD"
+ guided_missile_equipment_5: "THAAD"
+ 
+ Militia_Bat: "Milícia"
+ Militia_Bat_desc: "Batalhão de milícia a pé. As unidades de milícia são caracterizadas por terem menos equipamentos pesados e kits de comunicação do que a infantaria normal. Isso os torna altamente móveis e eficazes em terrenos ruins, mas se desfazem rapidamente em terreno plano contra um oponente blindado."
+ Mot_Militia_Bat: "Milícia motorizada"
+ Mot_Militia_Bat_desc: "Batalhão de milícias com caminhonetes ou mesmo veículos utilitários blindados. As unidades de milícias são caracterizadas por terem menos equipamentos pesados e kits de comunicação do que a infantaria normal. um oponente blindado."
+ 
+ L_Inf_Bat: "Infantaria Leve"
+ L_Inf_Bat_desc: "Infantaria Leve sem transportes. Raramente visto no campo de batalha moderno, mas existem unidades especializadas em terrenos muito difíceis, como selva e montanhas - onde são altamente eficazes. Também podem ser úteis como guarnições urbanas."
+ Mot_Inf_Bat: "Infantaria Motorizada"
+ Mot_Inf_Bat_desc: "A Infantaria Motorizada usa todos os tipos de Veículos Utilitários como meio de transporte, desde picapes até modernos Veículos Resistentes a Minas. Eles são adequados para combate em terreno montanhoso e em áreas urbanas."
+ Mech_Inf_Bat: "Infantaria Mecanizada"
+ Mech_Inf_Bat_desc: "A Infantaria Mecanizada usa veículos blindados de transporte pessoal. Eles são adequados para combate blindado em terreno plano."
+ Arm_Inf_Bat: "Infantaria Blindada"
+ Arm_Inf_Bat_desc: "Infantaria Blindada usa Veículos de Combate de Infantaria como transporte. Eles são adequados para combate blindado em terreno plano, mas são desperdiçados em terreno difícil onde devem operar a pé longe de seus IFV's."
+ 
+ L_Air_Inf_Bat: "Infantaria Leve Aerotransportada"
+ L_Air_Inf_Bat_desc: "A Infantaria Leve Aerotransportada é uma Infantaria de elite, com seu treinamento especial em Inserção Aérea via pára-quedas de Aeronaves de Transporte ou com Helicópteros de Transporte. Eles podem responder rapidamente a emergências de longe e podem ser inseridos atrás das linhas inimigas para levar objetivos vitais à frente do avanço do exército principal. Seu meio de transporte coloca limites estritos na quantidade de equipamento pesado que eles podem carregar, no entanto."
+ Mot_Air_Inf_Bat: "Infantaria aerotransportada motorizada"
+ Mot_Air_Inf_Bat_desc: "A Infantaria Aerotransportada Motorizada é uma Infantaria de elite, com seu treinamento especial em Inserção Aérea via pára-quedas de Aeronaves de Transporte ou com Helicópteros de Transporte. Eles podem responder rapidamente a emergências de longe e podem ser inseridos atrás das linhas inimigas para levar objetivos vitais à frente do avanço do exército principal. Seus Veículos Utilitários lhes dão grande mobilidade na inserção e permitem que eles tragam mais equipamento pesado para a batalha. No entanto, é muito mais exigente logisticamente para derrubá-los junto com os veículos."
+ Mech_Air_Inf_Bat: "Infantaria Aerotransportada Mecanizada"
+ Mech_Air_Inf_Bat_desc: "A Infantaria Aerotransportada Mecanizada é uma Infantaria de elite, com seu treinamento especial em Inserção Aérea via pára-quedas de Aeronaves de Transporte. Eles podem responder rapidamente a emergências de longe e podem ser inseridos atrás das linhas inimigas para atingir objetivos vitais antes do avanço do exército principal. Seus Transportadores de Pessoal Blindados Leves especialmente projetados lhes dão grande mobilidade após a inserção e permitem que eles tragam muito mais equipamento pesado para a batalha do que forças aerotransportadas mais leves. No entanto, é muito mais logisticamente exigente para derrubá-los junto com esses veículos.
+ Arm_Air_Inf_Bat: "Infantaria Aerotransportada Blindada"
+ Arm_Air_Inf_Bat_desc: "A infantaria aerotransportada blindada é uma infantaria de elite, com seu treinamento especial em inserção aérea por pára-quedas de aeronaves de transporte. Eles podem responder rapidamente a emergências de longe e podem ser inseridos atrás das linhas inimigas para atingir objetivos vitais à frente do avanço do exército principal. Seus veículos de combate de infantaria leve especialmente projetados lhes dão grande mobilidade e permitem que eles lutem em igualdade de condições contra formações mecanizadas normais. No entanto, é extremamente exigente logisticamente pararrubá-los junto com seus IFVs. A partir de 2017, apenas a Rússia já operou tal forças".
+ 
+ L_Marine_Bat: "Infantaria Leve da Marinha"
+ L_Marine_Bat_desc: "A Infantaria Leve de Fuzileiros Navais é uma Infantaria de elite, com treinamento especial em operações anfíbias, como travessias de rios, operação em pântanos e invasões anfíbias. pode carregar, no entanto."
+ Mot_Marine_Bat: "Infantaria Marinha Motorizada"
+ Mot_Marine_Bat_desc: "A Infantaria Motorizada de Fuzileiros Navais é Infantaria de elite, com treinamento especial em operações anfíbias, como travessias de rios, operação em pântanos e invasões anfíbias. Enquanto desembarcam como Infantaria Leve, possuem Veículos Utilitários como meios de transporte terrestre, conferindo-lhes grande mobilidade e permite que eles carreguem grandes quantidades de equipamentos pesados ​​para a batalha."
+ Mech_Marine_Bat: "Infantaria Mecanizada da Marinha"
+ Mech_Marine_Bat_desc: "A Infantaria Mecanizada de Fuzileiros Navais é uma Infantaria de elite, com treinamento especial em operações anfíbias, como travessias de rios, operações em pântanos e invasões anfíbias. Ao fazerem desembarques protegidos em seus Portadores Blindados Anfíbios especialmente projetados, eles são muito bem equipados para atacar imediatamente com grande mobilidade, carregando grandes quantidades de equipamento pesado para a batalha."
+ Arm_Marine_Bat: "Infantaria da Marinha Blindada"
+ Arm_Marine_Bat_desc: "A infantaria de fuzileiros navais blindados é infantaria de elite, com treinamento especial em operações anfíbias, como travessias de rios, operação em pântanos e invasões anfíbias. Eles podem cruzar grandes distâncias na água em seus veículos de combate de infantaria anfíbia fortemente blindados a jato, e esteja pronto para lutar com os mesmos IFVs assim que chegarem à costa com grande proficiência."
+ 
+ L_Air_assault_Bat: "Infantaria de Assalto Aérea Leve"
+ L_Air_assault_Bat_desc: "A Infantaria Mecanizada de Fuzileiros Navais é uma Infantaria de elite, com seu treinamento especial em rapel e transporte aéreo, seu equipamento às vezes é projetado ou modificado em campo para permitir um melhor transporte dentro da aeronave. foram totalmente protegidos e engajar diretamente as forças inimigas atrás das linhas inimigas."
+ Arm_Air_assault_Bat: "Infantaria de Assalto Aéreo Blindado"
+ Arm_Air_assault_Bat_desc: "A Infantaria Mecanizada de Fuzileiros Navais é uma Infantaria de elite, com seu treinamento especial em rapel e transporte aéreo, seu equipamento às vezes é projetado ou modificado em campo para permitir um melhor transporte dentro da aeronave. foram totalmente protegidos e engajar diretamente as forças inimigas atrás das linhas inimigas."
+ 
+ 
+ Special_Forces: "Forças de Operações Especiais"
+ Special_Forces_desc: "As Forças de Operações Especiais são a elite de qualquer militar onde atuam, com treinamento mais longo e mais difícil do que qualquer outro. Eles são especialistas em terrenos difíceis, operações aéreas e pousos anfíbios. Eles são, no entanto, muito levemente equipados, pois podem precisar para operar com mobilidade atrás das linhas de frente."
+ 
+ armor_Bat: "Batalhão de Tanques"
+ armor_Bat_desc: "Um Batalhão de Tanques possui apenas os veículos blindados mais pesados existentes, os Tanques de Batalha Principais. Com excelente mobilidade em terreno plano e fogo direto feroz, eles são projetados para abrir buracos nas linhas de frente inimigas que podem ser rapidamente exploradas por acompanhamento unidades de infantaria mecanizada".
+ armor_Comp: "Companhia de Tanques"
+ armor_Comp_desc: "A Tank Company apresenta apenas os veículos blindados mais pesados existentes, os tanques de batalha principais. Com excelente mobilidade em terreno plano e fogo direto feroz, eles são projetados para abrir buracos nas linhas de frente inimigas que podem ser rapidamente exploradas por acompanhamento unidades de infantaria mecanizada".
+
+ L_Recce_Comp: "Companhia de Reconhecimento Leve"
+ L_Recce_Comp_desc: "As Companhias de Reconhecimento Leve operam a pé e, portanto, são desprovidas de grande parte do equipamento pesado que as torna uma unidade de combate eficaz. Elas se infiltram perto do inimigo para observar e relatar suas atividades e usam drones de reconhecimento e vigilância eletrônica para coletar informações. Eles também podem realizar ataques e emboscadas limitadas. As Companhias de Reconhecimento são freqüentemente chamadas de 'Esquadrões' devido ao seu legado como antigas unidades de Cavalaria."
+
+ Mot_Recce_Comp: "Companhia de Reconhecimento Motorizada"
+ Mot_Recce_Comp_desc: "As Companhias de Reconhecimento Motorizadas operam com Veículos Utilitários e possuem praticamente o mesmo equipamento que suas contrapartes de Infantaria. Suas funções, no entanto, são diferentes. Eles se infiltram perto do inimigo para observar e relatar suas atividades e usam drones de reconhecimento e Vigilância eletrônica para coletar informações. Eles também podem realizar ataques e emboscadas limitadas. As Companhias de Reconhecimento são frequentemente chamadas de 'Esquadrões' devido ao seu legado como antigas unidades de Cavalaria."
+
+ Mech_Recce_Comp: "Companhia de Reconhecimento Mecanizada"
+ Mech_Recce_Comp_desc: "As Companhias Mecanizadas de Reconhecimento operam com veículos blindados de transporte de pessoal e têm praticamente o mesmo equipamento que suas contrapartes de infantaria. Suas funções, no entanto, são diferentes. Eles se infiltram perto do inimigo para observar e relatar suas atividades e usam drones de reconhecimento e Vigilância Eletrônica para reunir informações. Eles também podem realizar ataques e emboscadas limitadas. As Companhias de Reconhecimento são frequentemente chamadas de 'Esquadrões' devido ao seu legado como antigas unidades de Cavalaria."
+
+ Arm_Recce_Comp: "Companhia de Reconhecimento Mecanizada Pesada"
+ Arm_Recce_Comp_desc: "As Companhias Pesadas de Reconhecimento Mecanizado operam com Veículos de Combate de Infantaria e têm muito do mesmo equipamento que suas contrapartes de Infantaria Blindada. Suas funções, entretanto, são diferentes. Eles se infiltram perto do inimigo para observar e relatar suas atividades e usam ambos Drone Reconhecimento e Vigilância Eletrônica para coletar informações. Eles também podem realizar ataques e emboscadas. As Companhias de Reconhecimento são frequentemente chamadas de 'Esquadrões' devido ao seu legado como antigas unidades de Cavalaria."
+ 
+ L_arm_Bat: "Batalhão de Tanques Leves"
+ L_arm_Bat_desc: "Os Batalhões de Tanques Leves operam com Tanques Leves especiais, geralmente com rodas, que combinam uma mobilidade incrível com um poder de parada impressionante. Eles podem se defender contra todos os tipos de infantaria em combate direto. O combate direto não é o papel pretendido, embora - eles se infiltram perto do inimigo para observar e relatar suas atividades, e usam drones de reconhecimento e vigilância eletrônica para coletar informações. Eles também podem realizar ataques e emboscadas em importantes meios inimigos e formações mecanizadas."
+ armor_Recce_Comp: "Companhia de Reconhecimento com Blindado"
+ armor_Recce_Comp_desc: "Companhias de Reconhecimento com Blindados operam com tanques leves Recon especiais que combinam mobilidade incrível com poder de parada impressionante. Eles podem se defender contra todos os tipos de infantaria em combate direto. O combate direto não é o papel pretendido - eles se infiltram perto do inimigo para observar e relatar suas atividades, e usar o Reconhecimento Drone e a Vigilância Eletrônica para coletar informações. Eles também podem realizar incursões e emboscadas em importantes ativos inimigos e formações mecanizadas. As Companhias de Recce são frequentemente chamadas de 'Esquadrões' devido à sua legado como ex-unidades de cavalaria."
+
+ L_Engi_Comp: "Companhia de Engenharia"
+ L_Engi_Comp_desc: "Engenheiros cuidam da construção temporária de pontes e perímetros defensivos, colocação e limpeza de minas, além do descarte de bombas. Eles carregam armamento básico de infantaria, para fins defensivos."
+
+ H_Engi_Comp: "Companhia de Engenharia Pesada"
+ H_Engi_Comp_desc: "Engenheiros lidam com pontes temporárias e construção de perímetro defensivo, colocação e limpeza de minas, além de eliminação de bombas. Eles carregam armamento básico de infantaria, para fins defensivos. Com veículos de construção e recuperação baseados no casco do Tanque de Batalha Principal, eles estão bem equipados para recuperar veículos blindados desativados em combate da linha de frente."
+ 
+ Arty_Bat: "Artilharia"
+ Arty_Bat_desc: "Com suas poderosas habilidades de tiro indireto, a Artilharia fornece ataques de precisão sustentados onde é necessário no campo de batalha e muito além do alcance visual. Pode ser recarregado diretamente por sua tripulação. Como requer veículos externos para seu movimento, pode ser difícil para se mover entre os ataques, tornando-o vulnerável contra contra-ataques de artilharia inimiga. Sistemas leves de menor calibre podem ser arrastados manualmente e são adequados para operações aéreas, pois podem caber dentro de aviões de transporte.
+ Arty_Battery: "Bateria de Artilharia"
+ Arty_Battery_desc: "Com suas poderosas habilidades de tiro indireto, a Artilharia fornece ataques de precisão sustentados onde é necessário no campo de batalha e muito além do alcance visual. Pode ser recarregado diretamente por sua tripulação. Como requer veículos externos para seu movimento, pode ser difícil para se mover entre os ataques, tornando-o vulnerável contra contra-ataques de artilharia inimiga. Sistemas leves de menor calibre podem ser arrastados manualmente e são adequados para operações aéreas, pois podem caber dentro de aviões de transporte.
+ 
+ SP_Arty_Bat: "Artilharia Autopropulsada"
+ SP_Arty_Bat_desc: "Com suas poderosas habilidades de tiro indireto, a Artilharia Autopropulsada fornece ataques de precisão sustentados onde é necessário no campo de batalha e muito além do alcance visual. Ela pode ser recarregada diretamente por sua tripulação e sua autopropulsão a torna móvel para que eles pode se mover para evitar contra-ataques da artilharia inimiga."
+ SP_Arty_Battery: "Bateria de Artilharia Autopropulsada"
+ SP_Arty_Battery_desc: "Com suas poderosas habilidades de tiro indireto, a Artilharia Autopropulsada fornece ataques de precisão sustentados onde é necessário no campo de batalha e muito além do alcance visual. Ela pode ser recarregada diretamente por sua tripulação e sua autopropulsão a torna móvel para que eles pode se mover para evitar contra-ataques da artilharia inimiga."
+
+ SP_R_Arty_Bat: "Artilharia de Foguete Autopropulsada"
+ SP_R_Arty_Bat_desc: "Usando lançadores MLRS, um batalhão de artilharia de foguetes pode erradicar uma área inteira de longe. Usado contra áreas de retaguarda inimigas, pois o fogo indiscriminado o torna inadequado para ataques de precisão no campo de batalha. Ele precisa de veículos especiais de recarga e recarga os tempos são lentos."
+ SP_R_Arty_Battery: "Bateria de Artilharia Foguete Autopropulsada"
+ SP_R_Arty_Battery_desc: "Usando lançadores MLRS, uma bateria de Rocket Artillery pode erradicar áreas de longe. Usado contra áreas de retaguarda inimigas, pois o fogo indiscriminado o torna inadequado para ataques de precisão no campo de batalha. Ele precisa de veículos especiais de recarga e os tempos de recarga são lento."
+
+ SP_AA_Bat: "Defesa Aérea Autopropulsada"
+ SP_AA_Bat_desc: "Usando sistemas de mísseis antiaéreos autopropulsados de curto ou médio alcance, o Batalhão de Defesa Aérea defenderá sua unidade de ataques inimigos de Apoio Aéreo Aproximado."
+ SP_AA_Battery: "Bateria de Defesa Aérea Autopropulsada"
+ SP_AA_Battery_desc: "Usando sistemas de mísseis antiaéreos autopropulsados de curto ou médio alcance, a Bateria de Defesa Aérea defenderá sua unidade de ataques inimigos de Apoio Aéreo Aproximado."
+
+ combat_service_support_company: "Suporte de serviço de combate"
+ combat_service_support_company_desc: "Logística e serviços médicos da divisão."
+ helicopter_combat_service_support: "Suporte de serviço de combate de helicóptero"
+ helicopter_combat_service_support_desc: "Serviços de logística e médicos da divisão."

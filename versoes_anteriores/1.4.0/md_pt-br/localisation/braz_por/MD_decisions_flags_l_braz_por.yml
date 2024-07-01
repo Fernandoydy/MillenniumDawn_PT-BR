@@ -1,0 +1,40 @@
+﻿l_braz_por:
+ coalition_party_negotiations: "Negociar com um partido para a coligação."
+ different_country_flags_category: "Alterar decisão de bandeira"
+ different_country_flags_category_desc: "Podemos mudar nossa bandeira para representar melhor o partido governante atual em nosso país. O partido governante atual é o [Root.GetRulingParty]"
+
+ Reset_flag: "Mudar bandeira"
+ Reset_flag_desc: "Hoje temos a possibilidade de mudar nossa bandeira."
+ Autocracy_flag: "Mudar bandeira"
+ Autocracy_flag_desc: "Hoje temos a possibilidade de mudar a nossa bandeira."
+ Special_flag: "Mudar bandeira"
+ Special_flag_desc: "Hoje temos a possibilidade de mudar a nossa bandeira."
+ More_Special_flag: "Mudar bandeira"
+ More_Special_flag_desc: "Hoje temos a possibilidade de mudar a nossa bandeira."
+
+ add_dynamic_flag: "Você não deve conseguir ver isso. Adiciona [?original_tag.GetTag]"
+ add_dynamic_flag_desc: "Pare de trocar de tag seu trapaceiro"
+ Rebel_flag: "Alterar bandeira"
+ Rebel_flag_desc: "Hoje temos a capacidade de mudar nossa bandeira."
+ Special_Rebel_flag: "Alterar bandeira"
+ Special_Rebel_flag_desc: "Hoje temos a capacidade de mudar nossa bandeira."
+
+ HUN_Edgy_flag: "Mudar bandeira"
+ HUN_Edgy_flag_flag_desc: "Hoje temos a possibilidade de mudar a nossa bandeira..."
+ SAF_Edgy_flag: "Mudar bandeira"
+ SAF_Edgy_flag_flag_desc: "Hoje temos a possibilidade de mudar a nossa bandeira..."
+
+ SER_flag_change: "Renomear para Sérvia"
+ SER_flag_change_desc: "Com a perda de Montenegro, devemos renomear nossa nação para Sérvia."
+
+ USA_Reset_flag: "Mudar bandeira"
+ USA_Reset_flag_desc: "Hoje temos a possibilidade de mudar nossa bandeira."
+
+ MAU_NEW_flag: "Mudar bandeira"
+ MAU_NEW_flag_desc: "A mesma coisa, mas com listras vermelhas."
+ IRQ_NEW_flag: "Mudar bandeira"
+ IRQ_NEW_flag_desc: "Devemos atualizar nossa bandeira para nos distanciarmos da era Ba'ath."
+ DRC_NEW_flag: "Mudar bandeira"
+ DRC_NEW_flag_desc: "Acho que um azul mais claro seria melhor."
+ RWA_NEW_flag: "Mudar bandeira"
+ RWA_NEW_flag_desc: "Nossa bandeira tornou-se associada à brutalidade do genocídio de 1994. Seria melhor se fosse mudada."

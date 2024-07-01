@@ -1,0 +1,1724 @@
+﻿l_braz_por:
+ MISSILES_LABEL: "MÍSSEIS"
+ MISSILES_GUI_LEDGER_BTN_1_TT: "§YProdução de Mísseis§!"
+ MISSILES_GUI_LEDGER_BTN_1_TT_DELAYED: "Produza §YMísseis§! e §YSatélites§!."
+ MISSILES_GUI_LEDGER_BTN_2_TT: "§YCentro de Controle de Lançamento de Mísseis.§!"
+ MISSILES_GUI_LEDGER_BTN_2_TT_DELAYED: "Dispare salvas de mísseis no estado alvo ou coloque mísseis em alerta."
+ MISSILES_GUI_LEDGER_BTN_3_TT: "§YDefesa Aérea e Antimíssil.§!"
+ MISSILES_GUI_LEDGER_BTN_3_TT_DELAYED: "Configure suas §YDefesas Aéreas e Antimísseis.§!"
+ MISSILES_GUI_LEDGER_BTN_4_TT: "§YCentro Espacial§! e §YÓrbita§!"
+ MISSILES_GUI_LEDGER_BTN_4_TT_DELAYED: "Lance §YSatélites§! e outros §YRecursos Espaciais§! para orbitar e gerenciar suas §YArmas Espaciais§!."
+ MISSILES_GUI_LEDGER_BTN_5_TT: "§YSistemas de Satélites§!"
+ MISSILES_GUI_LEDGER_BTN_5_TT_DELAYED: "Gerencie seus sistemas de satélite SGNS, comunicação e reconhecimento."
+ MISSILES_GUI_LEDGER_BTN_6_TT: "§YPolítica Nuclear§!"
+ MISSILES_GUI_LEDGER_BTN_6_TT_DELAYED: "Gerencie seu §YStatus Nuclear§!, §YDoutrina Nuclear§! e §YProdução Nuclear§!."
+ TRAJECTORY_LIST_ENTRY: "[?missile_launch_point_array^v.GetName]"
+ SALVO_TT: "Salvo é o número de mísseis que você dispara de uma só vez."
+ DURATION_TT: "Duração é quantas vezes o disparo da salva é repetido semanalmente."
+ ### para outros +/- Botões
+ INCREASE_SALVO_TT: "£left_mouse_texticon §YClique E.§! para §GAumentar§! por §G1§!."
+ INCREASE_SALVO_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) aumenta o valor."
+ DECREASE_SALVO_TT: "£left_mouse_texticon §YClique E.§! para §RDiminuir§! §R1§!""
+ DECREASE_SALVO_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) diminui a quantidade."
+ INCREASE_DURATION_TT: "£left_mouse_texticon §YClique E.§! para §GAumentar§! por §G1§!"
+ INCREASE_DURATION_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) aumenta o valor."
+ DECREASE_DURATION_TT: "£left_mouse_texticon §YClique E.§! para §RDiminuir§! por §R1§!"
+ DECREASE_DURATION_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) diminui a quantidade."
+ ### Lançamento GUI +/- Botões
+ INCREASE_SALVO_GUI_TT: "[!salvo_small_plus_button_bg_click_enabled]\n£left_mouse_texticon §YClique E.§! para §GAumentar§! a §YSalva§! em §G1§!."
+ INCREASE_SALVO_GUI_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) aumenta a quantidade."
+ DECREASE_SALVO_GUI_TT: "[!salvo_small_minus_button_bg_click_enabled]\n£left_mouse_texticon §YClique E.§! para §RDiminuir§! a §YSalva§! em §R1§!."
+ DECREASE_SALVO_GUI_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) diminui a quantidade."
+ INCREASE_DURATION_GUI_TT: "[!duration_small_plus_button_bg_click_enabled]\n£left_mouse_texticon §YClique E.§! para §GAumentar§! a §YDuração§! por 1."
+ INCREASE_DURATION_GUI_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) aumenta o valor."
+ DECREASE_DURATION_GUI_TT: "[!duration_small_minus_button_bg_click_enabled]\n£left_mouse_texticon §YClique E.§! para §RDiminuir§! §YDuração§! por 1."
+ DECREASE_DURATION_GUI_delayed_TT: "£ctrl_texticon §YCtrl§!(10x) ou £shift_texticon §YShift§!(100x) diminui a quantidade."
+ #
+ TRAJECTORY_GUI_DELETE_BUTTON_TT: "Excluir seleção de trajetória atual."
+ TARGET_SELECTION_BUTTON_TT: "Golpe Estratégico"
+ TARGET_SELECTION_BUTTON_delayed_TT: "Ataques Estratégicos danificam edifícios inimigos no estado alvo.\n\nNota: ogivas nucleares sempre danificam edifícios e unidades."
+ TARGET_SELECTION_2_BUTTON_TT: "Golpe Tático"
+ TARGET_SELECTION_2_BUTTON_delayed_TT: "Ataques táticos danificam divisões inimigas no estado alvo.\n\nObservação: ogivas nucleares sempre danificam edifícios e unidades."
+ MISSILE_MODEL_NAME: "[missile_type_tech_loc]"
+ MISSILE_MODEL_NAME_SELECTED: "[missile_type_selected_loc]"
+ MISSILE_MODEL_INVENTORY_SELECTED: "£GFX_inventory_texticon [?var_inventory]"
+ WARHEAD_NAME: "[warhead_tech_loc]"
+ has_num_missiles_TT: "§Y[tipo_de_missile_selecionado_loc]§! inventário > §YNúmero total de disparos§!"
+ has_num_nuke_warheads_TT: "§Y[warhead_selected_loc]§! inventário > §YNúmero total de ogivas§!"
+ MISSILE_MODEL_BUTTON_TT: "[!missile_model_button_click_enabled]\nSelecione o míssil."
+ WARHEAD_BUTTON_TT: "[!warhead_button_click_enabled]\nSelecione Warhead."
+ FIRE_BUTTON_TT: "[!fire_button_click_enabled]\n§GComece a disparar§! a salva de mísseis.\n\nMísseis só dispararão se §Y[ROOT.GetName]§! estiver em §Rguerra§! com o §Ypaís-alvo§! ou se atirando em seu próprio território."
+ FIRE_BUTTON_delayed_TT: "A salva começará no início da próxima semana e será repetida todas as semanas até que a duração seja zero."
+ ALERT_BUTTON_TT: "[!alert_button_click_enabled]\n§GDefinir§! a salva de mísseis §Gon alert§!."
+ ALERT_BUTTON_delayed_TT: "Salvos em alerta começarão, quando as §YCondições de Alerta§! forem atendidas. As §YCondições de Alerta§! dependem da §Ydoutrina nuclear§! §! está em §Rguerra§! com o §Ypaís-alvo§! ou se estiver atirando em seu próprio território."
+ has_trajectory: "Selecionou §YPonto de lançamento§! e §YPonto de destino§!"
+ has_missile_model: "Selecionou §YMíssil§!"
+ has_warhead: "Selecionou §YOgiva§!"
+ search_target_point: "Selecionou §Yponto de lançamento§!"
+ 
+ #WARHEAD_NAME_STAT: "[warhead_stat_loc]"
+ warhead_stat_1_loc_key: "[conventional_warhead_name_stat_loc]"
+ warhead_stat_2_loc_key: "[nuclear_warhead_name_stat_loc]"
+
+ STAT_TRAJECTORY_HEADER: "De: [?ROOT.missile_launch_point_array^var_stat_trajectory_ID.GetName] Para: [?ROOT.missile_target_point_array^var_stat_trajectory_ID.GetName]"
+ STAT_TRAJECTORY_TOP: "Tipo de míssil: §Y[tipo de missile_stat_loc]§!\nOgiva: §O[warhead_stat_loc]§!\nSalvo: [?missile_salvo_array^var_stat_trajectory_ID|§C0]\nDuração: [?missile_duration_array^var_stat_trajectory_ID|§C0]\n"
+ STAT_TRAJECTORY_LEFT: "Defesa contra Mísseis Marítimos: \nSAM disparado: [?SAM_consumption_sea_array^var_stat_trajectory_ID|O0]\nABM disparado: [?ABM_consumption_sea_array^var_stat_trajectory_ID|O0]\nInterceptação de impulso: [?missile_interception_boost_sea_stat_array^var_stat_trajectory_ID|O0]\nInterceptação de impulso: [?missile_interception_boost_sea_stat_array^var_stat_trajectory_ID| missile_interception_midcourse_sea_stat_array^var_stat_trajectory_ID|§R0]\nInterceptação de terminal: [?missile_interception_terminal_sea_stat_array^var_stat_trajectory_ID|§R0]\n\nBoost Completion: [?missile_boost_completed_sea_stat_array^var_stat_trajectory_ID|§C0]\nConclusão do curso intermediário: [?missile_midcourse_completed_sea_stat_array^var_stat_trajectory_ID|§C0]\nTerminal Conclusão: [?missile_midcourse_completed_sea_stat_array^var_stat_trajectory_ID|§C0]\n\nAlvo de acerto: [?missile_target_hit_stat_array^var_stat_trajectory_ID|§G0]\nErro de alvo: [?missile_target_miss_stat_array^var_stat_trajectory_ID|§R0]\n\nDano de ataque estratégico:"
+ STAT_TRAJECTORY_RIGHT: "Defesa contra Mísseis Terrestres:\nSAM disparou: [?SAM_consumption_land_array^var_stat_trajectory_ID|O0]\nABM disparou: [?ABM_consumption_land_array^var_stat_trajectory_ID|O0]\nInterceptação de impulso: [?missile_interception_boost_land_stat_array^var_stat_trajectory_ID|O0]\nInterceptação de impulso: [?missile_interception_boost_land_stat_array^var_stat_trajectory_ID|§R0]\n missile_interception_midcourse_land_stat_array^var_stat_trajectory_ID|§R0]\nInterceptação de terminal: [?missile_interception_terminal_land_stat_array^var_stat_trajectory_ID|§R0]\n\nConclusão do impulso: [?missile_boost_completed_land_stat_array^var_stat_trajectory_ID|§C0]\nConclusão do curso intermediário: [?missile_midcourse_completed_land_stat_array^var_stat_trajectory_ID|§C0]"
+ #STAT_TRAJECTORY_BOTTOM: "Dano de Golpe Tático:"
+ STAT_TRAJECTORY_BOTTOM_LEFT: "Dano de Golpe Tático:\nOrganização:\nDano Total: [?total_org_damage_stat_array^var_stat_trajectory_ID|G0]\nDano por Divisão: [?unit_org_damage_stat_array^var_stat_trajectory_ID|G0]"
+ STAT_TRAJECTORY_BOTTOM_RIGHT: "\nForça:\nDano Total: [?total_str_damage_stat_array^var_stat_trajectory_ID|O0]\nDano por divisão: [?unit_str_damage_stat_array^var_stat_trajectory_ID|O0]"
+ ### mísseis_stat_entry ###
+
+ DAMAGE_BULDING_STAT: "[damage_building_stat_loc]"
+ ### número = moldura do ícone
+ damage_building_1_stat_loc_key: "[?damage_building_1_stat_array^var_stat_trajectory_ID]"
+ damage_building_2_stat_loc_key: "[?damage_building_2_stat_array^var_stat_trajectory_ID]"
+ damage_building_3_stat_loc_key: "[?damage_building_3_stat_array^var_stat_trajectory_ID]"
+ damage_building_4_stat_loc_key: "[?damage_building_4_stat_array^var_stat_trajectory_ID]"
+ damage_building_5_stat_loc_key: "[?damage_building_5_stat_array^var_stat_trajectory_ID]"
+ damage_building_6_stat_loc_key: "[?damage_building_6_stat_array^var_stat_trajectory_ID]"
+ damage_building_7_stat_loc_key: "[?damage_building_7_stat_array^var_stat_trajectory_ID]"
+ damage_building_8_stat_loc_key: "[?damage_building_8_stat_array^var_stat_trajectory_ID]"
+ damage_building_9_stat_loc_key: "[?damage_building_9_stat_array^var_stat_trajectory_ID]"
+ damage_building_10_stat_loc_key: "[?damage_building_10_stat_array^var_stat_trajectory_ID]"
+ damage_building_11_stat_loc_key: "[?damage_building_11_stat_array^var_stat_trajectory_ID]"
+ damage_building_12_stat_loc_key: "[?damage_building_12_stat_array^var_stat_trajectory_ID]"
+ damage_building_13_stat_loc_key: "[?damage_building_13_stat_array^var_stat_trajectory_ID]"
+ damage_building_14_stat_loc_key: "[?damage_building_14_stat_array^var_stat_trajectory_ID]"
+ damage_building_15_stat_loc_key: "[?damage_building_15_stat_array^var_stat_trajectory_ID]"
+ damage_building_16_stat_loc_key: "[?damage_building_16_stat_array^var_stat_trajectory_ID]"
+ damage_building_17_stat_loc_key: "[?damage_building_17_stat_array^var_stat_trajectory_ID]"
+ damage_building_18_stat_loc_key: "[?damage_building_18_stat_array^var_stat_trajectory_ID]"
+ damage_building_19_stat_loc_key: "[?damage_building_19_stat_array^var_stat_trajectory_ID]"
+ damage_building_20_stat_loc_key: "[?damage_building_20_stat_array^var_stat_trajectory_ID]"
+
+ ### nomes de mísseis
+ missile_type_selected_USA_loc: "[missile_type_selected_USA_loc]"
+ missile_type_stat_USA_loc: "[missile_type_stat_USA_loc]"
+ missile_type_selected_SOV_loc: "[missile_type_selected_SOV_loc]"
+ missile_type_stat_SOV_loc: "[missile_type_stat_SOV_loc]"
+ missile_type_selected_CHI_loc: "[missile_type_selected_CHI_loc]"
+ missile_type_stat_CHI_loc: "[missile_type_stat_CHI_loc]"
+ missile_type_selected_ENG_loc: "[missile_type_selected_ENG_loc]"
+ missile_type_stat_ENG_loc: "[missile_type_stat_ENG_loc]"
+ missile_type_selected_FRA_loc: "[missile_type_selected_FRA_loc]"
+ missile_type_stat_FRA_loc: "[missile_type_stat_FRA_loc]"
+ missile_type_selected_ISR_loc: "[missile_type_selected_ISR_loc]"
+ missile_type_stat_ISR_loc: "[missile_type_stat_ISR_loc]"
+ missile_type_selected_RAJ_loc: "[missile_type_selected_RAJ_loc]"
+ missile_type_stat_RAJ_loc: "[missile_type_stat_RAJ_loc]"
+ missile_type_selected_PAK_loc: "[missile_type_selected_PAK_loc]"
+ missile_type_stat_PAK_loc: "[missile_type_stat_PAK_loc]"
+ missile_type_selected_NKO_loc: "[missile_type_selected_NKO_loc]"
+ missile_type_stat_NKO_loc: "[missile_type_stat_NKO_loc]"
+ missile_type_selected_PER_loc: "[missile_type_selected_PER_loc]"
+ missile_type_stat_PER_loc: "[missile_type_stat_PER_loc]"
+
+
+ # novas dicas de ferramentas do botão de inicialização e destino
+ GROUND_LAUNCH_TOOLTIP: "[!MD_missiles_ground_launch_button_click_enabled]"
+ GROUND_LAUNCH_TOOLTIP_DELAYED: " 2"
+ SEA_LAUNCH_TOOLTIP: "[!MD_missiles_sea_launch_button_click_enabled]"
+ SEA_LAUNCH_TOOLTIP_DELAYED: "[missile_ships_loc]: [missile_ships_desc_loc].\n[SLBM_subs_loc]: [SLBM_subs_desc_loc].\n[SLCM_subs_loc]: [SLCM_subs_desc_loc]."
+ AIR_LAUNCH_TOOLTIP: "[!MD_missiles_air_launch_button_click_enabled]"
+ AIR_LAUNCH_TOOLTIP_DELAYED: "6"
+ TARGET_TOOLTIP: "[target_tooltip_loc]"
+ TARGET_TOOLTIP_DELAYED: "8"
+
+ ground_launch_button_trigger_missile_selected_TT: "Selecionou §YICBM§!, §YIRBM§!, §YGLCM§! ou §YHSCM§!."
+ sea_launch_button_trigger_missile_selected_TT: "Selecionou §YSLBM§!, §YSLCM§! ou §YHSCM§!."
+ air_launch_button_trigger_missile_selected_TT: "Selecionou §YALCM§! ou §YHSCM§!."
+
+ ground_launch_button_trigger_ICBM_TT: "Selecionou §YICBM§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YICBM§! (não danificado §Y$missile_silo$§! [? PREV.non_damaged_building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G])."
+ ground_launch_button_trigger_IRBM_TT: "Selecionou §YIRBM§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YIRBM§! (não danificado §Y$missile_silo$§! [? PREV.non_damaged_building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G] OU não danificado §Y$TEL_base$§! [?PREV.non_damaged_building_level@TEL_base|G] x §Ylançadores§! [?ROOT. var_TEL_launcher|G])."
+ ground_launch_button_trigger_GLCM_TT: "Selecionou §YGLCM§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YGLCM§! (§Y$TEL_base$§ não danificados! [? PREV.non_damaged_building_level@TEL_base|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])."
+ ground_launch_button_trigger_HSCM_TT: "Selecionou §YHSCM§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YHSCM§! (§Y$TEL_base$§ não danificados! [? PREV.non_damaged_building_level@TEL_base|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])."
+
+ #sea_launch_button_trigger_SLBM_TT: "Selecionou §YSLBM§! e §YSalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores de §YSLBM§! na adjacente §Yzona marítima§! (§Ysubmarinos de mísseis§ ! [?ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+ sea_launch_button_trigger_SLBM_TT: "Selecionou §YSLBM§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YSLBM§! na adjacente §Yzona marítima§! ([SLBM_subs_loc] [? ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_SLBM_launcher|G])."
+ #sea_launch_button_trigger_SLCM_TT: "Selecionou §YSLCM§! e §YSalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores de §YSLCM§! na adjacente §Yzona marítima§! (§YNavios de mísseis§ ![?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU §YNavios de mísseis§! [?ROOT.var_ship_number_LAM_VLS_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher| G] OU §YSubmarinos de mísseis§! [?ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+ sea_launch_button_trigger_SLCM_TT: "Selecionou §YSLCM§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YSLCM§! na adjacente §Yzona marítima§! ([missile_ships_loc] [? ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU [missile_ships_loc] [?ROOT.var_ship_number_LAM_VLS_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher|G] OU [SLCM_subs_loc ] [?ROOT.var_attack_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+ #sea_launch_button_trigger_HSCM_TT: "Selecionou §YHSCM§! e §YSalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores de §YHSCM§! na adjacente §Yzona marítima§! (§YNavios de mísseis§ ![?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU §YNavios de mísseis§! [?ROOT.var_ship_number_LAM_VLS_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher| G] OU §YSubmarinos de mísseis§! [?ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+ sea_launch_button_trigger_HSCM_TT: "Selecionou §YHSCM§! e §YSalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YHSCM§! na zona adjacente §Yzona marítima§! ([missile_ships_loc] [? ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU [missile_ships_loc] [?ROOT.var_ship_number_LAM_VLS_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher|G] OU [SLCM_subs_loc ] [?ROOT.var_attack_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+
+ #air_launch_button_trigger_ALCM_TT: "Selecionou §YALCM§!, tem §g$air_base$§! em §Y[THIS.GetName]§! ou §g$porta aviões$§! em adjacentes §Yzona marítima§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §YALCM lançadores§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros§! [?ROOT.var_bomber_launcher| G] OU §Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x §Ylançadores de ataque§! [?ROOT.var_STK_launcher|G] OU §YCaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ylançadores multifuncionais§! [?ROOT.var_MR_launcher|G] OU §YCaça Multifuncional§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x §YPorta Aviões com caças multifuncionais§! [?ROOT.var_MR_CV_launcher|G])."
+ air_launch_button_trigger_ALCM_TT: "[!MD_missiles_air_launch_button_click_enabled]"
+ air_launch_button_trigger_ALCM_bomber_TT: "§Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YALCM§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros §! [?ROOT.var_bomber_launcher|G])"
+ air_launch_button_trigger_ALCM_STK_TT: "§Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YALCM§ implantados! (§Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x lançadores §Yataque §! [?ROOT.var_STK_launcher|G])"
+ air_launch_button_trigger_ALCM_MR_TT: "§Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YALCM§ implantados! (§YCaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ymulti lançadores de funções§! [?ROOT.var_MR_launcher|G])"
+ air_launch_button_trigger_ALCM_MR_CV_TT1: "Tem §g$porta aviões$§! na adjacente §Yzona marítima§! a §Y[PREV.GetName]§!."
+ air_launch_button_trigger_ALCM_MR_CV_TT2: "§Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YALCM§ implantados! (§Yporta aviões Multifuncional§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x § Lançadores multifuncionais §Yporta aviões§! [?ROOT.var_MR_CV_launcher|G])"
+
+ #air_launch_button_trigger_HSCM_TT: "Selecionou §YHSCM§!, tem §g$air_base$§! em §Y[THIS.GetName]§! ou §g$carrier$§! em adjacentes §Yzona marítima§! e §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YHSCM§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros§! [?ROOT.var_bomber_launcher| G] OU §Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x §Ylançadores de ataque§! [?ROOT.var_STK_launcher|G] OU §Ycaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ylançadores multifuncionais §! [?ROOT.var_MR_launcher|G] OU §Yporta aviões com Caças Multifuncionais§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x §Ycarrier lançadores multifuncionais§! [?ROOT.var_MR_CV_launcher|G])."
+
+ air_launch_button_trigger_HSCM_TT: "[!MD_missiles_air_launch_button_click_enabled]"
+ air_launch_button_trigger_HSCM_bomber_TT: "§Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YHSCM§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros §! [?ROOT.var_bomber_launcher|G])"
+ air_launch_button_trigger_HSCM_STK_TT: "§Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YHSCM§ implantados! (§Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x lançadores §Yataque §! [?ROOT.var_STK_launcher|G])"
+ air_launch_button_trigger_HSCM_MR_TT: "§Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YHSCM§ implantados! (§Ycaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ymulti lançadores de funções§! [?ROOT.var_MR_launcher|G])"
+ air_launch_button_trigger_HSCM_MR_CV_TT1: "Tem §g$porta aviões$§! na adjacente §Yzona marítima§! a §Y[PREV.GetName]§!."
+ air_launch_button_trigger_HSCM_MR_CV_TT2: "§YSalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de lançadores §YHSCM§ implantados! (§Yporta aviões com caças Multifuncional§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x § Lançadores multifuncionais Yporta aviões§! [?ROOT.var_MR_CV_launcher|G])"
+
+target_button_distance_trigger_TT: "Distância de §Y[?ROOT.missile_launch_point_array^ROOT.var_missile_trajectory_ID.GetName]§! para §Y[THIS.GetName]§! < §Y[?ROOT.var_range]§! km."
+
+# OLD VERSION
+# WARHEAD_NAME_SELECTED: "[warhead_selected_loc]"
+#  GROUND_LAUNCH_TOOLTIP: "[ground_launch_tooltip_loc]"
+#  GROUND_LAUNCH_TOOLTIP_DELAYED: " 2"
+#  SEA_LAUNCH_TOOLTIP: "[sea_launch_tooltip_loc]"
+#  SEA_LAUNCH_TOOLTIP_DELAYED: "4"
+#  AIR_LAUNCH_TOOLTIP: "[air_launch_tooltip_loc]"
+#  AIR_LAUNCH_TOOLTIP_DELAYED: "6"
+#  TARGET_TOOLTIP: "[target_tooltip_loc]"
+#  TARGET_TOOLTIP_DELAYED: "8"
+ ### launch button trigger loc keys ###
+#  ground_launch_tooltip_loc_yes: "£trigger_yes Todos os itens a seguir devem ser verdadeiros:\n [ground_launched_missile_trigger_loc]\n[NOT_has_launch_point_selected_loc]"
+#  ground_launch_tooltip_loc_no: "£trigger_no Todos os itens a seguir devem ser verdadeiros:\n [ground_launched_missile_trigger_loc]\n[NOT_has_launch_point_selected_loc]"
+#  sea_launch_tooltip_loc_yes: "£trigger_yes Todos os itens a seguir devem ser verdadeiros:\n [sea_launched_missile_trigger_loc]\n[NOT_has_launch_point_selected_loc]"
+#  sea_launch_tooltip_loc_no: "£trigger_no Todos os itens a seguir devem ser verdadeiros:\n [sea_launched_missile_trigger_loc]\n[NOT_has_launch_point_selected_loc]"
+#  air_launch_tooltip_loc_yes: "£trigger_yes Todos os itens a seguir devem ser verdadeiros:\n [air_launched_missile_trigger_loc]\n[NOT_has_launch_point_selected_loc]"
+#  air_launch_tooltip_loc_no: "£trigger_no Todos os itens a seguir devem ser verdadeiros:\n [air_launched_missile_trigger_loc]\n[NOT_has_launch_point_selected_loc]"
+
+ target_tooltip_loc_yes: "£trigger_yes All of the following must be true:\n[target_point_in_range_loc]\n[has_launch_point_selected_loc]\n[NOT_has_target_point_selected_loc]"
+ target_tooltip_loc_no: "£trigger_no All of the following must be true:\n[target_point_in_range_loc]\n[has_launch_point_selected_loc]\n[NOT_has_target_point_selected_loc]"
+
+ NOT_has_launch_point_selected_loc_yes: "£trigger_yes NÃO Selecionou um §Yponto de lançamento§!."
+ NOT_has_launch_point_selected_loc_no: "£trigger_no NÃO Selecionou um §Yponto de lançamento§!."
+
+ has_launch_point_selected_loc_yes: "£trigger_yes Selecionou um §Yponto alvo§!."
+ has_launch_point_selected_loc_no: "£trigger_no Selecionou um §Yponto alvo§!."
+
+ NOT_has_target_point_selected_loc_yes: "£trigger_yes NÃO Selecionou um §Yponto de lançamento§!."
+ NOT_has_target_point_selected_loc_no: "£trigger_no NÃO Selecionou um §Yponto de lançamento§!."
+
+ target_point_in_range_loc_yes: "£trigger_yes Distância de §Y[?ROOT.missile_launch_point_array^ROOT.var_missile_trajectory_ID.GetName]§! para §Y[THIS.GetName]§! < §Y[?ROOT.var_range]§! km."
+ target_point_in_range_loc_no: "£trigger_no §Y[?ROOT.missile_launch_point_array^ROOT.var_missile_trajectory_ID.GetName]§! para §Y[THIS.GetName]§! < §Y[?ROOT.var_range]§! km."
+
+#  ground_launched_missile_trigger_loc_yes: "£trigger_yes Uma das seguintes opções deve ser verdadeira:\n[SLBM_launch_trigger_loc]\n[SLCM_launch_trigger_loc]\n[HSCM_sub_launch_trigger_loc]\n[HSCM_ship_launch_trigger_loc]"
+#  ground_launched_missile_trigger_loc_no: "£trigger_no Uma das seguintes opções deve ser verdadeira:\n[SLBM_launch_trigger_loc]\n[SLCM_launch_trigger_loc]\n[HSCM_sub_launch_trigger_loc]\n[HSCM_ship_launch_trigger_loc]"
+
+#  sea_launched_missile_trigger_loc_yes: "£trigger_yes Uma das seguintes opções deve ser verdadeira:\n[ALCM_air_base_launch_trigger_loc]\n[ALCM_CV_launch_trigger_loc]\n[HSCM_air_base_launch_trigger_loc]\n[HSCM_CV_launch_trigger_loc]"
+#  sea_launched_missile_trigger_loc_no: "£trigger_no Uma das seguintes opções deve ser verdadeira:\n[ALCM_air_base_launch_trigger_loc]\n[ALCM_CV_launch_trigger_loc]\n[HSCM_air_base_launch_trigger_loc]\n[HSCM_CV_launch_trigger_loc]"
+
+#  air_launched_missile_trigger_loc_yes: "£trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ICBM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores ICBM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G])."
+#  air_launched_missile_trigger_loc_no: "£trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ICBM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores ICBM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G])."
+
+#  ICBM_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ICBM_loc]   £trigger_yes §YMissile salvo§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores ICBM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G])."
+#  ICBM_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ICBM_loc]   £trigger_no §YMissile salvo§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores ICBM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G])."
+
+#  IRBM_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_IRBM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores IRBM§! (§YTEL base§! [?PREV.building_level@internet_station|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])." ### substituir por base TEL
+#  IRBM_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_IRBM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores IRBM§! (§YTEL base§! [?PREV.building_level@internet_station|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])." ### substituir por base TEL
+
+#  GLCM_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_GLCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores GLCM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G] OU §YTEL base§! [?PREV.building_level@internet_station|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])." ### replace with TEL base
+#  GLCM_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_GLCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores GLCM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G] OU §YTEL base§! [?PREV.building_level@internet_station|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])." ### replace with TEL base
+
+#  HSCM_ground_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores HSCM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G] OU §YTEL base§! [?PREV.building_level@internet_station|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])." ### replace with TEL base
+#  HSCM_ground_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores HSCM§! (§Ysilos de mísseis§! [?PREV.building_level@missile_silo|G] x §Ylançadores§! [?ROOT.var_silo_launcher|G] OU §YTEL base§! [?PREV.building_level@internet_station|G] x §Ylançadores§! [?ROOT.var_TEL_launcher|G])." ### replace with TEL base
+
+#  SLBM_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_SLBM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores SLBM§! em adjacente §Yzona marítima§! (§Ysubmarinos de mísseis§! [?ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+#  SLBM_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_SLBM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores SLBM§! em adjacente §Yzona marítima§! (§Ysubmarinos de mísseis§! [?ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+
+#  SLCM_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_SLCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores SLCM§! em adjacente §Yzona marítima§! (§YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU §YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher|G])."
+#  SLCM_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_SLCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores SLCM§! em adjacente §Yzona marítima§! (§YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU §YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher|G]).."
+
+#  HSCM_sub_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) ié menor ou igual ao número de §Ylançadores HSCM§! em adjacente §Yzona marítima§! (§Ysubmarinos de mísseis§! [?ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+#  HSCM_sub_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores HSCM§! em adjacente §Yzona marítima§! (§Ysubmarinos de mísseis§! [?ROOT.var_sub_number_LAM_loc|G] x §Ylançadores§! [?ROOT.var_sub_launcher|G])."
+
+#  HSCM_ship_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores HSCM§! em adjacente §Yzona marítima§! (§YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU §YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher|G])."
+#  HSCM_ship_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de §Ylançadores HSCM§! em adjacente §Yzona marítima§! (§YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios§! [?ROOT.var_ship_launcher|G] OU §YNavios de mísseis§! [?ROOT.var_ship_number_LAM_loc|G] x §Ylançadores de navios VLS§! [?ROOT.var_ship_VLS_launcher|G])."
+
+#  ALCM_air_base_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ALCM_loc]   [has_air_base_ALCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores ALCM§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros§! [?ROOT.var_bomber_launcher|G] OU §Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x §Ylançadores de ataque§! [?ROOT.var_STK_launcher|G] OU §Ycaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ylançadores multifuncionais§! [?ROOT.var_MR_launcher|G])."
+#  ALCM_air_base_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ALCM_loc]   [has_air_base_ALCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores ALCM§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros§! [?ROOT.var_bomber_launcher|G] OU §Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x §Ylançadores de ataque§! [?ROOT.var_STK_launcher|G] OU §Ycaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ylançadores multifuncionais§! [?ROOT.var_MR_launcher|G])."
+
+#  ALCM_CV_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ALCM_loc]   [has_CV_ALCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores ALCM§! (§Yporta aviões com caças multifuncionais§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x §Yporta aviões com caças multifuncionais§! [?ROOT.var_MR_CV_launcher|G])."
+#  ALCM_CV_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_ALCM_loc]   [has_CV_ALCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores ALCM§! (§Yporta aviões com caças multifuncionais§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x §Yporta aviões com caças multifuncionais§! [?ROOT.var_MR_CV_launcher|G])."
+
+#  HSCM_air_base_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   [has_air_base_ALCM_loc]   £trigger_yes §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores HSCM§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros§! [?ROOT.var_bomber_launcher|G] OU §Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x §Ylançadores de ataque§! [?ROOT.var_STK_launcher|G] OU §Ycaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ycaças multifuncionais§! [?ROOT.var_MR_launcher|G])."
+#  HSCM_air_base_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   [has_air_base_ALCM_loc]   £trigger_no §Ysalva de mísseis§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores HSCM§! (§Ybombardeiro estratégico§! [?ROOT.var_bomber_number_ALCM_loc|G] x §Ylançadores de bombardeiros§! [?ROOT.var_bomber_launcher|G] OU §Ycaça de ataque§! [?ROOT.var_STK_number_ALCM_loc|G] x §Ylançadores de ATAQUE§! [?ROOT.var_STK_launcher|G] OU §Ycaça multifuncional§! [?ROOT.var_MR_number_ALCM_loc|G] x §Ylançadores multifuncionais§! [?ROOT.var_MR_launcher|G])."
+
+#  HSCM_CV_launch_trigger_loc_yes: "  £trigger_yes Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   [has_CV_ALCM_loc]   £trigger_yes §YMissile salvo§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores HSCM§! (§Ycaças multifuncionais de porta aviões§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x §Ycaças multifuncionais de porta aviões§! [?ROOT.var_MR_CV_launcher|G])."
+#  HSCM_CV_launch_trigger_loc_no: "  £trigger_no Todos os itens a seguir devem ser verdadeiros:\n   [has_selected_HSCM_loc]   [has_CV_ALCM_loc]   £trigger_no §YMissile salvo§! ([?ROOT.var_gui_salvo|O]) é menor ou igual ao número de implantados §Ylançadores HSCM§! (§Ycaças multifuncionais de porta aviões§! [?ROOT.var_MR_CV_number_ALCM_loc|G] x §Ycaças multifuncionais de porta aviões§! [?ROOT.var_MR_CV_launcher|G])."
+
+ has_selected_ICBM_loc_yes: "£trigger_yes selecionou §YICBM§!\n"
+ has_selected_ICBM_loc_no: "£trigger_no selecionou §YICBM§!\n"
+ has_selected_IRBM_loc_yes: "£trigger_yes selecionou §YIRBM§!\n"
+ has_selected_IRBM_loc_no: "£trigger_no selecionou §YIRBM§!\n"
+ has_selected_SLBM_loc_yes: "£trigger_yes selecionou §YSLCM§!\n"
+ has_selected_SLBM_loc_no: "£trigger_no selecionou §YSLCM§!\n"
+ has_selected_ALCM_loc_yes: "£trigger_yes selecionou §YALCM§!\n"
+ has_selected_ALCM_loc_no: "£trigger_no selecionou §YALCM§!\n"
+ has_selected_GLCM_loc_yes: "£trigger_yes selecionou §YGLCM§!\n"
+ has_selected_GLCM_loc_no: "£trigger_no selecionou §YGLCM§!\n"
+ has_selected_SLCM_loc_yes: "£trigger_yes selecionou §YSLCM§!\n"
+ has_selected_SLCM_loc_no: "£trigger_no selecionou §YSLCM§!\n"
+ has_selected_HSCM_loc_yes: "£trigger_yes selecionou §YHSCM§!\n"
+ has_selected_HSCM_loc_no: "£trigger_no selecionou §YHSCM§!\n"
+
+ has_enough_ground_launcher_loc_yes: "£trigger_yes tem o suficiente §YLançadores terrestres§!\n"
+ has_enough_ground_launcher_loc_no: "£trigger_no tem o suficiente §YLançadores terrestres§!\n"
+
+ has_air_base_ALCM_loc_yes: "£trigger_yes Tem §Ybase Aérea§! em §Y[THIS.GetName]§!\n"
+ has_air_base_ALCM_loc_no: "£trigger_no Tem §Ybase Aérea§! em §Y[THIS.GetName]§!\n"
+ has_CV_ALCM_loc_yes: "£trigger_yes Tem §YPorta aviões§! em adjacente §Yzona marítima§!\n"
+ has_CV_ALCM_loc_no: "£trigger_no Tem §YPorta aviões§! em adjacente §Yzona marítima§!\n"
+
+ ### £trigger_yes
+ ### £trigger_no
+
+####################################
+####################################
+### MD_missiles_redeployview_gui ###
+####################################
+####################################
+
+ OPEN_REDEPLOY_GUI_TT: "Abrir §YInterface de reimplantação§!"
+ OPEN_REDEPLOY_GUI_DELAYED_TT: "Aqui você pode reimplantar §YSAM-Sites§! e §YTEL Baterias§! para um novo local."
+ SAM_REDEPLOYING: "§O[SAM_redeploy_loc]§!/[?ROOT.var_SAM_ready|G0]"
+ SAM_redeploy_loc: "[SAM_redeploy_loc]"
+ SAM_redeploy_loc_key: "[?temp_SAM_redeploy]"
+ SAM_REDEPLOYING_TT: "Número de §YSAM-Sites§! atualmente redistribuindo."
+ SAM_REDEPLOYING_delayed_TT: "Pronto em duas semanas: [?ROOT.var_SAM_redeploy|O0]\nPronto em uma semana: [?ROOT.var_SAM_redeploy_week1|O0]\nPronto nas próximas semanas: [?ROOT.var_SAM_redeploy_week2|O0]\nPronto para implantação: [? ROOT.var_SAM_ready|G0]"
+ TEL_REDEPLOYING: "§O[TEL_redeploy_loc]§!/[?ROOT.var_TEL_ready|G0]"
+ TEL_redeploy_loc: "[TEL_redeploy_loc]"
+ TEL_redeploy_loc_key: "[?temp_TEL_redeploy]"
+ TEL_REDEPLOYING_TT: "Número de §YTEL Baterias§! atualmente reimplantando."
+ TEL_REDEPLOYING_delayed_TT: "Pronto em duas semanas: [?ROOT.var_TEL_redeploy|O0]\nPronto em uma semana: [?ROOT.var_TEL_redeploy_week1|O0]\nPronto nas próximas semanas: [?ROOT.var_TEL_redeploy_week2|O0]\nPronto para implantação: [? ROOT.var_TEL_ready|G0]"
+
+ REDEPLOY_REMOVE_ICON_TT: "Reimplantar §YSAM-Sites§! e §YTEL Baterias§!"
+ REDEPLOY_REMOVE_ICON_delayed_TT: "Quando redistribuídos, os edifícios não estão disponíveis nas próximas duas semanas. Depois disso, eles podem ser implantados em qualquer estado controlado."
+ DEPLOY_ICON_TT: "Implantar §YSAM-Sites§! e §YTEL Baterias§ reimplantados!"
+ DEPLOY_ICON_delayed_TT: "Quando redistribuídos, os edifícios não estão disponíveis nas próximas duas semanas. Depois disso, eles podem ser implantados em qualquer estado controlado."
+
+ REDEPLOY_REMOVE_SAM_BUTTON_TT: "[!remove_SAM_button_click_enabled]"
+ REDEPLOY_REMOVE_SAM_BUTTON_delayed_TT: "Quando reimplantados, os §YSAM-Sites§! não estarão disponíveis nas próximas duas semanas."
+ DEPLOY_SAM_BUTTON_TT: "[!deploy_SAM_button_click_enabled]"
+ DEPLOY_SAM_BUTTON_delayed_TT: ""
+
+ REDEPLOY_REMOVE_TEL_BUTTON_TT: "[!remove_TEL_button_click_enabled]"
+ REDEPLOY_REMOVE_TEL_BUTTON_delayed_TT: "Quando reimplantadas, as §YTEL Baterias§! não estarão disponíveis nas próximas duas semanas."
+ DEPLOY_TEL_BUTTON_TT: "[!deploy_TEL_button_click_enabled]"
+ DEPLOY_TEL_BUTTON_delayed_TT: ""
+
+ remove_SAM_button_click_enabled_TT: "§YSAM-Sites§! nível de construção > 0"
+ deploy_SAM_button_click_enabled_TT: "§YSAM-Sites§! nível de construção < 10"
+ deploy_SAM_button_click_enabled_TT2: "§YSAM-Sites§! pronto para implantar > 0"
+ remove_TEL_button_click_enabled_TT: "§YTEL Baterias§! nível de construção > 0"
+ deploy_TEL_button_click_enabled_TT: "§YTEL Baterias§! nível de construção < 10"
+ deploy_TEL_button_click_enabled_TT2: "§YTEL Baterias§! pronto para implantar > 0"
+
+ ######################
+ ######################
+ ### GUI de produção ###
+ ######################
+ ######################
+
+ #UNIT_PRICE: "Preço Unitário em §Ybilhões§!."
+ INCREASE_AMOUNT: "Adicione 1 §YUnidade§! a esta produção."
+ DECREASE_AMOUNT: "Remova 1 §YUnidade§! desta produção."
+ INCREASE_AMOUNT_DELAYED: "£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§!: Adicione 10 §YUnidade§! a esta produção.\n£shift_texticon + £left_mouse_texticon §YShift + Clique E.§!: Adicione 100 §YUnidade§! a esta produção.\n"
+ DECREASE_AMOUNT_DELAYED: "£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§!: Remova 100 §YUnidade§! desta produção.\n£shift_texticon + £left_mouse_texticon §YShift + Clique E.§!: Remova 10 §YUnidade§! desta produção.\n"
+ INCREASE_CIC: "Adicione 1 §YCIC§! a esta produção."
+ DECREASE_CIC: "Remova 1 §YCIC§! desta produção."
+ INCREASE_CIC_10: "£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§!: Adicione 10 §YCIC§! a esta produção."
+ DECREASE_CIC_10: "£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§!: Remova 10 §YCIC§! desta produção."
+ PRODUCTION_LEGEND_UNIT: "Unidade"
+ PRODUCTION_LEGEND_TOTAL: "Total"
+
+ PRODUCTION_TITLE_1: "Tipo de Míssil e Espaço"
+ PRODUCTION_STATUS: "Estado"
+
+ missile_type_prod_selected_NONE: "Nenhum"
+
+ ### do Excel ### adicionada dica de ferramenta do botão Iniciar de produção manualmente
+
+ PRODUCTION_1_SELECTED: "ICBM: [missile_type_prod_1_selected_loc]"
+ PRODUCTION_AMOUNT_1: "[?var_gui_prod_1_amount]"
+ PRODUCTION_PRICE_1: "[?var_gui_prod_1_price_unit]\n§R[?var_gui_prod_1_price_total]§!"
+ PRODUCTION_CIC_1: "[?var_gui_prod_1_CIC_use]"
+ PRODUCTION_DURATION_1: "[?var_gui_prod_1_days_unit]\n§Y[?var_gui_prod_1_CIC_days]§!"
+ PRODUCTION_START_1: "Iniciar"
+ PRODUCTION_START_1_TT: "[!start_button_1_click_enabled]"
+ PRODUCTION_TIME_1: "[?ROOT.days_mission_timeout@missile_construction_1|R0]"
+ PRODUCTION_STOCKPILE_1: "[?ROOT.missile_inventory_array^var_gui_prod_1_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_2_SELECTED: "IRBM: [missile_type_prod_2_selected_loc]"
+ PRODUCTION_AMOUNT_2: "[?var_gui_prod_2_amount]"
+ PRODUCTION_PRICE_2: "[?var_gui_prod_2_price_unit]\n§R[?var_gui_prod_2_price_total]§!"
+ PRODUCTION_CIC_2: "[?var_gui_prod_2_CIC_use]"
+ PRODUCTION_DURATION_2: "[?var_gui_prod_2_days_unit]\n§Y[?var_gui_prod_2_CIC_days]§!"
+ PRODUCTION_START_2: "Iniciar"
+ PRODUCTION_START_2_TT: "[!start_button_2_click_enabled]"
+ PRODUCTION_TIME_2: "[?ROOT.days_mission_timeout@missile_construction_2|R0]"
+ PRODUCTION_STOCKPILE_2: "[?ROOT.missile_inventory_array^var_gui_prod_2_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_3_SELECTED: "SLBM: [missile_type_prod_3_selected_loc]"
+ PRODUCTION_AMOUNT_3: "[?var_gui_prod_3_amount]"
+ PRODUCTION_PRICE_3: "[?var_gui_prod_3_price_unit]\n§R[?var_gui_prod_3_price_total]§!"
+ PRODUCTION_CIC_3: "[?var_gui_prod_3_CIC_use]"
+ PRODUCTION_DURATION_3: "[?var_gui_prod_3_days_unit]\n§Y[?var_gui_prod_3_CIC_days]§!"
+ PRODUCTION_START_3: "Iniciar"
+ PRODUCTION_START_3_TT: "[!start_button_3_click_enabled]"
+ PRODUCTION_TIME_3: "[?ROOT.days_mission_timeout@missile_construction_3|R0]"
+ PRODUCTION_STOCKPILE_3: "[?ROOT.missile_inventory_array^var_gui_prod_3_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_4_SELECTED: "ALCM: [missile_type_prod_4_selected_loc]"
+ PRODUCTION_AMOUNT_4: "[?var_gui_prod_4_amount]"
+ PRODUCTION_PRICE_4: "[?var_gui_prod_4_price_unit]\n§R[?var_gui_prod_4_price_total]§!"
+ PRODUCTION_CIC_4: "[?var_gui_prod_4_CIC_use]"
+ PRODUCTION_DURATION_4: "[?var_gui_prod_4_days_unit]\n§Y[?var_gui_prod_4_CIC_days]§!"
+ PRODUCTION_START_4: "Iniciar"
+ PRODUCTION_START_4_TT: "[!start_button_4_click_enabled]"
+ PRODUCTION_TIME_4: "[?ROOT.days_mission_timeout@missile_construction_4|R0]"
+ PRODUCTION_STOCKPILE_4: "[?ROOT.missile_inventory_array^var_gui_prod_4_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_5_SELECTED: "GLCM: [missile_type_prod_5_selected_loc]"
+ PRODUCTION_AMOUNT_5: "[?var_gui_prod_5_amount]"
+ PRODUCTION_PRICE_5: "[?var_gui_prod_5_price_unit]\n§R[?var_gui_prod_5_price_total]§!"
+ PRODUCTION_CIC_5: "[?var_gui_prod_5_CIC_use]"
+ PRODUCTION_DURATION_5: "[?var_gui_prod_5_days_unit]\n§Y[?var_gui_prod_5_CIC_days]§!"
+ PRODUCTION_START_5: "Iniciar"
+ PRODUCTION_START_5_TT: "[!start_button_5_click_enabled]"
+ PRODUCTION_TIME_5: "[?ROOT.days_mission_timeout@missile_construction_5|R0]"
+ PRODUCTION_STOCKPILE_5: "[?ROOT.missile_inventory_array^var_gui_prod_5_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_6_SELECTED: "SLCM: [missile_type_prod_6_selected_loc]"
+ PRODUCTION_AMOUNT_6: "[?var_gui_prod_6_amount]"
+ PRODUCTION_PRICE_6: "[?var_gui_prod_6_price_unit]\n§R[?var_gui_prod_6_price_total]§!"
+ PRODUCTION_CIC_6: "[?var_gui_prod_6_CIC_use]"
+ PRODUCTION_DURATION_6: "[?var_gui_prod_6_days_unit]\n§Y[?var_gui_prod_6_CIC_days]§!"
+ PRODUCTION_START_6: "Iniciar"
+ PRODUCTION_START_6_TT: "[!start_button_6_click_enabled]"
+ PRODUCTION_TIME_6: "[?ROOT.days_mission_timeout@missile_construction_6|R0]"
+ PRODUCTION_STOCKPILE_6: "[?ROOT.missile_inventory_array^var_gui_prod_6_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_7_SELECTED: "HSCM: [missile_type_prod_7_selected_loc]"
+ PRODUCTION_AMOUNT_7: "[?var_gui_prod_7_amount]"
+ PRODUCTION_PRICE_7: "[?var_gui_prod_7_price_unit]\n§R[?var_gui_prod_7_price_total]§!"
+ PRODUCTION_CIC_7: "[?var_gui_prod_7_CIC_use]"
+ PRODUCTION_DURATION_7: "[?var_gui_prod_7_days_unit]\n§Y[?var_gui_prod_7_CIC_days]§!"
+ PRODUCTION_START_7: "Iniciar"
+ PRODUCTION_START_7_TT: "[!start_button_7_click_enabled]"
+ PRODUCTION_TIME_7: "[?ROOT.days_mission_timeout@missile_construction_7|R0]"
+ PRODUCTION_STOCKPILE_7: "[?ROOT.missile_inventory_array^var_gui_prod_7_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_8_SELECTED: "SAM: [missile_type_prod_8_selected_loc]"
+ PRODUCTION_AMOUNT_8: "[?var_gui_prod_8_amount]"
+ PRODUCTION_PRICE_8: "[?var_gui_prod_8_price_unit]\n§R[?var_gui_prod_8_price_total]§!"
+ PRODUCTION_CIC_8: "[?var_gui_prod_8_CIC_use]"
+ PRODUCTION_DURATION_8: "[?var_gui_prod_8_days_unit]\n§Y[?var_gui_prod_8_CIC_days]§!"
+ PRODUCTION_START_8: "Iniciar"
+ PRODUCTION_START_8_TT: "[!start_button_8_click_enabled]"
+ PRODUCTION_TIME_8: "[?ROOT.days_mission_timeout@missile_construction_8|R0]"
+ PRODUCTION_STOCKPILE_8: "[?ROOT.missile_inventory_array^var_gui_prod_8_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_9_SELECTED: "ABM: [missile_type_prod_9_selected_loc]"
+ PRODUCTION_AMOUNT_9: "[?var_gui_prod_9_amount]"
+ PRODUCTION_PRICE_9: "[?var_gui_prod_9_price_unit]\n§R[?var_gui_prod_9_price_total]§!"
+ PRODUCTION_CIC_9: "[?var_gui_prod_9_CIC_use]"
+ PRODUCTION_DURATION_9: "[?var_gui_prod_9_days_unit]\n§Y[?var_gui_prod_9_CIC_days]§!"
+ PRODUCTION_START_9: "Iniciar"
+ PRODUCTION_START_9_TT: "[!start_button_9_click_enabled]"
+ PRODUCTION_TIME_9: "[?ROOT.days_mission_timeout@missile_construction_9|R0]"
+ PRODUCTION_STOCKPILE_9: "[?ROOT.missile_inventory_array^var_gui_prod_9_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_10_SELECTED: "OLV: [missile_type_prod_10_selected_loc]"
+ PRODUCTION_AMOUNT_10: "[?var_gui_prod_10_amount]"
+ PRODUCTION_PRICE_10: "[?var_gui_prod_10_price_unit]\n§R[?var_gui_prod_10_price_total]§!"
+ PRODUCTION_CIC_10: "[?var_gui_prod_10_CIC_use]"
+ PRODUCTION_DURATION_10: "[?var_gui_prod_10_days_unit]\n§Y[?var_gui_prod_10_CIC_days]§!"
+ PRODUCTION_START_10: "Iniciar"
+ PRODUCTION_START_10_TT: "[!start_button_10_click_enabled]"
+ PRODUCTION_TIME_10: "[?ROOT.days_mission_timeout@missile_construction_10|R0]"
+ PRODUCTION_STOCKPILE_10: "[?ROOT.missile_inventory_array^var_gui_prod_10_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_11_SELECTED: "SGNS: [missile_type_prod_11_selected_loc]"
+ PRODUCTION_AMOUNT_11: "[?var_gui_prod_11_amount]"
+ PRODUCTION_PRICE_11: "[?var_gui_prod_11_price_unit]\n§R[?var_gui_prod_11_price_total]§!"
+ PRODUCTION_CIC_11: "[?var_gui_prod_11_CIC_use]"
+ PRODUCTION_DURATION_11: "[?var_gui_prod_11_days_unit]\n§Y[?var_gui_prod_11_CIC_days]§!"
+ PRODUCTION_START_11: "Iniciar"
+ PRODUCTION_START_11_TT: "[!start_button_11_click_enabled]"
+ PRODUCTION_TIME_11: "[?ROOT.days_mission_timeout@missile_construction_11|R0]"
+ PRODUCTION_STOCKPILE_11: "[?ROOT.missile_inventory_array^var_gui_prod_11_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_12_SELECTED: "COMSAT: [missile_type_prod_12_selected_loc]"
+ PRODUCTION_AMOUNT_12: "[?var_gui_prod_12_amount]"
+ PRODUCTION_PRICE_12: "[?var_gui_prod_12_price_unit]\n§R[?var_gui_prod_12_price_total]§!"
+ PRODUCTION_CIC_12: "[?var_gui_prod_12_CIC_use]"
+ PRODUCTION_DURATION_12: "[?var_gui_prod_12_days_unit]\n§Y[?var_gui_prod_12_CIC_days]§!"
+ PRODUCTION_START_12: "Iniciar"
+ PRODUCTION_START_12_TT: "[!start_button_12_click_enabled]"
+ PRODUCTION_TIME_12: "[?ROOT.days_mission_timeout@missile_construction_12|R0]"
+ PRODUCTION_STOCKPILE_12: "[?ROOT.missile_inventory_array^var_gui_prod_12_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_13_SELECTED: "SPYSAT: [missile_type_prod_13_selected_loc]"
+ PRODUCTION_AMOUNT_13: "[?var_gui_prod_13_amount]"
+ PRODUCTION_PRICE_13: "[?var_gui_prod_13_price_unit]\n§R[?var_gui_prod_13_price_total]§!"
+ PRODUCTION_CIC_13: "[?var_gui_prod_13_CIC_use]"
+ PRODUCTION_DURATION_13: "[?var_gui_prod_13_days_unit]\n§Y[?var_gui_prod_13_CIC_days]§!"
+ PRODUCTION_START_13: "Iniciar"
+ PRODUCTION_START_13_TT: "[!start_button_13_click_enabled]"
+ PRODUCTION_TIME_13: "[?ROOT.days_mission_timeout@missile_construction_13|R0]"
+ PRODUCTION_STOCKPILE_13: "[?ROOT.missile_inventory_array^var_gui_prod_13_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_14_SELECTED: "KILLSAT: [missile_type_prod_14_selected_loc]"
+ PRODUCTION_AMOUNT_14: "[?var_gui_prod_14_amount]"
+ PRODUCTION_PRICE_14: "[?var_gui_prod_14_price_unit]\n§R[?var_gui_prod_14_price_total]§!"
+ PRODUCTION_CIC_14: "[?var_gui_prod_14_CIC_use]"
+ PRODUCTION_DURATION_14: "[?var_gui_prod_14_days_unit]\n§Y[?var_gui_prod_14_CIC_days]§!"
+ PRODUCTION_START_14: "Iniciar"
+ PRODUCTION_START_14_TT: "[!start_button_14_click_enabled]"
+ PRODUCTION_TIME_14: "[?ROOT.days_mission_timeout@missile_construction_14|R0]"
+ PRODUCTION_STOCKPILE_14: "[?ROOT.missile_inventory_array^var_gui_prod_14_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+ PRODUCTION_15_SELECTED: "Hastes: [missile_type_prod_15_selected_loc]"
+ PRODUCTION_AMOUNT_15: "[?var_gui_prod_15_amount]"
+ PRODUCTION_PRICE_15: "[?var_gui_prod_15_price_unit]\n§R[?var_gui_prod_15_price_total]§!"
+ PRODUCTION_CIC_15: "[?var_gui_prod_15_CIC_use]"
+ PRODUCTION_DURATION_15: "[?var_gui_prod_15_days_unit]\n§Y[?var_gui_prod_15_CIC_days]§!"
+ PRODUCTION_START_15: "Iniciar"
+ PRODUCTION_START_15_TT: "[!start_button_15_click_enabled]"
+ PRODUCTION_TIME_15: "[?ROOT.days_mission_timeout@missile_construction_15|R0]"
+ PRODUCTION_STOCKPILE_15: "[?ROOT.missile_inventory_array^var_gui_prod_15_missile_inventory_idx]" ### inventory_array ### de acordo com os diferentes guis
+
+ ### fim do excel ###
+
+ ### dicas de ferramentas do acionador do botão Iniciar ###
+ has_selected_prod_1_trigger_TT: "Selecionou §YICBM§!."
+ has_selected_prod_2_trigger_TT: "Selecionou §YIRBM§!."
+ has_selected_prod_3_trigger_TT: "Selecionou §YSLBM§!."
+ has_selected_prod_4_trigger_TT: "Selecionou §YALCM§!."
+ has_selected_prod_5_trigger_TT: "Selecionou §YGLCM§!."
+ has_selected_prod_6_trigger_TT: "Selecionou §YSLCM§!."
+ has_selected_prod_7_trigger_TT: "Selecionou §YHSCM§!."
+ has_selected_prod_8_trigger_TT: "Selecionou §YSAM§!."
+ has_selected_prod_9_trigger_TT: "Selecionou §YABM§!."
+ has_selected_prod_10_trigger_TT: "Selecionou §YOLV§!."
+ has_selected_prod_11_trigger_TT: "Selecionou §YSGNS§!."
+ has_selected_prod_12_trigger_TT: "Selecionou §YCOMSAT§!."
+ has_selected_prod_13_trigger_TT: "Selecionou §YSPYSAT§!."
+ has_selected_prod_14_trigger_TT: "Selecionou §YKILLSAT§!."
+ has_selected_prod_15_trigger_TT: "Selecionou §YRods§!"
+
+### MD_missile_production_type_window # local de entrada
+
+ ICBM_MODEL_LOC: "[global_prod_1_array_window_loc]"
+ IRBM_MODEL_LOC: "[global_prod_2_array_window_loc]"
+ SLBM_MODEL_LOC: "[global_prod_3_array_window_loc]"
+ ALCM_MODEL_LOC: "[global_prod_4_array_window_loc]"
+ GLCM_MODEL_LOC: "[global_prod_5_array_window_loc]"
+ SLCM_MODEL_LOC: "[global_prod_6_array_window_loc]"
+ HSCM_MODEL_LOC: "[global_prod_7_array_window_loc]"
+ SAM_MODEL_LOC: "[global_prod_8_array_window_loc]"
+ ABM_MODEL_LOC: "[global_prod_9_array_window_loc]"
+ OLV_MODEL_LOC: "[global_prod_10_array_window_loc]"
+ GNSS_MODEL_LOC: "[global_prod_11_array_window_loc]"
+ COMSAT_MODEL_LOC: "[global_prod_12_array_window_loc]"
+ SPYSAT_MODEL_LOC: "[global_prod_13_array_window_loc]"
+ KILLSAT_MODEL_LOC: "[global_prod_14_array_window_loc]"
+ Rods_MODEL_LOC: "[global_prod_15_array_window_loc]"
+
+### fim de MD_missile_production_type_window # entrada loc
+
+MISSILE_PROD_1_WIN_BUTTON_TT: "§YCombate§!:\nDistância: [?global.missile_range_array^prod_1_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^prod_1_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. missile_intercept_chance_array^prod_1_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_1_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_1_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_1_display_array^i|Y0]"
+MISSILE_PROD_2_WIN_BUTTON_TT: "§YCombate§!:\nDistância: [?global.missile_range_array^prod_2_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^prod_2_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. missile_intercept_chance_array^prod_2_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_2_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_2_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_2_display_array^i|Y0]"
+MISSILE_PROD_3_WIN_BUTTON_TT: "§YCombate§!:\nDistância: [?global.missile_range_array^prod_3_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^prod_3_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. missile_intercept_chance_array^prod_3_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_3_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_3_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_3_display_array^i|Y0]"
+MISSILE_PROD_4_WIN_BUTTON_TT: "§YCombate§!:\nDistância: [?global.missile_range_array^prod_4_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^prod_4_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. missile_intercept_chance_array^prod_4_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_4_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_4_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_4_display_array^i|Y0]"
+MISSILE_PROD_5_WIN_BUTTON_TT: "§YCombate§!:\nDistância: [?global.missile_range_array^prod_5_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^prod_5_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. missile_intercept_chance_array^prod_5_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_5_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_5_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_5_display_array^i|Y0]"
+MISSILE_PROD_6_WIN_BUTTON_TT: "§YCombate§!:\nDistância: [?global.missile_range_array^prod_6_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^prod_6_display_array^i|Y0%]\nMod de chance de interceptação.:: [?global. missile_intercept_chance_array^prod_6_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_6_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_6_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_6_display_array^i|Y0]"
+MISSILE_PROD_7_WIN_BUTTON_TT: "§YCombate§!:\nDistância: [?global.missile_range_array^prod_7_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^prod_7_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. missile_intercept_chance_array^prod_7_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_7_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_7_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_7_display_array^i|Y0]"
+MISSILE_PROD_8_WIN_BUTTON_TT: "§YDefesa Aérea§!:\nChance de Interceptação: [?global.SAM_intercept_chance_stat_array^prod_8_display_array^i|Y0%]\nSAM Danos: [?global.SAM_AD_damage_stat_array^prod_8_display_array^i|Y0]\nFator de ataque base Naval AA: [ ?global.fleet_air_defense_system_stat_array^prod_8_display_array^i|Y0%]\nCustos (p.a.): $[?global.SAM_AD_costs_total_stat_array^prod_8_display_array^i|Y3] bilhões\n\n§YDefesa antimísseis§!:\nAlcance: [?global.SAM_range_stat_array ^prod_8_display_array^i|Y0] km\nChance de interceptação: [?global.SAM_intercept_chance_stat_array^prod_8_display_array^i|Y0%]\nCustos (p.a.): $[?global.SAM_AD_costs_total_stat_array^prod_8_display_array^i|Y3] bilhões\n\n§ YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_8_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_8_display_array^i|Y0]\nDias de produção por unidade: [?global .missile_duration_unit_array^prod_8_display_array^i|Y0]"
+MISSILE_PROD_9_WIN_BUTTON_TT: "§YDefesa antimísseis§!:\nDistância [?global.ABM_range_stat_array^prod_9_display_array^i|Y0] km\nChance de Interceptação: [?global.ABM_intercept_chance_stat_array^prod_9_display_array^i|Y0%]\nCustos (p.a.): $[ ?global.ABM_costs_total_stat_array^prod_9_display_array^i|Y3] bilhões\n\n§YArma anti-satélite§!:\nPrecisão: [?global.ASAT_accuracy_stat_array^prod_9_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_9_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_9_display_array^i|A0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_9_display_array^ i|Y0]"
+MISSILE_PROD_10_WIN_BUTTON_TT: "§YLançamento espacial§!:\nCarga útil: [?global.OLV_payload_mass_stat_array^prod_10_display_array^i|Y0] kg\nConfiabilidade: [?global.OLV_reliability_stat_array^prod_10_display_array^i|Y0%]\n\n§YProdução§! :\nPreço por unidade: $[?global.missile_price_unit_array^prod_10_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_10_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^ prod_10_display_array^i|Y0]"
+MISSILE_PROD_11_WIN_BUTTON_TT: "§YLançamento espacial§!:\nCarga útil: [?global.sat_mass_stat_array^prod_11_display_array^i|Y0] kg\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_11_display_array^i| Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_11_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_11_display_array^i|Y0]"
+MISSILE_PROD_12_WIN_BUTTON_TT: "§YLançamento espacial§!:\nCarga útil: [?global.sat_mass_stat_array^prod_12_display_array^i|Y0] kg\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_12_display_array^i| Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_12_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_12_display_array^i|Y0]"
+MISSILE_PROD_13_WIN_BUTTON_TT: "§YLançamento espacial§!:\nCarga útil: [?global.sat_mass_stat_array^prod_13_display_array^i|Y0] kg\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_13_display_array^i| Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_13_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_13_display_array^i|Y0]"
+MISSILE_PROD_14_WIN_BUTTON_TT: "§YLançamento espacial§!:\nCarga útil: [?global.sat_mass_stat_array^prod_14_display_array^i|Y0] kg\n\n§YArma anti-satélite§!:\nPrecisão: [?global.KILLSAT_accuracy_stat_array^prod_14_display_array^i| Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_14_display_array^i|Y4] bilhões\nCivil Industry por unidade: [?global.missile_CIC_unit_array^prod_14_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^prod_14_display_array^i|Y0]"
+MISSILE_PROD_15_WIN_BUTTON_TT: "§YLançamento espacial§!:\nCarga útil: [?global.sat_mass_stat_array^prod_15_display_array^i|Y0] kg\n\n§YCombate§!:\nDanos: [?global.RODS_damage_stat_array^prod_15_display_array^i|Y0]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^prod_15_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^prod_15_display_array^i|Y0]\nDias de produção por unidade : [?global.missile_duration_unit_array^prod_15_display_array^i|Y0]"
+
+
+#####################################
+#####################################
+
+#####################################
+### MD_countrymissilesview_launch ###
+#####################################
+
+#####################################
+#####################################
+
+##############################
+### MD_missile_type_window ###
+##############################
+
+##########################
+### nomes dos tipos de mísseis ###
+##########################
+
+BALLISTIC_MISSILE_MODEL_NAME: "[ballistic_missile_name_loc]"
+BALLISTIC_MISSILE_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^ballistic_missile_display_array^i]"
+has_BM_inventory_TT: "Tem §Y[ballistic_missile_name_loc]§! no inventário."
+#BALLISTIC_MISSILE_MODEL_STATS_TT: "§YCombate§!:\nRange: [?global.missile_range_array^ballistic_missile_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^ballistic_missile_display_array^i|Y0%]\nMod de chance de interceptação.: [?global .missile_intercept_chance_array^ballistic_missile_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^ballistic_missile_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^ ballistic_missile_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^ballistic_missile_display_array^i|Y0]"
+CRUISE_MISSILE_MODEL_NAME: "[cruise_missile_name_loc]"
+CRUISE_MISSILE_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^cruise_missile_display_array^i]"
+has_CM_inventory_TT: "Tem §Y[cruise_missile_name_loc]§! no inventário."
+
+CONVENTIONAL_WARHEAD_NAME: "[conventional_warhead_name_win_loc]"
+CONVENTIONAL_WARHEAD_COSTS: "£GFX_daily_expense [conventional_warhead_costs_loc]"
+conventional_warhead_costs_loc_key: "[?temp_CW_costs|R3]"
+CONVENTIONAL_WARHEAD_BUTTON_TT: "[!conventional_warhead_button_click_enabled]\n\nDano de Golpe Estratégico: [?global.conventional_warhead_damage_array^i|g0]\nDano de Organização de Golpe Tático: [?global.conventional_warhead_org_damage_array^i|G0]\nDano de Força de Golpe Tático: [?global. conventional_warhead_str_damage_array^i|O0]"
+CONVENTIONAL_WARHEAD_BUTTON_delayed_TT: "Alvos elegíveis:\n\n[conventional_warhead_eligible_target_1_loc][conventional_warhead_eligible_target_2_loc][conventional_warhead_eligible_target_3_loc][conventional_warhead_eligible_target_4_loc][conventional_warhead_eligible_target_5_loc][conventional_warhead_eligible_target_6_loc][conventional_warhead_eligible_target_7_loc][conventional_warhead_eligible_target_8_loc][conventional_warhead_eligible_target_9_loc][conventional_warhead_eligible_target_10_loc]\n\n[conventional_warhead_eligible_target_11_loc][conventional_warhead_eligible_target_12_loc] [conventional_warhead_eligible_target_13_loc][conventional_warhead_eligible_target_14_loc][conventional_warhead_eligible_target_15_loc][conventional_warhead_eligible_target_16_loc][conventional_warhead_eligible_target_17_loc][conventional_warhead_eligible_target_18_loc][conventional_warhead_eligible_target_19_loc][conventional_warhead_eligible_target_20_loc]\n\n\n[has_selected_CM_delayed_TT]"
+
+#£GFX_buildings_strip|1 £GFX_buildings_strip|2 £GFX_buildings_strip|3 £GFX_buildings_strip|4 £GFX_buildings_strip|5 £GFX_buildings_strip|6 £GFX_buildings_strip|7 £GFX_buildings_strip|8 £GFX_buildings_strip|9 £GFX_buildings_strip|10 £GFX_buildings_strip|11 £ GFX_buildings_strip|13 £GFX_buildings_strip|14 £GFX_buildings_strip|15
+#
+
+###
+conventional_warhead_eligible_target_1_loc_key: "£GFX_buildings_strip|1"
+conventional_warhead_eligible_target_2_loc_key: "£GFX_buildings_strip|2 "
+conventional_warhead_eligible_target_3_loc_key: "£GFX_buildings_strip|3 "
+conventional_warhead_eligible_target_4_loc_key: "£GFX_buildings_strip|4 "
+conventional_warhead_eligible_target_5_loc_key: "£GFX_buildings_strip|5 "
+conventional_warhead_eligible_target_6_loc_key: "£GFX_buildings_strip|6"
+conventional_warhead_eligible_target_7_loc_key: "£GFX_buildings_strip|7 "
+conventional_warhead_eligible_target_8_loc_key: "£GFX_buildings_strip|8 "
+conventional_warhead_eligible_target_9_loc_key: "£GFX_buildings_strip|9"
+conventional_warhead_eligible_target_10_loc_key: "£GFX_buildings_strip|10"
+conventional_warhead_eligible_target_11_loc_key: "£GFX_buildings_strip|11 "
+conventional_warhead_eligible_target_12_loc_key: "£GFX_buildings_strip|12 "
+conventional_warhead_eligible_target_13_loc_key: "£GFX_buildings_strip|13"
+conventional_warhead_eligible_target_14_loc_key: "£GFX_buildings_strip|14"
+conventional_warhead_eligible_target_15_loc_key: "£GFX_buildings_strip|15"
+conventional_warhead_eligible_target_16_loc_key: "£GFX_buildings_strip|16"
+conventional_warhead_eligible_target_17_loc_key: "£GFX_buildings_strip|17 "
+conventional_warhead_eligible_target_18_loc_key: "£GFX_buildings_strip|18 "
+conventional_warhead_eligible_target_19_loc_key: "£GFX_buildings_strip|19 "
+conventional_warhead_eligible_target_20_loc_key: "£GFX_buildings_strip|20"
+
+NUCLEAR_WARHEAD_NAME: "[nuclear_warhead_name_win_loc]"
+NUCLEAR_WARHEAD_COSTS: "£GFX_daily_expense [nuclear_warhead_costs_loc]"
+nuclear_warhead_costs_loc_key: "[?temp_NW_costs|R3]"
+NUCLEAR_WARHEAD_INVENTORY: "£GFX_inventory_texticon [?nuclear_warhead_inventory_array^nuclear_warhead_display_array^i]"
+has_nuclear_warhead_inventory_TT: "Tem §Y[nuclear_warhead_name_win_loc]§! no inventário."
+
+NUCLEAR_WARHEAD_BUTTON_TT: "[!nuclear_warhead_button_click_enabled]\n\nDano de ataque estratégico: [?global.nuclear_warhead_building_damage_array^i|g0]\nDano de organização de ataque tático: [?global.nuclear_warhead_org_damage_array^i|G0]\nDano de força de ataque tático: [?global. nuclear_warhead_str_damage_array^i|O0]"
+NUCLEAR_WARHEAD_BUTTON_delayed_TT: "Efeitos de radiação: [?global.nuclear_warhead_radiation_factor_array^i|R%]"
+
+#nuclear_warhead_name_gui_loc
+#conventional_warhead_name_gui_loc
+
+#GFX_daily_expense
+
+#GFX_buildings_strip
+
+MD_conventional_warhead_selected_texture: "[MD_conventional_warhead_selected_texture]"
+MD_nuclear_warhead_selected_texture: "[MD_nuclear_warhead_selected_texture]"
+
+### dicas de ferramentas de gatilho de ogiva convencional ###
+has_selected_BM_TT: "Selecionou o tipo de míssil §YMíssil balístico§!"
+has_selected_CM_TT: "Selecionou o tipo de míssil §Ymíssil de cruzeiro§! e §YOgiva de Míssil de Cruzeiro§!"
+has_selected_CM_delayed_TT: "§YOgiva de Míssil de Cruzeiros§!:\n§g[has_selected_CM_delayed_TT0]§!, §g[has_selected_CM_delayed_TT1]§!, §g[has_selected_CM_delayed_TT2]§!, §g[has_selected_CM_delayed_TT3]§!, §g[has_selected_CM_TT_delay] !, §g[has_selected_CM_delayed_TT5]§! e §g[has_selected_CM_delayed_TT6]§!"
+### dicas de ferramentas de disparo de ogivas de mísseis de cruzeiro ###
+NOT_has_selected_BM_warhead_TT: "Não selecionou §YOgiva de Mísseis Balísticos§!"
+
+BALLISTIC_MISSILE_BUTTON_TT: "[!ballistic_missile_type_button_click_enabled]"
+BALLISTIC_MISSILE_BUTTON_TT_DELAYED: "§YCombate§!:\nAlcance: [?global.missile_range_array^ballistic_missile_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^ballistic_missile_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. mísseis_intercept_chance_array^ballistic_missile_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^ballistic_missile_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^ballistic_missile_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^ballistic_missile_display_array^i|Y0]"
+CRUISE_MISSILE_BUTTON_TT: "[!cruise_missile_type_button_click_enabled]"
+CRUISE_MISSILE_BUTTON_TT_DELAYED: "§YCombate§!:\nAlcance: [?global.missile_range_array^cruise_missile_display_array^i|Y0] km\nPrecisão: [?global.missile_accuracy_array^cruise_missile_display_array^i|Y0%]\nMod de chance de interceptação.: [?global. mísseis_intercept_chance_array^cruise_missile_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^cruise_missile_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^cruise_missile_display_array ^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^cruise_missile_display_array^i|Y0]\n\n§YOgivas de mísseis balísticos§!:\n§g[NOT_has_selected_BM_warhead_delayed_TT7]§!, §g[NOT_has_selected_BM_warhead_delayed_TT8]§ !, §g[NOT_has_selected_BM_warhead_delayed_TT9]§!, §g[NOT_has_selected_BM_warhead_delayed_TT10]§! e §g[NOT_has_selected_BM_warhead_delayed_TT11]§!"
+
+#####################################
+### MD_countrymissilesview_launch ###
+#####################################
+
+MISSILE_TYPE_HEADER: "Tipo de míssil"
+WARHEAD_TYPE_HEADER: "Ogiva"
+FROM_HEADER: "De:"
+TO_HEADER: "Para:"
+SALVO_HEADER: "Salvo"
+DURATION_HEADER: "Duração"
+TOTAL_HEADER: "Total"
+STRIKE_TYPE_HEADER: "Tipo de aviso"
+ALERT_BUTTON: "Alerta"
+FIRE_BUTTON: "Fogo!"
+
+WARHEAD_NAME_SELECTED: "[warhead_selected_loc]"
+warhead_selected_0_loc_key: "Nenhum"
+warhead_selected_1_loc_key: "[conventional_warhead_name_gui_loc]"
+warhead_selected_2_loc_key: "[nuclear_warhead_name_gui_loc]"
+
+SELECTED_TAG_TT: "Clique para selecionar outro país\nClique com o botão direito para selecionar §Y[ROOT.GetNameWithFlag]§!"
+HEADER_1: "Tipo de míssil"
+HEADER_2: "Ogiva"
+HEADER_3: "MIRV\nIsca"
+HEADER_4: "Ponto de lançamento\nPonto de destino"
+HEADER_5: "Salvo\nDuração"
+HEADER_6: "Tipo de aviso\n"
+LAUNCH_TRIGGER_YES_CHECKBOX_TT: "£trigger_yes as condições do disparo para o ponto de lançamento são válidas."
+LAUNCH_TRIGGER_YES_CHECKBOX_delayed_TT: "As condições do disparo são atualizadas semanalmente. Clique para atualizá-las imediatamente."
+LAUNCH_TRIGGER_NO_CHECKBOX_TT: "£trigger_no as condições de disparo para o ponto de lançamento são inválidas."
+LAUNCH_TRIGGER_NO_CHECKBOX_delayed_TT: "As condições do disparo são atualizadas semanalmente. Clique para atualizá-las imediatamente."
+
+FIRE_SORT_BUTTON: "Fogo"
+ALERT_SORT_BUTTON: "Alerta"
+
+### trajetória_lista_entrada ###
+MIRV_LIST_ENTRY: "[?ROOT.selected_TAG_missile_MIRV_array^i]"
+DECOY_LIST_ENTRY: "[?ROOT.selected_TAG_missile_decoy_array^i]"
+LAUNCH_POINT_LIST_ENTRY: "[temp_launch_point_ID_loc] [?ROOT.selected_TAG_missile_launch_point_array^i.GetName]"
+TARGET_POINT_LIST_ENTRY: "[temp_target_point_ID_loc] [?ROOT.selected_TAG_missile_target_point_array^i.GetName]"
+temp_launch_point_ID_loc_key: "[?temp_launch_point_ID.GetFlag]"
+temp_target_point_ID_loc_key: "[?temp_target_point_ID.GetFlag]"
+SALVO_LIST_ENTRY: "[?ROOT.selected_TAG_missile_salvo_array^i]"
+DURATION_LIST_ENTRY: "[?ROOT.selected_TAG_missile_duration_array^i]"
+LAUNCH_TRIGGER_ENTRY_CHECKBOX_BUTTON_TT: "[launch_gui_trigger_checkbox_loc]"
+LAUNCH_TRIGGER_ENTRY_CHECKBOX_BUTTON_delayed_TT: "As condições do disparo são atualizadas semanalmente. Clique para atualizá-las imediatamente."
+#launch_gui_trigger_checkbox_loc: "[launch_gui_trigger_checkbox_loc]"
+launch_gui_trigger_checkbox_yes_fire_loc_key: "£trigger_yes as condições do disparo para o ponto de lançamento são válidas."
+launch_gui_trigger_checkbox_no_fire_loc_key: "£trigger_no as condições de disparo para o ponto de lançamento são inválidas."
+launch_gui_trigger_checkbox_yes_alert_loc_key: "£trigger_yes as condições do disparo para o ponto de lançamento são válidas."
+launch_gui_trigger_checkbox_no_alert_loc_key: "£trigger_no as condições de disparo para o ponto de lançamento são inválidas."
+MISSILE_TRAJECTORY_ENTRY: "[missile_name_trajectory_selected_TAG_loc]"
+WARHEAD_TRAJECTORY_ENTRY_TT: "[missile_trajectory_warhead_selected_TAG_loc]"
+WARHEAD_TRAJECTORY_ENTRY_delayed_TT: "[warhead_targets_loc]"
+nuclear_warhead_targets_loc_key: "Alvos: §Todos os edifícios§!"
+conventional_warhead_selected_targets_loc_key: "Alvos selecionados:\n\n[conventional_warhead_selected_target_1_loc][conventional_warhead_selected_target_2_loc][conventional_warhead_selected_target_3_loc][conventional_warhead_selected_target_4_loc][conventional_warhead_selected_target_5_loc][conventional_warhead_selected_target_6_loc][conventional_warhead_selected_target_7_loc][conventional_warhead_selected_target_8_loc][conventional_warhead_selected_target_9_loc]\n\n[conventional_warhead_selected_target_10_loc][conventional_warhead_selected_target_11_loc][conventional_warhead_selected_target_12_loc] [conventional_warhead_selected_target_13_loc][conventional_warhead_selected_target_14_loc][conventional_warhead_selected_target_15_loc]"
+
+nuclear_warhead_name_trajectory_loc: "[nuclear_warhead_name_trajectory_loc]"
+conventional_warhead_name_trajectory_loc: "[conventional_warhead_name_trajectory_loc]"
+conventional_warhead_name_trajectory_textures: "[conventional_warhead_name_trajectory_textures]"
+nuclear_warhead_name_trajectory_loc_textures: "[nuclear_warhead_name_trajectory_loc_textures]"
+
+has_GNSS_mil_system_for_CM_TT: "§YSistema SGNS Militar§! é maior ou igual a §Ymíssil de cruzeiro§! Nível de tecnologia ou tem acesso a §YSistema SGNS Militar§! que é maior ou igual a §Ymíssil de cruzeiro§! Nível de tecnologia."
+
+### MD_missile_type_window ###
+
+MISSILE_SELECTION_LEDGER_BTN_1_TT: "§YMísseis balísticos§!"
+MISSILE_SELECTION_LEDGER_BTN_1_delayed_TT: "Selecionar mísseis balísticos."
+MISSILE_SELECTION_LEDGER_BTN_2_TT: "§YMísseis de cruzeiro§!"
+MISSILE_SELECTION_LEDGER_BTN_2_delayed_TT: "Selecionar mísseis de cruzeiro."
+
+### MD_warhead_window ###
+
+MIRV_HEADER: "MIRV"
+DECOY_HEADER: "Isca"
+
+WARHEAD_SELECTION_LEDGER_BTN_1_TT: "§YOgivas convencionais§!"
+WARHEAD_SELECTION_LEDGER_BTN_1_delayed_TT: "Selecione ogivas convencionais."
+WARHEAD_SELECTION_LEDGER_BTN_2_TT: "§YOgivas nucleares§!"
+WARHEAD_SELECTION_LEDGER_BTN_2_delayed_TT: "Selecione ogivas nucleares."
+
+
+###########################
+###########################
+### GUI de Defesa contra Mísseis ###
+###########################
+###########################
+
+DEFENSE_TITLE: "Sistema Integrado de Defesa Aérea e Mísseis"
+DEFENSE_SEA: "Mar"
+DEFENSE_LAND: "Terra"
+ACTIVE_MODIFIERS: "§HModificadores Ativos§!"
+active_defense_missile_modifiers_tt: "Isso exibe todos os modificadores dos sistemas de defesa aérea."
+active_defense_missile_modifiers_delayed_tt: "£anti_air_gun_texticon  Fator de dano antiaéreo estático: [?var_SAM_AD_damage|+%]\n£anti_air_gun_texticon  Fator de chance de acerto antiaéreo estático: [?var_SAM_AD_intercept_chance_total|+%]\n£attack_antiair_texticon  Fator de ataque naval AA: [?var_fleet_air_defense_system|+%]\n£attack_antiair_texticon  Ataque naval AA: [?var_NSAM_AD_damage|+2]\n"
+
+BOOST_TERMINAL_HEADER: "Reforço e defesa contra mísseis terminais"
+MIDCOURSE_HEADER: "Defesa de Mísseis de Meio Curso"
+
+### local com script ###
+
+NSAM_NAME_SELECTED: "[NSAM_name_selected_loc]"
+SAM_NAME_SELECTED: "[SAM_name_selected_loc]"
+NSAM_MD_NAME_SELECTED: "[NSAM_MD_name_selected_loc]"
+SAM_MD_NAME_SELECTED: "[SAM_MD_name_selected_loc]"
+NABM_NAME_SELECTED: "[NABM_name_selected_loc]"
+ABM_NAME_SELECTED: "[ABM_name_selected_loc]"
+
+NSAM_NAME: "[hand_name_loc]"
+SAM_NAME: "[SAM_name_loc]"
+NSAM_MD_NAME: "[HAND_MD_name_loc]"
+SAM_MD_NAME: "[SAM_MD_name_loc]"
+NABM_NAME: "[NABM_name_loc]"
+ABM_NAME: "[ABM_name_loc]"
+
+
+### Naval SAM (NSAM) ###
+
+NSAM_TYPE_HEADER: "Sistema de Defesa Aérea da Frota"
+
+NSAM_DEPLOYED: "Implantado: [?var_NSAM_AD_deployed]"
+#NSAM_STAT: "Estatísticas de míssil único:\nDamage: [?var_SAM_AD_damage|Y]\nHit Chance: [?var_SAM_intercept_chance|Y]\nCustos: [?var_SAM_AD_costs|Y]"
+NSAM_SYSTEM_COSTS: "Custos: §Y$$§! [?var_NSAM_AD_costs_total]"
+NSAM_COSTS_TT: "Custos anuais em bilhões para manter e recarregar os mísseis implantados. Adicionado semanalmente aos gastos com defesa - §YCusto industrial§!."
+NSAM_COSTS_TT_DELAYED: "Em sua função §YDefesa Aérea§! os SAMs navais são recarregados automaticamente quando disparados durante o combate. Portanto, os custos anuais são pagos. Os custos anuais são adicionados aos gastos militares do orçamento. SAMs que são destruídos devido à perda de navios precisam ser reimplantados do inventroy pelo jogador. Isso pode ser feito automaticamente por meio da marca de seleção."
+NSAM_AUTO_REDEPLOY: "Implantação Automática"
+NSAM_AUTO_DEPLOY: "Quando os mísseis ativados serão implantados automaticamente do inventário até que uma taxa de frota de §G100%§! seja alcançada ou o inventário esteja vazio."
+NSAM_AUTO_DEPLOY_TT_DELAYED: "SAMs navais implantados perdidos na função §YDefesa Aérea§!:\nÚltimo dia: [?var_NSAM_AD_lost_loc]\nEste mês: [?var_NSAM_AD_lost_monthly]\nTotal: [?var_NSAM_AD_lost_total]"
+NSAM_FLEET_RATIO: "Taxa de Frota: [?var_NSAM_AD_deploy_ratio|g%]"
+NSAM_FLEET_RATIO_TT: "§YTaxa de Frota§! Em zero §YTaxa de Frota§! todos os navios recebem malus para ataque aéreo (ataque naval AA: §R-50%§!)."
+NSAM_FLEET_RATIO_TT_DELAYED: "[NSAM_FLEET_RATIO_missile_ships]\n___________\n= [?var_AD_ships|Y] [missile_defense_ships_loc] x §G4§! §YLançadores§! : [missile_defense_ships_desc_loc]."
+NSAM_SYSTEM_DAMAGE: "SAM Danos: [?var_NSAM_AD_damage|G]"
+NSAM_DAMAGE_TT: "Ataque naval AA"
+NSAM_SYSTEM_HIT_CHANCE: "Ataque AA: [?var_fleet_air_defense_system|§+%]"
+NSAM_HIT_CHANCE_TT: "Fator de ataque naval AA"
+
+NSAM_FLEET_RATIO_missile_ships: "[NSAM_FLEET_RATIO_missile_ships]"
+NSAM_FLEET_RATIO_missile_ships_loc: "[?num_ships_with_type@cruiser|G]x §Y$cruzador$§!\n[?num_ships_with_type@destroyer|G]x §Y$destroyer$§!\n[?num_ships_with_type@frigate|G]x §Y $fragata$§!"
+NSAM_FLEET_RATIO_missile_ships_mtg_loc: "[?num_ships_with_type@cruiser|G]x §Y$cruzador$§!\n[?num_ships_with_type@stealth_destroyer|G]x §Y$stealth_destroyer$§!\n[?num_ships_with_type@destroyer|G]x §Y $destroyer$§!\n[?num_ships_with_type@frigata|G]x §Y$fragata$§!"
+
+### ELE MESMO ###
+
+SAM_TYPE_HEADER: "Sistema Integrado de Defesa Aérea"
+
+SAM_DEPLOYED: "Implantado: [?var_SAM_AD_deployed]"
+#SAM_STAT: "Estatísticas de míssil único:\nDamage: [?var_SAM_AD_damage|Y]\nHit Chance: [?var_SAM_intercept_chance|Y]\nCustos: [?var_SAM_AD_costs|Y]"
+SAM_SYSTEM_COSTS: "Custos: §Y$$§! [?var_SAM_AD_costs_total]"
+SAM_COSTS_TT: "Custos anuais em bilhões para manter e recarregar os mísseis implantados. Adicionado semanalmente aos gastos com defesa - §YCusto industrial§!."
+SAM_COSTS_TT_DELAYED: "Em sua função §YDefesa Aérea§! os SAMs são recarregados automaticamente quando disparados durante o combate. Portanto, os custos anuais são pagos. Os custos anuais são adicionados aos gastos militares do orçamento. Os SAMs que são destruídos devido à perda de baterias precisam para ser reimplantado do inventário pelo jogador. Isso pode ser feito automaticamente por meio da marca de seleção."
+SAM_AUTO_REDEPLOY: "Implantação Automática"
+SAM_AUTO_DEPLOY: "Quando ativados, os mísseis serão implantados automaticamente do inventário até que uma taxa de bateria de §G100%§! seja alcançada ou o inventário esteja vazio."
+SAM_AUTO_DEPLOY_TT_DELAYED: "SAMs implantados perdidos na função §YDefesa Aérea§!:\nÚltimo dia: [?var_SAM_AD_lost_loc]\nEste mês: [?var_SAM_AD_lost_monthly]\nTotal: [?var_SAM_AD_lost_total]"
+SAM_BATTERY_RATIO: "Relação da bateria: [?var_SAM_AD_deploy_ratio|g%0]"
+SAM_BATTERY_RATIO_TT: "§YTaxa de bateria§! é a proporção de mísseis implantados para o número de lançadores disponíveis. A §YTaxa de bateria§! modifica o §YDano§! §YChance de acerto§! estão em §G100%§! Taxa de bateria."
+SAM_BATTERY_RATIO_TT_DELAYED: "[?var_AD_batteries|G] §Ybaterias§! a [?var_SAM_AD_launcher_tech|G] §YLançadores§! cada um é um número total de [?var_SAM_AD_launcher_total|G] Lançadores."
+SAM_DAMAGE: "Dano: [?var_SAM_AD_damage|G2]"
+SAM_DAMAGE_TT: "Fator de dano antiaéreo estático"
+SAM_HIT_CHANCE: "Chance de Acerto: [?var_SAM_AD_intercept_chance_total|C%]"
+SAM_HIT_CHANCE_TT: "Fator de chance de acerto antiaéreo estático"
+
+
+### Naval SAM MD (NSAM) ###
+
+NSAM_MD_DEPLOYED: "Implantado: [?var_deployed_SAM_MD_sea]"
+#NSAM_MD_STAT: "Estatísticas de míssil único:\nDano: [?var_SAM_AD_damage|Y]\nChance de Acerto: [?var_SAM_intercept_chance|Y]\nCustos: [?var_SAM_AD_costs|Y]"
+NSAM_MD_SYSTEM_COSTS: "Custos: §Y$$§! [?var_NSAM_MD_costs_total]"
+NSAM_MD_COSTS_TT: "Custos anuais em bilhões para manter e recarregar os mísseis implantados. Adicionado semanalmente aos gastos com defesa - §YCusto industrial§!."
+NSAM_MD_COSTS_TT_DELAYED: "Em sua função §YDefesa antimísseis§! os SAMs são substituídos automaticamente quando disparados. Portanto, os custos anuais são pagos. Os custos anuais são adicionados aos gastos militares do orçamento. Os SAMs que são destruídos devido à perda de baterias precisam ser reimplantado do inventroy pelo jogador. Isso pode ser feito automaticamente por meio da marca de seleção."
+NSAM_MD_AUTO_REDEPLOY: "Implantação Automática"
+NSAM_MD_AUTO_DEPLOY: "Quando os mísseis ativados serão implantados automaticamente do inventário até que uma taxa de bateria de §G100%§! seja alcançada ou o inventário esteja vazio."
+NSAM_MD_AUTO_DEPLOY_TT_DELAYED: "SAMs navais implantados perdidos na função §YDefesa antimísseis§!:\nÚltimo dia: [?var_NSAM_MD_lost_loc]\nEste mês: [?var_NSAM_MD_lost_monthly]\nTotal: [?var_NSAM_MD_lost_total]"
+NSAM_MD_FLEET_RATIO: "Conta de Frota: [?var_SAM_AD_deploy_ratio]"
+NSAM_MD_FLEET_RATIO_TT: "§YTaxa de Frota§! é a proporção de mísseis implantados para o número de lançadores disponíveis. A §YTaxa de Frota§! modifica o §YDano§! e o §YChance de acerto§! §YChance de acerto§! estão em §G100%§! Taxa de Frota."
+NSAM_MD_FLEET_RATIO_TT_DELAYED: "[?num_anti_air_building|G] $[missile_defense_ships_loc]$ a [?var_SAM_launcher_tech|G] §YLançadores§! ."
+#NSAM_MD_RANGE_TT: "Alcance"
+NSAM_MD_HIT_CHANCE: "Chance de Acerto: [?var_SAM_intercept_chance_sea|C0%]"
+NSAM_MD_HIT_CHANCE_TT: "Chance de interceptar mísseis"
+
+
+### SAM MD ###
+
+SAM_MD_DEPLOYED: "Implantado: [?var_deployed_SAM_MD_land]"
+#SAM_MD_STAT: "Estatísticas de míssil único:\nDamage: [?var_SAM_AD_damage|Y]\nHit Chance: [?var_SAM_intercept_chance|Y]\nCustos: [?var_SAM_AD_costs|Y]"
+SAM_MD_SYSTEM_COSTS: "Custos: §Y$$§! [?var_SAM_MD_costs_total]"
+SAM_MD_COSTS_TT: "Custos anuais em bilhões para manter e recarregar os mísseis implantados. Adicionado semanalmente aos gastos com defesa - §YCusto industrial§!."
+SAM_MD_COSTS_TT_DELAYED: "Em sua função §YDefesa antimísseis§! os SAMs são substituídos automaticamente quando disparados. Portanto, os custos anuais são pagos. Os custos anuais são adicionados aos gastos militares do orçamento. Os SAMs que são destruídos devido à perda de baterias precisam ser reimplantado do inventroy pelo jogador. Isso pode ser feito automaticamente por meio da marca de seleção."
+SAM_MD_AUTO_REDEPLOY: "Implantação Automática"
+SAM_MD_AUTO_DEPLOY: "Quando os mísseis ativados serão implantados automaticamente do inventário até que uma taxa de bateria de §G100%§! seja alcançada ou o inventário esteja vazio."
+SAM_MD_AUTO_DEPLOY_TT_DELAYED: "SAMs implantados perdidos na função §YDefesa antimísseis§!:\nÚltimo dia: [?var_SAM_MD_lost_loc]\nEste mês: [?var_SAM_MD_lost_monthly]\nTotal: [?var_SAM_MD_lost_total]"
+SAM_MD_BATTERY_RATIO: "Relação da bateria: [?var_SAM_AD_deploy_ratio]"
+SAM_MD_BATTERY_RATIO_TT: "§YTaxa de bateria§! é a proporção de mísseis implantados para o número de lançadores disponíveis. A §YTaxa de bateria§! modifica o §YDano§! §YChance de acerto§! estão em §G100%§! Taxa de bateria."
+SAM_MD_BATTERY_RATIO_TT_DELAYED: "[?num_anti_air_building|G] §Ybaterias§! a [?var_SAM_launcher_tech|G] §YLançadores§! cada um é um número total de [?var_SAM_launcher_total|G] Lançadores."
+SAM_MD_RANGE: "Distância: [?var_SAM_range|Y0]"
+SAM_MD_RANGE_TT: "Alcance"
+SAM_MD_HIT_CHANCE: "Chance de Acerto: [?var_SAM_intercept_chance_land|C0%]"
+SAM_MD_HIT_CHANCE_TT: "Chance de interceptar mísseis"
+
+
+### Naval ABM (NABM) ###
+
+NABM_DEPLOYED: "Implantado: [?var_deployed_ABM_sea]"
+#NABM_STAT: "Estatísticas de míssil único:\nDano: [?var_SAM_AD_damage|Y]\nChance de Acerto: [?var_SAM_intercept_chance|Y]\nCustos: [?var_SAM_AD_costs|Y]"
+NABM_SYSTEM_COSTS: "Custos: §Y$$§! [?var_NABM_costs_total]"
+NABM_COSTS_TT: "Custos anuais em bilhões para manter e recarregar os mísseis implantados. Adicionado semanalmente aos gastos com defesa - §YCusto industrial§!."
+NABM_COSTS_TT_DELAYED: "Os ABMs são substituídos automaticamente quando disparados. Portanto, os custos anuais são pagos. Os custos anuais são adicionados aos gastos militares do orçamento. Os ABMs que são destruídos devido à perda de baterias precisam ser reimplantados do inventário pelo jogador. Isso pode ser feito automaticamente através da marca de seleção."
+NABM_AUTO_REDEPLOY: "Implantação Automática"
+NABM_AUTO_DEPLOY: "Quando os mísseis ativados serão implantados automaticamente do inventário até que uma taxa de bateria de §G100%§! seja alcançada ou o inventário esteja vazio."
+NABM_AUTO_DEPLOY_TT_DELAYED: "ABMs navais implantados perdidos:\nÚltimo dia: [?var_NABM_lost_loc]\nEste mês: [?var_NABM_lost_monthly]\nTotal: [?var_NABM_lost_total]"
+NABM_FLEET_RATIO: "Conta de frota: [?var_SAM_AD_deploy_ratio]"
+NABM_FLEET_RATIO_TT: "§YTaxa de Frota.§! é a proporção de mísseis implantados para o número de lançadores disponíveis. A §YTaxa de Frota.§! §YHit Chance§! estão em §G100%§! Taxa de Frota."
+NABM_FLEET_RATIO_TT_DELAYED: "[?num_anti_air_building|G] [missile_defense_ships_loc] a [?var_SAM_launcher_tech|G] §YLançadores§!
+#NABM_RANGE: "Faixa: [?var_NABM_range]"
+#NABM_RANGE_TT: "Alcance"
+NABM_HIT_CHANCE: "Chance de Acerto: [?var_ABM_intercept_chance_sea|C0%]"
+NABM_HIT_CHANCE_TT: "Chance de interceptar mísseis"
+
+
+### ABM ###
+
+ABM_DEPLOYED: "Implantado: [?var_deployed_ABM_land]"
+#ABM_STAT: "Estatísticas de um único míssil:\nDamage: [?var_SAM_AD_damage|Y]\nHit Chance: [?var_SAM_intercept_chance|Y]\nCustos: [?var_SAM_AD_costs|Y]"
+ABM_SYSTEM_COSTS: "Custos: §Y$$§! [?var_ABM_costs_total]"
+ABM_COSTS_TT: "Custos anuais em bilhões para manter e recarregar os mísseis implantados. Adicionado semanalmente aos gastos com defesa - §YCusto industrial§!."
+ABM_COSTS_TT_DELAYED: "Os ABMs são substituídos automaticamente quando disparados. Portanto, os custos anuais são pagos. Os custos anuais são adicionados aos gastos militares do orçamento. Os ABMs que são destruídos devido à perda de baterias precisam ser reimplantados do inventário pelo jogador. Isso pode ser feito automaticamente através da marca de seleção."
+ABM_AUTO_REDEPLOY: "Implantação Automática"
+ABM_AUTO_DEPLOY: "Quando os mísseis ativados serão implantados automaticamente do inventário até que uma taxa de bateria de §G100%§! seja alcançada ou o inventário esteja vazio."
+ABM_AUTO_DEPLOY_TT_DELAYED: "ABMs implantados perdidos:\nÚltimo dia: [?var_ABM_lost_loc]\nEste mês: [?var_ABM_lost_monthly]\nTotal: [?var_ABM_lost_total]"
+ABM_BATTERY_RATIO: "Relação da bateria: [?var_SAM_AD_deploy_ratio]"
+ABM_BATTERY_RATIO_TT: "§YTaxa de bateria§! é a proporção de mísseis implantados para o número de lançadores disponíveis. A §YTaxa de bateria§! modifica o §YDano§! §YChance de acerto§! estão em §G100%§! Taxa de bateria."
+ABM_BATTERY_RATIO_TT_DELAYED: "[?num_anti_air_building|G] §Ybaterias§! a [?var_SAM_launcher_tech|G] §YLançadores§! cada um é um número total de [?var_SAM_launcher_total|G] Lançadores."
+ABM_RANGE: "Distância [?var_ABM_range|Y0]"
+ABM_RANGE_TT: "Intervalo"
+ABM_HIT_CHANCE: "Chance de Acerto: [?var_ABM_intercept_chance_land|C0%]"
+ABM_HIT_CHANCE_TT: "Chance de interceptar mísseis"
+
+### JANELA LOC ###
+
+NSAM_WIN_COSTS: "£GFX_daily_expense [?global.SAM_AD_costs_total_array^i]"
+NSAM_WIN_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^SAM_display_array^i]"
+SAM_WIN_COSTS: "£GFX_daily_expense [?global.SAM_AD_costs_total_array^i]"
+SAM_WIN_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^SAM_display_array^i]"
+NSAM_MD_WIN_COSTS: "£GFX_daily_expense [?global.SAM_AD_costs_total_array^i]"
+NSAM_MD_WIN_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^SAM_display_array^i]"
+SAM_MD_WIN_COSTS: "£GFX_daily_expense [?global.SAM_AD_costs_total_array^i]"
+SAM_MD_WIN_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^SAM_display_array^i]"
+NABM_WIN_COSTS: "£GFX_daily_despesa [?global.ABM_costs_total_array^i]"
+NABM_WIN_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^ABM_display_array^i]"
+ABM_WIN_COSTS: "£GFX_daily_despesa [?global.ABM_costs_total_array^i]"
+ABM_WIN_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^ABM_display_array^i]"
+
+### Dicas de ferramentas do LOC da JANELA ###
+
+NSAM_WIN_BUTTON_TT: "[!NSAM_type_button_click_enabled]"
+SAM_WIN_BUTTON_TT: "[!SAM_type_button_click_enabled]"
+NSAM_MD_WIN_BUTTON_TT: "[!NSAM_MD_type_button_click_enabled]"
+SAM_MD_WIN_BUTTON_TT: "[!SAM_MD_type_button_click_enabled]"
+NABM_WIN_BUTTON_TT: "[!NABM_type_button_click_enabled]"
+ABM_WIN_BUTTON_TT: "[!ABM_type_button_click_enabled]"
+
+SAM_WIN_BUTTON_TT_delayed: "§YDefesa Aérea§!:\nChance de Interceptação: [?global.SAM_intercept_chance_stat_array^SAM_display_array^i|Y0%]\nSAM Danos: [?global.SAM_AD_damage_stat_array^SAM_display_array^i|Y0]\nFator de ataque base Naval AA: [ ?global.fleet_air_defense_system_stat_array^SAM_display_array^i|Y0%]\nCustos (p.a.): $[?global.SAM_AD_costs_total_stat_array^SAM_display_array^i|Y3] bilhões\n\n§YDefesa antimísseis§!:\nAlcance: [?global.SAM_range_stat_array ^SAM_display_array^i|Y0] km\nProbabilidade de interceptação: [?global.SAM_intercept_chance_stat_array^SAM_display_array^i|Y0%]\nCustos (p.a.): $[?global.SAM_AD_costs_total_stat_array^SAM_display_array^i|Y3] bilhões\n\n§ YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^SAM_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^SAM_display_array^i|Y0]\nDias de produção por unidade: [?global .missile_duration_unit_array^SAM_display_array^i|Y0]"
+ABM_WIN_BUTTON_TT_delayed: "§YDefesa antimísseis§!:\nDistância [?global.ABM_range_stat_array^ABM_display_array^i|Y0] km\nChance de Interceptação: [?global.ABM_intercept_chance_stat_array^ABM_display_array^i|Y0%]\nCustos (p.a.): $[ ?global.ABM_costs_total_stat_array^ABM_display_array^i|Y3] bilhões\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^ABM_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global. missile_CIC_unit_array^ABM_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^ABM_display_array^i|Y0]"
+
+has_NSAM_inventory_TT: "Tem §Y[NSAM_name_loc]§! no inventário."
+has_SAM_inventory_TT: "Tem §Y[SAM_name_loc]§! no inventário."
+has_NSAM_MD_inventory_TT: "Tem §Y[NSAM_MD_name_loc]§! no inventário."
+has_SAM_MD_inventory_TT: "Tem §Y[SAM_MD_name_loc]§! no inventário."
+has_NABM_inventory_TT: "Tem §Y[NABM_name_loc]§! no inventário."
+has_ABM_inventory_TT: "Tem §Y[ABM_name_loc]§! no inventário."
+
+#HANDS_NAME: "[HANDS_name_loc]
+#SAM_NAME: "[SAM_name_loc]"
+#HANDS_MD_NAME: "[HANDS_MD_name_loc]
+#SAM_MD_NAME: "[SAM_MD_name_loc]"
+#NABM_NAME: "[NABM_name_loc]"
+#ABM_NAME: "[ABM_name_loc]"
+
+####################################
+####################################
+### MD_countrymissilesview_space ###
+####################################
+####################################
+
+SPACE_PROGRAM_TITLE: "Programa Espacial"
+OLV_TYPE_HEADER: "Veículo de Lançamento Orbital"
+PAYLOAD_TYPE_HEADER: "Carga Útil"
+ASAT_TYPE_HEADER: "Míssil Anti-satélite"
+KILLSAT_TYPE_HEADER: "Satélite Assassino"
+RODS_TYPE_HEADER: "Bombardeio Cinético"
+
+KINETIC_BOMBARDMENT_BUTTON: "Bombardeio Cinético"
+ACTIVATE_KILLSAT_BUTTON: "Ativar KILLSAT"
+ASAT_BUTTON: "Lançar ASAT"
+OLV_LAUNCH_BUTTON: "Lançar VLO"
+
+### dicas de ferramentas de gatilho de botão ###
+ASAT_BUTTON_TT: "[!ASAT_button_click_enabled]"
+ASAT_salvo_trigger_1_TT: "Salva ASAT > 0"
+ASAT_salvo_trigger_2_TT: "Inventário §YASAT§! maior ou igual a §YASAT salvos§!."
+has_target_list_TT: "Tem satélites na lista de alvos."
+has_war_sat_trigger_TT: "§Y[ROOT.GetNameWithFlag]§! está em §Rguerra§! com todos os países da lista §Yde alvo§!."
+ACTIVATE_KILLSAT_BUTTON_TT: "[!activate_killsat_button_click_enabled]"
+KILLSAT_salvo_trigger_1_TT: "Salva KILLSAT > 0"
+KILLSAT_salvo_trigger_2_TT: "§YKILLSAT§! §gem órbita§! maior ou igual a §YKILLSAT salvos§!."
+KINETIC_BOMBARDMENT_BUTTON_TT: "[!kinetic_bombardment_button_click_enabled]"
+has_RODS_orbit_target_TT: "Tem Hastes selecionadas (§Y[RODS_name_selected_loc]§!) §gem órbita§!."
+RODS_has_target_TT: "Foi selecionado §Yestados alvos§!."
+
+###
+
+OLV_MODEL_NAME: "[OLV_name_loc]"
+OLV_SELECTED_MODEL_NAME: "[OLV_name_selected_loc]"
+SAT_PAYLOAD_MODEL_NAME: "[sat_payload_name_loc]"
+#SAT_SELECTED_PAYLOAD_MODEL_NAME: "[sat_payload_name_selected_loc]"
+SPP_PAYLOAD_MODEL_NAME: "[spp_payload_name_loc]"
+#SPP_SELECTED_PAYLOAD_MODEL_NAME: "[spp_payload_name_selected_loc]"
+OVL_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^OLV_display_array^i]"
+PAYLOAD_MODEL_NAME_SELECTED: "[payload_model_name_selected_loc]"
+spp_payload_icon_selected_texture_loc_key: "[spp_payload_icon_selected_texture]"
+spp_payload_model_name_selected_loc_key: "[spp_payload_model_name_selected_loc]"
+
+OLV_STATS: "§gInventário:§! [?var_OLV_inventory|G0]\n§gConfiabilidade:§! [?var_OLV_reliability|G§%0]\n§gCarga útil:§! §G[?var_OLV_payload_mass|§*0] kg§ !\n"
+PAYLOAD_STATS: "Carga útil:\n§gNúmero de objetos:§! [?payload_types_array^num|C0]\n§gMassa de lançamento:§! §C[?var_launch_mass|§*0] kg§!"
+OLV_NUM_FLIGHTS: "§gNúmero de voos:§! [?var_OLV_flights|C0]"
+OLV_NUM_FLIGHTS_TT: "§gNúmero de voos§! é o número com que frequência esta configuração (mesmo Veículo de Lançamento Orbital e mesma carga útil) é lançada."
+OLV_LAUNCH_BUTTON_TT: "[!OLV_launch_button_click_enabled]"
+OLV_LAUNCH_BUTTON_TT_trigger_1: "§YMassa de Lançamento§! < §YMassa de Carga Útil§!"
+OLV_LAUNCH_BUTTON_TT_trigger_2: "§YNúmero de Voos§! < §YOLV Inventário§!"
+OLV_LAUNCH_BUTTON_TT_trigger_3: "§YNúmero de voos§! > 0"
+OLV_LAUNCH_BUTTON_TT_DELAYED: "O §YPrograma de Voo§! é cancelado quando a carga útil selecionada não está disponível."
+CLEAR_PAYLOAD_BUTTON: "Limpar carga útil"
+
+SAT_PAYLOAD_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^sat_payload_display_array^i]"
+SPP_PAYLOAD_INVENTORY: "£GFX_inventory_texticon [?spp_inventory_array^i]"
+
+ASAT_SELECTED_MODEL_NAME: "[ASAT_name_selected_loc]"
+ASAT_STATS: "§gInventário:§! [?var_ASAT_inventory|G0]\n§gPrecisão:§! [?var_ASAT_accuracy|G§%0]"
+ASAT_SALVO: "§gSalvo:§! [?var_ASAT_salvo|C0]"
+ASAT_MODEL_NAME: "[ASAT_name_loc]"
+ASAT_INVENTORY: "£GFX_inventory_texticon [?missile_inventory_array^ASAT_display_array^i]"
+
+KILLSAT_SELECTED_MODEL_NAME: "[KILLSAT_name_selected_loc]"
+KILLSAT_STATS: "§gOrb.:§! [?var_KILLSAT_orbit|G0]\n§gAcc.:§! [?var_KILLSAT_accuracy|G§%0]"
+KILLSAT_SALVO: "[?var_KILLSAT_salvo|C0]"
+KILLSAT_MODEL_NAME: "[KILLSAT_name_loc]"
+KILLSAT_ORBIT: "£GFX_KILL_satellite_texticon [?KILL_satellite_array^i]"
+RODS_SELECTED_MODEL_NAME: "[RODS_name_selected_loc]"
+RODS_MODEL_NAME: "[RODS_name_loc]"
+RODS_ORBIT: "£GFX_RODS_satellite_texticon [?RODS_satellite_array^i]"
+RODS_SEARCH_TARGET_BUTTON_TT: "Clique para ocultar e mostrar §YVisualização da Órbita do Satélite§!"
+RODS_SEARCH_TARGET_BUTTON_delayed_TT: "Ocultar §gVisualização de órbita de satélite§! para pesquisar alvos de §YBombardeio cinético§! (£GFX_RODS_satellite_texticon ) no mapa."
+RODS_TARGET_TOOLTIP: "[!MD_missiles_rods_target_button_click_enabled]"
+MD_missiles_rods_target_button_TT: "Selecionou £GFX_RODS_satellite_texticon para §Ybombardeio cinético§!"
+MD_missiles_rods_target_button_TT2: "NÃO selecionou um estado alvo."
+KINETIC_BOMBARDMENT_STATS_BUTTON_TT: "[kinetic_bombardment_stats_button_loc]"
+kinetic_bombardment_stats_button_2_loc_key: "Clique para desativar os resultados pop-up para §Ybombardeio cinético§!."
+kinetic_bombardment_stats_button_1_loc_key: "Clique para mostrar todos os resultados do §Ybombardeio cinético§!"
+
+### MD_space_selection_window dicas de ferramentas ###
+
+has_OLV_inventory_TT: "Tem §Y[OLV_name_loc]§! no inventário."
+has_SAT_inventory_TT: "Tem §Y[sat_payload_name_loc]§! no inventário."
+has_SPP_inventory_TT: "Tem §Y[spp_payload_name_loc]§! no inventário."
+has_ASAT_inventory_TT: "Tem §Y[ASAT_name_loc]§! no inventário."
+has_KILLSAT_orbit_TT: "Tem §Y[KILLSAT_name_loc]§! em órbita."
+has_RODS_orbit_TT: "Tem §Y[RODS_name_loc]§! em órbita."
+
+OLV_WIN_BUTTON_TT: "[!OLV_type_button_click_enabled]"
+OLV_WIN_BUTTON_TT_delayed: "§YLançar§!:\nMassa da carga útil: [?global.OLV_payload_mass_stat_array^OLV_display_array^i|Y0] kg\nConfiabilidade: [?global.OLV_reliability_stat_array^OLV_display_array^i|Y0%]\n\n§YProdução§!: \nPreço por unidade: $[?global.missile_price_unit_array^OLV_display_array^i|Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^OLV_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^OLV_display_array ^i|Y0]"
+
+SAT_WIN_BUTTON_TT: "[!sat_payload_type_button_click_enabled]"
+SAT_WIN_BUTTON_TT_delayed: "§YLançamento espacial§!:\nMassa: [?global.sat_mass_stat_array^sat_payload_display_array^i|Y0] kg\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^sat_payload_display_array^i| Y4] bilhões\nIndústria civil por unidade: [?global.missile_CIC_unit_array^sat_payload_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^sat_payload_display_array^i|Y0]"
+SPP_WIN_BUTTON_TT: "[!spp_payload_type_button_click_enabled]"
+KILLSAT_WIN_BUTTON_TT: "[!KILLSAT_type_button_click_enabled]"
+KILLSAT_WIN_BUTTON_TT_delayed: "§YLançamento espacial§!:\nMassa: [?global.sat_mass_stat_array^KILLSAT_display_array^i|Y0] kg\n\n§YArma anti-satélite§!:\nPrecisão: [?global.KILLSAT_accuracy_stat_array^KILLSAT_display_array^i| Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^KILLSAT_display_array^i|Y4] bilhões\nIndústria Civil por unidade: [?global.missile_CIC_unit_array^KILLSAT_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^KILLSAT_display_array^i|Y0]"
+RODS_WIN_BUTTON_TT: "[!RODS_type_button_click_enabled]"
+RODS_WIN_BUTTON_TT_delayed: "§YLançamento espacial§!:\nMassa: [?global.sat_mass_stat_array^RODS_display_array^i|Y0] kg\n\n§YCombate§!:\nDano: [?global.RODS_damage_stat_array^RODS_display_array^i|Y0]\n\n§YProduction§!:\nPreço por unidade: $[?global.missile_price_unit_array^RODS_display_array^i|Y4] bilhões\nCivil Industry por unidade: [?global.missile_CIC_unit_array^RODS_display_array^i|Y0]\nDias de produção por unidade : [?global.missile_duration_unit_array^RODS_display_array^i|Y0]"
+ASAT_WIN_BUTTON_TT: "[!ASAT_type_button_click_enabled]"
+ASAT_WIN_BUTTON_TT_delayed: "§YArma anti-satélite§!:\nPrecisão: [?global.ASAT_accuracy_stat_array^ASAT_display_array^i|Y0%]\n\n§YProdução§!:\nPreço por unidade: $[?global.missile_price_unit_array^ASAT_display_array^ i|Y4] bilhões\nCivil Industry por unidade: [?global.missile_CIC_unit_array^ASAT_display_array^i|Y0]\nDias de produção por unidade: [?global.missile_duration_unit_array^ASAT_display_array^i|Y0]"
+
+#############################
+#############################
+### Visualização da órbita dos satélites ###
+#############################
+#############################
+
+SAT_ORBIT_TITLE: "órbita de satélite"
+
+TOTAL_SAT_NUM: "£GFX_Satellite_texticon [total_sat_num_loc]"
+TOTAL_SAT_NUM_TT: "Número total de satélites em órbita."
+#TOTAL_SAT_NUM_TT_DELAYED: "Existe um limite total de 3000 satélites em órbita. Se esse limite for atingido, nenhum novo satélite poderá ser lançado, antes que outros sejam destruídos ou aposentados (Alt Right-Click)."
+TOTAL_SAT_NUM_TT_DELAYED: "Existe um limite total de 3000 satélites em órbita. Se esse limite for atingido, nenhum novo satélite poderá ser lançado, antes que outros sejam destruídos."
+
+# GNSS_SATELLITES -> Satélites GUI
+# GNSS_SATELLITES_TT -> Satélites GUI
+# COM_SATELLITES -> Satélites GUI
+# COM_SATELLITES_TT -> Satélites GUI
+# GNSS_SATELLITES_TT_DELAYED -> Satélites GUI
+# SPY_SATELLITES -> Satélites GUI
+# SPY_SATELLITES_TT -> Satélites GUI
+# SPY_SATELLITES_TT_DELAYED -> Satélites GUI
+
+GNSS_SATELLITES_ORBIT: "£GFX_GNSS_satellite_texticon [GNSS_sat_total]"
+GNSS_SATELLITES_ORBIT_TT: "§Y[GNSS1_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT0_loc]\n§Y[GNSS2_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT1_loc]\n§Y[GNSS3_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT2_loc]\n§Y[GNSS4_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT3_loc]\n§Y[GNSS5_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT4_loc]\n§Y[GNSS6_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT5_loc]\n§Y[GNSS7_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT6_loc]\n§Y[GNSS8_model_sat_orbit_loc]§! [GNSS_SATELLITES_ORBIT_TT7_loc]\n"
+GNSS_sat_total_loc_key: "[?temp_GNSS_total]"
+GNSS_SATELLITES_ORBIT_TT0: "[?temp_GNSS_0]"
+GNSS_SATELLITES_ORBIT_TT1: "[?temp_GNSS_1]"
+GNSS_SATELLITES_ORBIT_TT2: "[?temp_GNSS_2]"
+GNSS_SATELLITES_ORBIT_TT3: "[?temp_GNSS_3]"
+GNSS_SATELLITES_ORBIT_TT4: "[?temp_GNSS_4]"
+GNSS_SATELLITES_ORBIT_TT5: "[?temp_GNSS_5]"
+GNSS_SATELLITES_ORBIT_TT6: "[?temp_GNSS_6]"
+GNSS_SATELLITES_ORBIT_TT7: "[?temp_GNSS_7]"
+
+#GNSS_SATELLITES_ORBIT_TT_DELAYED: "§Y[GNSS1_model_sat_gui_loc]§!: GNSS 5 m\n§Y[GNSS2_model_sat_gui_loc]§!: GNSS 2,5 m\n§Y[GNSS3_model_sat_gui_loc]§!: GNSS 1,5 m\n§Y[GNSS4_model_sat_gui_loc]§! : GNSS 1 m\n§Y[GNSS5_model_sat_gui_loc]§!: GNSS 0,5 m\n§Y[GNSS6_model_sat_gui_loc]§!: GNSS 0,25 m\n§Y[GNSS7_model_sat_gui_loc]§!: GNSS 0,03 m\n§Y[GNSS7_model_sat_gui_loc] §!: GNSS 0,01 m"
+
+COM_SATELLITES_ORBIT: "£GFX_COM_satellite_texticon [COM_sat_total]"
+COM_SATELLITES_ORBIT_TT: "§Y[COMSAT1_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT0_loc]\n§Y[COMSAT2_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT1_loc]\n§Y[COMSAT3_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT2_loc]\n§Y[COMSAT4_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT3_loc]\n§Y[COMSAT5_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT4_loc]\n§Y[COMSAT6_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT5_loc]\n§Y[COMSAT7_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT6_loc]\n§Y[COMSAT8_model_sat_orbit_loc]§! [COM_SATELLITES_ORBIT_TT7_loc]\n"
+COM_sat_total_loc_key: "[?temp_COM_total]"
+COM_SATELLITES_ORBIT_TT0: "[?temp_COM_0]"
+COM_SATELLITES_ORBIT_TT1: "[?temp_COM_1]"
+COM_SATELLITES_ORBIT_TT2: "[?temp_COM_2]"
+COM_SATELLITES_ORBIT_TT3: "[?temp_COM_3]"
+COM_SATELLITES_ORBIT_TT4: "[?temp_COM_4]"
+COM_SATELLITES_ORBIT_TT5: "[?temp_COM_5]"
+COM_SATELLITES_ORBIT_TT6: "[?temp_COM_6]"
+COM_SATELLITES_ORBIT_TT7: "[?temp_COM_7]"
+
+#COM_SATELLITES_ORBIT_TT_DELAYED: "§Y[COMSAT1_model_sat_gui_loc]§!: 56 kbits/s\n§Y[COMSAT2_model_sat_gui_loc]§!: 128 kbits/s\n§Y[COMSAT3_model_sat_gui_loc]§!: 1 Mbit/s\n§Y[COMSAT4_model_guiloc_sat_gui_loc]§ ]§!: 10 Mbit/s\n§Y[COMSAT5_model_sat_gui_loc]§!: 128 Mbit/s\n§Y[COMSAT6_model_sat_gui_loc]§!: 512 Mbit/s\n§Y[COMSAT7_model_sat_gui_loc]§!: 1 Gbit/s \n§Y[COMSAT7_model_sat_gui_loc]§!: 10 Gbit/s"
+
+SPY_SATELLITES_ORBIT: "£GFX_SPY_satellite_texticon [SPY_sat_total]"
+SPY_SATELLITES_ORBIT_TT: "§Y[SPYSAT1_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT0_loc]\n§Y[SPYSAT2_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT1_loc]\n§Y[SPYSAT3_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT2_loc]\n§Y[SPYSAT4_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT3_loc]\n§Y[SPYSAT5_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT4_loc]\n§Y[SPYSAT6_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT5_loc]\n§Y[SPYSAT7_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT6_loc]\n§Y[SPYSAT8_model_sat_orbit_loc]§! [SPY_SATELLITES_ORBIT_TT7_loc]\n"
+SPY_sat_total_loc_key: "[?temp_SPY_total]"
+SPY_SATELLITES_ORBIT_TT0: "[?temp_SPY_0]"
+SPY_SATELLITES_ORBIT_TT1: "[?temp_SPY_1]"
+SPY_SATELLITES_ORBIT_TT2: "[?temp_SPY_2]"
+SPY_SATELLITES_ORBIT_TT3: "[?temp_SPY_3]"
+SPY_SATELLITES_ORBIT_TT4: "[?temp_SPY_4]"
+SPY_SATELLITES_ORBIT_TT5: "[?temp_SPY_5]"
+SPY_SATELLITES_ORBIT_TT6: "[?temp_SPY_6]"
+SPY_SATELLITES_ORBIT_TT7: "[?temp_SPY_7]"
+
+#SPY_SATELLITES_ORBIT_TT_DELAYED: "§Y[SPYSAT1_model_sat_gui_loc]§!: 5 m GSD\n§Y[SPYSAT2_model_sat_gui_loc]§!: 2,5 m GSD\n§Y[SPYSAT3_model_sat_gui_loc]§!: 1,5 m GSD\n§Y[SPYSAT4_model_sat_gui_loc]§! : 1 m GSD\n§Y[SPYSAT5_model_sat_gui_loc]§!: 0,5 m GSD\n§Y[SPYSAT6_model_sat_gui_loc]§!: 0,25 m GSD\n§Y[SPYSAT7_model_sat_gui_loc]§!: 0,03 m GSD\n§Y[SPYSAT7_model_sat_gui_loc] §!: 0,01 m GSD"
+
+
+####
+KILL_SATELLITES_ORBIT: "£GFX_KILL_satellite_texticon [KILL_sat_total]"
+KILL_SATELLITES_ORBIT_TT: "§Y[KILLSAT1_model_sat_orbit_loc]§! [KILL_SATELLITES_ORBIT_TT0_loc]\n§Y[KILLSAT2_model_sat_orbit_loc]§! [KILL_SATELLITES_ORBIT_TT1_loc]\n§Y[KILLSAT3_model_sat_orbit_loc]§! [KILL_SATELLITES_ORBIT_TT2_loc]\n§Y[KILLSAT4_model_sat_orbit_loc]§! [KILL_SATELLITES_ORBIT_TT3_loc]\n§Y[KILLSAT5_model_sat_orbit_loc]§! [KILL_SATELLITES_ORBIT_TT4_loc]\n§Y[KILLSAT6_model_sat_orbit_loc]§! [KILL_SATELLITES_ORBIT_TT5_loc]"
+KILL_sat_total_loc_key: "[?temp_KILL_total]"
+KILL_SATELLITES_ORBIT_TT0: "[?temp_KILL_0]"
+KILL_SATELLITES_ORBIT_TT1: "[?temp_KILL_1]"
+KILL_SATELLITES_ORBIT_TT2: "[?temp_KILL_2]"
+KILL_SATELLITES_ORBIT_TT3: "[?temp_KILL_3]"
+KILL_SATELLITES_ORBIT_TT4: "[?temp_KILL_4]"
+KILL_SATELLITES_ORBIT_TT5: "[?temp_KILL_5]"
+
+#KILL_SATELLITES_ORBIT_TT_DELAYED: "§Y[KILLSAT1_model_sat_gui_loc]§!: KILL 5 m\n§Y[KILLSAT2_model_sat_gui_loc]§!: KILLSAT 2,5 m\n§Y[KILLSAT3_model_sat_gui_loc]§!: KILLSAT 1,5 m\n§Y[KILLSAT4_gui_model_sat]§! : KILL 1 m\n§Y[KILLSAT5_model_sat_gui_loc]§!: KILL 0,5 m\n§Y[KILLSAT6_model_sat_gui_loc]§!: KILL 0,5 m"
+
+RODS_SATELLITES_ORBIT: "£GFX_RODS_satellite_texticon [RODS_sat_total]"
+RODS_SATELLITES_ORBIT_TT: "§Y[RODS1_model_sat_orbit_loc]§! [RODS_SATELLITES_ORBIT_TT0_loc]\n§Y[RODS2_model_sat_orbit_loc]§! [RODS_SATELLITES_ORBIT_TT1_loc]\n§Y[RODS3_model_sat_orbit_loc]§! [RODS_SATELLITES_ORBIT_TT1_loc]\n§Y[RODS3_model_sat_orbit_loc]§!
+RODS_sat_total_loc_key: "[?temp_RODS_total]"
+RODS_SATELLITES_ORBIT_TT0: "[?temp_RODS_0]"
+RODS_SATELLITES_ORBIT_TT1: "[?temp_RODS_1]"
+RODS_SATELLITES_ORBIT_TT2: "[?temp_RODS_2]"
+#RODS_SATELLITES_ORBIT_TT3: "[?temp3]"
+
+#RODS_SATELLITES_ORBIT_TT_DELAYED: "§Y[RODS1_model_sat_gui_loc]§!: HASTES 5 m\n§Y[RODS2_model_sat_gui_loc]§!: HASTES 2,5 m\n§Y[HAD3_model_sat_gui_loc]§!: HASTES 1,5 m"
+
+
+SELECTED_SAT: "§gSatélite selecionado§!\n£GFX_sat_amount_texticon [?var_selected_sat]\n[selected_sat_type_loc]"
+
+ADD_TARGET_TT: "Adicionar satélite selecionado à lista de alvos."
+CLEAR_TARGET_TT: "Limpe a lista de alvos."
+
+SAT_TARGET_HEADER: "[ROOT.GetFlag] §OAlvos:§! [?ROOT.sat_target_array^num]"
+TARGET_SAT: "[?ROOT.sat_target_TAG_array^i.GetFlag]£GFX_sat_amount_texticon [?ROOT.sat_target_array^i] [target_sat_type_icon_loc]\n"
+TARGET_SAT_TT: "[?ROOT.sat_target_TAG_array^i.GetFlag]£GFX_sat_amount_texticon [?ROOT.sat_target_array^i] [target_sat_type_name_loc]"
+#[TARGET_SAT_TAG_loc]
+TARGET_SAT_ID_loc_key: "[?temp_target_TAG.ROOT]"
+SPY_HEADER: "[ROOT.GetFlag] £GFX_spy_texticon §YMissões§!\n£GFX_SPY_satellite_texticon [?var_SPY_mission_num_available|C0]/[?var_SPY_mission_num_total|C0]\n£GFX_SPY_satellite_texticon §gin £GFX_spy_texticon missions:§! [?var_SPY_sat|C0] n"
+SPY_HEADER_TT: "£GFX_SPY_satellite_texticon §Gdisponível§!/§Ytotal§!"
+SPY_MISSION_START_BUTTON: "[?var_SPY_mission_num_gui]x £GFX_SPY_satellite_texticon £GFX_spy_texticon Missão [?orbit_selected_TAG.GetFlag]"
+#SPY_MISSION_START_BUTTON: "[spy_mission_num_states_loc]x £GFX_SPY_satellite_texticon £GFX_spy_texticon Missão [?orbit_selected_TAG.GetFlag]"
+#spy_mission_num_states_loc_key: "[?temp_spy_mission_num_states]"
+SPY_MISSION_START_BUTTON_TT: "[!spy_mission_start_button_click_enabled]\n§Y[ROOT.GetNameWithFlag]§! obtém informações sobre §Y[?orbit_selected_TAG.GetNameWithFlag]§!:\n§gInteligência Civil§!: §C[?ROOT.var_SPY_mission_intel_add]%§!\n§gInteligência do Exército§!: §C[?ROOT.var_SPY_mission_intel_add]%§!\n§gInteligência da Marinha§!: §C[?ROOT.var_SPY_mission_intel_add]%§!\n§gInteligência Aérea§!: §C[?ROOT.var_SPY_mission_intel_add]%§!"
+spy_mission_start_button_trigger_1_TT: "§Y[ROOT.GetNameWithFlag]§! tem §gNOT§! uma missão de espionagem ativa em §Y[?orbit_selected_TAG.GetNameWithFlag]§!"
+spy_mission_start_button_trigger_2_TT: "O número de £GFX_SPY_satellite_texticon disponíveis ([?var_SPY_mission_num_available|C0]) é maior ou igual ao número de £GFX_SPY_satellite_texticon ([?ROOT.var_SPY_mission_num_gui|C0]) planejado para esta missão."
+SPY_MISSION_START_BUTTON_delayed_TT: "O número de £GFX_SPY_satellite_texticon atual fornece uma cobertura de [?ROOT.var_SPY_mission_intel_ratio|G0%] do país de destino e adicionará [?ROOT.var_SPY_mission_intel_add]% Intel."
+SAT_MISSION_HEADER: "§CMissões:§!"
+SPY_MISSION_BUTTON: "[?ROOT.spy_mission_sat_num_array^i]x £GFX_SPY_satellite_texticon £GFX_spy_texticon Missão [?ROOT.spy_mission_array^i.GetFlag]"
+SPY_MISSION_BUTTON_TT: "Ativar em §Ydecisões§!"
+#"[spy_mission_num_loc]x £GFX_SPY_satellite_texticon £GFX_spy_texticon Missão [spy_mission_TAG_loc]"
+#
+#spy_mission_num_loc_key: "[?temp_spy_mission_sat_num]"
+#spy_mission_TAG_loc_key: "[?temp_spy_mission_TAG.GetFlag]"
+
+
+# SAT_1_TT: "£GFX_sat_amount_texticon [?sat_1_array^i] [sat_1_type_TT_loc]"
+# SAT_2_TT: "£GFX_sat_amount_texticon [?sat_2_array^i] [sat_2_type_TT_loc]"
+# SAT_3_TT: "£GFX_sat_amount_texticon [?sat_3_array^i] [sat_3_type_TT_loc]"
+# SAT_4_TT: "£GFX_sat_amount_texticon [?sat_4_array^i] [sat_4_type_TT_loc]"
+# SAT_5_TT: "£GFX_sat_amount_texticon [?sat_5_array^i] [sat_5_type_TT_loc]"
+# SAT_6_TT: "£GFX_sat_amount_texticon [?sat_6_array^i] [sat_6_type_TT_loc]"
+
+SAT_1_TT: "£GFX_sat_amount_texticon [sat_1_ID_TT_loc] [sat_1_type_TT_loc]"
+SAT_2_TT: "£GFX_sat_amount_texticon [sat_2_ID_TT_loc] [sat_2_type_TT_loc]"
+SAT_3_TT: "£GFX_sat_amount_texticon [sat_3_ID_TT_loc] [sat_3_type_TT_loc]"
+SAT_4_TT: "£GFX_sat_amount_texticon [sat_4_ID_TT_loc] [sat_4_type_TT_loc]"
+SAT_5_TT: "£GFX_sat_amount_texticon [sat_5_ID_TT_loc] [sat_5_type_TT_loc]"
+SAT_6_TT: "£GFX_sat_amount_texticon [sat_6_ID_TT_loc] [sat_6_type_TT_loc]"
+
+temp_sat_ID_loc_key: "[?temp_sat_ID]"
+
+SAT_TT_DELAYED: "£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§!: adicionar à lista de alvos."
+#"Clique Ctrl: adicione à lista de alvos\nAlt Clique com o botão direito: retire (próprio) satélite."
+
+LAUNCH_STATS: "[?orbit_selected_TAG.GetFlag] §CLançamentos Orbitais:§!\nLançamentos Orbitais Totais: [orbital_launch_total_loc]\nLançamentos Orbitais Bem-sucedidos: [orbital_launch_success_loc]\nFalha no Lançamento Orbital: [orbital_launch_fail_loc]"
+orbital_launch_total_loc_key: "[?temp_orbital_launch_total]"
+orbital_launch_success_loc_key: "[?temp_orbital_launch_success]"
+orbital_launch_fail_loc_key: "[?temp_orbital_launch_fail]"
+PAYLOADS_DELIVERED: "[?orbit_selected_TAG.GetFlag] §GCargas entregues:§!\nSatélites: [sat_payload_delivered_loc]\nCarga útil para fins especiais: [spp_payload_delivered_loc]"
+sat_payload_delivered_loc_key: "[?temp_sat_payload_delivered]"
+spp_payload_delivered_loc_key: "[?temp_spp_payload_delivered]"
+PAYLOADS_LOST: "[?orbit_selected_TAG.GetFlag] §RPayloads perdidos:§!\nSatélites: [sat_payload_lost_loc]\nCarga útil de finalidade especial: [spp_payload_lost_loc]"
+sat_payload_lost_loc_key: "[?temp_sat_payload_lost]"
+spp_payload_lost_loc_key: "[?temp_spp_payload_lost]"
+ANTI_SAT_WEAPON_STATS: "§CArmas anti-satélite:§!\n[ROOT.GetFlag] Acerto da arma anti-satélite: [?var_sat_hit]\n[ROOT.GetFlag] Erro da arma anti-satélite: [?var_sat_miss]\n[?orbit_selected_TAG.GetFlag] Satélites perdidos: [sat_lost_loc]"
+#ANTI_SAT_HIT: "[ROOT.GetFlag] Ataque de arma anti-satélite: [?var_sat_hit]\n"
+#ANTI_SAT_MISS: "[ROOT.GetFlag] Falha na arma anti-satélite: [?var_sat_miss]"
+#DESTROYED_SAT: "[?orbit_selected_TAG.GetFlag] Satélites perdidos: [sat_lost_loc]"
+sat_lost_loc_key: "[?temp_sat_lost_loc]"
+
+GNSS1_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS1_model_sat_orbit_loc]§!"
+GNSS2_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS2_model_sat_orbit_loc]§!"
+GNSS3_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS3_model_sat_orbit_loc]§!"
+GNSS4_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS4_model_sat_orbit_loc]§!"
+GNSS5_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS5_model_sat_orbit_loc]§!"
+GNSS6_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS6_model_sat_orbit_loc]§!"
+GNSS7_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS7_model_sat_orbit_loc]§!"
+GNSS8_selected_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS8_model_sat_orbit_loc]§!"
+COMSAT1_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT1_model_sat_orbit_loc]§!"
+COMSAT2_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT2_model_sat_orbit_loc]§!"
+COMSAT3_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT3_model_sat_orbit_loc]§!"
+COMSAT4_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT4_model_sat_orbit_loc]§!"
+COMSAT5_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT5_model_sat_orbit_loc]§!"
+COMSAT6_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT6_model_sat_orbit_loc]§!"
+COMSAT7_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT7_model_sat_orbit_loc]§!"
+COMSAT8_selected_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT8_model_sat_orbit_loc]§!"
+SPYSAT1_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT1_model_sat_orbit_loc]§!"
+SPYSAT2_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT2_model_sat_orbit_loc]§!"
+SPYSAT3_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT3_model_sat_orbit_loc]§!"
+SPYSAT4_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT4_model_sat_orbit_loc]§!"
+SPYSAT5_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT5_model_sat_orbit_loc]§!"
+SPYSAT6_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT6_model_sat_orbit_loc]§!"
+SPYSAT7_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT7_model_sat_orbit_loc]§!"
+SPYSAT8_selected_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT8_model_sat_orbit_loc]§!"
+KILLSAT1_selected_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT1_model_sat_orbit_loc]§!"
+KILLSAT2_selected_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT2_model_sat_orbit_loc]§!"
+KILLSAT3_selected_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT3_model_sat_orbit_loc]§!"
+KILLSAT4_selected_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT4_model_sat_orbit_loc]§!"
+KILLSAT5_selected_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT5_model_sat_orbit_loc]§!"
+KILLSAT6_selected_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT6_model_sat_orbit_loc]§!"
+RODS1_selected_sat_type_loc_key: "£GFX_RODS_satellite_texticon §Y[RODS1_model_sat_orbit_loc]§!"
+RODS2_selected_sat_type_loc_key: "£GFX_RODS_satellite_texticon §Y[RODS2_model_sat_orbit_loc]§!"
+RODS3_selected_sat_type_loc_key: "£GFX_RODS_satellite_texticon §Y[RODS3_model_sat_orbit_loc]§!"
+
+### matriz de destino sat
+GNSS1_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS1_model_sat_orbit_target_loc]§!"
+GNSS2_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS2_model_sat_orbit_target_loc]§!"
+GNSS3_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS3_model_sat_orbit_target_loc]§!"
+GNSS4_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS4_model_sat_orbit_target_loc]§!"
+GNSS5_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS5_model_sat_orbit_target_loc]§!"
+GNSS6_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS6_model_sat_orbit_target_loc]§!"
+GNSS7_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS7_model_sat_orbit_target_loc]§!"
+GNSS8_target_sat_type_loc_key: "£GFX_GNSS_satellite_texticon §Y[GNSS8_model_sat_orbit_target_loc]§!"
+COMSAT1_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT1_model_sat_orbit_target_loc]§!"
+COMSAT2_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT2_model_sat_orbit_target_loc]§!"
+COMSAT3_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT3_model_sat_orbit_target_loc]§!"
+COMSAT4_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT4_model_sat_orbit_target_loc]§!"
+COMSAT5_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT5_model_sat_orbit_target_loc]§!"
+COMSAT6_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT6_model_sat_orbit_target_loc]§!"
+COMSAT7_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT7_model_sat_orbit_target_loc]§!"
+COMSAT8_target_sat_type_loc_key: "£GFX_COM_satellite_texticon §Y[COMSAT8_model_sat_orbit_target_loc]§!"
+SPYSAT1_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT1_model_sat_orbit_target_loc]§!"
+SPYSAT2_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT2_model_sat_orbit_target_loc]§!"
+SPYSAT3_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT3_model_sat_orbit_target_loc]§!"
+SPYSAT4_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT4_model_sat_orbit_target_loc]§!"
+SPYSAT5_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT5_model_sat_orbit_target_loc]§!"
+SPYSAT6_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT6_model_sat_orbit_target_loc]§!"
+SPYSAT7_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT7_model_sat_orbit_target_loc]§!"
+SPYSAT8_target_sat_type_loc_key: "£GFX_SPY_satellite_texticon §Y[SPYSAT8_model_sat_orbit_target_loc]§!"
+KILLSAT1_target_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT1_model_sat_orbit_target_loc]§!"
+KILLSAT2_target_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT2_model_sat_orbit_target_loc]§!"
+KILLSAT3_target_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT3_model_sat_orbit_target_loc]§!"
+KILLSAT4_target_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT4_model_sat_orbit_target_loc]§!"
+KILLSAT5_target_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT5_model_sat_orbit_target_loc]§!"
+KILLSAT6_target_sat_type_loc_key: "£GFX_KILL_satellite_texticon §Y[KILLSAT6_model_sat_orbit_target_loc]§!"
+RODS1_target_sat_type_loc_key: "£GFX_RODS_satellite_texticon §Y[RODS1_model_sat_orbit_target_loc]§!"
+RODS2_target_sat_type_loc_key: "£GFX_RODS_satellite_texticon §Y[RODS2_model_sat_orbit_target_loc]§!"
+RODS3_target_sat_type_loc_key: "£GFX_RODS_satellite_texticon §Y[RODS3_model_sat_orbit_target_loc]§!"
+
+GNSS_target_sat_type_icon_loc_key: "£GFX_GNSS_satellite_texticon"
+COM_target_sat_type_icon_loc_key: "£GFX_COM_satellite_texticon"
+SPY_target_sat_type_icon_loc_key: "£GFX_SPY_satellite_texticon"
+KILL_target_sat_type_icon_loc_key: "£GFX_KILL_satellite_texticon"
+RODS_target_sat_type_icon_loc_key: "£GFX_RODS_satellite_texticon"
+
+### recipiente certo ###
+SAT_ACCESS: "§YAcesso Via Satélite§!"
+GNSS_MIL_ACCESS: "£GFX_GNSS_satellite_texticon §YGNSS Militar§!"
+GNSS_CIV_ACCESS: "£GFX_GNSS_satellite_texticon §YGNSS§ Civil!"
+COM_MIL_ACCESS: "£GFX_COM_satellite_texticon §YCOM Militar§!"
+COM_CIV_ACCESS: "£GFX_COM_satellite_texticon §YCOM Civil§!"
+SPY_MIL_ACCESS: "£GFX_SPY_satellite_texticon §YSPY Militar§!"
+SPY_CIV_ACCESS: "£GFX_SPY_satellite_texticon §YSPY Civil§!"
+SELECTED_TAG_GNSS_MIL_ACCESS_TT: "§Y[?orbit_selected_TAG.GetNameWithFlag]§! tem acesso ao §YSistema Global de Navegação Militar por Satélite§! deste país."
+SELECTED_TAG_GNSS_CIV_ACCESS_TT: "§Y[?orbit_selected_TAG.GetNameWithFlag]§! tem acesso ao §YSistema Global de Satélite de Navegação Civil§! deste país."
+SELECTED_TAG_COM_MIL_ACCESS_TT: "§Y[?orbit_selected_TAG.GetNameWithFlag]§! tem acesso ao §YSistema Militar de Comunicação por Satélite§! deste país."
+SELECTED_TAG_COM_CIV_ACCESS_TT: "§Y[?orbit_selected_TAG.GetNameWithFlag]§! tem acesso ao §YSistema de Comunicação por Satélite Civil§! deste país."
+SELECTED_TAG_SPY_MIL_ACCESS_TT: "§Y[?orbit_selected_TAG.GetNameWithFlag]§! tem acesso ao §YSistema de Reconhecimento Militar por Satélite§! deste país."
+SELECTED_TAG_SPY_CIV_ACCESS_TT: "§Y[?orbit_selected_TAG.GetNameWithFlag]§! tem acesso ao §YSistema de Satélite de Reconhecimento Civil§! deste país."
+SELECTED_TAG_GNSS_MIL_ACCESS_TT_DELAYED: "Clique para selecionar este país."
+SELECTED_TAG_GNSS_CIV_ACCESS_TT_DELAYED: "Clique para selecionar este país."
+SELECTED_TAG_COM_MIL_ACCESS_TT_DELAYED: "Clique para selecionar este país."
+SELECTED_TAG_COM_CIV_ACCESS_TT_DELAYED: "Clique para selecionar este país."
+SELECTED_TAG_SPY_MIL_ACCESS_TT_DELAYED: "Clique para selecionar este país."
+SELECTED_TAG_SPY_CIV_ACCESS_TT_DELAYED: "Clique para selecionar este país."
+
+######################
+######################
+### GUI de satélites ###
+######################
+######################
+
+MILITARY_SATELLITES: "Satélites militares"
+CIVIL_SATELLITES: "Satélites Civis"
+GNSS_HEADER: "Sistema Global de Navegação por Satélite"
+COM_HEADER: "Sistema de comunicação por satélite"
+SPY_HEADER: "Sistema de reconhecimento por satélite"
+CHOOSE_SATELLITE_SYSTEM: "Escolha o sistema de satélite"
+
+GNSS_SATELLITES: "£GFX_GNSS_satellite_texticon [?var_GNSS_sat_total]"
+GNSS_SATELLITES_TT: "§Y[GNSS1_model_sat_gui_loc]§! [?GNSS_satellite_array^0]\n§Y[GNSS2_model_sat_gui_loc]§! [?GNSS_satellite_array^1]\n§Y[GNSS3_model_sat_gui_loc]§! [?GNSS_satellite_array^2]\n§Y [GNSS4_model_sat_gui_loc]§! [?GNSS_satellite_array^3]\n§Y[GNSS5_model_sat_gui_loc]§! [?GNSS_satellite_array^4]\n§Y[GNSS6_model_sat_gui_loc]§! [?GNSS_satellite_array^5]\n§Y[GNSS7_model_sat_gui_loc]§! [?GNSS_satellite_array^6]\n§Y[GNSS8_model_sat_gui_loc]§! [?GNSS_satellite_array^7]\n"
+GNSS_SATELLITES_TT_DELAYED: "§Y[GNSS1_model_sat_gui_loc]§!: GNSS 5 m\n§Y[GNSS2_model_sat_gui_loc]§!: GNSS 2,5 m\n§Y[GNSS3_model_sat_gui_loc]§!: GNSS 1,5 m\n§Y[GNSS4_model_sat_gui_loc]§!: GNSS 1 m\n§Y[GNSS5_model_sat_gui_loc]§!: GNSS 0,5 m\n§Y[GNSS6_model_sat_gui_loc]§!: GNSS 0,25 m\n§Y[GNSS7_model_sat_gui_loc]§!: GNSS 0,03 m\n§Y[GNSS7_model_sat_gui_loc]§ !: GNSS 0,01m"
+
+COM_SATELLITES: "£GFX_COM_satellite_texticon  [?var_COM_sat_total]"
+COM_SATELLITES_TT: "§Y[COMSAT1_model_sat_gui_loc]§! [?COM_satellite_array^0]\n§Y[COMSAT2_model_sat_gui_loc]§! [?COM_satellite_array^1]\n§Y[COMSAT3_model_sat_gui_loc]§! [?COM_satellite_array^2]\n§Y [COMSAT4_model_sat_gui_loc]§! [?COM_satellite_array^3]\n§Y[COMSAT5_model_sat_gui_loc]§! [?COM_satellite_array^4]\n§Y[COMSAT6_model_sat_gui_loc]§! [?COM_satellite_array^5]\n§Y[COMSAT7_model_sat_gui_loc]§! [?COM_satellite_array^6]\n§Y[COMSAT8_model_sat_gui_loc]§! [?COM_satellite_array^7]\n"
+COM_SATELLITES_TT_DELAYED: "§YNome§!: Sistema de Satélite - §Capacidade do receptor/satélite§!\n§Y[COMSAT1_model_sat_gui_loc]§!: 56 kbits/s - [?COM_sat_receiver_tech_array^0|C0]\n§Y[COMSAT2_model_sat_gui_loc]§! : 128 kbits/s - [?COM_sat_receiver_tech_array^1|C0]\n§Y[COMSAT3_model_sat_gui_loc]§!: 1 Mbit/s - [?COM_sat_receiver_tech_array^2|C0]\n§Y[COMSAT4_model_sat_gui_loc]§!: 10 Mbit/ s - [?COM_sat_receiver_tech_array^3|C0]\n§Y[COMSAT5_model_sat_gui_loc]§!: 128 Mbit/s - [?COM_sat_receiver_tech_array^4|C0]\n§Y[COMSAT6_model_sat_gui_loc]§!: 512 Mbit/s - [? COM_sat_receiver_tech_array^5|C0]\n§Y[COMSAT7_model_sat_gui_loc]§!: 1 Gbit/s - [?COM_sat_receiver_tech_array^6|C0]\n§Y[COMSAT7_model_sat_gui_loc]§!: 10 Gbit/s - [?COM_sat_receiver_tech_array^7| C0]"
+
+SPY_SATELLITES: "£GFX_SPY_satellite_texticon [?var_SPY_sat_total]"
+SPY_SATELLITES_TT: "§Y[SPYSAT1_model_sat_gui_loc]§! [?SPY_satellite_array^0]\n§Y[SPYSAT2_model_sat_gui_loc]§! [?SPY_satellite_array^1]\n§Y[SPYSAT3_model_sat_gui_loc]§! [?SPY_satellite_array^2]\n§Y [SPYSAT4_model_sat_gui_loc]§! [?SPY_satellite_array^3]\n§Y[SPYSAT5_model_sat_gui_loc]§! [?SPY_satellite_array^4]\n§Y[SPYSAT6_model_sat_gui_loc]§! [?SPY_satellite_array^5]\n§Y[SPYSAT7_model_sat_gui_loc]§! [?SPY_satellite_array^6]\n§Y[SPYSAT8_model_sat_gui_loc]§! [?SPY_satellite_array^7]\n"
+SPY_SATELLITES_TT_DELAYED: "§Y[SPYSAT1_model_sat_gui_loc]§!: 5 m GSD\n§Y[SPYSAT2_model_sat_gui_loc]§!: 2,5 m GSD\n§Y[SPYSAT3_model_sat_gui_loc]§!: 1,5 m GSD\n§Y[SPYSAT4_model_sat_gui_loc]§! 1 m GSD\n§Y[SPYSAT5_model_sat_gui_loc]§!: 0,5 m GSD\n§Y[SPYSAT6_model_sat_gui_loc]§!: 0,25 m GSD\n§Y[SPYSAT7_model_sat_gui_loc]§!: 0,03 m GSD\n§Y[SPYSAT7_model_sat_gui_loc]§ !: 0,01m GSD"
+
+GNSS_MIL_STATS: "[GNSS_mil_level_gui]\n£GFX_GNSS_satellite_texticon  [?var_GNSS_mil_sat_system_num]\n£GFX_satellite_coverage_texticon  [?var_GNSS_mil_coverage|G1%]\nSBAS\n£GFX_GNSS_satellite_texticon  [?var_GNSS_mil_SBAS_num]\n£GFX_satellite_coverage_texticon  [?var_GNSS_mil_SBAS_bonus|G0=%]\n\n£GFX_satellite_bonus_texticon [?var_GNSS_mil_sat_system_bonus|G1%]"
+GNSS_MIL_STATS_TT: "£GFX_GNSS_satellite_texticon Número de §Y[GNSS_mil_level_gui]§! satélites conectados ao sistema.\n£GFX_satellite_coverage_texticon Cobertura global do sistema.\nSBAS £GFX_satellite_coverage_texticon Cobertura adicional através de SBAS.\n£GFX_satellite_bonus_texticon Bônus do sistema."
+GNSS_MIL_STATS_TT_DELAYED: "£GFX_satellite_coverage_texticon §YCobertura global§!: proporção de §Y[GNSS_mil_level_gui]§! conectado ao máximo de satélites possíveis neste nível de sistema.\n§YSBAS§! - §YSatélite baseado em aumento do sistema§!: A cada £GFX_GNSS_satellite_texticon não conectado ao sistema militar ou civil adiciona um bônus de §G1%§! Eficiência da Missão\nBombardeio Estratégico\nPosicionamento\nChance de Acerto Naval§!\ndo §gSistema Global de Navegação por Satélite§!. O bônus é limitado pelo valor máximo do sistema."
+GNSS_MIL_TREATY_TT: "Acesso concedido ao nosso sistema"
+GNSS_MIL_ACCESS_TT: "Acesso ao sistema de satélite destes países"
+
+GNSS_CIV_STATS: "[GNSS_civ_level_gui]\n[?var_GNSS_civ_sat_system_num] £GFX_GNSS_satellite_texticon \n[?var_GNSS_civ_coverage|G1%] £GFX_satellite_coverage_texticon \nSBAS\n[?var_GNSS_civ_SBAS_num]  £GFX_GNSS_satellite_texticon \n[?var_GNSS_civ_SBAS_bonus|G0=%]  £GFX_satellite_coverage_texticon \n\n[?var_GNSS_civ_sat_system_bonus|G1%] £GFX_satellite_bonus_texticon"
+GNSS_CIV_STATS_TT: "£GFX_GNSS_satellite_texticon Número de §Y[GNSS_civ_level_gui]§! satélites conectados ao sistema.\n£GFX_satellite_coverage_texticon Cobertura global do sistema.\nSBAS £GFX_satellite_coverage_texticon Cobertura adicional através de SBAS.\n£GFX_satellite_bonus_texticon Bônus do sistema."
+GNSS_CIV_STATS_TT_DELAYED: "£GFX_satellite_coverage_texticon §YCobertura global§!: proporção de §Y[GNSS_mil_level_gui]§! conectado ao máximo de satélites possíveis neste nível de sistema.\n§YSBAS§! - §YSatélite baseado em aumento do sistema§!: A cada £GFX_GNSS_satellite_texticon não conectado ao sistema militar ou civil adiciona um bônus de §G1%§! Eficiência§!\ndo §gSistema Global de Navegação por Satélite§!. O bônus é limitado pelo valor máximo do sistema."
+GNSS_CIV_TREATY_TT: "Acesso concedido ao nosso sistema"
+GNSS_CIV_ACCESS_TT: "Acesso ao sistema de satélite destes países"
+
+COM_MIL_STATS: "[COM_mil_level_gui]\n£GFX_COM_satellite_texticon  [?var_COM_mil_sat_system_num] \n£GFX_satellite_coverage_texticon  [?var_COM_mil_coverage|G%]\n\n£GFX_sat_network_traffic_texticon  [sat_network_traffic_mil]\n\n£GFX_satellite_bonus_texticon  [?var_COM_mil_sat_system_bonus|G1%]"
+COM_MIL_STATS_TT: "£GFX_COM_satellite_texticon Número de §Y[COM_mil_level_gui]§! satélites conectados ao sistema.\n£GFX_satellite_coverage_texticon Cobertura global do sistema.\n£GFX_sat_network_traffic_texticon Tráfego de rede:\n§YCapacidade do receptor militar§!: [?var_COM_mil_receiver_cap| C]\n§Ytotal de receptores§!: [?var_COM_mil_receiver_num|O]\n§YBatalhões§!: [?num_battalions]\n§YShips§!: [?num_ships]\n§YPlanes§!: [?num_deployed_planes]\n§Yde outros (acesso concedido)§!: [?var_treaty_COM_mil_receiver_num]\n£GFX_satellite_bonus_texticon Bônus do sistema."
+#COM_MIL_STATS_TT_DELAYED: "£GFX_satellite_coverage_texticon §YCobertura global§!: relação de §Y[COM_mil_level_gui]§! conectado ao máximo de satélites possíveis neste nível de sistema.\n£GFX_sat_network_traffic_texticon §YTráfego de rede§!: relação de receptores ativos para o total número de receptores que o sistema pode manipular sem limitações (todos os £GFX_COM_satellite_texticon do nível do sistema e acima são contados com sua capacidade de receptor e distribuídos para o sistema militar e civil). Se o limite for atingido, cada ponto acima de §R100%§! bônus em §R1%§!. Cada §Ybattalion§!, §Yship§! e §Yplane§! tem um receptor §Y1§!. Se outros países tiverem acesso ao sistema de satélite, seus receptores também serão adicionados.\n£GFX_satellite_bonus_texticon §YSystem bonus§!: a proporção §Gbônus§! para\n§YDivision Organization\nPlanning Speed\nMaximum Command Power\nEscolt Efficiency\nIntercept Mission Efficiency\nFleet Coordination§!\nof the §gSatellite Communication System§!. nós é limitado pelo max. valor do sistema”.
+COM_MIL_STATS_TT_DELAYED: "£GFX_satellite_coverage_texticon §YCobertura global§!: proporção de §Y[COM_mil_level_gui]§! conectado ao máximo de satélites possíveis neste nível de sistema.\n£GFX_sat_network_traffic_texticon §YTráfego de rede§!: a proporção de receptores ativos para o número total de receptores que o sistema pode manipular sem limitações (todos os £GFX_COM_satellite_texticon do nível do sistema e acima são contados com sua capacidade de receptor). Se o limite for atingido, cada ponto acima de §R100%§! reduz o bônus em §R1%§!. Cada §Ybattalion§!, §Yship§! e §Yplane§! implantado tem receptor §Y1§!. Se outros países tiverem acesso ao sistema de satélite, seus receptores também serão adicionados.\n£GFX_satellite_bonus_texticon §YSystem bonus§!: o §Gbonus §! proporção para\n§YDivision Organization\nPlanning Speed\nMaximum Command Power\nEscolt Efficiency\nIntercept Mission Efficiency\nFleet Coordination§!\ndo §gSatélite Communication System§!. O bônus é limitado pelo valor máximo do sistema ."
+COM_MIL_TREATY_TT: "Acesso concedido ao nosso sistema"
+COM_MIL_ACCESS_TT: "Acesso ao sistema de satélite desses países"
+
+sat_network_traffic_mil_R: "[?var_sat_network_traffic_mil|R0%]"
+sat_network_traffic_mil_G: "[?var_sat_network_traffic_mil|G0%]"
+### receptores
+### 1 batalhão = 1 receptor
+### 1 navio = 1 receptor
+### 1 aviões = 1 receptor
+
+COM_CIV_STATS: "[COM_civ_level_gui]\n[?var_COM_civ_sat_system_num] £GFX_COM_satellite_texticon \n[?var_COM_civ_coverage|G%] £GFX_satellite_coverage_texticon \n\n[sat_network_traffic_civ] £GFX_sat_network_traffic_texticon \n\n[?var_COM_civ_sat_system_bonus|G1%]  £GFX_satellite_bonus_texticon"
+COM_CIV_STATS_TT: "£GFX_COM_satellite_texticon Número de §Y[COM_civ_level_gui]§! satélites conectados ao sistema.\n£GFX_satellite_coverage_texticon Cobertura global do sistema.\n£GFX_sat_network_traffic_texticon Tráfego de rede:\n§YCapacidade do receptor civil§!: [?var_COM_civ_receiver_cap| C]\n§YTotal de Receptores§!: [?var_COM_civ_receiver_num|O]\n§YEstados§!: [?num_controlados_estados]\n§Yde outros (acesso concedido)§!: [?var_treaty_COM_civ_receiver_num]\n£GFX_satellite_bonus_texticon Bônus do sistema. "
+#COM_CIV_STATS_TT_DELAYED: "£GFX_satellite_coverage_texticon §YCobertura global§!: proporção de §Y[COM_civ_level_gui]§! conectado ao máximo de satélites possíveis neste nível de sistema.\n£GFX_sat_network_traffic_texticon §YTráfego de rede§!: a proporção de receptores ativos para o total número de receptores que o sistema pode manipular sem limitações (todos os £GFX_COM_satellite_texticon do nível do sistema e acima são contados com sua capacidade de receptor e distribuídos para o sistema militar e civil). Se o limite for atingido, cada ponto acima de §R100%§! bônus em §R1%§!. Cada §Ystate§! proporção para\n§Ganho de poder político\nCriptografia\nDescriptografia\nFator de ganho de força da rede Intel\nEficácia da operação§!\ndo §gSistema de comunicação por satélite§!. O bônus é limitado pelo valor máximo do sistema."
+COM_CIV_STATS_TT_DELAYED: "£GFX_satellite_coverage_texticon §YCobertura global§!: proporção de §Y[COM_civ_level_gui]§! conectado ao máximo de satélites possíveis neste nível de sistema.\n£GFX_sat_network_traffic_texticon §YTráfego de rede§!: a proporção de receptores ativos para o número total de receptores que o sistema pode manipular sem limitações (todos os £GFX_COM_satellite_texticon do nível do sistema e acima são contados com sua capacidade de receptor). Se o limite for atingido, cada ponto acima de §R100%§! reduz o bônus em §R1%§!. Cada §Ystate§! nCriptografia\nDecriptografia\nFator de ganho de força da rede Intel\nEficácia operacional§!\ndo §gSistema de comunicação por satélite§!. O bônus é limitado pelo valor máximo do sistema."
+COM_CIV_TREATY_TT: "Acesso concedido ao nosso sistema"
+COM_CIV_ACCESS_TT: "Acesso ao sistema de satélite destes países"
+
+sat_network_traffic_civ_R: "[?var_sat_network_traffic_civ|R0%]"
+sat_network_traffic_civ_G: "[?var_sat_network_traffic_civ|G0%]"
+### receptores
+### 1 estado = 100 receptores
+
+
+SPY_MIL_STATS: "[SPY_mil_level_gui]\n£GFX_SPY_satellite_texticon  [?var_SPY_mil_sat_system_num]\n£GFX_satellite_coverage_texticon  [?var_SPY_mil_coverage|G%]\n£GFX_spy_texticon Mission\n£GFX_SPY_satellite_texticon  [?var_SPY_mission_num_total]\n\n£GFX_satellite_bonus_texticon  [?var_SPY_mil_sat_system_bonus|G1% ]"
+SPY_MIL_STATS_TT: "£GFX_SPY_satellite_texticon Número de §Y[SPY_mil_level_gui]§! satélites conectados ao sistema.\n£GFX_satellite_coverage_texticon Cobertura global do sistema.\n£GFX_spy_texticon Missão: Número de £GFX_SPY_satellite_texticon disponíveis para §YMissões de espionagem§!.\n £GFX_satellite_bonus_texticon Bônus do sistema."
+SPY_MIL_STATS_TT_DELAYED: "§YGSD§! - §YDistância de amostra de solo§!: GSD é a distância entre os centros dos pixels medidos no solo. Por exemplo, em uma imagem com um GSD de um metro, os locais de imagem dos pixels adjacentes estão separados por 1 metro no chão.\n£GFX_satellite_coverage_texticon §YCobertura global§!: proporção de §Y[SPY_mil_level_gui]§! conectado ao máximo de satélites possíveis neste nível de sistema.\n£GFX_spy_texticon Missão: Cada £GFX_SPY_satellite_texticon não conectado ao sistema militar ou civil é disponível para §YMissões de espionagem§!.\n£GFX_satellite_bonus_texticon §YBônus do sistema§!: a proporção §Gbônus§! \no do §gSistema de Satélite de Reconhecimento§!. O bônus é limitado pelo valor máximo do sistema."
+SPY_MIL_TREATY_TT: "Acesso concedido ao nosso sistema"
+SPY_MIL_ACCESS_TT: "Acesso ao sistema de satélite desses países"
+
+SPY_CIV_STATS: "[SPY_civ_level_gui]\n[?var_SPY_civ_sat_system_num] £GFX_SPY_satellite_texticon \n§G78%§! £GFX_satellite_coverage_texticon \n£GFX_spy_texticon Mission\n[?var_SPY_mission_num_total] £GFX_SPY_satellite_texticon \n\n[?var_SPY_civ_sat_system_bonus|G1%]  £GFX_satellite_bonus_texticon"
+SPY_CIV_STATS_TT: "£GFX_SPY_satellite_texticon Número de §Y[SPY_civ_level_gui]§! satélites conectados ao sistema.\n£GFX_satellite_coverage_texticon Cobertura global do sistema.\n£GFX_spy_texticon Missão: Número de £GFX_SPY_satellite_texticon disponíveis para §YMissões de espionagem§!.\n £GFX_satellite_bonus_texticon Bônus do sistema."
+SPY_CIV_STATS_TT_DELAYED: "§YGSD§! - §YDistância de amostra de solo§!: GSD é a distância entre os centros dos pixels medidos no solo. Por exemplo, em uma imagem com um GSD de um metro, os locais de imagem dos pixels adjacentes estão separados por 1 metro no chão.\n£GFX_satellite_coverage_texticon §YCobertura global§!: proporção de §Y[SPY_civ_level_gui]§ conectado ao máximo de satélites possíveis neste nível de sistema.\n£GFX_spy_texticon Missão: Cada £GFX_SPY_satellite_texticon não conectado ao sistema militar ou civil é disponível para §YMissões de Espionagem§!.\n£GFX_satellite_bonus_texticon §YBônus do sistema§!: a relação §Gbônus§! para\n§YVelocidade de pesquisa\nInteligência Civil\nInteligência do Exército\nInteligência da Marinha\nInteligência Aérea\nMissão Root Out Resistance§!\nof §gSistema de Satélite de Reconhecimento§!. O bônus é limitado pelo valor máximo do sistema."
+SPY_CIV_TREATY_TT: "Acesso concedido ao nosso sistema"
+SPY_CIV_ACCESS_TT: "Acesso ao sistema de satélite destes países"
+
+#### local das entradas do sistema sat
+
+#GNSS
+GNSS_MIL_EFFECTS_TEXT: "§Y[GNSS_mil_level]§!\nVelocidade das divisões:\nEficiência da missão de apoio aéreo:\nEficiência da missão naval:\nBombardeio estratégico:\nPosicionamento:\nChance de acerto naval:\n"
+GNSS_MIL_EFFECTS_MIN: "min.\n[?global.GNSS_mil_army_speed_factor_min_array^i|G1%]\n[?global.GNSS_mil_air_cas_efficiency_min_array^i|%G1]\n[?global.GNSS_mil_air_nav_efficiency_min_array^i|G1%]\n[?global. GNSS_mil_air_strategic_bomber_bombing_factor_min_array^i|G1%]\n[?global.GNSS_mil_position_min_array^i|G1%]\n[?global.GNSS_mil_naval_hit_chance_min_array^i|G1%]"
+GNSS_MIL_EFFECTS_MAX: "max.\n[?global.GNSS_mil_army_speed_factor_max_array^i|G1%]\n[?global.GNSS_mil_air_cas_efficiency_max_array^i|%G1]\n[?global.GNSS_mil_air_nav_efficiency_max_array^i|G1%]\n[?global. GNSS_mil_air_strategic_bomber_bombing_factor_max_array^i|G1%]\n[?global.GNSS_mil_position_max_array^i|G1%]\n[?global.GNSS_mil_naval_hit_chance_max_array^i|G1%]"
+
+GNSS_CIV_EFFECTS_TEXT: "§Y[GNSS_civ_level]§!\nVelocidade de construção:\nVelocidade de construção de infraestrutura:\nEficiência de ganho de recursos:\n"
+GNSS_CIV_EFFECTS_MIN: "min.\n[?global.GNSS_civ_production_speed_buildings_factor_min_array^i|G1%]\n[?global.GNSS_civ_production_speed_infrastructure_factor_min_array^i|G1%]\n[?global.GNSS_civ_local_resources_factor_min_array^i|G1%]"
+GNSS_CIV_EFFECTS_MAX: "max.\n[?global.GNSS_civ_production_speed_buildings_factor_max_array^i|G1%]\n[?global.GNSS_civ_production_speed_infrastructure_factor_max_array^i|G1%]\n[?global.GNSS_civ_local_resources_factor_max_array^i|G1%]"
+
+#COM
+COM_MIL_EFFECTS_TEXT: "§Y[COM_mil_level]§!\nOrganização da Divisão:\nVelocidade de Planejamento:\nPoder Máximo de Comando:\nEficiência da Escolta:\nEficiência da Missão de Interceptação:\nCoordenação da Frota:\n"
+COM_MIL_EFFECTS_MIN: "min.\n[?global.COM_mil_army_org_factor_min_array^i|G1%]\n[?global.COM_mil_planning_speed_min_array^i|G1%]\n[?global.COM_mil_max_command_power_min_array^i|G0]\n[?global.COM_mil_air_escort_efficiency_min_array ^i|G1%]\n[?global.COM_mil_air_intercept_efficiency_min_array^i|G1%]\n[?global.COM_mil_naval_coordination_min_array^i|G1%]"
+COM_MIL_EFFECTS_MAX: "max.\n[?global.COM_mil_army_org_factor_max_array^i|G1%]\n[?global.COM_mil_planning_speed_max_array^i|G1%]\n[?global.COM_mil_max_command_power_max_array^i|G0]\n[?global.COM_mil_air_escort_efficiency_max_array ^i|G1%]\n[?global.COM_mil_air_intercept_efficiency_max_array^i|G1%]\n[?global.COM_mil_naval_coordination_max_array^i|G1%]"
+
+COM_CIV_EFFECTS_TEXT: "§Y[COM_civ_level]§!\nGanho de poder político:\nCriptografia:\nDescriptografia:\nFator de ganho de força da rede Intel:\nEficácia da operação:\n"
+COM_CIV_EFFECTS_MIN: "min.\n[?global.COM_civ_political_power_factor_min_array^i|G1]\n[?global.COM_civ_encryption_factor_min_array^i|G1%]\n[?global.COM_civ_decryption_factor_min_array^i|G1%]\n[?global.COM_civ_intel_network_min_array_factor ^i|G1%]\n[?global.COM_civ_operation_outcome_min_array^i|G1%]"
+COM_CIV_EFFECTS_MAX: "max.\n[?global.COM_civ_political_power_factor_max_array^i|G1]\n[?global.COM_civ_encryption_factor_max_array^i|G1%]\n[?global.COM_civ_decryption_factor_max_array^i|G1%]\n[?global.COM_civ_intel_maxwork_array_factor_gain_ ^i|G1%]\n[?global.COM_civ_operation_outcome_max_array^i|G1%]"
+
+#ESPIÃO
+SPY_MIL_EFFECTS_TEXT: "§Y[SPY_mil_level]§!\nFator máximo de planejamento:\nReconhecimento:\nPunição por mau tempo:\nChance de detecção:\nEficiência de invasão de comboio:\nEficiência de escolta de comboio:\n"
+SPY_MIL_EFFECTS_MIN: "min.\n[?global.SPY_mil_max_planning_factor_min_array^i|G1%]\n[?global.SPY_mil_recon_factor_min_array^i|G1%]\n[?global.SPY_mil_air_weather_penalty_min_array^i|G1%]\n[?global. SPY_mil_spotting_chance_min_array^i|G1%]\n[?global.SPY_mil_convoy_raiding_efficiency_factor_min_array^i|G1%]\n[?global.SPY_mil_convoy_escort_efficiency_min_array^i|G1%]"
+SPY_MIL_EFFECTS_MAX: "max.\n[?global.SPY_mil_max_planning_factor_max_array^i|G1%]\n[?global.SPY_mil_recon_factor_max_array^i|G1%]\n[?global.SPY_mil_air_weather_penalty_max_array^i|G1%]\n[?global. SPY_mil_spotting_chance_max_array^i|G1%]\n[?global.SPY_mil_convoy_raiding_efficiency_factor_max_array^i|G1%]\n[?global.SPY_mil_convoy_escort_efficiency_max_array^i|G1%]"
+
+SPY_CIV_EFFECTS_TEXT: "§Y[SPY_civ_level]§!\nVelocidade de Pesquisa:\nInteligência Civil:\nInteligência do Exército:\nInteligência da Marinha:\nInteligência Aérea:\nDesenraizar missão de Resistência:\n"
+SPY_CIV_EFFECTS_MIN: "min.\n[?global.SPY_civ_research_speed_factor_min_array^i|G1%]\n[?global.SPY_civ_civilian_intel_factor_min_array^i|G1%]\n[?global.SPY_civ_army_intel_factor_min_array^i|G1%]\n[?global. SPY_civ_navy_intel_factor_min_array^i|G1%]\n[?global.SPY_civ_airforce_intel_factor_min_array^i|G1%]\n[?global.SPY_civ_root_out_resistance_effectiveness_factor_min_array^i|G1%]"
+SPY_CIV_EFFECTS_MAX: "max.\n[?global.SPY_civ_research_speed_factor_max_array^i|G1%]\n[?global.SPY_civ_civilian_intel_factor_max_array^i|G1%]\n[?global.SPY_civ_army_intel_factor_max_array^i|G1%]\n[?global. SPY_civ_navy_intel_factor_max_array^i|G1%]\n[?global.SPY_civ_airforce_intel_factor_max_array^i|G1%]\n[?global.SPY_civ_root_out_resistance_effectiveness_factor_max_array^i|G1%]"
+
+### dicas de janela ###
+GNSS_MIL_BUTTON_WINDOW_TT: "[GNSS_MIL_BUTTON_WINDOW_TT_loc]"
+GNSS_CIV_BUTTON_WINDOW_TT: "[GNSS_CIV_BUTTON_WINDOW_TT_loc]"
+COM_MIL_BUTTON_WINDOW_TT: "[COM_MIL_BUTTON_WINDOW_TT_loc]"
+COM_CIV_BUTTON_WINDOW_TT: "[COM_CIV_BUTTON_WINDOW_TT_loc]"
+SPY_MIL_BUTTON_WINDOW_TT: "[SPY_MIL_BUTTON_WINDOW_TT_loc]"
+SPY_CIV_BUTTON_WINDOW_TT: "[SPY_CIV_BUTTON_WINDOW_TT_loc]"
+
+GNSS_MIL_BUTTON_WINDOW_TT_yes: "£trigger_yes Disponível §Y[GNSS_mil_level]§! Satélites > [?global.GNSS_sat_system_min_array^i]"
+GNSS_CIV_BUTTON_WINDOW_TT_yes: "£trigger_yes Disponível §Y[GNSS_civ_level]§! satélites > [?global.GNSS_sat_system_min_array^i]"
+COM_MIL_BUTTON_WINDOW_TT_yes: "£trigger_yes Disponível §Y[COM_mil_level]§! Satélites > [?global.COM_sat_system_min_array^i]"
+COM_CIV_BUTTON_WINDOW_TT_yes: "£trigger_yes Disponível §Y[COM_civ_level]§! Satélites > [?global.COM_sat_system_min_array^i]"
+SPY_MIL_BUTTON_WINDOW_TT_yes: "£trigger_yes Disponível §Y[SPY_mil_level]§! Satélites > [?global.SPY_sat_system_min_array^i]"
+SPY_CIV_BUTTON_WINDOW_TT_yes: "£trigger_yes Disponível §Y[SPY_civ_level]§! Satélites > [?global.SPY_sat_system_min_array^i]"
+
+GNSS_MIL_BUTTON_WINDOW_TT_no: "£trigger_no Disponível §Y[GNSS_mil_level]§! Satélites > [?global.GNSS_sat_system_min_array^i]"
+GNSS_CIV_BUTTON_WINDOW_TT_no: "£trigger_no Disponível §Y[GNSS_civ_level]§! Satélites > [?global.GNSS_sat_system_min_array^i]"
+COM_MIL_BUTTON_WINDOW_TT_no: "£trigger_no Disponível §Y[COM_mil_level]§! Satélites > [?global.COM_sat_system_min_array^i]"
+COM_CIV_BUTTON_WINDOW_TT_no: "£trigger_no Disponível §Y[COM_civ_level]§! Satélites > [?global.COM_sat_system_min_array^i]"
+SPY_MIL_BUTTON_WINDOW_TT_no: "£trigger_no Disponível §Y[SPY_mil_level]§! Satélites > [?global.SPY_sat_system_min_array^i]"
+SPY_CIV_BUTTON_WINDOW_TT_no: "£trigger_no Disponível §Y[SPY_civ_level]§! Satélites > [?global.SPY_sat_system_min_array^i]"
+
+#ground_launch_tooltip_loc_yes: "£trigger_yes Todos os itens a seguir devem ser verdadeiros:\n [ground_launched_missile_trigger_loc]\n[NOT_has_launch_point_selected_loc]"
+# ground_launch_tooltip_loc_no: "£trigger_no
+
+### Teclas de bloqueio do sistema Sat ###
+
+GNSS_mil_idx_0_loc: "GNSS 5m"
+GNSS_mil_idx_1_loc: "GNSS 2,5m"
+GNSS_mil_idx_2_loc: "GNSS 1,5m"
+GNSS_mil_idx_3_loc: "GNSS 1m"
+GNSS_mil_idx_4_loc: "GNSS 0,5m"
+GNSS_mil_idx_5_loc: "GNSS 0,25m"
+GNSS_mil_idx_6_loc: "GNSS 0,03m"
+GNSS_mil_idx_7_loc: "GNSS 0,01 m"
+GNSS_civ_idx_0_loc: "GNSS 5 metros"
+GNSS_civ_idx_1_loc: "GNSS 2,5m"
+GNSS_civ_idx_2_loc: "GNSS 1,5m"
+GNSS_civ_idx_3_loc: "GNSS 1m"
+GNSS_civ_idx_4_loc: "GNSS 0,5m"
+GNSS_civ_idx_5_loc: "GNSS 0,25 m"
+GNSS_civ_idx_6_loc: "GNSS 0,03m"
+GNSS_civ_idx_7_loc: "GNSS 0,01 m"
+COM_mil_idx_0_loc: "56 kbits/s"
+COM_mil_idx_1_loc: "128 kbits/s"
+COM_mil_idx_2_loc: "1 Mbit/s"
+COM_mil_idx_3_loc: "10 Mbit/s"
+COM_mil_idx_4_loc: "128 Mbit/s"
+COM_mil_idx_5_loc: "512 Mbit/s"
+COM_mil_idx_6_loc: "1Gbit/s"
+COM_mil_idx_7_loc: "10 Gbit/s"
+COM_civ_idx_0_loc: "56 kbits/s"
+COM_civ_idx_1_loc: "128 kbits/s"
+COM_civ_idx_2_loc: "1 Mbit/s"
+COM_civ_idx_3_loc: "10 Mbit/s"
+COM_civ_idx_4_loc: "128 Mbit/s"
+COM_civ_idx_5_loc: "512 Mbit/s"
+COM_civ_idx_6_loc: "1Gbit/s"
+COM_civ_idx_7_loc: "10Gbit/s"
+SPY_mil_idx_0_loc: "5m GSD"
+SPY_mil_idx_1_loc: "2,5m GSD"
+SPY_mil_idx_2_loc: "1,5m GSD"
+SPY_mil_idx_3_loc: "1m GSD"
+SPY_mil_idx_4_loc: "0,5m GSD"
+SPY_mil_idx_5_loc: "0,25m GSD"
+SPY_mil_idx_6_loc: "0,03m GSD"
+SPY_mil_idx_7_loc: "0,01m GSD"
+SPY_civ_idx_0_loc: "5m GSD"
+SPY_civ_idx_1_loc: "2,5m GSD"
+SPY_civ_idx_2_loc: "1,5m GSD"
+SPY_civ_idx_3_loc: "1m GSD"
+SPY_civ_idx_4_loc: "0,5m GSD"
+SPY_civ_idx_5_loc: "0,25m GSD"
+SPY_civ_idx_6_loc: "0,03m GSD"
+SPY_civ_idx_7_loc: "0,01m GSD"
+
+####################################
+####################################
+### MD_countrymissilesview_nukes ###
+####################################
+####################################
+
+### status nuclear ###
+
+NUCLEAR_STATUS: "Estado nuclear"
+NUCLEAR_DETERRENCE_TOTAL: "£GFX_nuclear_deterrence §G[nuclear_deterrence_total_loc]§!"
+NUCLEAR_DETERRENCE_TOTAL_TT: "£GFX_nuclear_deterrence §G[nuclear_deterrence_total_loc]§! §YDissuasão nuclear total:§!\n£GFX_nuclear_deterrence §G[nuclear_status_nuclear_deterrence_loc]§! !\n£GFX_nuclear_deterrence §G[nuclear_reactor_nuclear_deterrence_loc]§! §YReatores nucleares§!\n£GFX_nuclear_deterrence §G[nuclear_material_nuclear_deterrence_loc]§! §YMaterial nuclear§!\n£GFX_nuclear_deterrence §G[nuclear_warhead_nuclear_decleterrence_loC]§!
+NUCLEAR_DETERRENCE_TOTAL_DELAYED_TT: "O valor da §Ydissuasão nuclear§! representa o poder de dissuasão do estado nuclear. 100 pontos de §Ydissuasão nuclear§! n§YReatores nucleares§!, §YMaterial nuclear§! e §YOgivas nucleares§! estão limitados a um limite de £GFX_nuclear_deterrence §G100§! cada."
+nuclear_deterrence_total_loc_key: "[?temp_nuclear_deterrence|G0]"
+nuclear_status_nuclear_deterrence_loc_key: "[?temp_nuclear_status_nuclear_deterrence|G0]"
+nuclear_doctrine_nuclear_deterrence_loc_key: "[?temp_nuclear_doctrine_nuclear_deterrence|G0]"
+nuclear_reactor_nuclear_deterrence_loc_key: "[?temp_nuclear_reactor_nuclear_deterrence|G0]"
+nuclear_material_nuclear_deterrence_loc_key: "[?temp_nuclear_material_nuclear_deterrence|G0]"
+nuclear_warhead_nuclear_deterrence_loc_key: "[?temp_nuclear_warhead_nuclear_deterrence|G0]"
+
+NO_NUCLEAR_STATUS: "§YSem status nuclear§!"
+
+NUCLEAR_STATUS_NAME: "§Y[nuclear_status_name_loc]§!"
+#nuclear_status_0_loc_key: "Nenhuma Doutrina Nuclear antiga"
+nuclear_status_0_loc_key: "Proibição de armas nucleares"
+nuclear_status_1_loc_key: "Proibição de teste nuclear"
+nuclear_status_2_loc_key: "Compartilhamento nuclear"
+nuclear_status_3_loc_key: "Energia nuclear"
+nuclear_status_4_loc_key: "Energia nuclear"
+nuclear_status_5_loc_key: "Desativação gradual da energia nuclear"
+nuclear_status_6_loc_key: "Energia nuclear secreta"
+nuclear_status_7_loc_key: "Programa Nuclear Secreto"
+nuclear_status_8_loc_key: "Teste de armas nucleares"
+nuclear_status_9_loc_key: "Tríade Nuclear"
+nuclear_status_10_loc_key: "Força Aérea Nuclear"
+nuclear_status_11_loc_key: "Mísseis nucleares terrestres"
+nuclear_status_12_loc_key: "Marinha Nuclear"
+
+NUCLEAR_STATUS_SELECTION: "§Y[nuclear_status_selection_loc]§!"
+
+NUCLEAR_STATUS_1: "UBE"
+NUCLEAR_STATUS_1_TT: "Urânio de Baixo Enriquecimento (UBE) para produção de energia nuclear"
+NUCLEAR_STATUS_2: "UAE"
+NUCLEAR_STATUS_2_TT: "Urânio de Alto Enriquecido (UAE) para produção de energia nuclear e material nuclear para armas"
+NUCLEAR_STATUS_3: "Produção"
+NUCLEAR_STATUS_3_TT: "Produção de ogivas nucleares"
+NUCLEAR_STATUS_4: "Energia"
+NUCLEAR_STATUS_4_TT: "Produção de Energia Nuclear com Urânio de Baixo Enriquecimento (UBE)"
+
+NUCLEAR_STATUS_SPECIAL: "[nuclear_status_special_loc]"
+NUCLEAR_STATUS_SPECIAL_SELECTION: "[nuclear_status_special_selection_loc]"
+
+#NUCLEAR_STRIKE_LIMIT: "Limite de golpes: §O[strike_limit_loc]§!"
+#NUCLEAR_STRIKE_LIMIT_SELECTION: "Limite de golpes: §O[strike_limit_selection_loc]§!"
+#NUCLEAR_STRIKE_CONDITION: "Usar Condição:\n[use_condition_loc]"
+#NUCLEAR_STRIKE_CONDITION_SELECTION: "Usar Condição:\n[use_condition_selection_loc]"
+
+NUCLEAR_DETERRENCE_STATUS: "£GFX_nuclear_deterrence §G[nuclear_status_nuclear_deterrence_entry_loc]§!"
+NUCLEAR_DETERRENCE_STATUS_SELECTION: "£GFX_nuclear_deterrence §G[nuclear_status_nuclear_deterrence_selection_loc]§!"
+
+# nuclear_status_0_strike_limit_loc_key: "Nenhum"
+# nuclear_status_1_strike_limit_loc_key: "Nenhum"
+# nuclear_status_2_strike_limit_loc_key: "Nenhum"
+# nuclear_status_3_strike_limit_loc_key: "Progresso de rendição igual"
+# nuclear_status_4_strike_limit_loc_key: "Nenhum"
+# nuclear_status_5_strike_limit_loc_key: "5"
+# nuclear_status_6_strike_limit_loc_key: "Nenhum"
+# nuclear_status_7_strike_limit_loc_key: "Equal Enemy Strike"
+# nuclear_status_8_strike_limit_loc_key: "Número de Espiões"
+
+nuclear_status_0_special_loc_key: "Adicionar §G15%§! §YEstabilidade§!"
+nuclear_status_1_special_loc_key: "§YEstados controlados§! pode §Rnão§! ser alvo das §Oarmas nucleares§!"
+nuclear_status_2_special_loc_key: "§YAliados§!/§YOTAN§! §Gcompartilhar§! §Oarmas nucleares§!"
+nuclear_status_3_special_loc_key: "Adicionar §R-15%§! §YEstabilidade§!"
+nuclear_status_4_special_loc_key: "§YReator nuclear§! pode produzir energia (§Gcombustível§!)"
+nuclear_status_5_special_loc_key: "Adicionar §G20%§! §YEstabilidade§!"
+nuclear_status_6_special_loc_key: "§YPoder político§! Ganho de §YDissuasão nuclear§! §R-25%§!"
+nuclear_status_7_special_loc_key: "§YPoder político§! Ganho de §YDissuasão nuclear§! §R-50%§!"
+nuclear_status_8_special_loc_key: "§YEstados controlados§! §Gpode§! ser alvo dos próprios §Oarmas nucleares§!"
+nuclear_status_9_special_loc_key: "§YTodos os mísseis§! podem carregar §Oarmas nucleares§!, §YPers. Custos§! para navios e aeronaves §R+25%§!"
+nuclear_status_10_special_loc_key: "§YALCM§! e §YHSCM§! podem transportar §Oarmas nucleares§!, §YPers. Custos§! para aeronaves §R+30%§!"
+nuclear_status_11_special_loc_key: "§YICBM§!, §YIRBM§! e §YGLCM§! podem transportar §Oarmas nucleares§!"
+nuclear_status_12_special_loc_key: "§YSLBM§! e §YSLCM§! podem transportar §Oarmas nucleares§!, §YPers. Custos§! para navios §R+30%§!"
+
+nuclear_status_0_nuclear_deterrence_loc_key: "0"
+nuclear_status_1_nuclear_deterrence_loc_key: "0"
+nuclear_status_2_nuclear_deterrence_loc_key: "60"
+nuclear_status_3_nuclear_deterrence_loc_key: "70"
+nuclear_status_4_nuclear_deterrence_loc_key: "30"
+nuclear_status_5_nuclear_deterrence_loc_key: "0"
+nuclear_status_6_nuclear_deterrence_loc_key: "60"
+nuclear_status_7_nuclear_deterrence_loc_key: "50"
+nuclear_status_8_nuclear_deterrence_loc_key: "90"
+nuclear_status_9_nuclear_deterrence_loc_key: "100"
+nuclear_status_10_nuclear_deterrence_loc_key: "20"
+nuclear_status_11_nuclear_deterrence_loc_key: "30"
+nuclear_status_12_nuclear_deterrence_loc_key: "40"
+
+nuclear_status_nuclear_deterrence_entry_loc_key: "[?global.nuclear_status_nuclear_deterrence_array^temp_nuclear_status_nuclear_deterrence|G0]"
+
+### dicas de ferramentas de gatilho
+NUCLEAR_STATUS_TRIGGER_TT: "[!nuclear_status_entry_button_click_enabled]\n§YEfeito§!:\nPoder político: §R-100§!\n§Y[THIS.GetNameWithFlag]§!: Obtém §YEstado nuclear§!."
+
+NOT_has_THIS_nuclear_status_TT: "NÃO tem §Ystatus nuclear§!."
+#"[nuclear_status_trigger_tooltip_loc]"
+#
+#
+
+has_NPOWER_TT: "§Y[THIS.GetNameWithFlag]§! tem §gstatus nuclear§! §Y$nuclear_status_3_loc_key$§!."
+has_NPOWER_OR_SPOWER_TT: "§Y[THIS.GetNameWithFlag]§! tem §gstatus nuclear§! §Y$nuclear_status_3_loc_key$§! ou §Y$nuclear_status_6_loc_key$§!."
+has_NTEST_TT: "§Y[THIS.GetNameWithFlag]§! tem §gstatus nuclear§! §Y$nuclear_status_8_loc_key$§!."
+NOT_has_NTEST_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_8_loc_key$§!."
+NOT_has_NPOWER_OR_SPROG_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_3_loc_key$§! ou §Y$nuclear_status_7_loc_key$§!."
+NOT_has_SPOWER_OR_SPROG_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_6_loc_key$§! ou §Y$nuclear_status_7_loc_key$§!."
+NOT_has_NPOWER_OR_SPOWER_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_3_loc_key$§! ou §Y$nuclear_status_6_loc_key$§!."
+NOT_has_NBOMB_NICBM_SSBM_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_10_loc_key$§!, §Y$nuclear_status_11_loc_key$§! ou §Y$nuclear_status_12_loc_key$§!."
+has_NSHARE_condition_TT: "§YQualquer país aliado§! tem §gstatus nuclear§! §Y$nuclear_status_2_loc_key$§! e §Y$nuclear_status_3_loc_key$§! ou §Y[THIS.GetNameWithFlag]§! é membro §YOTAN§! e qualquer §Ymembro da OTAN§! tem §gstatus nuclear§! §Y$nuclear_status_2_loc_key$§! e §Y$nuclear_status_3_loc_key$§!."
+has_NPROG_completed_TT: "§Y[THIS.GetNameWithFlag]§! concluiu seu programa nuclear e construiu com sucesso uma ogiva §Onuclear§!."
+NOT_has_NOUT_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_5_loc_key$§!."
+NOT_has_NENERGY_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_4_loc_key$§!."
+NOT_has_NTB_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_1_loc_key$§!."
+has_N3_TT: "§Y[THIS.GetNameWithFlag]§! tem §gstatus nuclear§! §Y$nuclear_status_9_loc_key$§!."
+has_NBOMB_TT: "§Y[THIS.GetNameWithFlag]§! tem §gstatus nuclear§! §Y$nuclear_status_10_loc_key$§!."
+has_NBOMB_TT1: "NÃO selecionou o tipo de míssil §YICBM§!, §YIRBM§!, §YSLBM§! e §YGLCM§!"
+has_NICBM_TT: "§Y[THIS.GetNameWithFlag]§! tem §gstatus nuclear§! §Y$nuclear_status_11_loc_key$§!."
+has_NICBM_TT1: "NÃO selecionou o tipo de míssil §YSLBM§!, §YALCM§!, §YSLCM§! e §YHSCM§!"
+has_SSBN_TT: "§Y[THIS.GetNameWithFlag]§! tem §gstatus nuclear§! §Y$nuclear_status_12_loc_key$§!."
+has_SSBN_TT1: "NÃO selecionou o tipo de míssil §YICBM§!, §YIRBM§!, §YALCM§!, §YGLCM§! e §YHSCM§!"
+NOT_has_N3_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_9_loc_key$§!."
+NOT_has_PNW_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gstatus nuclear§! §Y$nuclear_status_0_loc_key$§!."
+
+
+### doutrina nuclear ###
+
+NUCLEAR_DOCTRINE: "Doutrina Nuclear"
+
+### dicas de ferramentas de gatilho
+NUCLEAR_DOCTRINE_TRIGGER_TT: "[!nuclear_doctrine_entry_button_click_enabled]\n§YEfeito§!:\nPoder político: §R-100§!\n§Y[THIS.GetNameWithFlag]§!: Obtém esta §Ydoutrina nuclear§!."
+
+NOT_has_THIS_nuclear_doctrine_TT: "NÃO tem esta §Ydoutrina nuclear§!."
+
+has_NFU_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_0_loc_key$§!."
+has_MAD_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_1_loc_key$§!."
+has_MASSR_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_2_loc_key$§!."
+has_FXRSP_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_3_loc_key$§!."
+has_PRMTR_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_4_loc_key$§!."
+has_NDESC_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_5_loc_key$§!."
+has_FSTK_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_6_loc_key$§!."
+has_RSTK_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_7_loc_key$§!."
+has_NTERROR_TT: "§Y[THIS.GetNameWithFlag]§! tem §gdoutrina nuclear§! §Y$nuclear_doctrine_8_loc_key$§!."
+
+NOT_has_NFU_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gdoutrina nuclear§! §Y$nuclear_doctrine_0_loc_key$§!."
+NOT_has_MASSR_FXRSP_NDESC_FSTK_TT: "§Y[THIS.GetNameWithFlag]§! $§!."
+NOT_has_MASSR_FXRSP_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gdoutrina nuclear§! §Y$nuclear_doctrine_2_loc_key$§! ou §Y$nuclear_doctrine_3_loc_key$§!."
+NOT_has_MAD_FXRSP_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gdoutrina nuclear§! §Y$nuclear_doctrine_1_loc_key$§! ou §Y$nuclear_doctrine_3_loc_key$§!."
+NOT_has_MAD_MASSR_TT: "§Y[THIS.GetNameWithFlag]§! não tem §gdoutrina nuclear§! §Y$nuclear_doctrine_1_loc_key$§! ou §Y$nuclear_doctrine_2_loc_key$§!."
+
+GAME_RULE_FSTK_TT: "Tem §R Regra do Jogo§! §YPrimeiro Ataque Nuclear§!"
+
+
+NO_NUCLEAR_DOCTRINE: "§YSem Doutrina Nuclear§!"
+
+NUCLEAR_DOCTRINE_NAME: "§Y[nuclear_doctrine_name_loc]§!"
+#nuclear_doctrine_0_loc_key: "Nenhuma Doutrina Nuclear antiga"
+nuclear_doctrine_0_loc_key: "Sem primeiro uso"
+nuclear_doctrine_1_loc_key: "Destruição Mútua Assegurada"
+nuclear_doctrine_2_loc_key: "Retaliação maciça"
+nuclear_doctrine_3_loc_key: "Resposta Flexível"
+nuclear_doctrine_4_loc_key: "Dead Hand/Perimeter"
+nuclear_doctrine_5_loc_key: "Desescalada nuclear"
+nuclear_doctrine_6_loc_key: "Primeiro Ataque"
+nuclear_doctrine_7_loc_key: "Ataque retaliatório"
+nuclear_doctrine_8_loc_key: "Terrorismo nuclear"
+#nuclear_doctrine_10_loc_key: "Sem primeiro uso"
+NUCLEAR_DOCTRINE_SELECTION: "§Y[nuclear_doctrine_selection_loc]§!"
+
+NUCLEAR_ACTION_1: "Alerta"
+NUCLEAR_ACTION_2: "Primeiro Ataque"
+NUCLEAR_ACTION_3: "Golpe retaliatório"
+NUCLEAR_STRIKE_LIMIT: "Limite de golpes: §O[strike_limit_loc]§!"
+NUCLEAR_STRIKE_LIMIT_TT: "§YLimite de Tração§! para cada doutrina será redefinido a cada §Y90 dias§!."
+NUCLEAR_STRIKE_LIMIT_SELECTION: "Limite de golpes: §O[strike_limit_selection_loc]§!"
+NUCLEAR_STRIKE_CONDITION: "Usar Condição:\n[use_condition_loc]"
+NUCLEAR_STRIKE_CONDITION_SELECTION: "Usar Condição:\n[use_condition_selection_loc]"
+NUCLEAR_DETERRENCE: "£GFX_nuclear_deterrence §G[nuclear_doctrine_nuclear_deterrence_entry_loc]§!"
+NUCLEAR_DETERRENCE_SELECTION: "£GFX_nuclear_deterrence §G[nuclear_doctrine_nuclear_deterrence_selection_loc]§!"
+
+nuclear_doctrine_0_strike_limit_loc_key: "100"
+nuclear_doctrine_1_strike_limit_loc_key: "Nenhum"
+nuclear_doctrine_2_strike_limit_loc_key: "Nenhum"
+nuclear_doctrine_3_strike_limit_loc_key: "Progresso de rendição igual"
+nuclear_doctrine_4_strike_limit_loc_key: "Nenhum"
+nuclear_doctrine_5_strike_limit_loc_key: "5"
+nuclear_doctrine_6_strike_limit_loc_key: "Nenhum"
+nuclear_doctrine_7_strike_limit_loc_key: "Golpe inimigo igual"
+nuclear_doctrine_8_strike_limit_loc_key: "Número de Espiões"
+
+nuclear_doctrine_0_use_condition_loc_key: "§YInimigo§!\n§RPrimeiro uso§!"
+nuclear_doctrine_1_use_condition_loc_key: "§YInimigo§!\n§RPrimeiro uso§!"
+nuclear_doctrine_2_use_condition_loc_key: "§YGuerra defensiva§! com §Yalvo§!"
+nuclear_doctrine_3_use_condition_loc_key: "§YProgresso de rendição§! > 25%"
+nuclear_doctrine_4_use_condition_loc_key: "§YCapital§! foi alvo de um §RAtaque Nuclear§!"
+nuclear_doctrine_5_use_condition_loc_key: "§YInimigo§! controla §Gcores§! de §Y[?nukes_selected_TAG.GetNameWithFlag]§!"
+nuclear_doctrine_6_use_condition_loc_key: "§YSempre§! quando §Yna guerra§! com §Ypaís-alvo§!"
+nuclear_doctrine_7_use_condition_loc_key: "§YInimigo§!\n§RPrimeiro uso§!"
+nuclear_doctrine_8_use_condition_loc_key: "§YEm guerra§! e tem §Yespiões§! no §Ypaís-alvo§!"
+
+nuclear_doctrine_0_nuclear_deterrence_loc_key: "50"
+nuclear_doctrine_1_nuclear_deterrence_loc_key: "100"
+nuclear_doctrine_2_nuclear_deterrence_loc_key: "100"
+nuclear_doctrine_3_nuclear_deterrence_loc_key: "80"
+nuclear_doctrine_4_nuclear_deterrence_loc_key: "70"
+nuclear_doctrine_5_nuclear_deterrence_loc_key: "60"
+nuclear_doctrine_6_nuclear_deterrence_loc_key: "90"
+nuclear_doctrine_7_nuclear_deterrence_loc_key: "75"
+nuclear_doctrine_8_nuclear_deterrence_loc_key: "30"
+
+nuclear_doctrine_nuclear_deterrence_entry_loc_key: "[?global.nuclear_doctrine_nuclear_deterrence_array^temp_nuclear_doctrine_nuclear_deterrence|G0]"
+
+### dicas de ferramentas gui use condição ###
+
+has_enemy_first_use_TT: "§Y[PREV.GetNameWithFlag]§! usou pela primeira vez §ONarmas nucleares§! contra §Y[ROOT.GetNameWithFlag]§!."
+use_condition_PRMTR_TT: "§Y[?ROOT.missile_target_controller_array^var_missile_trajectory_ID.GetNameWithFlag]§! lançou uma §Ogiva nuclear§! em §YCapital§! de §Y[ROOT.GetNameWithFlag]§!."
+use_condition_NDESC_TT: "§Y[?ROOT.missile_target_controller_array^var_missile_trajectory_ID.GetNameWithFlag]§! ocupou três ou mais estados de §Y[ROOT.GetNameWithFlag]§!."
+strike_limit_TT: "§YLimite de ataque§! em §Y[?ROOT.missile_target_controller_array^ROOT.var_missile_trajectory_ID.GetNameWithFlag]§! (§Y[?temp3]§!) é maior ou igual ao número total de ogivas nucleares salvas (§Y[ ?temp2]§!)"
+
+
+### programa_nuclear ###
+
+NUCLEAR_PROGRAM: "Programa Nuclear"
+URANIUM_ENRICHMENT: "Enriquecimento de urânio"
+NUCLEAR_PRODUCTION: "Produção Nuclear"
+NUCLEAR_WARHEAD_PRODUCTION: "Produção de ogivas nucleares"
+
+NUCLEAR_MATERIAL_STOCKPILE: "£GFX_nuclear_material_texticon §O[nuclear_material_stockpile_loc] kg§!"
+NUCLEAR_MATERIAL_STOCKPILE_TT: "Arsenal de material nuclear para armas"
+nuclear_material_stockpile_loc_key: "[?temp_nuclear_material_stockpile|O2]"
+
+NUCLEAR_ENERGY_TT: "Clique para aumentar a taxa de produção de energia nuclear."
+NUCLEAR_ENERGY_TT_DELAYED: "\n£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§! para +10%\n£shift_texticon + £left_mouse_texticon §YShift + Clique E.§! para defini-lo como 100%\nRight+Clique para defini-lo como 50%.\n\nA ração determina quanta energia nuclear e material nuclear para armas são produzidos nos reatores nucleares".
+
+#Material nuclear para armas
+NUCLEAR_ENERGY_STAT: "[nuke_energy_ratio_loc]"
+# "[?var_nuke_energy_ratio|C0%]"
+nuke_energy_ratio_loc_key: "[?temp_nuke_energy_ratio|C0%]"
+NUCLEAR_MATERIAL_STAT: "[nuke_nuclear_material_ratio_loc]"
+# "[?var_nuke_nuclear_material_ratio|C0%]"
+nuke_nuclear_material_ratio_loc_key: "[?temp_nuke_nuclear_material_ratio|C0%]"
+NUCLEAR_ENERGY_PROD: "[nuke_energy_prod_day_loc] §Gfuel§!"
+# "[?var_nuke_energy_prod_day|G0] §Gfuel§!"
+nuke_energy_prod_day_loc_key: "[?temp_nuke_energy_prod_day|G0]"
+NUCLEAR_ENERGY_PROD_TT: "§GFust§! por dia. Adicionado ao ganho base."
+NUCLEAR_ENERGY_PROD_TT_DELAYED: ""
+NUCLEAR_MATERIAL_PROD: "[nuke_nuclear_material_prod_loc] §Okg§!"
+NUCLEAR_MATERIAL_TT: "Produção de §OMaterial Nuclear para Armas§! por dia."
+# "[?var_nuke_nuclear_material_prod|O2] §Okg§!"
+nuke_nuclear_material_prod_loc_key: "[?temp_nuke_nuclear_material_prod|O2]"
+NUCLEAR_MATERIAL_PROD_TT: "Clique para aumentar a produção de material nuclear para armas."
+NUCLEAR_MATERIAL_PROD_TT_DELAYED: "\n£ctrl_texticon + £left_mouse_texticon §YCtrl + Clique E.§! para +10%\nshift_texticon + £left_mouse_texticon §YShift + Clique E.§! para defini-lo para 100%\nRight+Clique para defini-lo para 50%.\n\nA ração determina quanta energia nuclear e material nuclear para armas são produzidos nos reatores nucleares".
+LEU: "UBE"
+HEU: "UAE"
+LEU_TT: "[!LEU_button_click_enabled]\n\nClique para produção de urânio pouco enriquecido."
+LEU_TT_DELAYED: "Urânio de baixo enriquecimento (UBE) é o material básico para fabricar combustível nuclear. Ele consiste em hexafluoreto de urânio que é um sólido ceroso branco-acinzentado em temperatura e pressão padrão. O LEU é feito pelo enriquecimento de urânio natural para melhorar sua capacidade para produzir energia. LEU tem uma concentração inferior a 20% de U235."
+HEU_TT: "[!HEU_button_click_enabled]\n\nClique para produção de urânio altamente enriquecido."
+HEU_TT_DELAYED: "Urânio altamente enriquecido (UAE) pode ser usado para produção de energia nuclear, mas seu uso principal é um estágio intermediário para enriquecimento adicional até o grau de armas. HEU tem uma concentração de 20% ou mais de U235. Se usado para §Yprodução de energia nuclear§! O HEU é §Oduas vezes§!
+# LEU_icon_loc: "[LEU_icon_loc]"
+# HEU_icon_loc: "[HEU_icon_loc]"
+# LEU_icon_loc_key: "[?temp_LEU_selected]"
+# HEU_icon_loc_key: "[?temp_HEU_selected]"
+ENRICHMENT_STAT: "[enrichment_efficiency_loc]"
+# "[?var_enrichment_efficiency|Y0%]"
+enrichment_efficiency_loc_key: "[?temp_enrichment_efficiency|Y0%]"
+ENRICHMENT_STAT_TT: "Demanda de Urânio Enriquecido Satisfeita:\n§YUso da Indústria Civil§!: [CIC_use_enrichment_loc]\n§YReatores Nucleares§!: [num_nuclear_reactor_loc]\n"
+# "Demanda de Urânio Enriquecido Satisfeita:\n§YUso da Indústria Civil§!: [?var_CIC_use_enrichment|R0]\n§YReatores Nucleares§!: [?var_num_nuclear_reactor|C0]\n"
+ENRICHMENT_STAT_TT_DELAYED: "Para funcionar eficientemente, o §YReator Nuclear§! precisa de um certo suprimento de urânio enriquecido. Essa proporção mostra quanta demanda é satisfeita para todos os reatores.\nPara produzir a demanda §CLEU§! de um reator, o processo de enriquecimento requer o uso de uma fábrica da §YIndústria Civil§!.\n§CHEU§! requer o uso de duas fábricas da §YIndústria Civil§!."
+CIC_use_enrichment_loc_key: "[?temp_CIC_use_enrichment|R0]"
+num_nuclear_reactor_loc_key: "[?temp_num_nuclear_reactor|C0]"
+INCREASE_ENRICHMENT_TT: "Clique para aumentar o enriquecimento adicionando mais §YCivilian Industries§!."
+DECREASE_ENRICHMENT_TT: "Clique para diminuir o enriquecimento removendo §YCivilian Industries§!."
+
+WARHEAD_PRODUCTION_STAT: "[nuclear_warhead_prod_loc]"
+# "[?var_nuclear_warhead_prod|O0]"
+nuclear_warhead_prod_loc_key: "[?temp_nuclear_warhead_prod|O0]"
+WARHEAD_PRODUCTION_STAT_TT: "Produção semanal de ogivas nucleares:\nMaterial nuclear necessário para armas: [?var_nuclear_warhead_critical_mass|O0] §Okg§!"
+
+NUCLEAR_WARHEAD_NAME_SELECTION: "[nuclear_warhead_name_selection_loc]"
+NUCLEAR_WARHEAD_CRITICAL_MASS_SELECTION: "[?global.nuclear_warhead_critical_mass_array^i|O0] §Okg§!"
+NUCLEAR_WARHEAD_NAME_TT: "[nuclear_warhead_name_loc]"
+NUCLEAR_WARHEAD_NUCLEAR_DETERRENCE_SELECTION: "£GFX_nuclear_deterrence [?global.nuclear_warhead_nuclear_deterrence_array^i|G2]"
+
+WARHEAD_PRODUCTION_DAYS: "[warhead_production_days_loc]"
+warhead_production_days_loc_key: "[?temp_warhead_production_days|R0]"
+
+NUCLEAR_WARHEAD_PROD_START_BUTTON_TT: "[!nuclear_warhead_prod_start_button_click_enabled]"
+nuclear_warhead_prod_start_trigger_TT: "Material nuclear para armas §Yestocar§! ([?var_nuclear_material_stockpile|O2] kg) >= §Yobrigatório§! Material nuclear para armas ([?var_nuclear_warhead_prod|Y0] §Yogivas§! x [?var_nuclear_warhead_critical_mass|O2] kg = [?temp1|O2] kg)"
+
+can_research_nuclear_tech_TT: "§Y[ROOT.GetNameWithFlag]§! , §Y$nuclear_status_7_loc_key$§!, §Y$nuclear_status_8_loc_key$§!, §Y$nuclear_status_9_loc_key$§!, §Y$nuclear_status_10_loc_key$§!, §Y$nuclear_status_11_loc_key$§! OU §Y$nuclear_status_12_loc_key$§!."
+can_produce_nuclear_energy_TT: "§Y[ROOT.GetNameWithFlag]§! tem §Y$nuclear_status_4_loc_key$§!."
+can_enrich_LEU_TT: "§Y[ROOT.GetNameWithFlag]§! $§!, §Y$nuclear_status_6_loc_key$§!, §Y$nuclear_status_7_loc_key$§!, §Y$nuclear_status_8_loc_key$§!, §Y$nuclear_status_9_loc_key$§!, §Y$nuclear_status_10_loc_key$§!, §Y$nuclear_status_11_loc_key$§ ! OU §Y$nuclear_status_12_loc_key$§!."
+can_enrich_HEU_TT: "§Y[ROOT.GetNameWithFlag]§! $§!, §Y$nuclear_status_8_loc_key$§!, §Y$nuclear_status_9_loc_key$§!, §Y$nuclear_status_10_loc_key$§!, §Y$nuclear_status_11_loc_key$§! OU §Y$nuclear_status_12_loc_key$§!."
+can_produce_nuclear_warheads_TT: "§Y[ROOT.GetNameWithFlag]§! tem §Y$nuclear_status_3_loc_key$§!, §Y$nuclear_status_6_loc_key$§! OU §Y$nuclear_status_7_loc_key$§!."
+
+###
+NUCLEAR_WARHEAD_PROD_BUTTON_TRIGGER_TT: "[nuclear_warhead_prod_button_trigger_loc]"
+NUCLEAR_WARHEAD_PROD_BUTTON_TRIGGER_YES_TT: "£trigger_yes pesquisou §Y[nuclear_warhead_name_selection_loc]§!"
+NUCLEAR_WARHEAD_PROD_BUTTON_TRIGGER_NO_TT: "£trigger_no Pesquisou §Y[nuclear_warhead_name_selection_loc]§!"

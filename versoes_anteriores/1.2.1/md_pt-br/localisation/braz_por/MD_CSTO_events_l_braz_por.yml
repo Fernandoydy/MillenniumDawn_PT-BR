@@ -1,0 +1,23 @@
+﻿l_braz_por:
+ CSTO.1.t: "[From.GetNameDef] deseja ingressar no CSTO"
+ CSTO.1.d: "As delegações de [From.GetAdjective] apresentaram uma proposta interessante. A delegação está explicando como [From.GetNameDef] deseja assinar os acordos conjuntos e se tornar parte do CSTO. Eles estão solicitando uma audiência para iniciar o processo de assinatura de uma nova declaração de amizade e permitir a entrada de [From.GetNameDef] em nossa aliança."
+ CSTO.1.a: "Absolutamente"
+ CSTO.1.b: "Nunca"
+ CSTO.2.t: "[SOV.GetNameDef] recusa solicitação para ingressar no CSTO"
+ CSTO.2.d: "[SOV.GetNameDef] rejeitou nossa solicitação para ingressar no CSTO."
+ CSTO.2.a: "Decepcionante"
+ CSTO.3.t: "Convite para CSTO"
+ CSTO.3.d: "[SOV.GetNameDef] e seus aliados querem nos convidar para o CSTO. O que vamos fazer?"
+ CSTO.3.a: "Aceitamos!"
+ CSTO.3.b: "Não temos tempo para isso."
+
+ CSTO.4.t: "[ROOT.GetNameDef] ingressa no CSTO"
+ CSTO.4.d: "[SOV.GetNameDef] e [ROOT.GetNameDef] vieram hoje para anunciar a entrada de [ROOT.GetNameDef] na Organização do Tratado de Segurança Coletiva. [SOV.GetNameDef] e [ROOT.GetNameDef] colocaram de lado sua rivalidade e decidiram que é do interesse de ambos que [ROOT.GetNameDef] entre na aliança."
+ CSTO.4.a: "Um ótimo dia!"
+ CSTO.4.b: "Um novo aliado"
+ CSTO.4.c: "Desenvolvimento Interessante"
+ CSTO.5.t: "[ROOT.GetNameDef] sai do CSTO!"
+ CSTO.5.d: "O líder de [ROOT.GetNameDef], [ROOT.GetLeader], anunciou hoje a intenção do país de se retirar imediatamente da Organização do Tratado de Segurança Coletiva e de suas alianças afiliadas. Isso enfraquecerá o pacto militar. "
+ CSTO.5.a: "Uma boa escolha."
+ CSTO.5.b: "Interessante."
+ 
