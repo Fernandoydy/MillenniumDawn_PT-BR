@@ -1,0 +1,6 @@
+# Local release packages prepared for GitHub Releases.
+releases/
+
+# Windows noise.
+Thumbs.db
+Desktop.ini
