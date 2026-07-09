@@ -6,22 +6,21 @@ Traducao PT-BR do mod **Millennium Dawn: A Modern Day Mod** para Hearts of Iron 
 
 ```text
 MillenniumDawn_PT-BR/
-├─ README.md
-├─ LICENSE
-├─ .gitignore
-├─ mod/
-│  ├─ md_pt-br.mod
-│  └─ md_pt-br/
-│     ├─ descriptor.mod
-│     ├─ thumbnail.png
-│     └─ localisation/
-├─ assets/
-│  ├─ banners/
-│  ├─ thumbnails/
-│  ├─ devlogs/
-│  └─ screenshots/
-├─ tools/
-└─ releases/
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- mod/
+|   |-- md_pt-br.mod
+|   `-- md_pt-br/
+|       |-- descriptor.mod
+|       |-- thumbnail.png
+|       `-- localisation/
+|-- assets/
+|   |-- banners/
+|   |-- thumbnails/
+|   |-- devlogs/
+|   `-- screenshots/
+`-- tools/
 ```
 
 ## Instalacao manual
@@ -39,12 +38,9 @@ No Windows, a pasta de mods normalmente fica em:
 
 ## Releases antigas
 
-As versoes antigas que antes ficavam em `arquivado/versoes_anteriores/` foram empacotadas como ZIPs em `releases/` para upload manual em GitHub Releases.
-
-Esses ZIPs ficam ignorados pelo Git para manter o branch principal limpo. Depois de publicar uma versao no GitHub Releases, use o asset ZIP correspondente como anexo da release.
+As versoes antigas que antes ficavam em `arquivado/versoes_anteriores/` foram empacotadas e publicadas em GitHub Releases.
 
 ## Pastas auxiliares
 
 - `assets/`: imagens, thumbnails, banners, devlogs e screenshots usados na pagina do projeto ou no historico visual.
 - `tools/`: scripts auxiliares antigos mantidos fora do conteudo jogavel.
-- `releases/`: area local ignorada pelo Git para preparar pacotes de release. O historico jogavel antigo deve viver no GitHub Releases, nao na arvore principal.
