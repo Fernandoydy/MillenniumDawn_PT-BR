@@ -1,6 +1,6 @@
 # Millennium Dawn PT-BR
 
-Traducao PT-BR do mod **Millennium Dawn: A Modern Day Mod** para Hearts of Iron IV.
+Tradução PT-BR do mod **[Millennium Dawn: A Modern Day Mod](https://github.com/MillenniumDawn/Millennium-Dawn)** para Hearts of Iron IV.
 
 ## Estrutura
 
@@ -23,12 +23,12 @@ MillenniumDawn_PT-BR/
 `-- tools/
 ```
 
-## Instalacao manual
+## Instalação manual
 
 1. Instale e habilite o mod original **Millennium Dawn: A Modern Day Mod**.
 2. Copie `mod/md_pt-br/` para a pasta de mods do Hearts of Iron IV.
 3. Copie `mod/md_pt-br.mod` para a mesma pasta de mods.
-4. No launcher do Hearts of Iron IV, habilite **Millennium Dawn: Traducao PT-BR** junto com o Millennium Dawn original.
+4. No launcher do Hearts of Iron IV, habilite **Millennium Dawn: Tradução PT-BR** junto com o Millennium Dawn original.
 
 No Windows, a pasta de mods normalmente fica em:
 
@@ -38,9 +38,9 @@ No Windows, a pasta de mods normalmente fica em:
 
 ## Releases antigas
 
-As versoes antigas que antes ficavam em `arquivado/versoes_anteriores/` foram empacotadas e publicadas em GitHub Releases.
+As versões antigas que antes ficavam em `arquivado/versoes_anteriores/` foram empacotadas e publicadas em GitHub Releases.
 
 ## Pastas auxiliares
 
-- `assets/`: imagens, thumbnails, banners, devlogs e screenshots usados na pagina do projeto ou no historico visual.
-- `tools/`: scripts auxiliares antigos mantidos fora do conteudo jogavel.
+- `assets/`: imagens, thumbnails, banners, devlogs e screenshots usados na página do projeto ou no histórico visual.
+- `tools/`: scripts auxiliares antigos mantidos fora do conteúdo jogável.
